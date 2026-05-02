@@ -268,7 +268,7 @@ function createPopup(type, name, description, props, story) {
 function showBuffaloInfo() {
  const infoContent = `
  <div style="padding: 8px;">
- <h4 style="margin: 0 0 8px 0; color: #8B4513;">📜 Dwindling Buffalo Herds, 19th Century</h4>
+ <h4 style="margin: 0 0 8px 0; color: #8B4513;">Dwindling Buffalo Herds, 19th Century</h4>
  <p style="margin: 0 0 8px 0; font-size: 13px; line-height: 1.4;">
  These zones show the contraction of buffalo range through the 19th century, from the open plains to fragmented remnants by 1889.
  </p>
