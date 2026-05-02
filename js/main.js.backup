@@ -53,20 +53,17 @@ function loadDataLayers() {
             throw new Error('Embedded data not found. Please check data.js is loaded.');
         }
 
-  // Render waterways
-  renderWaterways(data.waterways);
+        // Render waterways
+        renderWaterways(data.waterways);
 
-  // Render cart trails
-  renderCartTrails(data.cartTrails);
+        // Render cart trails
+        renderCartTrails(data.cartTrails);
 
-  // Render locations
-  renderLocations(data.locations);
+        // Render locations
+        renderLocations(data.locations);
 
-  // Render buffalo herd zones
-  renderBuffaloHerds(data.buffaloHerds);
-
-  // Add layer control AFTER all layers are loaded
-  addLayerControl();
+        // Add layer control AFTER all layers are loaded
+        addLayerControl();
 
         // Update stats
         updateStats(data);
@@ -81,15 +78,13 @@ function loadDataLayers() {
  * Update stats display
  */
 function updateStats(data) {
-  const statsEl = document.getElementById('stats-waterways');
-  const trailsEl = document.getElementById('stats-trails');
-  const locationsEl = document.getElementById('stats-locations');
-  const buffaloEl = document.getElementById('stats-buffalo');
-  
-  if (statsEl) statsEl.textContent = data.waterways.features.length;
-  if (trailsEl) trailsEl.textContent = data.cartTrails.features.length;
-  if (locationsEl) locationsEl.textContent = data.locations.features.length;
-  if (buffaloEl) buffaloEl.textContent = data.buffaloHerds.features.length;
+    const statsEl = document.getElementById('stats-waterways');
+    const trailsEl = document.getElementById('stats-trails');
+    const locationsEl = document.getElementById('stats-locations');
+    
+    if (statsEl) statsEl.textContent = data.waterways.features.length;
+    if (trailsEl) trailsEl.textContent = data.cartTrails.features.length;
+    if (locationsEl) locationsEl.textContent = data.locations.features.length;
 }
 
 /**
@@ -141,51 +136,26 @@ function renderCartTrails(data) {
  * Render locations as markers
  */
 function renderLocations(data) {
-  // Create custom green marker icon
-  const locationIcon = L.divIcon({
-    className: 'location-marker',
-    html: '<div style="background-color: #2D7D46; width: 14px; height: 14px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 6px rgba(45, 125, 70, 0.5);"></div>',
-    iconSize: [14, 14],
-    iconAnchor: [7, 7]
-  });
+    // Create custom green marker icon
+    const locationIcon = L.divIcon({
+        className: 'location-marker',
+        html: '<div style="background-color: #2D7D46; width: 14px; height: 14px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 6px rgba(45, 125, 70, 0.5);"></div>',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7]
+    });
 
-  locationsLayer = L.geoJSON(data, {
-    pointToLayer: function(feature, latlng) {
-      return L.marker(latlng, { icon: locationIcon });
-    },
-    onEachFeature: function(feature, layer) {
-      layer.bindPopup(createPopup('Location', feature.properties.name, feature.properties.description, feature.properties, feature.properties.story));
+    locationsLayer = L.geoJSON(data, {
+        pointToLayer: function(feature, latlng) {
+            return L.marker(latlng, { icon: locationIcon });
+        },
+        onEachFeature: function(feature, layer) {
+            layer.bindPopup(createPopup('Location', feature.properties.name, feature.properties.description, feature.properties, feature.properties.story));
+        }
+    });
+
+    if (layerState.locations) {
+        locationsLayer.addTo(map);
     }
-  });
-
-  if (layerState.locations) {
-    locationsLayer.addTo(map);
-  }
-}
-
-/**
- * Render buffalo herd zones as orange/brown polygons
- */
-function renderBuffaloHerds(data) {
-  buffaloHerdsLayer = L.geoJSON(data, {
-    style: {
-      color: '#8B4513', // Saddle brown - traditional buffalo color
-      weight: 2,
-      opacity: 0.8,
-      fillColor: '#D2691E', // Chocolate
-      fillOpacity: 0.3,
-      dashArray: '8, 8'
-    },
-    onEachFeature: function(feature, layer) {
-      if (feature.properties && feature.properties.name) {
-        layer.bindPopup(createPopup('Buffalo Herd Zone', feature.properties.name, feature.properties.description, feature.properties));
-      }
-    }
-  });
-
-  if (layerState.buffaloHerds) {
-    buffaloHerdsLayer.addTo(map);
-  }
 }
 
 /**
@@ -227,18 +197,17 @@ function createPopup(type, name, description, props, story) {
  * Add layer control to toggle visibility
  */
 function addLayerControl() {
-  // Create custom layer control with header
-  const control = L.control.layers(null, null, {
-    position: 'topright',
-    collapsed: false
-  });
+    // Create custom layer control with header
+    const control = L.control.layers(null, null, {
+        position: 'topright',
+        collapsed: false
+    });
 
-  control.addOverlay(waterwaysLayer, '<span style="color:#1E4D8C">●</span> Waterways');
-  control.addOverlay(cartTrailsLayer, '<span style="color:#B8312F">●</span> Cart Trails');
-  control.addOverlay(locationsLayer, '<span style="color:#2D7D46">●</span> Locations');
-  control.addOverlay(buffaloHerdsLayer, '<span style="color:#8B4513">●</span> Buffalo Herd Zones');
+    control.addOverlay(waterwaysLayer, '<span style="color:#1E4D8C">●</span> Waterways');
+    control.addOverlay(cartTrailsLayer, '<span style="color:#B8312F">●</span> Cart Trails');
+    control.addOverlay(locationsLayer, '<span style="color:#2D7D46">●</span> Locations');
 
-  control.addTo(map);
+    control.addTo(map);
 }
 
 /**
