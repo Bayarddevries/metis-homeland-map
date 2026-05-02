@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Métis Homeland Map V5</title>
     
-    <!-- Leaflet CSS (local for file:// compatibility) -->
-    <link rel="stylesheet" href="lib/leaflet.css"/>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+          crossorigin=""/>
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -15,27 +17,48 @@
     <div id="map"></div>
     
     <div class="map-overlay">
-        <h1>Métis Homeland Map</h1>
-        <p>Interactive map showing waterways, cart trails, and historical settlements</p>
-        <div class="legend">
-            <h3>Legend</h3>
-            <div class="legend-item">
-                <span class="legend-color waterway"></span>
-                <span>Waterways</span>
+        <div class="overlay-header">
+            <h1>Métis Homeland Map</h1>
+            <p>Interactive map showing waterways, cart trails, and historical settlements</p>
+        </div>
+        <div class="overlay-content">
+            <div class="legend">
+                <h3>Legend</h3>
+                <div class="legend-item">
+                    <span class="legend-color waterway"></span>
+                    <span>Waterways</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color trail"></span>
+                    <span>Cart Trails</span>
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color location"></span>
+                    <span>Locations & Settlements</span>
+                </div>
             </div>
-            <div class="legend-item">
-                <span class="legend-color trail"></span>
-                <span>Cart Trails</span>
-            </div>
-            <div class="legend-item">
-                <span class="legend-color location"></span>
-                <span>Locations & Settlements</span>
+            
+            <div class="stats-bar">
+                <div class="stat waterways">
+                    <div class="stat-value" id="stats-waterways">--</div>
+                    <div class="stat-label">Waterways</div>
+                </div>
+                <div class="stat trails">
+                    <div class="stat-value" id="stats-trails">--</div>
+                    <div class="stat-label">Trails</div>
+                </div>
+                <div class="stat locations">
+                    <div class="stat-value" id="stats-locations">--</div>
+                    <div class="stat-label">Locations</div>
+                </div>
             </div>
         </div>
     </div>
     
-    <!-- Leaflet JS (local for file:// compatibility) -->
-    <script src="lib/leaflet.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+            crossorigin=""></script>
     
     <!-- Embedded Data -->
     <script src="js/data.js"></script>

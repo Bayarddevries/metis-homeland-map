@@ -1,75 +1,7 @@
 // Main JavaScript for Homeland Map V5
-//
-// Map tile configuration:
-// Uses CartoDB Positron as primary (very permissive, almost never 403s),
-// with OpenStreetMap as fallback. Also supports ESRI satellite fallback.
-// Multiple fallback providers are arranged in priority order with a robust
-// per-provider error tracking system that avoids one-shot-fallback bugs.
-
-// ---- Tile Provider Configuration ----
-// Listed in priority order. The tile layer falls forward through the list
-// on errors. Each entry tracks its own failure count so a single bad tile
-// doesn't block the entire chain.
-const TILE_PROVIDERS = [
-    {
-        // CartoDB Positron (light) — very permissive, no auth required
-        url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
-        attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
-        maxZoom: 19,
-        subdomains: 'abcd',
-        name: 'CartoDB Light'
-    },
-    {
-        // CartoDB Dark Matter (dark alt)
-        url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-        attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
-        maxZoom: 19,
-        subdomains: 'abcd',
-        name: 'CartoDB Dark'
-    },
-    {
-        // OpenStreetMap (primary) — most detailed, but may 403 from some browsers
-        url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        maxZoom: 19,
-        subdomains: 'abc',
-        name: 'OpenStreetMap'
-    },
-    {
-        // OSM France CDN — same data, different CDN edge
-        url: 'https://tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM France</a>',
-        maxZoom: 20,
-        subdomains: 'abc',
-        name: 'OSM France'
-    },
-    {
-        // ESRI World Topo — very stable, widely allowed
-        url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
-        attribution: '&copy; <a href="https://www.esri.com/">ESRI</a>',
-        maxZoom: 18,
-        subdomains: 'server',
-        name: 'ESRI Topo'
-    },
-    {
-        // ESRI World Imagery — satellite view as last resort
-        url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-        attribution: '&copy; <a href="https://www.esri.com/">ESRI</a>',
-        maxZoom: 18,
-        subdomains: 'server',
-        name: 'ESRI Satellite'
-    }
-];
 
 // Map state
 let map;
-let currentTileLayer = null;
-let currentProviderIndex = 0;
-
-// Per-provider error tracking: maps provider index -> count of tile errors
-const providerErrorCounts = {};
-
-// Layer groups for data overlays
 let waterwaysLayer;
 let cartTrailsLayer;
 let locationsLayer;
@@ -81,14 +13,6 @@ const layerState = {
     locations: true
 };
 
-// Max tile errors before we switch providers (some tiles may fail individually
-// due to load race — we're generous)
-const MAX_TILE_ERRORS = 3;
-
-// Tile-error debounce timeout (ms): prevents rapid-fire fallback from a burst
-const FALLBACK_DEBOUNCE_MS = 2000;
-let fallbackTimer = null;
-
 /**
  * Initialize the map
  */
@@ -98,92 +22,22 @@ function initMap() {
         center: [52.0, -98.0], // Centered roughly on the homeland
         zoom: 6,
         minZoom: 4,
-        maxZoom: 18
+        maxZoom: 18,
+        zoomControl: true
     });
 
-    // Add primary tile layer with error fallback
-    addTileLayer(0);
+    // Add base tile layer (CartoDB Positron - clean, refined cartographic style)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(map);
+
+    // Move zoom control to top-right
+    map.zoomControl.setPosition('topright');
 
     // Load data layers from embedded data
     loadDataLayers();
-}
-
-/**
- * Add a tile layer from the provider list, with automatic fallback on error.
- * Each provider is given MAX_TILE_ERRORS chances before we move to the next.
- * A debounce prevents rapid cascading from bursts of tile loads.
- * @param {number} providerIndex - Index into TILE_PROVIDERS array
- */
-function addTileLayer(providerIndex) {
-    if (providerIndex >= TILE_PROVIDERS.length) {
-        console.warn('All tile providers failed. Map will have no background.');
-        if (currentTileLayer) {
-            map.removeLayer(currentTileLayer);
-            currentTileLayer = null;
-        }
-        return;
-    }
-
-    currentProviderIndex = providerIndex;
-    const provider = TILE_PROVIDERS[providerIndex];
-
-    // Initialize error count for this provider if not set
-    if (providerErrorCounts[providerIndex] === undefined) {
-        providerErrorCounts[providerIndex] = 0;
-    }
-
-    // Remove previous tile layer if it exists
-    if (currentTileLayer) {
-        map.removeLayer(currentTileLayer);
-    }
-
-    console.log('Loading tiles from:', provider.name, '(' + provider.url.split('/')[2] + ')');
-
-    currentTileLayer = L.tileLayer(provider.url, {
-        attribution: provider.attribution,
-        maxZoom: provider.maxZoom,
-        subdomains: provider.subdomains || 'abc',
-        detectRetina: true,
-        errorTileUrl: '',
-        crossOrigin: 'anonymous'
-    });
-
-    // Listen for tile loading errors and swap provider when threshold is hit
-    currentTileLayer.on('tileerror', function(event) {
-        // Bump error count for this provider
-        providerErrorCounts[providerIndex] = (providerErrorCounts[providerIndex] || 0) + 1;
-        const currentErrors = providerErrorCounts[providerIndex];
-
-        // Debounce: only attempt fallback after a quiet period
-        if (fallbackTimer) {
-            clearTimeout(fallbackTimer);
-        }
-
-        fallbackTimer = setTimeout(function() {
-            fallbackTimer = null;
-
-            const errorsNow = providerErrorCounts[providerIndex] || 0;
-            if (errorsNow >= MAX_TILE_ERRORS) {
-                const nextIndex = providerIndex + 1;
-                const nextName = nextIndex < TILE_PROVIDERS.length
-                    ? TILE_PROVIDERS[nextIndex].name
-                    : '(none — all exhausted)';
-                console.warn(
-                    provider.name + ' hit ' + errorsNow + ' tile errors. ' +
-                    'Falling back to ' + nextName
-                );
-                addTileLayer(nextIndex);
-            } else {
-                const remaining = MAX_TILE_ERRORS - errorsNow;
-                console.warn(
-                    provider.name + ': ' + errorsNow + ' tile error(s) so far ' +
-                    '(' + remaining + ' remaining before fallback)'
-                );
-            }
-        }, FALLBACK_DEBOUNCE_MS);
-    });
-
-    currentTileLayer.addTo(map);
 }
 
 /**
@@ -192,18 +46,25 @@ function addTileLayer(providerIndex) {
 function loadDataLayers() {
     try {
         const data = window.homelandData;
-
+        
         if (!data) {
             throw new Error('Embedded data not found. Please check data.js is loaded.');
         }
 
-        // Render waterways, cart trails, locations
+        // Render waterways
         renderWaterways(data.waterways);
+
+        // Render cart trails
         renderCartTrails(data.cartTrails);
+
+        // Render locations
         renderLocations(data.locations);
 
         // Add layer control AFTER all layers are loaded
         addLayerControl();
+
+        // Update stats
+        updateStats(data);
 
     } catch (error) {
         console.error('Error loading data layers:', error);
@@ -212,19 +73,31 @@ function loadDataLayers() {
 }
 
 /**
+ * Update stats display
+ */
+function updateStats(data) {
+    const statsEl = document.getElementById('stats-waterways');
+    const trailsEl = document.getElementById('stats-trails');
+    const locationsEl = document.getElementById('stats-locations');
+    
+    if (statsEl) statsEl.textContent = data.waterways.features.length;
+    if (trailsEl) trailsEl.textContent = data.cartTrails.features.length;
+    if (locationsEl) locationsEl.textContent = data.locations.features.length;
+}
+
+/**
  * Render waterways as blue lines
  */
 function renderWaterways(data) {
     waterwaysLayer = L.geoJSON(data, {
         style: {
-            color: '#3498db',
+            color: '#1E4D8C',
             weight: 3,
-            opacity: 0.7
+            opacity: 0.8
         },
         onEachFeature: function(feature, layer) {
             if (feature.properties && feature.properties.name) {
-                layer.bindPopup('<div class="popup-title">' + feature.properties.name + '</div>' +
-                                '<div class="popup-description">Waterway</div>');
+                layer.bindPopup(createPopup('Waterway', feature.properties.name, feature.properties.description, feature.properties));
             }
         }
     });
@@ -235,20 +108,19 @@ function renderWaterways(data) {
 }
 
 /**
- * Render cart trails as red/brown lines
+ * Render cart trails as red dashed lines
  */
 function renderCartTrails(data) {
     cartTrailsLayer = L.geoJSON(data, {
         style: {
-            color: '#e74c3c',
+            color: '#B8312F',
             weight: 4,
-            opacity: 0.8,
-            dashArray: '10, 10'
+            opacity: 0.9,
+            dashArray: '12, 8'
         },
         onEachFeature: function(feature, layer) {
             if (feature.properties && feature.properties.name) {
-                layer.bindPopup('<div class="popup-title">' + feature.properties.name + '</div>' +
-                                '<div class="popup-description">Historic Cart Trail</div>');
+                layer.bindPopup(createPopup('Historic Cart Trail', feature.properties.name, feature.properties.description, feature.properties));
             }
         }
     });
@@ -265,9 +137,9 @@ function renderLocations(data) {
     // Create custom green marker icon
     const locationIcon = L.divIcon({
         className: 'location-marker',
-        html: '<div style="background-color: #27ae60; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>',
-        iconSize: [12, 12],
-        iconAnchor: [6, 6]
+        html: '<div style="background-color: #2D7D46; width: 14px; height: 14px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 6px rgba(45, 125, 70, 0.5);"></div>',
+        iconSize: [14, 14],
+        iconAnchor: [7, 7]
     });
 
     locationsLayer = L.geoJSON(data, {
@@ -275,30 +147,7 @@ function renderLocations(data) {
             return L.marker(latlng, { icon: locationIcon });
         },
         onEachFeature: function(feature, layer) {
-            const props = feature.properties || {};
-            let popupContent = '<div class="popup-title">' + (props.name || 'Unknown Location') + '</div>';
-
-            if (props.description) {
-                // Truncate long descriptions
-                const desc = props.description.length > 200
-                    ? props.description.substring(0, 200) + '...'
-                    : props.description;
-                popupContent += '<div class="popup-description">' + desc + '</div>';
-            }
-
-            let metaInfo = [];
-            if (props.founded && props.founded !== '#N/A' && props.founded !== '') {
-                metaInfo.push('Founded: ' + props.founded);
-            }
-            if (props.community_type) {
-                metaInfo.push(props.community_type);
-            }
-
-            if (metaInfo.length > 0) {
-                popupContent += '<div class="popup-meta">' + metaInfo.join(' | ') + '</div>';
-            }
-
-            layer.bindPopup(popupContent);
+            layer.bindPopup(createPopup('Location', feature.properties.name, feature.properties.description, feature.properties, feature.properties.story));
         }
     });
 
@@ -308,19 +157,55 @@ function renderLocations(data) {
 }
 
 /**
+ * Create popup HTML structure
+ */
+function createPopup(type, name, description, props, story) {
+    let html = `
+    <div class="popup-header">
+        <div class="popup-title">${name || 'Unknown Location'}</div>
+    </div>
+    <div class="popup-body">
+    `;
+    
+    if (description) {
+        // Truncate long descriptions
+        const desc = description.length > 250 
+            ? description.substring(0, 250) + '...' 
+            : description;
+        html += `<div class="popup-description">${desc}</div>`;
+    }
+    
+    // Add meta tags
+    html += '<div class="popup-meta">';
+    
+    if (props && props.founded && props.founded !== '#N/A' && props.founded !== '') {
+        html += `<span class="popup-tag founded">Founded: ${props.founded}</span>`;
+    }
+    
+    if (props && props.community_type) {
+        html += `<span class="popup-tag type">${props.community_type}</span>`;
+    }
+    
+    html += '</div></div>';
+    
+    return html;
+}
+
+/**
  * Add layer control to toggle visibility
  */
 function addLayerControl() {
-    const overlays = {
-        "Waterways": waterwaysLayer,
-        "Cart Trails": cartTrailsLayer,
-        "Locations": locationsLayer
-    };
-
-    L.control.layers(null, overlays, {
+    // Create custom layer control with header
+    const control = L.control.layers(null, null, {
         position: 'topright',
         collapsed: false
-    }).addTo(map);
+    });
+
+    control.addOverlay(waterwaysLayer, '<span style="color:#1E4D8C">●</span> Waterways');
+    control.addOverlay(cartTrailsLayer, '<span style="color:#B8312F">●</span> Cart Trails');
+    control.addOverlay(locationsLayer, '<span style="color:#2D7D46">●</span> Locations');
+
+    control.addTo(map);
 }
 
 /**
