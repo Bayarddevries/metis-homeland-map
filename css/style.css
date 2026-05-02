@@ -367,24 +367,45 @@ body {
 }
 
 /* ============================================
-   RESPONSIVE
-   ============================================ */
+RESPONSIVE
+============================================ */
 @media (max-width: 600px) {
-    .map-overlay {
-        top: auto;
-        bottom: 20px;
-        right: 10px;
-        left: 10px;
-        max-width: none;
-    }
-    
-    .stats-bar {
-        flex-wrap: wrap;
-    }
-    
-    .stat {
-        min-width: calc(33% - 12px);
-    }
+ .map-overlay {
+ top: auto;
+ bottom: 20px;
+ right: 10px;
+ left: 10px;
+ max-width: none;
+ max-height: 40vh;  /* Limit height on mobile */
+ overflow-y: auto;   /* Enable scrolling */
+ }
+ 
+ .overlay-content {
+ max-height: 30vh;   /* Limit content height */
+ overflow-y: auto;   /* Scroll if needed */
+ }
+ 
+ .stats-bar {
+ flex-wrap: wrap;
+ }
+ 
+ .stat {
+ min-width: calc(33% - 12px);
+ }
+ 
+ /* Make legend items more compact on mobile */
+ .legend-item {
+ margin-bottom: 8px;
+ font-size: 12px;
+ }
+ 
+ .overlay-header h1 {
+ font-size: 15px;
+ }
+ 
+ .overlay-header p {
+ font-size: 10px;
+ }
 }
 
 /* ============================================
