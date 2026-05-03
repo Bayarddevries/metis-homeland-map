@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Métis Homeland Map V5</title>
-    
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
-          crossorigin=""/>
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Métis Homeland Map</title>
+ 
+ <!-- Leaflet CSS -->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+ integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+ crossorigin=""/>
+ 
+ <!-- Custom CSS -->
+ <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
  <div class="site-nav" data-active="map"></div>
@@ -22,60 +22,91 @@
  <h1>Métis Homeland Map</h1>
  <p>Interactive map showing waterways, cart trails, buffalo herd zones, and historical settlements</p>
  </div>
-        <div class="overlay-content">
- <div class="legend">
- <h3>Legend</h3>
- <div class="legend-item">
- <span class="legend-color waterway"></span>
- <span>Waterways</span>
  </div>
- <div class="legend-item">
- <span class="legend-color trail"></span>
- <span>Cart Trails</span>
+
+ <!-- Bottom Control Bar -->
+ <div class="bottom-bar">
+ <!-- Left: Layer Toggles -->
+ <div class="layer-toggles">
+ <button class="layer-btn active" data-layer="waterways" title="Waterways - click for info">
+ <span class="icon">💧</span>
+ <span class="label">Water</span>
+ </button>
+ <button class="layer-btn active" data-layer="trails" title="Cart Trails - click for info">
+ <span class="icon">🛤️</span>
+ <span class="label">Trails</span>
+ </button>
+ <button class="layer-btn active" data-layer="locations" title="Locations - click for info">
+ <span class="icon">📍</span>
+ <span class="label">Places</span>
+ </button>
+ <button class="layer-btn" data-layer="buffalo" title="Buffalo Herds - click for info">
+ <span class="icon">🦬</span>
+ <span class="label">Buffalo</span>
+ </button>
  </div>
- <div class="legend-item">
- <span class="legend-color location"></span>
- <span>Locations & Settlements</span>
+
+ <!-- Right: Controls -->
+ <div class="bar-controls">
+ <button class="control-btn" id="statsToggle" title="Toggle Stats">
+ <span class="icon">📊</span>
+ </button>
  </div>
- <div class="legend-item">
- <span class="legend-color" style="background-color: #D2691E; border: 2px solid #8B4513;"></span>
- <span>Buffalo Herd Zones</span>
  </div>
+
+ <!-- Collapsible Stats Panel -->
+ <div class="stats-panel" id="statsPanel">
+ <div class="stats-panel-header">
+ <h3>Data Overview</h3>
+ <button class="close-btn" id="closeStats">&times;</button>
  </div>
-            
- <div class="stats-bar">
- <div class="stat waterways">
- <div class="stat-value" id="stats-waterways">--</div>
+ <div class="stats-detail">
+ <div class="stat-detail waterways">
  <div class="stat-label">Waterways</div>
+ <div class="stat-value" id="stats-waterways-detail">--</div>
+ <div class="stat-desc">Rivers, lakes, and streams</div>
  </div>
- <div class="stat trails">
- <div class="stat-value" id="stats-trails">--</div>
- <div class="stat-label">Trails</div>
+ <div class="stat-detail trails">
+ <div class="stat-label">Cart Trails</div>
+ <div class="stat-value" id="stats-trails-detail">--</div>
+ <div class="stat-desc">Historic Métis trails</div>
  </div>
- <div class="stat locations">
- <div class="stat-value" id="stats-locations">--</div>
+ <div class="stat-detail locations">
  <div class="stat-label">Locations</div>
+ <div class="stat-value" id="stats-locations-detail">--</div>
+ <div class="stat-desc">Settlements & communities</div>
  </div>
- <div class="stat buffalo">
- <div class="stat-value" id="stats-buffalo">--</div>
- <div class="stat-label">Herd Zones</div>
+ <div class="stat-detail buffalo">
+ <div class="stat-label">Buffalo Herds</div>
+ <div class="stat-value" id="stats-buffalo-detail">--</div>
+ <div class="stat-desc">Historical range zones</div>
  </div>
  </div>
-        </div>
-    </div>
-    
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+ </div>
+
+ <!-- Unified Layer Info Panel -->
+ <div class="layer-info-panel" id="layerInfoPanel">
+ <div class="layer-info-header">
+ <h3 id="layerInfoTitle">Layer Info</h3>
+ <button class="close-btn" id="closeLayerInfo">&times;</button>
+ </div>
+ <div class="layer-info-content" id="layerInfoContent">
+ <!-- Dynamic content loaded by JS -->
+ </div>
+ </div>
+
+ <!-- Leaflet JS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
             integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
             crossorigin=""></script>
     
     <!-- Embedded Data -->
     <script src="js/data.js"></script>
     
- <!-- Main JS -->
- <script src="js/main.js"></script>
- 
- <!-- Shared Navigation -->
- <script src="site-nav.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    
+    <!-- Shared Navigation -->
+    <script src="site-nav.js"></script>
 </body>
 </html>

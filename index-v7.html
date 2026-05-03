@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Métis Homeland Map</title>
+ 
+ <!-- Leaflet CSS -->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+ integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+ crossorigin=""/>
+ 
+ <!-- Custom CSS -->
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div id="map"></div>
+ 
+ <!-- Compact Control Panel -->
+ <div class="control-panel">
+  <div class="control-header">
+   <h1>Métis Homeland</h1>
+   <p>Interactive historical map</p>
+  </div>
+  
+  <div class="control-content">
+   <!-- Quick Layer Toggles -->
+   <div class="quick-layers">
+    <button class="layer-toggle active" data-layer="waterways" title="Waterways">
+     <span class="icon">💧</span>
+    </button>
+    <button class="layer-toggle active" data-layer="trails" title="Cart Trails">
+     <span class="icon">🛤️</span>
+    </button>
+    <button class="layer-toggle active" data-layer="locations" title="Locations">
+     <span class="icon">📍</span>
+    </button>
+    <button class="layer-toggle" data-layer="buffalo" title="Buffalo Herds">
+     <span class="icon">🦬</span>
+    </button>
+   </div>
+   
+   <!-- Legend Section -->
+   <div class="legend-section">
+    <h3>Map Legend</h3>
+    <div class="legend-grid">
+     <div class="legend-item">
+      <span class="legend-icon waterway"></span>
+      <span>Waterways</span>
+     </div>
+     <div class="legend-item">
+      <span class="legend-icon trail"></span>
+      <span>Cart Trails</span>
+     </div>
+     <div class="legend-item">
+      <span class="legend-icon location"></span>
+      <span>Settlements</span>
+     </div>
+     <div class="legend-item">
+      <span class="legend-icon buffalo-original"></span>
+      <span>Original Range</span>
+     </div>
+     <div class="legend-item">
+      <span class="legend-icon buffalo-1870"></span>
+      <span>1870 Range</span>
+     </div>
+     <div class="legend-item">
+      <span class="legend-icon buffalo-1889"></span>
+      <span>1889 Range</span>
+     </div>
+    </div>
+   </div>
+  </div>
+  
+  <!-- Collapsible Stats Bar -->
+  <button class="stats-toggle" id="statsToggle">
+   <span class="icon">📊</span>
+   <span class="text">Show Data</span>
+   <span class="chevron">▼</span>
+  </button>
+  
+  <div class="stats-bar" id="statsBar">
+   <div class="stat waterways">
+    <div class="stat-icon">💧</div>
+    <div class="stat-value" id="stats-waterways">--</div>
+    <div class="stat-label">Waterways</div>
+   </div>
+   <div class="stat trails">
+    <div class="stat-icon">🛤️</div>
+    <div class="stat-value" id="stats-trails">--</div>
+    <div class="stat-label">Trails</div>
+   </div>
+   <div class="stat locations">
+    <div class="stat-icon">📍</div>
+    <div class="stat-value" id="stats-locations">--</div>
+    <div class="stat-label">Locations</div>
+   </div>
+   <div class="stat buffalo">
+    <div class="stat-icon">🦬</div>
+    <div class="stat-value" id="stats-buffalo">--</div>
+    <div class="stat-label">Herd Zones</div>
+   </div>
+  </div>
+ </div>
+ 
+ <!-- Leaflet JS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+ crossorigin=""></script>
+ 
+ <!-- Embedded Data -->
+ <script src="js/data.js"></script>
+ 
+ <!-- Main JS -->
+ <script src="js/main.js"></script>
+</body>
+</html>

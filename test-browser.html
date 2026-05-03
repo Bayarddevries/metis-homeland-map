@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    // Capture any errors
+    window.errors = [];
+    window.onerror = function(msg, url, line) {
+      window.errors.push(msg + ' at line ' + line);
+    };
+  </script>
+  <script src="js/data.js"></script>
+  <script>
+    // After loading data.js, check if homelandData exists
+    if (typeof window.homelandData !== 'undefined') {
+      console.log('✓ homelandData loaded');
+      console.log('  buffaloHerds:', window.homelandData.buffaloHerds ? 'present' : 'missing');
+      if (window.homelandData.buffaloHerds) {
+        console.log('  buffaloHerds features:', window.homelandData.buffaloHerds.features.length);
+        window.homelandData.buffaloHerds.features.forEach((f, i) => {
+          console.log('    ' + i + ':', f.properties.name, '-', f.geometry.type);
+        });
+      }
+    } else {
+      console.error('✗ homelandData not found');
+    }
+  </script>
+</head>
+<body>
+  <div id="results"></div>
+  <script>
+    document.getElementById('results').innerHTML = 
+      '<h2>Test Results</h2>' +
+      '<p>Errors: ' + window.errors.length + '</p>' +
+      '<pre>' + JSON.stringify(window.errors, null, 2) + '</pre>' +
+      '<p>Data loaded: ' + (typeof window.homelandData !== 'undefined' ? 'YES' : 'NO') + '</p>';
+  </script>
+</body>
+</html>

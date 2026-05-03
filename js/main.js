@@ -1,359 +1,393 @@
-// Main JavaScript for Homeland Map V5
+// Métis Homeland Map V8 - Bottom Bar UI
 
-// Map state
-let map;
-let waterwaysLayer;
-let cartTrailsLayer;
-let locationsLayer;
-let buffaloHerdsLayer;
+document.addEventListener('DOMContentLoaded', () => {
+ // Toggle panels
+ const statsToggleBtn = document.getElementById('statsToggle');
+ const closeStats = document.getElementById('closeStats');
+ const statsPanel = document.getElementById('statsPanel');
+ 
+ // Layer info panel
+ const layerInfoPanel = document.getElementById('layerInfoPanel');
+ const layerInfoTitle = document.getElementById('layerInfoTitle');
+ const layerInfoContent = document.getElementById('layerInfoContent');
+ const closeLayerInfo = document.getElementById('closeLayerInfo');
 
-// Layer visibility state - buffalo herds OFF by default for cleaner mobile view
-const layerState = {
- waterways: true,
- cartTrails: true,
- locations: true,
- buffaloHerds: false  // OFF by default - user toggles on
-};
+ // Stats toggle
+ if (statsToggleBtn && statsPanel) {
+  statsToggleBtn.addEventListener('click', () => {
+   statsPanel.classList.toggle('visible');
+  });
+  
+  if (closeStats) {
+   closeStats.addEventListener('click', () => {
+    statsPanel.classList.remove('visible');
+   });
+  }
+ }
 
-/**
- * Initialize the map
- */
-function initMap() {
- // Create map centered on the homeland region (Manitoba/Saskatchewan area)
- map = L.map('map', {
- center: [52.0, -98.0], // Centered roughly on the homeland
- zoom: 6,
- minZoom: 4,
- maxZoom: 18,
- zoomControl: true
- });
+ // Layer info panel close
+ if (closeLayerInfo && layerInfoPanel) {
+  closeLayerInfo.addEventListener('click', () => {
+   layerInfoPanel.classList.remove('visible');
+  });
+ }
 
- // Add base tile layer (CartoDB Positron - clean, refined cartographic style)
- L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
- attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
- subdomains: 'abcd',
- maxZoom: 20
+ // Layer state
+ const layerState = {
+  waterways: true,
+  trails: true,
+  locations: true,
+  buffalo: false
+ };
+
+ // Layer info data
+ const layerInfo = {
+  waterways: {
+   title: '💧 Waterways',
+   about: 'This layer shows the major waterways of the Métis Homeland including rivers, lakes, and streams. These water routes were essential for transportation, trade, and sustenance, forming the backbone of the Métis economy and culture.',
+   sources: 'Natural Resources Canada, Manitoba Historical Society, Provincial hydrographic data',
+   features: []
+  },
+  trails: {
+   title: '🛤️ Cart Trails',
+   about: 'Historic Métis cart trails connecting settlements across the homeland. These trails were traveled by Red River carts, unique to the Métis, enabling trade networks spanning hundreds of kilometers. The trails follow natural portage routes and connect major waterways.',
+   sources: 'Manitoba Archives, Hudson Bay Company records, Historical maps and journals',
+   features: []
+  },
+  locations: {
+   title: '📍 Places & Communities',
+   about: 'Métis settlements, communities, and significant locations across the homeland. These places represent centers of Métis culture, trade, and governance. Many locations date to the early fur trade era and remain important to Métis families today.',
+   sources: 'Manitoba Historical Society, Census records, Community oral histories',
+   features: []
+  },
+  buffalo: {
+   title: '🦬 Buffalo Herd Ranges',
+   about: 'This layer shows the dramatic contraction of buffalo range from pre-contact times through 1889. The buffalo were central to Métis culture, economy, and survival. By understanding where the buffalo were, we understand where the Métis could live and thrive. The rapid disappearance of the buffalo after 1870 forced dramatic changes to Métis lifeways.',
+   sources: 'Hornaday (1889), Meades (1982), Manitoba Conservation Data Centre',
+   eras: [
+    {
+     name: 'Original Range',
+     color: '#4CAF50',
+     count: 1,
+     description: 'Pre-contact buffalo distribution across the northern plains. This vast territory supported enormous herds and was the foundation of Plains Indigenous economies for millennia.',
+     polygons: []
+    },
+    {
+     name: '1870 Range',
+     color: '#FF9800',
+     count: 2,
+     description: 'By 1870, commercial hunting and westward expansion had already reduced the range. The buffalo were still present but their territory was shrinking rapidly. This period coincides with Manitoba entry into Confederation.',
+     polygons: []
+    },
+    {
+     name: '1889 Range',
+     color: '#F44336',
+     count: 6,
+     description: 'By 1889, the buffalo were nearly extinct. Only scattered remnant herds survived in remote areas. This represents one of the most rapid ecological collapses in recorded history, devastating the Métis economy and way of life.',
+     polygons: []
+    }
+   ]
+  }
+ };
+
+ // Initialize map
+ const map = L.map('map').setView([52.5, -98.5], 6);
+
+ // Base map tiles
+ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap contributors',
+  maxZoom: 18
  }).addTo(map);
 
- // Move zoom control to top-right
- map.zoomControl.setPosition('topright');
+ let waterwaysLayer, cartTrailsLayer, locationsLayer, buffaloHerdsLayer;
+ let data = null;
 
- // Load data layers from embedded data
- loadDataLayers();
-}
-
-/**
- * Load all data layers from embedded data
- */
-function loadDataLayers() {
- try {
- const data = window.homelandData;
- 
- if (!data) {
- throw new Error('Embedded data not found. Please check data.js is loaded.');
- }
-
- // Render waterways
- renderWaterways(data.waterways);
-
- // Render cart trails
- renderCartTrails(data.cartTrails);
-
- // Render locations
- renderLocations(data.locations);
-
- // Render buffalo herd zones (OFF by default)
- renderBuffaloHerds(data.buffaloHerds);
-
- // Add layer control AFTER all layers are loaded
- addLayerControl();
-
- // Update stats
- updateStats(data);
-
- } catch (error) {
- console.error('Error loading data layers:', error);
- alert('Error loading map data. Please check data.js is loaded.');
- }
-}
-
-/**
- * Update stats display
- */
-function updateStats(data) {
- const statsEl = document.getElementById('stats-waterways');
- const trailsEl = document.getElementById('stats-trails');
- const locationsEl = document.getElementById('stats-locations');
- const buffaloEl = document.getElementById('stats-buffalo');
- 
- if (statsEl) statsEl.textContent = data.waterways.features.length;
- if (trailsEl) trailsEl.textContent = data.cartTrails.features.length;
- if (locationsEl) locationsEl.textContent = data.locations.features.length;
- if (buffaloEl) buffaloEl.textContent = data.buffaloHerds.features.length;
-}
-
-/**
- * Render waterways as blue lines
- */
-function renderWaterways(data) {
- waterwaysLayer = L.geoJSON(data, {
- style: {
- color: '#1E4D8C',
- weight: 3,
- opacity: 0.8
- },
- onEachFeature: function(feature, layer) {
- if (feature.properties && feature.properties.name) {
- layer.bindPopup(createPopup('Waterway', feature.properties.name, feature.properties.description, feature.properties));
- }
- }
- });
-
- if (layerState.waterways) {
- waterwaysLayer.addTo(map);
- }
-}
-
-/**
- * Render cart trails as red dashed lines
- */
-function renderCartTrails(data) {
- cartTrailsLayer = L.geoJSON(data, {
- style: {
- color: '#B8312F',
- weight: 4,
- opacity: 0.9,
- dashArray: '12, 8'
- },
- onEachFeature: function(feature, layer) {
- if (feature.properties && feature.properties.name) {
- layer.bindPopup(createPopup('Historic Cart Trail', feature.properties.name, feature.properties.description, feature.properties));
- }
- }
- });
-
- if (layerState.cartTrails) {
- cartTrailsLayer.addTo(map);
- }
-}
-
-/**
- * Render locations as markers
- */
-function renderLocations(data) {
- // Create custom green marker icon
- const locationIcon = L.divIcon({
- className: 'location-marker',
- html: '<div style="background-color: #2D7D46; width: 14px; height: 14px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 6px rgba(45, 125, 70, 0.5);"></div>',
- iconSize: [14, 14],
- iconAnchor: [7, 7]
- });
-
- locationsLayer = L.geoJSON(data, {
- pointToLayer: function(feature, latlng) {
- return L.marker(latlng, { icon: locationIcon });
- },
- onEachFeature: function(feature, layer) {
- layer.bindPopup(createPopup('Location', feature.properties.name, feature.properties.description, feature.properties, feature.properties.story));
- }
- });
-
- if (layerState.locations) {
- locationsLayer.addTo(map);
- }
-}
-
-/**
- * Render buffalo herd zones with distinct colors for each time period
- * Color progression: Deep green (abundant) → Orange (declining) → Red (near extinction)
- */
-function renderBuffaloHerds(data) {
- // Distinct color scheme - clear visual progression from abundant to scarce
- const seasonalColors = [
-  { 
-    name: 'Original extent', 
-    color: '#1B5E20',      // Dark green border
-    fill: '#4CAF50',       // Bright green fill (abundant life)
-    label: 'Full Range (pre-1800s)'
-  },
-  { 
-    name: 'Range in 1870', 
-    color: '#E65100',      // Dark orange border
-    fill: '#FF9800',       // Bright orange fill (declining)
-    label: 'Declining (1870s)'
-  },
-  { 
-    name: 'Range in 1889', 
-    color: '#B71C1C',      // Dark red border
-    fill: '#F44336',       // Bright red fill (near extinction)
-    label: 'Remnant Herds (1889)'
+ // Layer toggle function
+ function toggleLayer(layerName, newState) {
+  if (newState !== undefined) {
+   layerState[layerName] = newState;
+  } else {
+   layerState[layerName] = !layerState[layerName];
   }
- ];
- 
- // Helper to get color by name
- function getColorForName(name) {
- // Find matching color scheme by name prefix
- for (const scheme of seasonalColors) {
- if (name.includes(scheme.name) || scheme.name.includes(name.split(' ')[0])) {
- return scheme;
+  
+  const isActive = layerState[layerName];
+  const btn = document.querySelector(`.layer-btn[data-layer="${layerName}"]`);
+  
+  if (isActive) {
+   if (btn) btn.classList.add('active');
+   if (layerName === 'waterways' && data) renderWaterways(data.waterways);
+   if (layerName === 'trails' && data) renderCartTrails(data.cartTrails);
+   if (layerName === 'locations' && data) renderLocations(data.locations);
+   if (layerName === 'buffalo' && data) renderBuffaloHerds(data.buffaloHerds);
+   console.log(`${layerName}: ON`);
+  } else {
+   if (btn) btn.classList.remove('active');
+   if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
+   if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+   if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
+   if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+   console.log(`${layerName}: OFF`);
+  }
  }
- }
- // Default to first color if no match
- return seasonalColors[0];
- }
- 
- buffaloHerdsLayer = L.geoJSON(data, {
- style: function(feature) {
- const name = feature.properties.name || '';
- const colors = getColorForName(name);
- 
- return {
- color: colors.color, // Border color
- weight: 2,
- opacity: 0.9,
- fillColor: colors.fill, // Fill color (seasonal)
- fillOpacity: 0.35, // Semi-transparent solid fill
- dashArray: null // Solid line (no dash)
- };
- },
- onEachFeature: function(feature, layer) {
- if (feature.properties && feature.properties.name) {
- const zoneName = feature.properties.name;
- 
- layer.bindPopup(createBuffaloPopup(zoneName, feature));
- }
- }
+
+ // Layer buttons - open info panel
+ const layerBtns = document.querySelectorAll('.layer-btn');
+ layerBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+   const layer = btn.dataset.layer;
+   showLayerInfo(layer);
+  });
  });
 
- if (layerState.buffaloHerds) {
- buffaloHerdsLayer.addTo(map);
- }
-}
+ // Show layer info panel
+ function showLayerInfo(layerName) {
+  const info = layerInfo[layerName];
+  if (!info) return;
 
-/**
- * Create popup content for buffalo herd zones
- */
-function createBuffaloPopup(zoneName, feature) {
- const description = feature.properties.description || '';
- 
- return `
- <div class="popup-header">
- <div class="popup-title">${zoneName}</div>
- </div>
- <div class="popup-body">
- ${description ? `<div class="popup-description">${description}</div>` : ''}
- <div class="popup-meta">
- <div style="margin-top: 8px; font-size: 11px; color: #666; font-style: italic;">
- <strong>Source:</strong> Hornaday, William Temple. <em>The Extermination of the American Bison</em>. Washington, D.C.: Government Printing Office, 1889.
- </div>
- </div>
- </div>
- `;
-}
+  layerInfoTitle.textContent = info.title;
+  
+  let content = '';
+  
+  // Toggle switch
+  content += `
+  <div class="layer-info-toggle">
+  <input type="checkbox" id="layerToggleCheckbox" ${layerState[layerName] ? 'checked' : ''}>
+  <label for="layerToggleCheckbox">Enable Layer</label>
+  </div>
+  `;
 
-/**
- * Create popup HTML structure (generic)
- */
-function createPopup(type, name, description, props, story) {
- let html = `
- <div class="popup-header">
- <div class="popup-title">${name || 'Unknown Location'}</div>
- </div>
- <div class="popup-body">
- `;
- 
- if (description) {
- // Truncate long descriptions
- const desc = description.length > 250 
- ? description.substring(0, 250) + '...' 
- : description;
- html += `<div class="popup-description">${desc}</div>`;
- }
- 
- // Add meta tags
- html += '<div class="popup-meta">';
- 
- if (props && props.founded && props.founded !== '#N/A' && props.founded !== '') {
- html += `<span class="popup-tag founded">Founded: ${props.founded}</span>`;
- }
- 
- if (props && props.community_type) {
- html += `<span class="popup-tag type">${props.community_type}</span>`;
- }
- 
- html += '</div></div>';
- 
- return html;
-}
+  // About section
+  content += `
+  <div class="layer-info-section layer-info-about">
+  <h4>About</h4>
+  <p>${info.about}</p>
+  </div>
+  `;
 
-/**
- * Show buffalo herd info popup
- */
-function showBuffaloInfo() {
- const infoContent = `
- <div style="padding: 8px;">
- <h4 style="margin: 0 0 8px 0; color: #8B4513;">Dwindling Buffalo Herds, 19th Century</h4>
- <p style="margin: 0 0 8px 0; font-size: 13px; line-height: 1.4;">
- These zones show the contraction of buffalo range through the 19th century, from the open plains to fragmented remnants by 1889.
- </p>
- <p style="margin: 0; font-size: 11px; color: #666; font-style: italic;">
- <strong>Source:</strong> Hornaday, William Temple. <em>The Extermination of the American Bison</em>. Washington, D.C.: Government Printing Office, 1889.
- </p>
- </div>
- `;
- 
- // Create a temporary popup
- const popup = L.popup()
- .setLatLng(map.getCenter())
- .setContent(infoContent)
- .openOn(map);
-}
+  // Sources section
+  content += `
+  <div class="layer-info-section layer-info-sources">
+  <h4>Sources</h4>
+  <p>${info.sources}</p>
+  </div>
+  `;
 
-/**
- * Add layer control to toggle visibility
- */
-function addLayerControl() {
- // Create custom layer control with header
- const control = L.control.layers(null, null, {
- position: 'topright',
- collapsed: false
- });
+  // Features section (if applicable)
+  if (info.features && info.features.length > 0) {
+   content += '<div class="layer-info-section layer-info-features"><h4>Features</h4>';
+   info.features.forEach(feature => {
+    content += `
+    <div class="feature-item">
+    <strong>${feature.name}</strong>
+    <p>${feature.description}</p>
+    </div>
+    `;
+   });
+   content += '</div>';
+  }
 
- control.addOverlay(waterwaysLayer, '<span style="color:#1E4D8C">●</span> Waterways');
- control.addOverlay(cartTrailsLayer, '<span style="color:#B8312F">●</span> Cart Trails');
- control.addOverlay(locationsLayer, '<span style="color:#2D7D46">●</span> Locations');
- 
- // Buffalo layer with info icon
- const buffaloLabel = '<span style="color:#8B4513">●</span> ' +
- '<span style="cursor: pointer; margin-right: 4px;" onclick="showBuffaloInfo()" title="View source information">ℹ️</span>' +
- 'Buffalo Herd Zones';
- 
- control.addOverlay(buffaloHerdsLayer, buffaloLabel);
+  // Buffalo eras (special case)
+  if (layerName === 'buffalo' && info.eras) {
+   content += '<div class="layer-info-section layer-info-features"><h4>Herd Ranges by Era</h4>';
+   info.eras.forEach((era, index) => {
+    const eraId = `buffalo-era-${index}`;
+    content += `
+    <div class="expandable-section">
+    <div class="expandable-header" data-target="${eraId}">
+    <h5>${era.name} (${era.count} polygon${era.count !== 1 ? 's' : ''})</h5>
+    <span class="expandable-icon">▼</span>
+    </div>
+    <div class="expandable-content" id="${eraId}" style="display: none;">
+    <p>${era.description}</p>
+    ${era.polygons.length > 0 ? era.polygons.map(p => `
+    <div class="feature-item" style="margin-top: 8px;">
+    <strong>${p.name}</strong>
+    <p>${p.description}</p>
+    </div>
+    `).join('') : ''}
+    </div>
+    </div>
+    `;
+   });
+   content += '</div>';
+  }
 
- control.addTo(map);
-}
+  layerInfoContent.innerHTML = content;
+  
+  // Add toggle checkbox listener
+  const checkbox = document.getElementById('layerToggleCheckbox');
+  if (checkbox) {
+   checkbox.addEventListener('change', (e) => {
+    toggleLayer(layerName, e.target.checked);
+   });
+  }
 
-/**
- * Toggle layer visibility
- */
-function toggleLayer(layerName) {
- const layer = {
- 'waterways': waterwaysLayer,
- 'cartTrails': cartTrailsLayer,
- 'locations': locationsLayer,
- 'buffaloHerds': buffaloHerdsLayer
- }[layerName];
+  // Add expandable section listeners
+  setTimeout(() => {
+   const expandableHeaders = document.querySelectorAll('.expandable-header');
+   expandableHeaders.forEach(header => {
+    header.addEventListener('click', () => {
+     const targetId = header.dataset.target;
+     const content = document.getElementById(targetId);
+     const isActive = header.classList.contains('active');
+     
+     if (isActive) {
+      header.classList.remove('active');
+      content.style.display = 'none';
+     } else {
+      header.classList.add('active');
+      content.style.display = 'block';
+     }
+    });
+   });
+  }, 100);
 
- if (!layer) return;
-
- if (layerState[layerName]) {
- map.removeLayer(layer);
- } else {
- layer.addTo(map);
+  layerInfoPanel.classList.add('visible');
  }
 
- layerState[layerName] = !layerState[layerName];
-}
+ // Render functions
+ function renderWaterways(geojsonData) {
+  if (waterwaysLayer) map.removeLayer(waterwaysLayer);
+  
+  waterwaysLayer = L.geoJSON(geojsonData, {
+   style: { color: '#1E4D8C', weight: 3, opacity: 0.8 }
+  }).addTo(map);
+  
+  console.log('Waterways rendered:', geojsonData.features.length, 'features');
+ }
 
-// Initialize map when DOM is loaded
-document.addEventListener('DOMContentLoaded', initMap);
+ function renderCartTrails(geojsonData) {
+  if (cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+  
+  cartTrailsLayer = L.geoJSON(geojsonData, {
+   style: { color: '#B8312F', weight: 2, opacity: 0.8 }
+  }).addTo(map);
+  
+  console.log('Cart trails rendered:', geojsonData.features.length, 'features');
+ }
+
+ function renderLocations(geojsonData) {
+  if (locationsLayer) map.removeLayer(locationsLayer);
+  
+  locationsLayer = L.geoJSON(geojsonData, {
+   pointToLayer: function(feature, latlng) {
+    return L.circleMarker(latlng, {
+     radius: 6,
+     fillColor: '#2D7D46',
+     color: '#fff',
+     weight: 2,
+     opacity: 0.8,
+     fillOpacity: 0.9
+    });
+   },
+   onEachFeature: function(feature, layer) {
+    if (feature.properties && feature.properties.name) {
+     layer.bindPopup('<strong>' + feature.properties.name + '</strong>');
+    }
+   }
+  }).addTo(map);
+  
+  console.log('Locations rendered:', geojsonData.features.length, 'features');
+ }
+
+ function renderBuffaloHerds(geojsonData) {
+  if (buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+  
+  const seasonalColors = [
+   { name: 'Original extent', color: '#1B5E20', fill: '#4CAF50' },
+   { name: 'Range in 1870', color: '#E65100', fill: '#FF9800' },
+   { name: 'Range in 1889', color: '#B71C1C', fill: '#F44336' }
+  ];
+  
+  function getColorForName(name) {
+   for (const scheme of seasonalColors) {
+    if (name.includes(scheme.name) || scheme.name.includes(name.split(' ')[0])) {
+     return scheme;
+    }
+   }
+   return seasonalColors[0];
+  }
+  
+  buffaloHerdsLayer = L.geoJSON(geojsonData, {
+   style: function(feature) {
+    const name = feature.properties.name || '';
+    const colors = getColorForName(name);
+    return {
+     color: colors.color,
+     weight: 2,
+     opacity: 0.9,
+     fillColor: colors.fill,
+     fillOpacity: 0.35,
+     dashArray: null
+    };
+   },
+   onEachFeature: function(feature, layer) {
+    if (feature.properties && feature.properties.name) {
+     const name = feature.properties.name;
+     let eraDesc = '';
+     if (name.includes('Original')) {
+      eraDesc = 'Pre-contact range - vast territory supporting enormous herds';
+     } else if (name.includes('1870')) {
+      eraDesc = '1870 range - shrinking rapidly due to commercial hunting';
+     } else if (name.includes('1889')) {
+      eraDesc = '1889 range - remnant herds, nearly extinct';
+     }
+     
+     layer.bindPopup(
+      '<div class="popup-header">' +
+      '<div class="popup-title">' + name + '</div>' +
+      '</div>' +
+      '<div class="popup-body">' +
+      '<p class="popup-description">' + eraDesc + '</p>' +
+      '<p style="font-size: 11px; color: #666; font-style: italic;">' +
+      '<strong>Source:</strong> Hornaday (1889)' +
+      '</p>' +
+      '</div>'
+     );
+    }
+   }
+  }).addTo(map);
+  
+  console.log('Buffalo herds rendered:', geojsonData.features.length, 'features');
+ }
+
+ // Update stats display
+ function updateStats(geojsonData) {
+  const stats = [
+   { id: 'waterways', count: geojsonData.waterways.features.length },
+   { id: 'trails', count: geojsonData.cartTrails.features.length },
+   { id: 'locations', count: geojsonData.locations.features.length },
+   { id: 'buffalo', count: geojsonData.buffaloHerds.features.length }
+  ];
+  
+  stats.forEach(stat => {
+   const el = document.getElementById('stats-' + stat.id);
+   if (el) el.textContent = stat.count;
+  });
+  
+  // Update detail panel too
+  stats.forEach(stat => {
+   const el = document.getElementById('stats-' + stat.id + '-detail');
+   if (el) el.textContent = stat.count;
+  });
+ }
+
+ // Initialize - load data
+ try {
+  data = window.homelandData;
+  console.log('✓ Data loaded successfully');
+  console.log(' Waterways:', data.waterways.features.length);
+  console.log(' Cart trails:', data.cartTrails.features.length);
+  console.log(' Locations:', data.locations.features.length);
+  console.log(' Buffalo herds:', data.buffaloHerds.features.length);
+  
+  // Render initial layers (waterways, trails, locations - but NOT buffalo by default)
+  renderWaterways(data.waterways);
+  renderCartTrails(data.cartTrails);
+  renderLocations(data.locations);
+  updateStats(data);
+  
+ } catch (error) {
+  console.error('✗ Error loading map data:', error);
+ }
+});

@@ -1,0 +1,26 @@
+{
+  "name": "homeland-map-v5",
+  "version": "1.0.0",
+  "description": "An interactive web map displaying Métis homeland historical data including waterways, cart trails, and settlements/locations.",
+  "main": "test-map.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bayarddevries/metis-homeland-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bayarddevries/metis-homeland-map/issues"
+  },
+  "homepage": "https://github.com/Bayarddevries/metis-homeland-map#readme",
+  "dependencies": {
+    "puppeteer": "^24.42.0"
+  }
+}
