@@ -79,6 +79,12 @@ BOTTOM CONTROL BAR
  flex-shrink: 0;
 }
 
+.layer-btn-wrapper {
+ display: flex;
+ align-items: center;
+ gap: 4px;
+}
+
 .layer-btn {
  display: flex;
  flex-direction: column;
@@ -114,6 +120,28 @@ BOTTOM CONTROL BAR
  font-weight: 600;
  text-transform: uppercase;
  letter-spacing: 0.5px;
+}
+
+/* Info button for layers */
+.layer-info-btn {
+ width: 28px;
+ height: 28px;
+ border: none;
+ background: var(--parchment);
+ border-radius: 8px;
+ cursor: pointer;
+ transition: all var(--transition-fast);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 14px;
+ flex-shrink: 0;
+}
+
+.layer-info-btn:hover {
+ background: var(--earth-light);
+ color: white;
+ transform: translateY(-2px);
 }
 
 /* Stats Container (Center) */
@@ -184,7 +212,8 @@ BOTTOM CONTROL BAR
 COLLAPSIBLE PANELS
 ============================================ */
 .stats-panel,
-.legend-panel {
+.legend-panel,
+.layer-info-panel {
  position: absolute;
  bottom: 100px;
  left: 50%;
@@ -202,7 +231,8 @@ COLLAPSIBLE PANELS
 }
 
 .stats-panel.visible,
-.legend-panel.visible {
+.legend-panel.visible,
+.layer-info-panel.visible {
  opacity: 1;
  pointer-events: auto;
  transform: translateX(-50%) translateY(0);
@@ -381,6 +411,154 @@ COLLAPSIBLE PANELS
  border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
+/* Layer Info Panel */
+.layer-info-header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 16px 20px;
+ background: linear-gradient(135deg, var(--earth-dark) 0%, var(--earth-mid) 100%);
+ color: var(--cream);
+}
+
+.layer-info-header h3 {
+ font-size: 16px;
+ font-weight: 600;
+ margin: 0;
+}
+
+.layer-info-content {
+ padding: 20px;
+ max-height: 60vh;
+ overflow-y: auto;
+}
+
+.layer-info-section {
+ margin-bottom: 20px;
+}
+
+.layer-info-section:last-child {
+ margin-bottom: 0;
+}
+
+.layer-info-toggle {
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ margin-bottom: 16px;
+ padding: 12px;
+ background: var(--parchment);
+ border-radius: 10px;
+}
+
+.layer-info-toggle input[type="checkbox"] {
+ width: 20px;
+ height: 20px;
+ cursor: pointer;
+}
+
+.layer-info-toggle label {
+ font-size: 14px;
+ font-weight: 600;
+ color: var(--earth-dark);
+ cursor: pointer;
+ flex: 1;
+}
+
+.layer-info-about h4,
+.layer-info-sources h4,
+.layer-info-features h4 {
+ font-size: 12px;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ color: var(--earth-light);
+ margin-bottom: 10px;
+}
+
+.layer-info-about p,
+.layer-info-sources p {
+ font-size: 13px;
+ color: var(--earth-mid);
+ line-height: 1.6;
+ margin-bottom: 10px;
+}
+
+.layer-info-sources p {
+ font-size: 12px;
+ font-style: italic;
+ color: var(--earth-light);
+}
+
+/* Expandable sections for buffalo eras */
+.expandable-section {
+ margin-bottom: 12px;
+}
+
+.expandable-header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 12px;
+ background: var(--parchment);
+ border-radius: 8px;
+ cursor: pointer;
+ transition: background var(--transition-fast);
+}
+
+.expandable-header:hover {
+ background: var(--earth-light);
+ color: white;
+}
+
+.expandable-header h5 {
+ font-size: 13px;
+ font-weight: 600;
+ margin: 0;
+}
+
+.expandable-icon {
+ font-size: 16px;
+ transition: transform var(--transition-fast);
+}
+
+.expandable-header.active .expandable-icon {
+ transform: rotate(180deg);
+}
+
+.expandable-content {
+ padding: 12px;
+ background: var(--warm-white);
+ border-left: 3px solid var(--earth-light);
+ margin-left: 12px;
+ font-size: 13px;
+ color: var(--earth-mid);
+ line-height: 1.6;
+}
+
+/* Feature list items */
+.feature-item {
+ padding: 10px;
+ margin-bottom: 8px;
+ background: var(--parchment);
+ border-radius: 8px;
+ font-size: 13px;
+ color: var(--earth-dark);
+}
+
+.feature-item strong {
+ display: block;
+ margin-bottom: 4px;
+ color: var(--earth-dark);
+}
+
+.feature-item p {
+ margin: 0;
+ color: var(--earth-mid);
+ font-size: 12px;
+ line-height: 1.5;
+}
+
 /* ============================================
 RESPONSIVE
 ============================================ */
@@ -403,14 +581,15 @@ RESPONSIVE
  }
  
  .stats-detail {
-  grid-template-columns: 1fr;
+ grid-template-columns: 1fr;
  }
  
  .stats-panel,
- .legend-panel {
-  width: calc(100% - 20px);
-  bottom: auto;
-  top: 20px;
+ .legend-panel,
+ .layer-info-panel {
+ width: calc(100% - 20px);
+ bottom: auto;
+ top: 20px;
  }
 }
 
