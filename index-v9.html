@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Métis Homeland Map V9</title>
+ 
+ <!-- Leaflet CSS -->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+ integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+ crossorigin=""/>
+ 
+ <!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+ 
+ <!-- Custom CSS -->
+ <link rel="stylesheet" href="css/style-v9.css">
+</head>
+<body>
+ <div id="map"></div>
+ 
+ <!-- Texture overlay -->
+ <div class="doc-texture"></div>
+ 
+ <!-- Main UI Container -->
+ <div class="ui-container">
+  <!-- Header Bar -->
+  <header class="header">
+   <div class="header-content">
+    <h1 class="header-title">
+     <span class="serif">Métis Homeland</span>
+     <span class="subtitle">Historical Layers</span>
+    </h1>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+     <span></span>
+     <span></span>
+     <span></span>
+    </button>
+   </div>
+  </header>
+  
+  <!-- Layer Manager Panel -->
+  <aside class="layer-manager" id="layerManager">
+   <div class="layer-manager-header">
+    <h2 class="serif">Map Layers</h2>
+    <button class="close-panel" id="closeLayerManager" aria-label="Close layers">&times;</button>
+   </div>
+   
+   <div class="layer-list">
+    <!-- Waterways -->
+    <div class="layer-item" data-layer="waterways">
+     <div class="layer-toggle">
+      <input type="checkbox" id="toggle-waterways" checked>
+      <label for="toggle-waterways" class="layer-label">
+       <span class="layer-icon" style="background: #60A5FA;">💧</span>
+       <span class="layer-name">Waterways</span>
+      </label>
+     </div>
+     <button class="layer-info" data-layer="waterways" aria-label="Waterways info">
+      <span>ℹ️</span>
+     </button>
+     <div class="layer-details" id="details-waterways">
+      <p class="layer-description">Major rivers, lakes, and streams essential for transportation and trade.</p>
+      <p class="layer-sources">Sources: Natural Resources Canada, Manitoba Historical Society</p>
+     </div>
+    </div>
+    
+    <!-- Cart Trails -->
+    <div class="layer-item" data-layer="trails">
+     <div class="layer-toggle">
+      <input type="checkbox" id="toggle-trails" checked>
+      <label for="toggle-trails" class="layer-label">
+       <span class="layer-icon" style="background: #F87171;">🛤️</span>
+       <span class="layer-name">Cart Trails</span>
+      </label>
+     </div>
+     <button class="layer-info" data-layer="trails" aria-label="Cart trails info">
+      <span>ℹ️</span>
+     </button>
+     <div class="layer-details" id="details-trails">
+      <p class="layer-description">Historic Métis Red River cart trails connecting settlements.</p>
+      <p class="layer-sources">Sources: Manitoba Archives, Hudson's Bay Company records</p>
+     </div>
+    </div>
+    
+    <!-- Locations -->
+    <div class="layer-item" data-layer="locations">
+     <div class="layer-toggle">
+      <input type="checkbox" id="toggle-locations" checked>
+      <label for="toggle-locations" class="layer-label">
+       <span class="layer-icon" style="background: #34D399;">📍</span>
+       <span class="layer-name">Places</span>
+      </label>
+     </div>
+     <button class="layer-info" data-layer="locations" aria-label="Locations info">
+      <span>ℹ️</span>
+     </button>
+     <div class="layer-details" id="details-locations">
+      <p class="layer-description">Métis communities, settlements, and significant locations.</p>
+      <p class="layer-sources">Sources: Census records, Community oral histories</p>
+     </div>
+    </div>
+    
+    <!-- Buffalo Herds -->
+    <div class="layer-item" data-layer="buffalo">
+     <div class="layer-toggle">
+      <input type="checkbox" id="toggle-buffalo">
+      <label for="toggle-buffalo" class="layer-label">
+       <span class="layer-icon" style="background: #FBBF24;">🦬</span>
+       <span class="layer-name">Buffalo Herds</span>
+      </label>
+     </div>
+     <button class="layer-info" data-layer="buffalo" aria-label="Buffalo herds info">
+      <span>ℹ️</span>
+     </button>
+     <div class="layer-details" id="details-buffalo">
+      <p class="layer-description">Dramatic contraction of buffalo range from pre-contact to 1889.</p>
+      <p class="layer-sources">Sources: Hornaday (1889), Meades (1982)</p>
+      
+      <div class="buffalo-eras">
+       <div class="era-item original">
+        <span class="era-indicator"></span>
+        <span class="era-label">Original Range</span>
+       </div>
+       <div class="era-item era-1870">
+        <span class="era-indicator"></span>
+        <span class="era-label">1870 Range</span>
+       </div>
+       <div class="era-item era-1889">
+        <span class="era-indicator"></span>
+        <span class="era-label">1889 Range</span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </aside>
+  
+  <!-- Stats Bar -->
+  <div class="stats-bar" id="statsBar">
+   <div class="stat-item">
+    <span class="stat-icon">💧</span>
+    <span class="stat-value" id="stat-waterways">--</span>
+   </div>
+   <div class="stat-divider"></div>
+   <div class="stat-item">
+    <span class="stat-icon">🛤️</span>
+    <span class="stat-value" id="stat-trails">--</span>
+   </div>
+   <div class="stat-divider"></div>
+   <div class="stat-item">
+    <span class="stat-icon">📍</span>
+    <span class="stat-value" id="stat-locations">--</span>
+   </div>
+   <div class="stat-divider"></div>
+   <div class="stat-item">
+    <span class="stat-icon">🦬</span>
+    <span class="stat-value" id="stat-buffalo">--</span>
+   </div>
+  </div>
+ </div>
+ 
+ <!-- Mobile Bottom Sheet -->
+ <div class="bottom-sheet" id="bottomSheet">
+  <div class="bottom-sheet-handle"></div>
+  <div class="bottom-sheet-content" id="bottomSheetContent">
+   <!-- Dynamic content -->
+  </div>
+ </div>
+ 
+ <!-- Leaflet JS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+ crossorigin=""></script>
+ 
+ <!-- Embedded Data -->
+ <script src="js/data.js"></script>
+ 
+ <!-- Main JS -->
+ <script src="js/main-v9.js"></script>
+</body>
+</html>

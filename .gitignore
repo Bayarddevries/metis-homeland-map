@@ -1,0 +1,15 @@
+node_modules/
+npm-debug.log
+package-lock.json
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+test-*.html
+test-*.js
+*-v7.css
+*-v8-updated.js
+*-v7.js
+index-v7.html
+docs/
