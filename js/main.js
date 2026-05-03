@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
  // Stats toggle
  if (statsToggleBtn && statsPanel) {
   statsToggleBtn.addEventListener('click', () => {
-   const isVisible = statsPanel.classList.contains('visible');
    statsPanel.classList.toggle('visible');
   });
   
@@ -26,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
  // Legend toggle
  if (legendToggle && legendPanel) {
   legendToggle.addEventListener('click', () => {
-   const isVisible = legendPanel.classList.contains('visible');
    legendPanel.classList.toggle('visible');
   });
   
@@ -37,31 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
  }
 
- // Layer toggles
- const layerBtns = document.querySelectorAll('.layer-btn');
+ // Layer state
  const layerState = {
   waterways: true,
   trails: true,
   locations: true,
   buffalo: false
  };
-
- layerBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-   const layer = btn.dataset.layer;
-   const isActive = btn.classList.contains('active');
-   
-   if (isActive) {
-    btn.classList.remove('active');
-    layerState[layer] = false;
-    console.log(`Layer ${layer}: OFF`);
-   } else {
-    btn.classList.add('active');
-    layerState[layer] = true;
-    console.log(`Layer ${layer}: ON`);
-   }
-  });
- });
 
  // Initialize map
  const map = L.map('map').setView([52.5, -98.5], 6);
@@ -73,45 +53,96 @@ document.addEventListener('DOMContentLoaded', () => {
  }).addTo(map);
 
  let waterwaysLayer, cartTrailsLayer, locationsLayer, buffaloHerdsLayer;
+ let data = null;
+
+ // Layer toggle function
+ function toggleLayer(layerName) {
+  const isActive = layerState[layerName];
+  
+  if (isActive) {
+   // Turn OFF
+   layerState[layerName] = false;
+   if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
+   if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+   if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
+   if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+   console.log(`${layerName}: OFF`);
+  } else {
+   // Turn ON
+   layerState[layerName] = true;
+   if (layerName === 'waterways' && data) renderWaterways(data.waterways);
+   if (layerName === 'trails' && data) renderCartTrails(data.cartTrails);
+   if (layerName === 'locations' && data) renderLocations(data.locations);
+   if (layerName === 'buffalo' && data) renderBuffaloHerds(data.buffaloHerds);
+   console.log(`${layerName}: ON`);
+  }
+ }
+
+ // Layer toggle buttons
+ const layerBtns = document.querySelectorAll('.layer-btn');
+ layerBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+   const layer = btn.dataset.layer;
+   const isActive = btn.classList.contains('active');
+   
+   if (isActive) {
+    btn.classList.remove('active');
+   } else {
+    btn.classList.add('active');
+   }
+   
+   toggleLayer(layer);
+  });
+ });
 
  // Render functions
- function renderWaterways(data) {
+ function renderWaterways(geojsonData) {
   if (waterwaysLayer) map.removeLayer(waterwaysLayer);
-  if (!layerState.waterways) return;
   
-  waterwaysLayer = L.geoJSON(data.waterways, {
+  waterwaysLayer = L.geoJSON(geojsonData, {
    style: { color: '#1E4D8C', weight: 3, opacity: 0.8 }
   }).addTo(map);
+  
+  console.log('Waterways rendered:', geojsonData.features.length, 'features');
  }
 
- function renderCartTrails(data) {
+ function renderCartTrails(geojsonData) {
   if (cartTrailsLayer) map.removeLayer(cartTrailsLayer);
-  if (!layerState.trails) return;
   
-  cartTrailsLayer = L.geoJSON(data.cartTrails, {
+  cartTrailsLayer = L.geoJSON(geojsonData, {
    style: { color: '#B8312F', weight: 2, opacity: 0.8 }
   }).addTo(map);
+  
+  console.log('Cart trails rendered:', geojsonData.features.length, 'features');
  }
 
- function renderLocations(data) {
+ function renderLocations(geojsonData) {
   if (locationsLayer) map.removeLayer(locationsLayer);
-  if (!layerState.locations) return;
   
-  locationsLayer = L.geoJSON(data.locations, {
+  // Use simple circle markers instead of default markers for better performance
+  locationsLayer = L.geoJSON(geojsonData, {
    pointToLayer: function(feature, latlng) {
-    return L.marker(latlng);
+    return L.circleMarker(latlng, {
+     radius: 6,
+     fillColor: '#2D7D46',
+     color: '#fff',
+     weight: 2,
+     opacity: 0.8,
+     fillOpacity: 0.9
+    });
    },
    onEachFeature: function(feature, layer) {
     if (feature.properties && feature.properties.name) {
-     layer.bindPopup(`<strong>${feature.properties.name}</strong>`);
+     layer.bindPopup(\`<strong>\${feature.properties.name}</strong>\`);
     }
    }
   }).addTo(map);
+  
+  console.log('Locations rendered:', geojsonData.features.length, 'features');
  }
 
- function renderBuffaloHerds(data) {
+ function renderBuffaloHerds(geojsonData) {
   if (buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
-  if (!layerState.buffalo) return;
   
   const seasonalColors = [
    { name: 'Original extent', color: '#1B5E20', fill: '#4CAF50' },
@@ -128,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
    return seasonalColors[0];
   }
   
-  buffaloHerdsLayer = L.geoJSON(data.buffaloHerds, {
+  buffaloHerdsLayer = L.geoJSON(geojsonData, {
    style: function(feature) {
     const name = feature.properties.name || '';
     const colors = getColorForName(name);
@@ -143,51 +174,60 @@ document.addEventListener('DOMContentLoaded', () => {
    },
    onEachFeature: function(feature, layer) {
     if (feature.properties && feature.properties.name) {
-     layer.bindPopup(`
+     layer.bindPopup(\`
       <div class="popup-header">
-       <div class="popup-title">${feature.properties.name}</div>
+       <div class="popup-title">\${feature.properties.name}</div>
       </div>
       <div class="popup-body">
        <p style="font-size: 11px; color: #666; font-style: italic;">
         <strong>Source:</strong> Hornaday (1889)
        </p>
       </div>
-     `);
+     \`);
     }
    }
   }).addTo(map);
+  
+  console.log('Buffalo herds rendered:', geojsonData.features.length, 'features');
  }
 
  // Update stats display
- function updateStats(data) {
+ function updateStats(geojsonData) {
   const stats = [
-   { id: 'waterways', count: data.waterways.features.length },
-   { id: 'trails', count: data.cartTrails.features.length },
-   { id: 'locations', count: data.locations.features.length },
-   { id: 'buffalo', count: data.buffaloHerds.features.length }
+   { id: 'waterways', count: geojsonData.waterways.features.length },
+   { id: 'trails', count: geojsonData.cartTrails.features.length },
+   { id: 'locations', count: geojsonData.locations.features.length },
+   { id: 'buffalo', count: geojsonData.buffaloHerds.features.length }
   ];
   
   stats.forEach(stat => {
-   const el = document.getElementById(`stats-${stat.id}`);
+   const el = document.getElementById(\`stats-\${stat.id}\`);
    if (el) el.textContent = stat.count;
   });
   
   // Update detail panel too
   stats.forEach(stat => {
-   const el = document.getElementById(`stats-${stat.id}-detail`);
+   const el = document.getElementById(\`stats-\${stat.id}-detail\`);
    if (el) el.textContent = stat.count;
   });
  }
 
- // Initialize
+ // Initialize - load data
  try {
-  const data = window.homelandData;
-  renderWaterways(data);
-  renderCartTrails(data);
-  renderLocations(data);
-  renderBuffaloHerds(data);
+  data = window.homelandData;
+  console.log('✓ Data loaded successfully');
+  console.log('  Waterways:', data.waterways.features.length);
+  console.log('  Cart trails:', data.cartTrails.features.length);
+  console.log('  Locations:', data.locations.features.length);
+  console.log('  Buffalo herds:', data.buffaloHerds.features.length);
+  
+  // Render initial layers (waterways, trails, locations - but NOT buffalo by default)
+  renderWaterways(data.waterways);
+  renderCartTrails(data.cartTrails);
+  renderLocations(data.locations);
   updateStats(data);
+  
  } catch (error) {
-  console.error('Error loading map data:', error);
+  console.error('✗ Error loading map data:', error);
  }
 });
