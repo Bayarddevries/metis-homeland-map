@@ -168,41 +168,47 @@ function renderLocations(data) {
  * Each zone gets a different color based on time period
  */
 function renderBuffaloHerds(data) {
- // Seasonal color scheme - different color for each zone
+ // Seasonal color scheme - different color for each unique time period
  const seasonalColors = [
- { color: '#8B4513', fill: '#A0522D', name: 'Pre-1800 Range' }, // Deep red-brown (earliest)
- { color: '#D2691E', fill: '#CD853F', name: '1850s Range' }, // Golden brown (middle)
- { color: '#CD853F', fill: '#DEB887', name: '1880s Range' } // Pale tan (latest)
+ { name: 'Original extent', color: '#8B4513', fill: '#A0522D' }, // Deep red-brown (earliest)
+ { name: 'Range in 1870', color: '#D2691E', fill: '#CD853F' }, // Golden brown (middle)
+ { name: 'Range in 1889', color: '#CD853F', fill: '#DEB887' } // Pale tan (latest)
  ];
-
-  // Track feature index manually since Leaflet doesn't provide it in style function
-  let featureIndex = 0;
-  
-  buffaloHerdsLayer = L.geoJSON(data, {
-  style: function(feature) {
-  // Get color based on zone index (seasonal progression)
-  const zoneIndex = featureIndex % seasonalColors.length;
-  const colors = seasonalColors[zoneIndex];
-  featureIndex++; // Increment for next feature
-  
-  return {
-  color: colors.color, // Border color
-  weight: 2,
-  opacity: 0.9,
-  fillColor: colors.fill, // Fill color (seasonal)
-  fillOpacity: 0.35, // Semi-transparent solid fill
-  dashArray: null // Solid line (no dash)
-  };
-  },
-  onEachFeature: function(feature, layer) {
-  if (feature.properties && feature.properties.name) {
-  // Use the property name directly
-  const zoneName = feature.properties.name;
-  
-  layer.bindPopup(createBuffaloPopup(zoneName, feature));
-  }
-  }
-  });
+ 
+ // Helper to get color by name
+ function getColorForName(name) {
+ // Find matching color scheme by name prefix
+ for (const scheme of seasonalColors) {
+ if (name.includes(scheme.name) || scheme.name.includes(name.split(' ')[0])) {
+ return scheme;
+ }
+ }
+ // Default to first color if no match
+ return seasonalColors[0];
+ }
+ 
+ buffaloHerdsLayer = L.geoJSON(data, {
+ style: function(feature) {
+ const name = feature.properties.name || '';
+ const colors = getColorForName(name);
+ 
+ return {
+ color: colors.color, // Border color
+ weight: 2,
+ opacity: 0.9,
+ fillColor: colors.fill, // Fill color (seasonal)
+ fillOpacity: 0.35, // Semi-transparent solid fill
+ dashArray: null // Solid line (no dash)
+ };
+ },
+ onEachFeature: function(feature, layer) {
+ if (feature.properties && feature.properties.name) {
+ const zoneName = feature.properties.name;
+ 
+ layer.bindPopup(createBuffaloPopup(zoneName, feature));
+ }
+ }
+ });
 
  if (layerState.buffaloHerds) {
  buffaloHerdsLayer.addTo(map);
