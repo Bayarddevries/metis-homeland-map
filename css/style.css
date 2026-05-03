@@ -124,24 +124,27 @@ BOTTOM CONTROL BAR
 
 /* Info button for layers */
 .layer-info-btn {
- width: 28px;
- height: 28px;
+ width: 20px;
+ height: 20px;
  border: none;
- background: var(--parchment);
- border-radius: 8px;
+ background: transparent;
+ color: var(--earth-light);
+ border-radius: 50%;
  cursor: pointer;
  transition: all var(--transition-fast);
  display: flex;
  align-items: center;
  justify-content: center;
- font-size: 14px;
+ font-size: 12px;
+ font-weight: bold;
  flex-shrink: 0;
+ padding: 0;
+ line-height: 1;
 }
 
 .layer-info-btn:hover {
  background: var(--earth-light);
  color: white;
- transform: translateY(-2px);
 }
 
 /* Stats Container (Center) */
