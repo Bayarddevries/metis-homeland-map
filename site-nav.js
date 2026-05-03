@@ -100,11 +100,12 @@ function initNav() {
  .menu-close:hover {
  opacity: 1;
  }
- /* Map pages: avoid Leaflet zoom control overlap */
+ /* Map pages: top-right corner */
     .site-nav[data-active="map"] ~ .menu-toggle,
     .site-nav[data-active="map"] .menu-toggle {
-      right: auto;
-      left: 1.5rem;
+      top: 1rem;
+      right: 1rem;
+      left: auto;
     }
   `;
   document.head.appendChild(style);
