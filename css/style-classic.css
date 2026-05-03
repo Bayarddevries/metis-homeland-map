@@ -1,0 +1,429 @@
+/* Métis Homeland Map V5 - Visual Refresh */
+
+:root {
+    /* Métis-inspired color palette */
+    --metis-red: #B8312F;
+    --metis-green: #2D7D46;
+    --metis-blue: #1E4D8C;
+    --metis-yellow: #D4A520;
+    --metis-burgundy: #722F37;
+    
+    /* Earthy base tones */
+    --earth-dark: #2C2416;
+    --earth-mid: #4A3F2F;
+    --earth-light: #6B5D4D;
+    
+    /* Neutral palette */
+    --cream: #FAF6F0;
+    --parchment: #F5EFE6;
+    --warm-white: #FDFCFA;
+    
+    /* Shadows and overlays */
+    --shadow-sm: 0 1px 3px rgba(44, 36, 22, 0.12);
+    --shadow-md: 0 4px 12px rgba(44, 36, 22, 0.15);
+    --shadow-lg: 0 8px 24px rgba(44, 36, 22, 0.18);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--earth-dark);
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+/* ============================================
+   HEADER OVERLAY
+   ============================================ */
+.map-overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--warm-white);
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+    z-index: 1000;
+    max-width: 300px;
+    overflow: hidden;
+    border: 1px solid rgba(44, 36, 22, 0.08);
+}
+
+.overlay-header {
+    background: linear-gradient(135deg, var(--earth-dark) 0%, var(--earth-mid) 100%);
+    padding: 18px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L60 30L30 60L0 30L30 0z' fill='%23ffffff' fill-opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+}
+
+.overlay-header h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--cream);
+    margin-bottom: 4px;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+
+.overlay-header p {
+    font-size: 11px;
+    color: rgba(250, 246, 240, 0.7);
+    line-height: 1.4;
+    position: relative;
+}
+
+.overlay-content {
+    padding: 16px 20px 20px;
+}
+
+/* Métis sash stripe decoration */
+.overlay-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, 
+        var(--metis-red) 0%, 
+        var(--metis-green) 33%, 
+        var(--metis-blue) 66%, 
+        var(--metis-yellow) 100%);
+}
+
+/* ============================================
+   LEGEND
+   ============================================ */
+.legend {
+    margin-top: 0;
+}
+
+.legend h3 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--earth-light);
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: var(--earth-dark);
+}
+
+.legend-color {
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+/* Waterway - flowing blue line */
+.legend-color.waterway {
+    width: 28px;
+    height: 4px;
+    background: var(--metis-blue);
+    border-radius: 2px;
+    box-shadow: 0 0 6px rgba(30, 77, 140, 0.4);
+}
+
+/* Cart Trail - bold red */
+.legend-color.trail {
+    width: 28px;
+    height: 4px;
+    background: var(--metis-red);
+    border-radius: 2px;
+    background-image: repeating-linear-gradient(
+        90deg,
+        var(--metis-red) 0px,
+        var(--metis-red) 8px,
+        transparent 8px,
+        transparent 12px
+    );
+}
+
+/* Location marker */
+.legend-color.location {
+    width: 14px;
+    height: 14px;
+    background: var(--metis-green);
+    border-radius: 50%;
+    border: 3px solid var(--warm-white);
+    box-shadow: 0 2px 6px rgba(45, 125, 70, 0.4);
+    margin-left: 7px;
+}
+
+/* ============================================
+   STATS BAR
+   ============================================ */
+.stats-bar {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(44, 36, 22, 0.08);
+}
+
+.stat {
+    text-align: center;
+    flex: 1;
+}
+
+.stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--earth-dark);
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 10px;
+    color: var(--earth-light);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+.stat.waterways .stat-value { color: var(--metis-blue); }
+.stat.trails .stat-value { color: var(--metis-red); }
+.stat.locations .stat-value { color: var(--metis-green); }
+
+/* ============================================
+   POPUP STYLING
+   ============================================ */
+.leaflet-popup-content-wrapper {
+    border-radius: 10px;
+    box-shadow: var(--shadow-lg);
+    padding: 0;
+    overflow: hidden;
+}
+
+.leaflet-popup-content {
+    margin: 0;
+    padding: 0;
+}
+
+.popup-header {
+    background: linear-gradient(135deg, var(--earth-dark) 0%, var(--earth-mid) 100%);
+    padding: 12px 16px;
+    position: relative;
+}
+
+.popup-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, 
+        var(--metis-red) 0%, 
+        var(--metis-green) 50%, 
+        var(--metis-blue) 100%);
+}
+
+.popup-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cream);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.popup-body {
+    padding: 14px 16px;
+}
+
+.popup-description {
+    font-size: 13px;
+    color: var(--earth-mid);
+    line-height: 1.55;
+    margin-bottom: 12px;
+}
+
+.popup-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.popup-tag {
+    background: var(--parchment);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: var(--earth-dark);
+    font-weight: 500;
+}
+
+.popup-tag.founded {
+    color: var(--metis-blue);
+    background: rgba(30, 77, 140, 0.08);
+}
+
+.popup-tag.type {
+    color: var(--metis-green);
+    background: rgba(45, 125, 70, 0.08);
+}
+
+.leaflet-popup-tip {
+    box-shadow: none;
+}
+
+/* ============================================
+   LAYER CONTROL
+   ============================================ */
+.leaflet-control-layers {
+    border-radius: 10px !important;
+    box-shadow: var(--shadow-md) !important;
+    border: none !important;
+    overflow: hidden;
+}
+
+.leaflet-control-layers-header {
+    background: var(--earth-dark);
+    color: var(--cream);
+    padding: 10px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.leaflet-control-layers-list {
+    padding: 8px 0 !important;
+}
+
+.leaflet-control-layers-separator {
+    border-color: rgba(44, 36, 22, 0.1);
+}
+
+.leaflet-control-layers-expanded {
+    padding: 0;
+}
+
+/* ============================================
+   ATTRIBUTION
+   ============================================ */
+.leaflet-control-attribution {
+    background: rgba(253, 252, 250, 0.9) !important;
+    padding: 4px 10px !important;
+    font-size: 10px !important;
+    color: var(--earth-light) !important;
+    border-radius: 4px 0 0 0 !important;
+}
+
+.leaflet-control-attribution a {
+    color: var(--earth-mid) !important;
+}
+
+/* ============================================
+   ZOOM CONTROLS
+   ============================================ */
+.leaflet-control-zoom {
+    border: none !important;
+    box-shadow: var(--shadow-md) !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    background: var(--warm-white) !important;
+    color: var(--earth-dark) !important;
+    border: none !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    font-size: 18px !important;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+    background: var(--parchment) !important;
+}
+
+/* ============================================
+RESPONSIVE
+============================================ */
+@media (max-width: 600px) {
+ .map-overlay {
+ top: auto;
+ bottom: 20px;
+ right: 10px;
+ left: 10px;
+ max-width: none;
+ max-height: 40vh;  /* Limit height on mobile */
+ overflow-y: auto;   /* Enable scrolling */
+ }
+ 
+ .overlay-content {
+ max-height: 30vh;   /* Limit content height */
+ overflow-y: auto;   /* Scroll if needed */
+ }
+ 
+ .stats-bar {
+ flex-wrap: wrap;
+ }
+ 
+ .stat {
+ min-width: calc(33% - 12px);
+ }
+ 
+ /* Make legend items more compact on mobile */
+ .legend-item {
+ margin-bottom: 8px;
+ font-size: 12px;
+ }
+ 
+ .overlay-header h1 {
+ font-size: 15px;
+ }
+ 
+ .overlay-header p {
+ font-size: 10px;
+ }
+}
+
+/* ============================================
+   LOCATION MARKER ANIMATION
+   ============================================ */
+.location-marker {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+/* ============================================
+   MAP CONTAINER POLISH
+   ============================================ */
+.leaflet-container {
+    font-family: inherit;
+    background: var(--parchment);
+}

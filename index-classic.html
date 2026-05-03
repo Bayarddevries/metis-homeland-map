@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métis Homeland Map V5</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+          crossorigin=""/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="map-overlay">
+ <div class="overlay-header">
+ <h1>Métis Homeland Map</h1>
+ <p>Interactive map showing waterways, cart trails, buffalo herd zones, and historical settlements</p>
+ </div>
+        <div class="overlay-content">
+ <div class="legend">
+ <h3>Legend</h3>
+ <div class="legend-item">
+ <span class="legend-color waterway"></span>
+ <span>Waterways</span>
+ </div>
+ <div class="legend-item">
+ <span class="legend-color trail"></span>
+ <span>Cart Trails</span>
+ </div>
+ <div class="legend-item">
+ <span class="legend-color location"></span>
+ <span>Locations & Settlements</span>
+ </div>
+ <div class="legend-item">
+ <span class="legend-color" style="background-color: #D2691E; border: 2px solid #8B4513;"></span>
+ <span>Buffalo Herd Zones</span>
+ </div>
+ </div>
+            
+ <div class="stats-bar">
+ <div class="stat waterways">
+ <div class="stat-value" id="stats-waterways">--</div>
+ <div class="stat-label">Waterways</div>
+ </div>
+ <div class="stat trails">
+ <div class="stat-value" id="stats-trails">--</div>
+ <div class="stat-label">Trails</div>
+ </div>
+ <div class="stat locations">
+ <div class="stat-value" id="stats-locations">--</div>
+ <div class="stat-label">Locations</div>
+ </div>
+ <div class="stat buffalo">
+ <div class="stat-value" id="stats-buffalo">--</div>
+ <div class="stat-label">Herd Zones</div>
+ </div>
+ </div>
+        </div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+            crossorigin=""></script>
+    
+    <!-- Embedded Data -->
+    <script src="js/data.js"></script>
+    
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
