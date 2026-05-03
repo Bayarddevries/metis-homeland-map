@@ -266,6 +266,36 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('Cart trails rendered:', geojsonData.features.length, 'features');
  }
 
+ function createLocationPopup(props) {
+   const name = props.name || 'Unknown Location';
+   let html = `
+ <div class="popup-header">
+ <div class="popup-title">${name}</div>
+ </div>
+ <div class="popup-body">
+ `;
+
+   if (props.description) {
+     const desc = props.description.length > 400
+       ? props.description.substring(0, 400) + '…'
+       : props.description;
+     html += `<div class="popup-description">${desc}</div>`;
+   }
+
+   html += '<div class="popup-meta">';
+
+   if (props.founded && props.founded !== '#N/A' && props.founded !== '') {
+     html += `<span class="popup-tag founded">Founded: ${props.founded}</span>`;
+   }
+
+   if (props.community_type) {
+     html += `<span class="popup-tag type">${props.community_type}</span>`;
+   }
+
+   html += '</div></div>';
+   return html;
+ }
+
  function renderLocations(geojsonData) {
   if (locationsLayer) map.removeLayer(locationsLayer);
   
@@ -281,8 +311,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
    },
    onEachFeature: function(feature, layer) {
-    if (feature.properties && feature.properties.name) {
-     layer.bindPopup('<strong>' + feature.properties.name + '</strong>');
+    if (feature.properties) {
+     layer.bindPopup(createLocationPopup(feature.properties));
     }
    }
   }).addTo(map);
