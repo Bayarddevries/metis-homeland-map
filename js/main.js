@@ -170,36 +170,39 @@ function renderLocations(data) {
 function renderBuffaloHerds(data) {
  // Seasonal color scheme - different color for each zone
  const seasonalColors = [
- { color: '#8B4513', fill: '#A0522D', name: 'Pre-1800 Range' },    // Deep red-brown (earliest)
- { color: '#D2691E', fill: '#CD853F', name: '1850s Range' },       // Golden brown (middle)
- { color: '#CD853F', fill: '#DEB887', name: '1880s Range' }        // Pale tan (latest)
+ { color: '#8B4513', fill: '#A0522D', name: 'Pre-1800 Range' }, // Deep red-brown (earliest)
+ { color: '#D2691E', fill: '#CD853F', name: '1850s Range' }, // Golden brown (middle)
+ { color: '#CD853F', fill: '#DEB887', name: '1880s Range' } // Pale tan (latest)
  ];
 
- buffaloHerdsLayer = L.geoJSON(data, {
- style: function(feature, index) {
- // Get color based on zone index (seasonal progression)
- const zoneIndex = index % seasonalColors.length;
- const colors = seasonalColors[zoneIndex];
- 
- return {
- color: colors.color,        // Border color
- weight: 2,
- opacity: 0.9,
- fillColor: colors.fill,     // Fill color (seasonal)
- fillOpacity: 0.35,          // Semi-transparent solid fill
- dashArray: null             // Solid line (no dash)
- };
- },
- onEachFeature: function(feature, layer) {
- if (feature.properties && feature.properties.name) {
- // Find the zone index to get the right name
- const zoneIndex = data.features.indexOf(feature);
- const zoneName = zoneIndex < seasonalColors.length ? seasonalColors[zoneIndex].name : feature.properties.name;
- 
- layer.bindPopup(createBuffaloPopup(zoneName, feature));
- }
- }
- });
+  // Track feature index manually since Leaflet doesn't provide it in style function
+  let featureIndex = 0;
+  
+  buffaloHerdsLayer = L.geoJSON(data, {
+  style: function(feature) {
+  // Get color based on zone index (seasonal progression)
+  const zoneIndex = featureIndex % seasonalColors.length;
+  const colors = seasonalColors[zoneIndex];
+  featureIndex++; // Increment for next feature
+  
+  return {
+  color: colors.color, // Border color
+  weight: 2,
+  opacity: 0.9,
+  fillColor: colors.fill, // Fill color (seasonal)
+  fillOpacity: 0.35, // Semi-transparent solid fill
+  dashArray: null // Solid line (no dash)
+  };
+  },
+  onEachFeature: function(feature, layer) {
+  if (feature.properties && feature.properties.name) {
+  // Use the property name directly
+  const zoneName = feature.properties.name;
+  
+  layer.bindPopup(createBuffaloPopup(zoneName, feature));
+  }
+  }
+  });
 
  if (layerState.buffaloHerds) {
  buffaloHerdsLayer.addTo(map);
