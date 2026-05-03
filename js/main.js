@@ -164,15 +164,30 @@ function renderLocations(data) {
 }
 
 /**
- * Render buffalo herd zones with seasonal colors (solid fill, semi-transparent)
- * Each zone gets a different color based on time period
+ * Render buffalo herd zones with distinct colors for each time period
+ * Color progression: Deep green (abundant) → Orange (declining) → Red (near extinction)
  */
 function renderBuffaloHerds(data) {
- // Seasonal color scheme - different color for each unique time period
+ // Distinct color scheme - clear visual progression from abundant to scarce
  const seasonalColors = [
- { name: 'Original extent', color: '#8B4513', fill: '#A0522D' }, // Deep red-brown (earliest)
- { name: 'Range in 1870', color: '#D2691E', fill: '#CD853F' }, // Golden brown (middle)
- { name: 'Range in 1889', color: '#CD853F', fill: '#DEB887' } // Pale tan (latest)
+  { 
+    name: 'Original extent', 
+    color: '#1B5E20',      // Dark green border
+    fill: '#4CAF50',       // Bright green fill (abundant life)
+    label: 'Full Range (pre-1800s)'
+  },
+  { 
+    name: 'Range in 1870', 
+    color: '#E65100',      // Dark orange border
+    fill: '#FF9800',       // Bright orange fill (declining)
+    label: 'Declining (1870s)'
+  },
+  { 
+    name: 'Range in 1889', 
+    color: '#B71C1C',      // Dark red border
+    fill: '#F44336',       // Bright red fill (near extinction)
+    label: 'Remnant Herds (1889)'
+  }
  ];
  
  // Helper to get color by name
