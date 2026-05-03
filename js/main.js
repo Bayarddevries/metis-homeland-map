@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
    },
    onEachFeature: function(feature, layer) {
     if (feature.properties && feature.properties.name) {
-     layer.bindPopup(\`<strong>\${feature.properties.name}</strong>\`);
+     layer.bindPopup('<strong>' + feature.properties.name + '</strong>');
     }
    }
   }).addTo(map);
@@ -174,16 +174,16 @@ document.addEventListener('DOMContentLoaded', () => {
    },
    onEachFeature: function(feature, layer) {
     if (feature.properties && feature.properties.name) {
-     layer.bindPopup(\`
-      <div class="popup-header">
-       <div class="popup-title">\${feature.properties.name}</div>
-      </div>
-      <div class="popup-body">
-       <p style="font-size: 11px; color: #666; font-style: italic;">
-        <strong>Source:</strong> Hornaday (1889)
-       </p>
-      </div>
-     \`);
+     layer.bindPopup(
+      '<div class="popup-header">' +
+       '<div class="popup-title">' + feature.properties.name + '</div>' +
+      '</div>' +
+      '<div class="popup-body">' +
+       '<p style="font-size: 11px; color: #666; font-style: italic;">' +
+        '<strong>Source:</strong> Hornaday (1889)' +
+       '</p>' +
+      '</div>'
+     );
     }
    }
   }).addTo(map);
@@ -201,13 +201,13 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
   
   stats.forEach(stat => {
-   const el = document.getElementById(\`stats-\${stat.id}\`);
+   const el = document.getElementById('stats-' + stat.id);
    if (el) el.textContent = stat.count;
   });
   
   // Update detail panel too
   stats.forEach(stat => {
-   const el = document.getElementById(\`stats-\${stat.id}-detail\`);
+   const el = document.getElementById('stats-' + stat.id + '-detail');
    if (el) el.textContent = stat.count;
   });
  }
