@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test Buffalo Toggle</title>
+<style>
+body { font-family: monospace; padding: 20px; }
+.log { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 4px; }
+.success { background: #d4edda; color: #155724; }
+.error { background: #f8d7da; color: #721c24; }
+</style>
+</head>
+<body>
+<h1>Buffalo Toggle Test</h1>
+<div id="output"></div>
+
+<script>
+const output = document.getElementById('output');
+let logs = [];
+
+function log(msg, type='info') {
+ logs.push({msg, type});
+ output.innerHTML += \`<div class="log \${type}">[\${new Date().toLocaleTimeString()}] \${msg}</div>\`;
+}
+
+log('Loading map...');
+
+// Test if Leaflet is available
+if (typeof L === 'undefined') {
+ log('Leaflet not loaded', 'error');
+} else {
+ log('Leaflet loaded: ' + L.version, 'success');
+}
+
+// Test if data is available
+if (typeof window.homelandData === 'undefined') {
+ log('Data not loaded', 'error');
+} else {
+ log('Data loaded: ' + window.homelandData.buffaloHerds.features.length + ' buffalo features', 'success');
+}
+
+// Test toggle function
+let buffaloOn = false;
+function testToggle() {
+ buffaloOn = !buffaloOn;
+ log('Buffalo toggle: ' + (buffaloOn ? 'ON' : 'OFF'));
+}
+
+log('Click button to test toggle');
+output.innerHTML += '<button onclick="testToggle()" style="padding: 10px 20px; margin-top: 10px;">Test Buffalo Toggle</button>';
+</script>
+</body>
+</html>
