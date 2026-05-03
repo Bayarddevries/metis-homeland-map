@@ -80,15 +80,31 @@ function initNav() {
       box-shadow: 0 4px 12px rgba(139,0,0,0.2);
       transition: background 0.2s;
     }
-    .menu-toggle:hover {
-      background: #a00000;
-    }
-    /* Map pages: top-right corner */
+ .menu-toggle:hover {
+ background: #a00000;
+ }
+ .menu-close {
+ position: absolute;
+ top: 1.5rem;
+ right: 1.5rem;
+ background: none;
+ border: none;
+ font-size: 1.5rem;
+ color: #2c2c2c;
+ cursor: pointer;
+ padding: 0.25rem;
+ line-height: 1;
+ opacity: 0.6;
+ transition: opacity 0.2s;
+ }
+ .menu-close:hover {
+ opacity: 1;
+ }
+ /* Map pages: avoid Leaflet zoom control overlap */
     .site-nav[data-active="map"] ~ .menu-toggle,
     .site-nav[data-active="map"] .menu-toggle {
-      top: 1rem;
-      right: 1rem;
-      left: auto;
+      right: auto;
+      left: 1.5rem;
     }
   `;
   document.head.appendChild(style);
@@ -121,25 +137,29 @@ function initNav() {
   // ── 4. Inject nav into each .site-nav ──────────────
   const BASE = 'https://bayarddevries.github.io';
   
-  const links = [
-    { id: 'centre',  href: `${BASE}/rrmnhc-website/`,   label: 'Heritage Centre' },
-    { id: 'map',     href: `${BASE}/metis-homeland-map/`, label: 'Homeland Map' },
-    { id: 'archive', href: `${BASE}/shoebox-v2/`,        label: 'Digital Archive' },
-  ];
+ const links = [
+ { id: 'centre', href: `${BASE}/rrmnhc-website/`, label: 'Heritage Centre' },
+ { id: 'artifacts', href: `${BASE}/rrmnhc-website/artifacts-viewer.html`, label: 'Artifacts' },
+ { id: 'news', href: `${BASE}/rrmnhc-website/news.html`, label: 'News' },
+ { id: 'contact', href: `${BASE}/rrmnhc-website/contact.html`, label: 'Contact' },
+ { id: 'map', href: `${BASE}/metis-homeland-map/`, label: 'Homeland Map' },
+ { id: 'archive', href: `${BASE}/shoebox-v2/`, label: 'Digital Archive' },
+ ];
 
   document.querySelectorAll('.site-nav').forEach(nav => {
     const activeId = nav.dataset.active || '';
 
-    nav.innerHTML = `
-      <button class="menu-toggle" onclick="toggleSidebar()">☰ MENU</button>
-      <div id="sidebar-overlay" onclick="toggleSidebar()"></div>
-      <nav id="sidebar">
-        <h2 style="font-family: 'Cinzel', serif; color: #8b0000; font-size: 0.875rem; margin-bottom: 2rem; text-transform: uppercase; letter-spacing: 0.1em;">Navigation</h2>
-        ${links.map(l => 
-          `<a href="${l.href}" class="sidebar-link${l.id === activeId ? ' active' : ''}">${l.label}</a>`
-        ).join('\n')}
-      </nav>
-    `;
+ nav.innerHTML = `
+ <button class="menu-toggle" onclick="toggleSidebar()">☰ MENU</button>
+ <div id="sidebar-overlay" onclick="toggleSidebar()"></div>
+ <nav id="sidebar">
+ <button class="menu-close" onclick="toggleSidebar()">✕</button>
+ <h2 style="font-family: 'Cinzel', serif; color: #8b0000; font-size: 0.875rem; margin-bottom: 2rem; text-transform: uppercase; letter-spacing: 0.1em;">Navigation</h2>
+ ${links.map(l => 
+ `<a href="${l.href}" class="sidebar-link${l.id === activeId ? ' active' : ''}">${l.label}</a>`
+ ).join('\n')}
+ </nav>
+ `;
   });
 }
 
