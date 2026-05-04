@@ -68,10 +68,8 @@ function loadDataLayers() {
  renderBuffaloHerds(data.buffaloHerds);
 
  // Load battles layer from external GeoJSON file (OFF by default)
+ // addLayerControl() is called INSIDE loadBattles() once battles data resolves
  loadBattles();
-
- // Add layer control AFTER all layers are loaded
- addLayerControl();
 
  // Update stats
  updateStats(data);
@@ -244,8 +242,15 @@ async function loadBattles() {
  if (!response.ok) throw new Error('Failed to load battles');
  const data = await response.json();
  renderBattles(data);
+ // Now all layers (including battles) are ready — build the layer control
+ addLayerControl();
+ // Update stats with battles count
+ const statsEl = document.getElementById('stats-battles');
+ if (statsEl) statsEl.textContent = data.features.length;
  } catch (error) {
  console.error('Error loading battles layer:', error);
+ // Still call addLayerControl even if battles fail, so other layers work
+ addLayerControl();
  }
 }
 
