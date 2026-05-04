@@ -37,7 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
   waterways: true,
   trails: true,
   locations: true,
-  buffalo: false
+  buffalo: false,
+  battles: false
  };
 
  // Layer info data
@@ -87,6 +88,12 @@ document.addEventListener('DOMContentLoaded', () => {
      polygons: []
     }
    ]
+  },
+  battles: {
+   title: '⚔️ Battles',
+   about: 'Six decisive battles and engagements that shaped the Métis experience in the 19th century. From the founding assertion of sovereignty at Seven Oaks in 1816 to the final retreat at Loon Lake in 1885, these military encounters defined Métis political identity and resistance to colonial encroachment.',
+   sources: 'Lawrence Barkwell, Jean-Claude Castex, Manitoba Historical Society, Saskatchewan Archives',
+   features: []
   }
  };
 
@@ -99,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
   maxZoom: 18
  }).addTo(map);
 
- let waterwaysLayer, cartTrailsLayer, locationsLayer, buffaloHerdsLayer;
+ let waterwaysLayer, cartTrailsLayer, locationsLayer, buffaloHerdsLayer, battlesLayer;
  let data = null;
 
  // Layer toggle function
@@ -119,6 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
    if (layerName === 'trails' && data) renderCartTrails(data.cartTrails);
    if (layerName === 'locations' && data) renderLocations(data.locations);
    if (layerName === 'buffalo' && data) renderBuffaloHerds(data.buffaloHerds);
+   if (layerName === 'battles' && data) renderBattles(data.battles);
    console.log(`${layerName}: ON`);
   } else {
    if (btn) btn.classList.remove('active');
@@ -126,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
    if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
    if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
    if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+   if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
    console.log(`${layerName}: OFF`);
   }
  }
@@ -378,8 +387,51 @@ document.addEventListener('DOMContentLoaded', () => {
    }
   }).addTo(map);
   
-  console.log('Buffalo herds rendered:', geojsonData.features.length, 'features');
- }
+console.log('Buffalo herds rendered:', geojsonData.features.length, 'features');
+}
+
+function createBattlePopup(props) {
+  const name = props.name || 'Unknown Battle';
+  const date = props.date || '';
+  const desc = props.description || '';
+  const figures = props.historical_figures || '';
+  const descShort = desc.length > 300 ? desc.substring(0, 300) + '…' : desc;
+
+  return `
+  <div class="popup-header">
+  <div class="popup-title">${name}</div>
+  </div>
+  <div class="popup-body">
+  ${date ? `<p style="margin:0 0 8px; font-size:12px; color:#B8312F; font-weight:600;">${date}</p>` : ''}
+  ${descShort ? `<p class="popup-description">${descShort}</p>` : ''}
+  ${figures ? `<p style="font-size:11px; color:#555; margin-top:8px;"><strong>Key figures:</strong> ${figures}</p>` : ''}
+  </div>
+  `;
+}
+
+function renderBattles(geojsonData) {
+  if (battlesLayer) map.removeLayer(battlesLayer);
+
+  battlesLayer = L.geoJSON(geojsonData, {
+    pointToLayer: function(feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius: 8,
+        fillColor: '#B8312F',
+        color: '#fff',
+        weight: 2.5,
+        opacity: 1,
+        fillOpacity: 0.9
+      });
+    },
+    onEachFeature: function(feature, layer) {
+      if (feature.properties) {
+        layer.bindPopup(createBattlePopup(feature.properties));
+      }
+    }
+  }).addTo(map);
+
+  console.log('Battles rendered:', geojsonData.features.length, 'features');
+}
 
  // Update stats display
  function updateStats(geojsonData) {
@@ -387,7 +439,8 @@ document.addEventListener('DOMContentLoaded', () => {
    { id: 'waterways', count: geojsonData.waterways.features.length },
    { id: 'trails', count: geojsonData.cartTrails.features.length },
    { id: 'locations', count: geojsonData.locations.features.length },
-   { id: 'buffalo', count: geojsonData.buffaloHerds.features.length }
+   { id: 'buffalo', count: geojsonData.buffaloHerds.features.length },
+   { id: 'battles', count: (geojsonData.battles || []).features.length }
   ];
   
   stats.forEach(stat => {
@@ -403,21 +456,36 @@ document.addEventListener('DOMContentLoaded', () => {
  }
 
  // Initialize - load data
- try {
-  data = window.homelandData;
-  console.log('✓ Data loaded successfully');
-  console.log(' Waterways:', data.waterways.features.length);
-  console.log(' Cart trails:', data.cartTrails.features.length);
-  console.log(' Locations:', data.locations.features.length);
-  console.log(' Buffalo herds:', data.buffaloHerds.features.length);
-  
-  // Render initial layers (waterways, trails, locations - but NOT buffalo by default)
-  renderWaterways(data.waterways);
-  renderCartTrails(data.cartTrails);
-  renderLocations(data.locations);
-  updateStats(data);
-  
- } catch (error) {
-  console.error('✗ Error loading map data:', error);
- }
+ (async () => {
+  try {
+   data = window.homelandData;
+
+   // Fetch battles layer from external GeoJSON
+   try {
+    const response = await fetch('data/battles.geojson');
+    if (response.ok) {
+     data.battles = await response.json();
+    console.log('Battles:', data.battles.features.length, 'loaded');
+    }
+   } catch (e) {
+    console.warn('Could not load battles layer', e);
+   }
+
+   console.log('✓ Data loaded successfully');
+   console.log(' Waterways:', data.waterways.features.length);
+   console.log(' Cart trails:', data.cartTrails.features.length);
+   console.log(' Locations:', data.locations.features.length);
+   console.log(' Buffalo herds:', data.buffaloHerds.features.length);
+   if (data.battles) console.log(' Battles:', data.battles.features.length);
+
+   // Render initial layers (waterways, trails, locations - buffalo & battles OFF by default)
+   renderWaterways(data.waterways);
+   renderCartTrails(data.cartTrails);
+   renderLocations(data.locations);
+   updateStats(data);
+
+  } catch (error) {
+   console.error('✗ Error loading map data:', error);
+  }
+ })();
 });
