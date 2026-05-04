@@ -6,13 +6,15 @@ let waterwaysLayer;
 let cartTrailsLayer;
 let locationsLayer;
 let buffaloHerdsLayer;
+let battlesLayer;
 
-// Layer visibility state - buffalo herds OFF by default for cleaner mobile view
+// Layer visibility state - buffalo herds and battles OFF by default for cleaner mobile view
 const layerState = {
  waterways: true,
  cartTrails: true,
  locations: true,
- buffaloHerds: false  // OFF by default - user toggles on
+ buffaloHerds: false,  // OFF by default - user toggles on
+ battles: false        // OFF by default - user toggles on
 };
 
 /**
@@ -64,6 +66,9 @@ function loadDataLayers() {
 
  // Render buffalo herd zones (OFF by default)
  renderBuffaloHerds(data.buffaloHerds);
+
+ // Load battles layer from external GeoJSON file (OFF by default)
+ loadBattles();
 
  // Add layer control AFTER all layers are loaded
  addLayerControl();
@@ -225,9 +230,74 @@ function renderBuffaloHerds(data) {
  }
  });
 
- if (layerState.buffaloHerds) {
- buffaloHerdsLayer.addTo(map);
+if (layerState.buffaloHerds) {
+  buffaloHerdsLayer.addTo(map);
  }
+}
+
+/**
+ * Load battles layer from external GeoJSON file
+ */
+async function loadBattles() {
+ try {
+ const response = await fetch('data/battles.geojson');
+ if (!response.ok) throw new Error('Failed to load battles');
+ const data = await response.json();
+ renderBattles(data);
+ } catch (error) {
+ console.error('Error loading battles layer:', error);
+ }
+}
+
+/**
+ * Render battles as red marker icons with crossed-swords style
+ */
+function renderBattles(data) {
+ // Create battle marker icon - distinctive red with crossed symbol
+ const battleIcon = L.divIcon({
+ className: 'battle-marker',
+ html: '<div style="background-color: #B8312F; width: 16px; height: 16px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 6px rgba(184, 49, 47, 0.6); display: flex; align-items: center; justify-content: center; font-size: 9px; color: white; font-weight: bold;">⚔</div>',
+ iconSize: [16, 16],
+ iconAnchor: [8, 8]
+ });
+
+ battlesLayer = L.geoJSON(data, {
+ pointToLayer: function(feature, latlng) {
+ return L.marker(latlng, { icon: battleIcon });
+ },
+ onEachFeature: function(feature, layer) {
+ if (feature.properties && feature.properties.name) {
+ layer.bindPopup(createBattlePopup(feature.properties));
+ }
+ }
+ });
+
+ if (layerState.battles) {
+ battlesLayer.addTo(map);
+ }
+}
+
+/**
+ * Create popup content for battle locations
+ */
+function createBattlePopup(props) {
+ const name = props.name || 'Unknown Battle';
+ const date = props.date || '';
+ const desc = props.description || '';
+ const figures = props.historical_figures || '';
+
+ const descShort = desc.length > 300 ? desc.substring(0, 300) + '...' : desc;
+
+ return `
+ <div class="popup-header">
+ <div class="popup-title">${name}</div>
+ </div>
+ <div class="popup-body">
+ ${date ? `<div class="popup-tag founded" style="margin-bottom:8px;">${date}</div>` : ''}
+ ${descShort ? `<div class="popup-description">${descShort}</div>` : ''}
+ ${figures ? `<div class="popup-meta"><span class="popup-tag type">${figures}</span></div>` : ''}
+ </div>
+ `;
 }
 
 /**
@@ -330,6 +400,11 @@ function addLayerControl() {
  
  control.addOverlay(buffaloHerdsLayer, buffaloLabel);
 
+ // Battles layer with distinctive marker
+ if (battlesLayer) {
+ control.addOverlay(battlesLayer, '<span style="color:#B8312F">●</span> Battles');
+ }
+
  control.addTo(map);
 }
 
@@ -337,12 +412,13 @@ function addLayerControl() {
  * Toggle layer visibility
  */
 function toggleLayer(layerName) {
- const layer = {
+const layer = {
  'waterways': waterwaysLayer,
  'cartTrails': cartTrailsLayer,
  'locations': locationsLayer,
- 'buffaloHerds': buffaloHerdsLayer
- }[layerName];
+ 'buffaloHerds': buffaloHerdsLayer,
+ 'battles': battlesLayer
+}[layerName];
 
  if (!layer) return;
 
