@@ -72,11 +72,12 @@ BOTTOM CONTROL BAR
  transition: all var(--transition-smooth);
 }
 
-/* Layer Toggles (Left) */
+/* Layer Toggles — fill the bar, evenly distribute buttons */
 .layer-toggles {
  display: flex;
  gap: 8px;
- flex-shrink: 0;
+ flex: 1;
+ justify-content: space-evenly;
 }
 
 .layer-btn {
@@ -159,11 +160,19 @@ BOTTOM CONTROL BAR
 .stat.locations .stat-value { color: var(--metis-green); }
 .stat.buffalo .stat-value { color: var(--buffalo-1889); }
 
-/* Bar Controls (Right) */
-.bar-controls {
- display: flex;
- gap: 8px;
- flex-shrink: 0;
+/* Stats Toggle — floating button beside the bar */
+.stats-toggle {
+ position: absolute;
+ bottom: 20px;
+ right: calc(50% - 470px);
+ z-index: 1000;
+}
+
+/* Fallback: if screen is narrow, tuck it next to the bar */
+@media (min-width: 769px) and (max-width: 980px) {
+ .stats-toggle {
+ right: 20px;
+ }
 }
 
 .control-btn {
@@ -543,20 +552,21 @@ RESPONSIVE
 ============================================ */
 @media (max-width: 768px) {
  .bottom-bar {
-  flex-direction: column;
-  gap: 12px;
-  padding: 16px;
+ flex-direction: column;
+ gap: 12px;
+ padding: 16px;
  }
  
  .layer-toggles {
-  width: 100%;
-  justify-content: center;
+ width: 100%;
+ justify-content: center;
+ flex-wrap: wrap;
  }
  
- .stats-container {
-  width: 100%;
-  border: none;
-  padding: 12px 0;
+ .stats-toggle {
+ position: absolute;
+ bottom: calc(20px + var(--bar-mobile-height, 160px));
+ right: 20px;
  }
  
  .stats-detail {
