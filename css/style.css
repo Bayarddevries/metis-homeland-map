@@ -107,6 +107,12 @@ BOTTOM CONTROL BAR
 
 .layer-btn .icon {
  font-size: 20px;
+ line-height: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 24px;
+ height: 24px;
 }
 
 .layer-btn .label {
@@ -172,6 +178,7 @@ BOTTOM CONTROL BAR
  align-items: center;
  justify-content: center;
  font-size: 18px;
+ line-height: 1;
 }
 
 .control-btn:hover {
