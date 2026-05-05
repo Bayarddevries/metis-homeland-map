@@ -65,10 +65,7 @@ BOTTOM CONTROL BAR
  border-radius: 16px;
  box-shadow: var(--shadow-lg);
  z-index: 1000;
- display: flex;
- align-items: center;
  padding: 12px 16px;
- gap: 20px;
  transition: all var(--transition-smooth);
 }
 
@@ -76,7 +73,7 @@ BOTTOM CONTROL BAR
 .layer-toggles {
  display: flex;
  gap: 8px;
- flex: 1;
+ width: 100%;
  justify-content: space-evenly;
 }
 
@@ -160,18 +157,19 @@ BOTTOM CONTROL BAR
 .stat.locations .stat-value { color: var(--metis-green); }
 .stat.buffalo .stat-value { color: var(--buffalo-1889); }
 
-/* Stats Toggle — floating button beside the bar */
+/* Stats Toggle — floating button to the right of the bar */
 .stats-toggle {
  position: absolute;
- bottom: 20px;
+ bottom: 26px;
  right: calc(50% - 470px);
  z-index: 1000;
 }
 
-/* Fallback: if screen is narrow, tuck it next to the bar */
+/* Narrower desktop screens: just put it to the right of center */
 @media (min-width: 769px) and (max-width: 980px) {
  .stats-toggle {
  right: 20px;
+ bottom: 26px;
  }
 }
 
