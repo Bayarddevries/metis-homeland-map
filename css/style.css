@@ -654,3 +654,270 @@ MAP CONTROLS POLISH
  color: var(--metis-green);
  background: rgba(45, 125, 70, 0.08);
 }
+
+/* ============================================
+ACCESSIBILITY
+============================================ */
+/* Screen-reader only utility class */
+.sr-only {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ padding: 0;
+ margin: -1px;
+ overflow: hidden;
+ clip: rect(0, 0, 0, 0);
+ white-space: nowrap;
+ border: 0;
+}
+
+/* Keyboard focus styles */
+.layer-btn:focus-visible,
+.control-btn:focus-visible,
+.close-btn:focus-visible {
+ outline: 3px solid var(--metis-yellow);
+ outline-offset: 2px;
+}
+
+/* Ensure focus ring is visible on dark backgrounds */
+.close-btn:focus-visible {
+ outline-color: var(--metis-yellow);
+}
+
+/* Error banner for data loading failures */
+.error-banner {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 2000;
+ padding: 14px 20px;
+ background: linear-gradient(135deg, var(--metis-red), #8B1A1A);
+ color: var(--cream);
+ font-size: 14px;
+ font-weight: 500;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 12px;
+ opacity: 0;
+ pointer-events: none;
+ transform: translateY(-100%);
+ transition: all var(--transition-smooth);
+ box-shadow: 0 4px 12px rgba(184, 49, 47, 0.3);
+}
+
+.error-banner.visible {
+ opacity: 1;
+ pointer-events: auto;
+ transform: translateY(0);
+}
+
+.error-banner .error-message {
+ flex: 1;
+ line-height: 1.4;
+}
+
+.error-banner .error-dismiss {
+ background: rgba(255, 255, 255, 0.15);
+ border: 1px solid rgba(255, 255, 255, 0.25);
+ color: white;
+ padding: 6px 14px;
+ border-radius: 6px;
+ cursor: pointer;
+ font-size: 13px;
+ font-weight: 600;
+ transition: background var(--transition-fast);
+ flex-shrink: 0;
+}
+
+.error-banner .error-dismiss:hover {
+ background: rgba(255, 255, 255, 0.25);
+}
+
+/* Warning variant (non-critical layer failures) */
+.error-banner.warning {
+ background: linear-gradient(135deg, #E65100, #BF360C);
+}
+
+/* ============================================
+RESPONSIVE — PHONES & TABLETS
+============================================ */
+/* Small phones (320-480px) */
+@media (max-width: 480px) {
+ .bottom-bar {
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  width: auto;
+  transform: none;
+  padding: 10px 12px;
+  gap: 8px;
+  /* Safe area for notched phones */
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+ }
+
+ .layer-toggles {
+  gap: 6px;
+ }
+
+ .layer-btn {
+  padding: 6px 8px;
+  gap: 2px;
+ }
+
+ .layer-btn .icon {
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+ }
+
+ .layer-btn .label {
+  font-size: 9px;
+ }
+
+ .control-btn {
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+ }
+
+ /* Panels take more screen on phones */
+ .stats-panel,
+ .legend-panel,
+ .layer-info-panel {
+  width: calc(100% - 16px);
+  left: 8px;
+  right: 8px;
+  transform: translateY(20px);
+  bottom: auto;
+  top: 60px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+ }
+
+ .stats-panel.visible,
+ .legend-panel.visible,
+ .layer-info-panel.visible {
+  transform: translateY(0);
+ }
+
+ .stats-detail {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 14px;
+ }
+
+ .stat-detail .stat-value {
+  font-size: 22px;
+ }
+
+ /* Map overlay title */
+ .overlay-header h1 {
+  font-size: 18px;
+ }
+
+ .overlay-header p {
+  font-size: 12px;
+ }
+
+ /* Error banner */
+ .error-banner {
+  font-size: 13px;
+  padding: 10px 14px;
+ }
+
+ /* Larger touch targets */
+ .layer-btn,
+ .control-btn,
+ .close-btn {
+  min-height: 44px;
+ }
+}
+
+/* Tablets & medium screens (481-768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+ .bottom-bar {
+  bottom: 12px;
+  width: calc(100% - 32px);
+  padding: 10px 14px;
+ }
+
+ .stats-panel,
+ .legend-panel,
+ .layer-info-panel {
+  width: calc(100% - 32px);
+  max-width: 500px;
+ }
+}
+
+/* Landscape phone */
+@media (max-width: 768px) and (orientation: landscape) {
+ .bottom-bar {
+  flex-direction: row;
+  bottom: 8px;
+  padding: 8px 12px;
+ }
+
+ .layer-toggles {
+  width: 100%;
+  flex-wrap: nowrap;
+  flex: 1;
+ }
+
+ .layer-btn .label {
+  display: none;
+ }
+
+ .layer-btn {
+  padding: 8px 10px;
+ }
+
+ .stats-panel,
+ .legend-panel,
+ .layer-info-panel {
+  top: 10px;
+  max-height: calc(100vh - 70px);
+  width: 400px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+ }
+
+ .stats-panel.visible,
+ .legend-panel.visible,
+ .layer-info-panel.visible {
+  transform: translateX(-50%) translateY(0);
+ }
+}
+
+/* Existing desktop breakpoint — keep but refine */
+@media (max-width: 768px) {
+ .bottom-bar {
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+ }
+
+ .layer-toggles {
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: none;
+ }
+
+ .stats-toggle {
+  align-self: flex-end;
+ }
+
+ .stats-detail {
+  grid-template-columns: 1fr;
+ }
+
+ .stats-panel,
+ .legend-panel,
+ .layer-info-panel {
+  width: calc(100% - 20px);
+  bottom: auto;
+  top: 20px;
+ }
+}

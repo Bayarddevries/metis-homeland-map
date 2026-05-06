@@ -457,35 +457,96 @@ function renderBattles(geojsonData) {
 
  // Initialize - load data
  (async () => {
-  try {
-   data = window.homelandData;
+ const banner = document.getElementById('errorBanner');
+ const bannerMsg = document.getElementById('errorMessage');
+ const dismissBtn = document.getElementById('errorDismiss');
 
-   // Fetch battles layer from external GeoJSON
-   try {
-    const response = await fetch('data/battles.geojson');
-    if (response.ok) {
-     data.battles = await response.json();
-    console.log('Battles:', data.battles.features.length, 'loaded');
-    }
-   } catch (e) {
-    console.warn('Could not load battles layer', e);
-   }
+ function showError(msg, isWarning) {
+ if (banner && bannerMsg) {
+ bannerMsg.textContent = msg;
+ banner.classList.toggle('warning', !!isWarning);
+ banner.classList.add('visible');
+ console.error('Map error:', msg);
+ }
+ }
 
-   console.log('✓ Data loaded successfully');
-   console.log(' Waterways:', data.waterways.features.length);
-   console.log(' Cart trails:', data.cartTrails.features.length);
-   console.log(' Locations:', data.locations.features.length);
-   console.log(' Buffalo herds:', data.buffaloHerds.features.length);
-   if (data.battles) console.log(' Battles:', data.battles.features.length);
+ if (dismissBtn) {
+ dismissBtn.addEventListener('click', () => {
+ if (banner) banner.classList.remove('visible');
+ });
+ }
 
-   // Render initial layers (waterways, trails, locations - buffalo & battles OFF by default)
-   renderWaterways(data.waterways);
-   renderCartTrails(data.cartTrails);
-   renderLocations(data.locations);
-   updateStats(data);
+ try {
+ data = window.homelandData;
+ if (!data) {
+ throw new Error('Map data not found. Please refresh the page.');
+ }
+ } catch (error) {
+ showError('Unable to load map data: ' + error.message);
+ return;
+ }
 
-  } catch (error) {
-   console.error('✗ Error loading map data:', error);
-  }
+ // Load each layer with independent error handling
+ // Fetch battles layer from external GeoJSON
+ try {
+ const response = await fetch('data/battles.geojson');
+ if (response.ok) {
+ data.battles = await response.json();
+ console.log('Battles:', data.battles.features.length, 'loaded');
+ } else {
+ console.warn('Battles data returned status', response.status);
+ }
+ } catch (e) {
+ console.warn('Could not load battles layer:', e);
+ showError('Battles layer could not be loaded. Other layers are still available.', true);
+ }
+
+ // Render each layer independently — one failure won't break the others
+ let loadedCount = 0;
+ const totalLayers = 4; // waterways, trails, locations, buffalo
+
+ try {
+ renderWaterways(data.waterways);
+ loadedCount++;
+ } catch (e) {
+ console.error('Failed to render waterways:', e);
+ showError('Waterways layer failed to render.', true);
+ }
+
+ try {
+ renderCartTrails(data.cartTrails);
+ loadedCount++;
+ } catch (e) {
+ console.error('Failed to render cart trails:', e);
+ showError('Cart trails layer failed to render.', true);
+ }
+
+ try {
+ renderLocations(data.locations);
+ loadedCount++;
+ } catch (e) {
+ console.error('Failed to render locations:', e);
+ showError('Locations layer failed to render.', true);
+ }
+
+ try {
+ renderBuffaloHerds(data.buffaloHerds);
+ loadedCount++;
+ } catch (e) {
+ console.error('Failed to render buffalo herds:', e);
+ showError('Buffalo herds layer failed to render.', true);
+ }
+
+ try {
+ updateStats(data);
+ } catch (e) {
+ console.error('Failed to update stats:', e);
+ }
+
+ console.log('✓ Map loaded — ' + loadedCount + '/' + totalLayers + ' layers rendered successfully');
+
+ if (loadedCount === 0) {
+ showError('No map layers could be rendered. Please try refreshing the page.');
+ }
  })();
 });

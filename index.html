@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Métis Homeland Map</title>
@@ -15,10 +15,19 @@
  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- <div class="site-nav" data-active="map"></div>
- <div id="map"></div>
-    
-    <div class="map-overlay">
+ <!-- Screen-reader live region for layer state announcements -->
+ <div id="a11yLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+ <!-- Error banner for data loading failures -->
+ <div class="error-banner" id="errorBanner" role="alert" aria-live="assertive">
+ <span class="error-message" id="errorMessage"></span>
+ <button class="error-dismiss" id="errorDismiss" aria-label="Dismiss error">Dismiss</button>
+ </div>
+
+ <div class="site-nav" data-active="map" aria-hidden="true"></div>
+ <div id="map" role="application" aria-label="Métis Homeland interactive map"></div>
+ 
+ <div class="map-overlay" aria-hidden="true">
  <div class="overlay-header">
  <h1>Métis Homeland Map</h1>
  <p>Interactive map showing waterways, cart trails, buffalo herd zones, and historical settlements</p>
@@ -26,41 +35,48 @@
  </div>
 
  <!-- Bottom Control Bar -->
- <div class="bottom-bar">
+ <div class="bottom-bar" role="toolbar" aria-label="Map layer controls">
  <!-- Layer Toggles -->
- <div class="layer-toggles">
- <button class="layer-btn active" data-layer="waterways" title="Waterways - click for info">
- <span class="icon">💧</span>
+ <div class="layer-toggles" role="group" aria-label="Map layers">
+ <button class="layer-btn active" data-layer="waterways" title="Waterways - click for info"
+ aria-pressed="true" aria-label="Waterways layer, currently on">
+ <span class="icon" aria-hidden="true">💧</span>
  <span class="label">Water</span>
  </button>
- <button class="layer-btn active" data-layer="trails" title="Cart Trails - click for info">
- <span class="icon">🛤️</span>
+ <button class="layer-btn active" data-layer="trails" title="Cart Trails - click for info"
+ aria-pressed="true" aria-label="Cart Trails layer, currently on">
+ <span class="icon" aria-hidden="true">🛤️</span>
  <span class="label">Trails</span>
  </button>
- <button class="layer-btn active" data-layer="locations" title="Locations - click for info">
- <span class="icon">📍</span>
+ <button class="layer-btn active" data-layer="locations" title="Locations - click for info"
+ aria-pressed="true" aria-label="Locations layer, currently on">
+ <span class="icon" aria-hidden="true">📍</span>
  <span class="label">Places</span>
  </button>
- <button class="layer-btn" data-layer="buffalo" title="Buffalo Herds - click for info">
- <span class="icon">🦬</span>
+ <button class="layer-btn" data-layer="buffalo" title="Buffalo Herds - click for info"
+ aria-pressed="false" aria-label="Buffalo Herds layer, currently off">
+ <span class="icon" aria-hidden="true">🦬</span>
  <span class="label">Buffalo</span>
  </button>
- <button class="layer-btn" data-layer="battles" title="Battles - click for info">
- <span class="icon">⚔️</span>
+ <button class="layer-btn" data-layer="battles" title="Battles - click for info"
+ aria-pressed="false" aria-label="Battles layer, currently off">
+ <span class="icon" aria-hidden="true">⚔️</span>
  <span class="label">Battles</span>
  </button>
  </div>
  <!-- Stats Toggle — lives inside bar, flex-aligned to right -->
- <button class="control-btn stats-toggle" id="statsToggle" title="Toggle Stats">
- <span>📊</span>
+ <button class="control-btn stats-toggle" id="statsToggle" title="Toggle Stats"
+ aria-label="Toggle data overview panel" aria-expanded="false" aria-controls="statsPanel">
+ <span aria-hidden="true">📊</span>
  </button>
  </div>
 
  <!-- Collapsible Stats Panel -->
- <div class="stats-panel" id="statsPanel">
+ <div class="stats-panel" id="statsPanel" role="region" aria-label="Data overview"
+ aria-hidden="true">
  <div class="stats-panel-header">
  <h3>Data Overview</h3>
- <button class="close-btn" id="closeStats">&times;</button>
+ <button class="close-btn" id="closeStats" aria-label="Close data overview panel">&times;</button>
  </div>
  <div class="stats-detail">
  <div class="stat-detail waterways">
@@ -92,10 +108,11 @@
  </div>
 
  <!-- Unified Layer Info Panel -->
- <div class="layer-info-panel" id="layerInfoPanel">
+ <div class="layer-info-panel" id="layerInfoPanel" role="region" aria-label="Layer information"
+ aria-hidden="true">
  <div class="layer-info-header">
  <h3 id="layerInfoTitle">Layer Info</h3>
- <button class="close-btn" id="closeLayerInfo">&times;</button>
+ <button class="close-btn" id="closeLayerInfo" aria-label="Close layer information panel">&times;</button>
  </div>
  <div class="layer-info-content" id="layerInfoContent">
  <!-- Dynamic content loaded by JS -->
@@ -104,16 +121,170 @@
 
  <!-- Leaflet JS -->
  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
-            crossorigin=""></script>
-    
-    <!-- Embedded Data -->
-    <script src="js/data.js"></script>
-    
-    <!-- Main JS -->
-    <script src="js/main.js"></script>
-    
-    <!-- Shared Navigation -->
-    <script src="site-nav.js"></script>
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+ crossorigin=""></script>
+ 
+ <!-- Embedded Data -->
+ <script src="js/data.js"></script>
+ 
+ <!-- Accessibility: keyboard navigation & ARIA sync (no main.js edits) -->
+ <script>
+ (function() {
+ var liveRegion = document.getElementById('a11yLive');
+
+ /* Announce a message to screen readers via the aria-live region */
+ function announce(msg) {
+ if (liveRegion) {
+ liveRegion.textContent = '';
+ /* Small delay to ensure the region registers the change */
+ setTimeout(function() { liveRegion.textContent = msg; }, 50);
+ }
+ }
+
+ /* ---- Layer toggle buttons: Enter/Space to open info, aria-pressed sync ---- */
+ var layerBtns = document.querySelectorAll('.layer-btn');
+ layerBtns.forEach(function(btn) {
+ /* Enter and Space already fire click on <button>, but let's
+ make sure keyboard activation opens the info panel identically.
+ The click handlers in main.js already handle showLayerInfo(). */
+
+ /* Observe class changes to keep aria-pressed in sync */
+ var observer = new MutationObserver(function() {
+ var isActive = btn.classList.contains('active');
+ btn.setAttribute('aria-pressed', String(isActive));
+ var layer = btn.dataset.layer;
+ var label = btn.querySelector('.label');
+ var name = label ? label.textContent : layer;
+ btn.setAttribute('aria-label', name + ' layer, currently ' + (isActive ? 'on' : 'off'));
+ });
+ observer.observe(btn, { attributes: true, attributeFilter: ['class'] });
+ });
+
+ /* ---- Stats toggle: aria-expanded sync ---- */
+ var statsToggle = document.getElementById('statsToggle');
+ var statsPanel = document.getElementById('statsPanel');
+ if (statsToggle && statsPanel) {
+ var statsObserver = new MutationObserver(function() {
+ var isVisible = statsPanel.classList.contains('visible');
+ statsToggle.setAttribute('aria-expanded', String(isVisible));
+ statsPanel.setAttribute('aria-hidden', String(!isVisible));
+ });
+ statsObserver.observe(statsPanel, { attributes: true, attributeFilter: ['class'] });
+ }
+
+ /* ---- Layer info panel: aria-hidden sync ---- */
+ var layerInfoPanel = document.getElementById('layerInfoPanel');
+ if (layerInfoPanel) {
+ var layerInfoObserver = new MutationObserver(function() {
+ var isVisible = layerInfoPanel.classList.contains('visible');
+ layerInfoPanel.setAttribute('aria-hidden', String(!isVisible));
+ });
+ layerInfoObserver.observe(layerInfoPanel, { attributes: true, attributeFilter: ['class'] });
+ }
+
+ /* ---- Intercept layer-btn clicks to announce state changes ---- */
+ /* The JS click handler toggles the layer AND opens the info panel.
+ We listen on the checkbox inside the info panel for the actual toggle. */
+ document.addEventListener('change', function(e) {
+ if (e.target && e.target.id === 'layerToggleCheckbox') {
+ var layer = e.target.closest('.layer-info-panel')
+ && document.querySelector('.layer-btn.active, .layer-btn')
+ && Object.keys(window).length; // no-op guard
+ /* Determine which layer is open by reading the panel title */
+ var titleEl = document.getElementById('layerInfoTitle');
+ var layerName = '';
+ var btns = document.querySelectorAll('.layer-btn');
+ btns.forEach(function(b) {
+ /* Find the button whose data-layer matches current panel context */
+ if (layerInfoPanel && layerInfoPanel.classList.contains('visible')) {
+ layerName = b.dataset.layer;
+ }
+ });
+ /* Simple approach: find which layer the checkbox belongs to
+ by checking layerState (if exposed globally) or by title match */
+ if (typeof layerState !== 'undefined') {
+ /* Find the layer that just changed — compare checkbox to state */
+ var checked = e.target.checked;
+ /* Announce based on checkbox state */
+ var panelTitle = titleEl ? titleEl.textContent.replace(/[💧🛤️📍🦬⚔️]/g, '').trim() : 'layer';
+ announce(panelTitle + ' layer ' + (checked ? 'enabled' : 'disabled'));
+ }
+ }
+ });
+
+ /* ---- Escape key to close open panels ---- */
+ document.addEventListener('keydown', function(e) {
+ if (e.key === 'Escape') {
+ var closed = false;
+ if (layerInfoPanel && layerInfoPanel.classList.contains('visible')) {
+ layerInfoPanel.classList.remove('visible');
+ var closeLayerInfoBtn = document.getElementById('closeLayerInfo');
+ if (closeLayerInfoBtn) closeLayerInfoBtn.focus();
+ closed = true;
+ }
+ if (statsPanel && statsPanel.classList.contains('visible')) {
+ statsPanel.classList.remove('visible');
+ var closeStatsBtn = document.getElementById('closeStats');
+ if (closeStatsBtn) closeStatsBtn.focus();
+ closed = true;
+ }
+ if (closed) e.stopPropagation();
+ }
+ });
+
+ /* ---- Keyboard roving tabindex within layer-toggles group ---- */
+ var toggleGroup = document.querySelector('.layer-toggles');
+ if (toggleGroup) {
+ var buttons = toggleGroup.querySelectorAll('.layer-btn');
+ buttons.forEach(function(btn, idx) {
+ btn.addEventListener('keydown', function(e) {
+ var target = null;
+ if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+ e.preventDefault();
+ target = buttons[(idx + 1) % buttons.length];
+ } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+ e.preventDefault();
+ target = buttons[(idx - 1 + buttons.length) % buttons.length];
+ }
+ if (target) target.focus();
+ });
+ });
+ }
+
+ /* ---- Announce layer state when toggleLayer runs ---- */
+ /* We patch toggleLayer to also call announce(). Since main.js may not
+ have loaded yet, we defer this patch until after DOMContentLoaded. */
+ function patchToggleLayer() {
+ /* The original toggleLayer is inside a closure, so we can't patch it directly.
+ Instead, we observe layer-btn class mutations and announce changes. */
+ var layerNameMap = {
+ waterways: 'Waterways',
+ trails: 'Cart Trails',
+ locations: 'Locations',
+ buffalo: 'Buffalo Herds',
+ battles: 'Battles'
+ };
+ layerBtns.forEach(function(btn) {
+ var prevActive = btn.classList.contains('active');
+ var layerObs = new MutationObserver(function() {
+ var nowActive = btn.classList.contains('active');
+ if (nowActive !== prevActive) {
+ prevActive = nowActive;
+ var name = layerNameMap[btn.dataset.layer] || btn.dataset.layer;
+ announce(name + ' layer ' + (nowActive ? 'enabled' : 'disabled'));
+ }
+ });
+ layerObs.observe(btn, { attributes: true, attributeFilter: ['class'] });
+ });
+ }
+ patchToggleLayer();
+ })();
+ </script>
+
+ <!-- Main JS -->
+ <script src="js/main.js"></script>
+ 
+ <!-- Shared Navigation -->
+ <script src="site-nav.js"></script>
 </body>
 </html>
