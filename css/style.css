@@ -66,6 +66,9 @@ BOTTOM CONTROL BAR
  box-shadow: var(--shadow-lg);
  z-index: 1000;
  padding: 12px 16px;
+ display: flex;
+ align-items: center;
+ gap: 10px;
  transition: all var(--transition-smooth);
 }
 
@@ -73,8 +76,8 @@ BOTTOM CONTROL BAR
 .layer-toggles {
  display: flex;
  gap: 8px;
- width: 100%;
- justify-content: space-evenly;
+ flex: 1;
+ min-width: 0;
 }
 
 .layer-btn {
@@ -89,6 +92,7 @@ BOTTOM CONTROL BAR
  cursor: pointer;
  transition: all var(--transition-fast);
  flex: 1;
+ min-width: 0; /* Override <button> intrinsic min-width so flex:1 works */
 }
 
 .layer-btn:hover {
@@ -157,20 +161,10 @@ BOTTOM CONTROL BAR
 .stat.locations .stat-value { color: var(--metis-green); }
 .stat.buffalo .stat-value { color: var(--buffalo-1889); }
 
-/* Stats Toggle — floating button to the right of the bar */
+/* Stats Toggle — flex child inside the bar, aligned to right */
 .stats-toggle {
- position: absolute;
- bottom: 26px;
- right: calc(50% - 470px);
- z-index: 1000;
-}
-
-/* Narrower desktop screens: just put it to the right of center */
-@media (min-width: 769px) and (max-width: 980px) {
- .stats-toggle {
- right: 20px;
- bottom: 26px;
- }
+ flex-shrink: 0;
+ align-self: center;
 }
 
 .control-btn {
@@ -559,12 +553,11 @@ RESPONSIVE
  width: 100%;
  justify-content: center;
  flex-wrap: wrap;
+ flex: none;
  }
  
  .stats-toggle {
- position: absolute;
- bottom: calc(20px + var(--bar-mobile-height, 160px));
- right: 20px;
+ align-self: flex-end;
  }
  
  .stats-detail {
