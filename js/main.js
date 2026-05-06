@@ -14,9 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
  // Stats toggle
  if (statsToggleBtn && statsPanel) {
-  statsToggleBtn.addEventListener('click', () => {
-   statsPanel.classList.toggle('visible');
-  });
+ statsToggleBtn.addEventListener('click', () => {
+ const opening = !statsPanel.classList.contains('visible');
+ if (opening) layerInfoPanel.classList.remove('visible');
+ statsPanel.classList.toggle('visible');
+ });
   
   if (closeStats) {
    closeStats.addEventListener('click', () => {
@@ -147,10 +149,15 @@ document.addEventListener('DOMContentLoaded', () => {
  // Layer buttons - open info panel
  const layerBtns = document.querySelectorAll('.layer-btn');
  layerBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-   const layer = btn.dataset.layer;
-   showLayerInfo(layer);
-  });
+ btn.addEventListener('click', () => {
+ const layer = btn.dataset.layer;
+ // If this layer's info is already showing, collapse it
+ if (layerInfoPanel.classList.contains('visible') && layerInfoTitle.textContent === layerInfo[layer]?.title) {
+ layerInfoPanel.classList.remove('visible');
+ } else {
+ showLayerInfo(layer);
+ }
+ });
  });
 
  // Show layer info panel
@@ -257,6 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, 100);
 
   layerInfoPanel.classList.add('visible');
+ statsPanel.classList.remove('visible');
  }
 
  // Render functions

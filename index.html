@@ -352,7 +352,52 @@
  </script>
 
  <!-- Main JS -->
- <script src="js/main.js"></script>
+ <script src="js/main.js?v=3"></script>
+
+ <!-- Panel mutual exclusion: only one panel visible at a time -->
+ <script>
+ (function() {
+ var statsPanel = document.getElementById('statsPanel');
+ var layerInfoPanel = document.getElementById('layerInfoPanel');
+
+ function enforceMutualExclusion(changedPanel) {
+ if (changedPanel === statsPanel && statsPanel.classList.contains('visible')) {
+ layerInfoPanel.classList.remove('visible');
+ } else if (changedPanel === layerInfoPanel && layerInfoPanel.classList.contains('visible')) {
+ statsPanel.classList.remove('visible');
+ }
+ }
+
+ var observer = new MutationObserver(function(mutations) {
+ mutations.forEach(function(m) {
+ if (m.attributeName === 'class') {
+ var target = m.target;
+ if (target === statsPanel || target === layerInfoPanel) {
+ enforceMutualExclusion(target);
+ }
+ }
+ });
+ });
+
+ if (statsPanel) observer.observe(statsPanel, { attributes: true });
+ if (layerInfoPanel) observer.observe(layerInfoPanel, { attributes: true });
+
+ // Make layer buttons toggle: click same layer again → close panel
+ var layerBtns = document.querySelectorAll('.layer-btn');
+ layerBtns.forEach(function(btn) {
+ var origHandler = btn.onclick;
+ btn.addEventListener('click', function(e) {
+ var layer = btn.dataset.layer;
+ var title = document.getElementById('layerInfoTitle');
+ // If this layer's info is already showing, close the panel
+ if (layerInfoPanel.classList.contains('visible') && title.textContent.toLowerCase().includes(layer)) {
+ layerInfoPanel.classList.remove('visible');
+ e.stopImmediatePropagation();
+ }
+ });
+ });
+ })();
+ </script>
  
  <!-- Dark Mode: grab the Leaflet map reference (set by main.js patch) and do initial tile switch -->
  <script>
