@@ -69,6 +69,11 @@
  aria-label="Toggle data overview panel" aria-expanded="false" aria-controls="statsPanel">
  <span aria-hidden="true">📊</span>
  </button>
+ <!-- Dark Mode Toggle -->
+ <button class="theme-toggle" id="themeToggle" title="Toggle dark mode"
+ aria-label="Toggle dark mode" aria-pressed="false">
+ <span aria-hidden="true">🌙</span>
+ </button>
  </div>
 
  <!-- Collapsible Stats Panel -->
@@ -281,9 +286,87 @@
  })();
  </script>
 
+ <!-- Dark Mode: tile switching + localStorage persistence -->
+ <script>
+ (function() {
+ var DARK_TILE = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png';
+ var LIGHT_TILE = 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+ var ATTR = '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+
+ var html = document.documentElement;
+ var toggle = document.getElementById('themeToggle');
+ var icon = toggle ? toggle.querySelector('span') : null;
+
+ function isDark() { return html.classList.contains('dark-mode'); }
+
+ function setTheme(dark) {
+ if (dark) {
+ html.classList.add('dark-mode');
+ if (icon) icon.textContent = '☀️';
+ if (toggle) toggle.setAttribute('aria-pressed', 'true');
+ } else {
+ html.classList.remove('dark-mode');
+ if (icon) icon.textContent = '🌙';
+ if (toggle) toggle.setAttribute('aria-pressed', 'false');
+ }
+ try { localStorage.setItem('metis-map-theme', dark ? 'dark' : 'light'); } catch(e) {}
+ switchTileLayer(dark);
+ }
+
+ function switchTileLayer(dark) {
+ var mapObj = window._metisMap;
+ if (!mapObj) return;
+ // Remove existing tile layers
+ mapObj.eachLayer(function(layer) {
+ if (layer instanceof L.TileLayer) mapObj.removeLayer(layer);
+ });
+ L.tileLayer(dark ? DARK_TILE : LIGHT_TILE, {
+ attribution: ATTR,
+ maxZoom: 18,
+ subdomains: 'abcd'
+ }).addTo(mapObj);
+ }
+
+ // Restore saved preference immediately (before main.js loads)
+ var saved = null;
+ try { saved = localStorage.getItem('metis-map-theme'); } catch(e) {}
+ if (saved === 'dark' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+ html.classList.add('dark-mode');
+ if (icon) icon.textContent = '☀️';
+ if (toggle) toggle.setAttribute('aria-pressed', 'true');
+ }
+
+ // Toggle on click
+ if (toggle) {
+ toggle.addEventListener('click', function() { setTheme(!isDark()); });
+ }
+
+ // Expose for main.js to use during initial tile layer creation
+ window._metisDarkMode = {
+ isDark: isDark,
+ switchTileLayer: switchTileLayer,
+ getTileUrl: function() { return isDark() ? DARK_TILE : LIGHT_TILE; },
+ getAttr: function() { return ATTR; }
+ };
+ })();
+ </script>
+
  <!-- Main JS -->
  <script src="js/main.js"></script>
  
+ <!-- Dark Mode: grab the Leaflet map reference (set by main.js patch) and do initial tile switch -->
+ <script>
+ (function() {
+ // main.js already created the correct tile layer for the current theme.
+ // Only switch if dark mode was saved and main.js loaded the light tiles
+ // (since main.js runs after our dark-mode setup script, it should already
+ // use getTileUrl() — but if the race is lost, force-switch here).
+ if (window._metisMap && window._metisDarkMode && window._metisDarkMode.isDark()) {
+ window._metisDarkMode.switchTileLayer(true);
+ }
+ })();
+ </script>
+
  <!-- Shared Navigation -->
  <script src="site-nav.js"></script>
 </body>

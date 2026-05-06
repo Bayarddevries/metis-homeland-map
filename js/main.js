@@ -99,12 +99,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
  // Initialize map
  const map = L.map('map').setView([52.5, -98.5], 6);
+ window._metisMap = map; // expose for dark mode tile switching
 
- // Base map tiles
- L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '© OpenStreetMap contributors',
-  maxZoom: 18
- }).addTo(map);
+ // Base map tiles — CartoDB Voyager (light); dark mode swaps to Dark Matter
+ const baseTiles = L.tileLayer(
+ window._metisDarkMode ? window._metisDarkMode.getTileUrl() : 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+ {
+ attribution: window._metisDarkMode ? window._metisDarkMode.getAttr() : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+ maxZoom: 18,
+ subdomains: 'abcd'
+ }
+ ).addTo(map);
 
  let waterwaysLayer, cartTrailsLayer, locationsLayer, buffaloHerdsLayer, battlesLayer;
  let data = null;
