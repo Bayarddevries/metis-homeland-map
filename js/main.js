@@ -530,8 +530,12 @@ function renderBattles(geojsonData) {
  }
 
  try {
+ if (layerState.buffalo) {
  renderBuffaloHerds(data.buffaloHerds);
  loadedCount++;
+ } else {
+ loadedCount++; // count as success — layer is intentionally off
+ }
  } catch (e) {
  console.error('Failed to render buffalo herds:', e);
  showError('Buffalo herds layer failed to render.', true);
