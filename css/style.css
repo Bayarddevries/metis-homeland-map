@@ -619,6 +619,13 @@ COLLAPSIBLE PANELS
  margin-bottom: 8px;
 }
 
+
+.stats-detail {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 14px;
+}
+
 .stat-detail .stat-value {
  font-size: 28px;
  font-weight: 700;
@@ -1156,31 +1163,38 @@ RESPONSIVE — PHONES & TABLETS
  font-size: 16px;
  }
 
- /* Panels take more screen on phones */
+ /* Bottom-sheet style for phones — slides up from bottom, ~65% viewport */
  .stats-panel,
  .legend-panel,
  .layer-info-panel {
- width: calc(100% - 16px);
- left: 8px;
- right: 8px;
- transform: translateY(20px);
- bottom: auto;
- top: 60px;
- max-height: calc(100vh - 80px);
- overflow-y: auto;
+  width: calc(100% - 16px);
+  left: 8px;
+  right: 8px;
+  transform: translateY(20px);
+  bottom: 60px;
+  top: auto;
+  max-height: 65vh;
+  border-radius: 16px 16px 8px 8px;
+ }
+
+ .layer-info-content {
+  max-height: calc(65vh - 60px);
+  overflow-y: auto;
  }
 
  .stats-panel.visible,
  .legend-panel.visible,
  .layer-info-panel.visible {
- transform: translateY(0);
+  transform: translateY(0);
  }
 
- .stats-detail {
- grid-template-columns: 1fr 1fr;
- gap: 10px;
- padding: 14px;
- }
+
+
+.stats-detail {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 14px;
+}
 
  .stat-detail .stat-value {
  font-size: 22px;
