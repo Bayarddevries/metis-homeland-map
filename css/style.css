@@ -191,6 +191,7 @@ BOTTOM CONTROL BAR
   gap: 2px;
   flex: 1;
   min-width: 0;
+ flex-direction: column;
 }
 
 /* Info button - small (i) icon for layer details */
@@ -214,6 +215,22 @@ BOTTOM CONTROL BAR
 .info-btn:hover {
   background: var(--bg-tertiary);
   color: var(--text-primary);
+}
+
+/* Stats and theme wrapper - group together and center */
+.stats-theme-group {
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ flex-shrink: 0;
+}
+
+/* Make info-btn smaller and below the button */
+.layer-control .info-btn {
+ width: 16px;
+ height: 16px;
+ font-size: 10px;
+ margin-top: -2px;
 }
 
 /* Adjust layer-btn inside layer-control */
@@ -1290,6 +1307,24 @@ RESPONSIVE — PHONES & TABLETS
  /* Adjust layer-control gap */
  .layer-control {
    gap: 4px;
+ }
+
+ /* Vertical layer-control: reduce gap for mobile */
+ .layer-control {
+   gap: 1px;
+ }
+
+ /* Info button even smaller on mobile */
+ .layer-control .info-btn {
+   width: 14px;
+   height: 14px;
+   font-size: 9px;
+   margin-top: 0;
+ }
+
+ /* Stats-theme-group: center on mobile */
+ .stats-theme-group {
+   justify-content: center;
  }
 }
 
