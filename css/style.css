@@ -258,6 +258,198 @@ DARK MODE TOGGLE
 }
 
 /* ============================================
+SPLASH SCREEN
+============================================ */
+.splash {
+ position: fixed;
+ inset: 0;
+ z-index: 2000;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: linear-gradient(
+ 135deg,
+ rgba(44, 36, 22, 0.75) 0%,
+ rgba(44, 36, 22, 0.60) 60%,
+ rgba(44, 36, 22, 0.45) 100%
+ );
+ backdrop-filter: blur(4px);
+ -webkit-backdrop-filter: blur(4px);
+ opacity: 1;
+ transition: opacity 0.4s ease;
+}
+
+.splash.fade-out {
+ opacity: 0;
+ pointer-events: none;
+}
+
+.splash-card {
+ background: #FDFCFA;
+ border-radius: 16px;
+ padding: 52px 48px 44px;
+ max-width: 480px;
+ width: calc(100% - 32px);
+ box-shadow: 0 24px 80px rgba(0,0,0,0.5), 0 4px 16px rgba(0,0,0,0.2);
+ text-align: center;
+ position: relative;
+ overflow: hidden;
+}
+
+/* Top color bar */
+.splash-card::before {
+ content: '';
+ position: absolute;
+ top: 0; left: 0; right: 0;
+ height: 5px;
+ background: linear-gradient(90deg,
+ #B8312F 0%, #B8312F 20%,
+ #D4A520 20%, #D4A520 40%,
+ #2D7D46 40%, #2D7D46 60%,
+ #1E4D8C 60%, #1E4D8C 80%,
+ #722F37 80%, #722F37 100%
+ );
+}
+
+/* Métis infinity symbol */
+.splash-motif {
+ font-size: 56px;
+ line-height: 1;
+ margin: 0 auto 24px;
+ color: #B8312F;
+ text-shadow: 0 2px 8px rgba(184, 49, 47, 0.25);
+}
+
+.splash-card h1 {
+ font-family: 'Playfair Display', Georgia, serif;
+ font-size: 36px;
+ font-weight: 700;
+ color: #2C2416;
+ line-height: 1.15;
+ margin-bottom: 10px;
+ letter-spacing: -0.3px;
+}
+
+.splash-card .subtitle {
+ font-family: 'Playfair Display', Georgia, serif;
+ font-size: 17px;
+ font-weight: 600;
+ color: #B8312F;
+ margin-bottom: 20px;
+ letter-spacing: 0.5px;
+}
+
+.splash-card p {
+ font-size: 14.5px;
+ line-height: 1.65;
+ color: #4A3F2F;
+ margin-bottom: 32px;
+}
+
+/* Layer preview pills */
+.layer-pills {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8px;
+ justify-content: center;
+ margin-bottom: 36px;
+}
+
+.pill {
+ display: inline-flex;
+ align-items: center;
+ gap: 6px;
+ padding: 6px 14px;
+ border-radius: 999px;
+ background: #F5EFE6;
+ border: 1.5px solid #E8DFD2;
+ font-size: 13px;
+ font-weight: 500;
+ color: #4A3F2F;
+}
+
+.pill .pill-icon {
+ font-size: 14px;
+ line-height: 1;
+}
+
+/* CTA button */
+.enter-btn {
+ display: inline-flex;
+ align-items: center;
+ gap: 8px;
+ padding: 14px 36px;
+ background: #2C2416;
+ color: #FDFCFA;
+ font-family: 'Inter', sans-serif;
+ font-size: 14px;
+ font-weight: 600;
+ letter-spacing: 0.4px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.enter-btn:hover {
+ background: #B8312F;
+ transform: translateY(-2px);
+ box-shadow: 0 8px 20px rgba(184, 49, 47, 0.35);
+}
+
+.enter-btn:active {
+ transform: translateY(0);
+}
+
+.enter-btn .arrow {
+ font-size: 16px;
+ transition: transform 0.2s ease;
+}
+
+.enter-btn:hover .arrow {
+ transform: translateX(3px);
+}
+
+.splash-card .tagline {
+ margin-top: 20px;
+ font-size: 11.5px;
+ color: #8A7D6E;
+ letter-spacing: 0.2px;
+}
+
+/* Splash dark mode */
+.dark-mode .splash-card {
+ background: #252119;
+ border: 1px solid rgba(232, 223, 210, 0.08);
+}
+
+.dark-mode .splash-card h1 { color: #E8DFD2; }
+.dark-mode .splash-card .subtitle { color: #D4A520; }
+.dark-mode .splash-card p { color: #B8A998; }
+.dark-mode .pill { background: #332D24; border-color: #4A3F2F; color: #B8A998; }
+.dark-mode .enter-btn { background: #E8DFD2; color: #1A1714; }
+.dark-mode .enter-btn:hover { background: #B8312F; color: #FDFCFA; }
+.dark-mode .splash-card .tagline { color: #6B5D4D; }
+.dark-mode .splash-motif { color: #D4A520; text-shadow: 0 2px 12px rgba(212, 165, 32, 0.3); }
+
+/* Splash responsive */
+@media (max-width: 500px) {
+ .splash-card {
+ padding: 40px 28px 36px;
+ }
+ .splash-card h1 {
+ font-size: 28px;
+ }
+ .splash-card .subtitle {
+ font-size: 15px;
+ }
+ .splash-card p {
+ font-size: 13.5px;
+ }
+}
+
+/* ============================================
 COLLAPSIBLE PANELS
 ============================================ */
 .stats-panel,

@@ -13,8 +13,35 @@
  
  <!-- Custom CSS -->
  <link rel="stylesheet" href="css/style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+ <!-- Splash Screen -->
+ <div class="splash" id="splashScreen">
+ <div class="splash-card">
+ <div class="splash-motif">∞</div>
+ <h1>Métis Homeland Map</h1>
+ <div class="subtitle">Historical Atlas of the Red River Valley</div>
+ <p>
+ Explore the historic waterways, cart trails, buffalo ranges,
+ and communities of Métis country, from the fur trade routes
+ of the 18th century through the resistance of 1885.
+ </p>
+ <div class="layer-pills">
+ <span class="pill"><span class="pill-icon">💧</span>Waterways</span>
+ <span class="pill"><span class="pill-icon">🛤️</span>Cart Trails</span>
+ <span class="pill"><span class="pill-icon">📍</span>Locations</span>
+ <span class="pill"><span class="pill-icon">🦬</span>Buffalo</span>
+ <span class="pill"><span class="pill-icon">⚔️</span>Battles</span>
+ </div>
+ <button class="enter-btn" id="enterMapBtn">
+ Enter the Map
+ <span class="arrow">→</span>
+ </button>
+ <div class="tagline">A cultural heritage project · bayarddevries.github.io/metis-homeland-map</div>
+ </div>
+ </div>
+
  <!-- Screen-reader live region for layer state announcements -->
  <div id="a11yLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
 
@@ -352,7 +379,7 @@
  </script>
 
  <!-- Main JS -->
- <script src="js/main.js?v=3"></script>
+ <script src="js/main.js?v=4"></script>
 
  <!-- Panel mutual exclusion: only one panel visible at a time -->
  <script>
@@ -408,6 +435,20 @@
  // use getTileUrl() — but if the race is lost, force-switch here).
  if (window._metisMap && window._metisDarkMode && window._metisDarkMode.isDark()) {
  window._metisDarkMode.switchTileLayer(true);
+ }
+ })();
+ </script>
+
+ <!-- Splash dismiss -->
+ <script>
+ (function() {
+ var splash = document.getElementById('splashScreen');
+ var enterBtn = document.getElementById('enterMapBtn');
+ if (splash && enterBtn) {
+ enterBtn.addEventListener('click', function() {
+ splash.classList.add('fade-out');
+ setTimeout(function() { splash.remove(); }, 400);
+ });
  }
  })();
  </script>
