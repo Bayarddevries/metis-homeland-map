@@ -144,8 +144,9 @@ BOTTOM CONTROL BAR
 .layer-toggles {
  display: flex;
  gap: 8px;
- flex: 1;
+ flex: 0 1 auto;
  min-width: 0;
+ justify-content: center;
 }
 
 .layer-btn {
