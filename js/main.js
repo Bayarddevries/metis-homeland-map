@@ -118,32 +118,84 @@ document.addEventListener('DOMContentLoaded', () => {
 
  // Layer toggle function
  function toggleLayer(layerName, newState) {
-  if (newState !== undefined) {
-   layerState[layerName] = newState;
-  } else {
-   layerState[layerName] = !layerState[layerName];
-  }
-  
-  const isActive = layerState[layerName];
-  const btn = document.querySelector(`.layer-btn[data-layer="${layerName}"]`);
-  
-  if (isActive) {
-   if (btn) btn.classList.add('active');
-   if (layerName === 'waterways' && data) renderWaterways(data.waterways);
-   if (layerName === 'trails' && data) renderCartTrails(data.cartTrails);
-   if (layerName === 'locations' && data) renderLocations(data.locations);
-   if (layerName === 'buffalo' && data) renderBuffaloHerds(data.buffaloHerds);
-   if (layerName === 'battles' && data) renderBattles(data.battles);
-   console.log(`${layerName}: ON`);
-  } else {
-   if (btn) btn.classList.remove('active');
-   if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
-   if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
-   if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
-   if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
-   if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
-   console.log(`${layerName}: OFF`);
-  }
+ if (newState !== undefined) {
+ layerState[layerName] = newState;
+ } else {
+ layerState[layerName] = !layerState[layerName];
+ }
+ 
+ const isActive = layerState[layerName];
+ const btn = document.querySelector(`.layer-btn[data-layer="${layerName}"]`);
+ const layerMap = {
+ waterways: waterwaysLayer,
+ trails: cartTrailsLayer,
+ locations: locationsLayer,
+ buffalo: buffaloHerdsLayer,
+ battles: battlesLayer
+ };
+ const paneMap = {
+ waterways: 'overlay-pane-waterways',
+ trails: 'overlay-pane-trails',
+ locations: 'overlay-pane-locations',
+ buffalo: 'overlay-pane-buffalo',
+ battles: 'overlay-pane-battles'
+ };
+
+ if (isActive) {
+ if (btn) btn.classList.add('active');
+ if (layerName === 'waterways' && data) renderWaterways(data.waterways);
+ if (layerName === 'trails' && data) renderCartTrails(data.cartTrails);
+ if (layerName === 'locations' && data) renderLocations(data.locations);
+ if (layerName === 'buffalo' && data) renderBuffaloHerds(data.buffaloHerds);
+ if (layerName === 'battles' && data) renderBattles(data.battles);
+ // Fade in the layer
+ const layer = layerMap[layerName];
+ if (layer) {
+ layer.eachLayer(l => {
+ if (l.getElement) {
+ const el = l.getElement();
+ if (el) { el.style.transition = 'opacity 0.4s ease'; el.style.opacity = '0'; requestAnimationFrame(() => { el.style.opacity = ''; }); }
+ }
+ if (l.setStyle) l.setStyle({opacity: 0.01, fillOpacity: 0.01});
+ });
+ // Animate opacity back up
+ setTimeout(() => {
+ if (layerName === 'waterways' && waterwaysLayer) waterwaysLayer.setStyle({opacity: 0.8, fillOpacity: 0.4});
+ if (layerName === 'trails' && cartTrailsLayer) cartTrailsLayer.setStyle({opacity: 0.8, fillOpacity: 0.4});
+ if (layerName === 'locations' && locationsLayer) locationsLayer.setStyle({opacity: 1, fillOpacity: 0.9});
+ if (layerName === 'buffalo' && buffaloHerdsLayer) buffaloHerdsLayer.setStyle({opacity: 0.8, fillOpacity: 0.6});
+ if (layerName === 'battles' && battlesLayer) battlesLayer.setStyle({opacity: 0.9, fillOpacity: 0.7});
+ }, 30);
+ }
+ console.log(`${layerName}: ON`);
+ } else {
+ if (btn) btn.classList.remove('active');
+ // Fade out before removing
+ const layer = layerMap[layerName];
+ if (layer) {
+ layer.eachLayer(l => {
+ if (l.getElement) {
+ const el = l.getElement();
+ if (el) { el.style.transition = 'opacity 0.3s ease'; el.style.opacity = '0'; }
+ }
+ if (l.setStyle) l.setStyle({opacity: 0, fillOpacity: 0});
+ });
+ setTimeout(() => {
+ if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
+ if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+ if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
+ if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+ if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
+ }, 300);
+ } else {
+ if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
+ if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+ if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
+ if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+ if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
+ }
+ console.log(`${layerName}: OFF`);
+ }
  }
 
  // Layer buttons - open info panel
@@ -269,23 +321,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
  // Render functions
  function renderWaterways(geojsonData) {
-  if (waterwaysLayer) map.removeLayer(waterwaysLayer);
-  
-  waterwaysLayer = L.geoJSON(geojsonData, {
-   style: { color: '#1E4D8C', weight: 3, opacity: 0.8 }
-  }).addTo(map);
-  
-  console.log('Waterways rendered:', geojsonData.features.length, 'features');
+ if (waterwaysLayer) map.removeLayer(waterwaysLayer);
+ 
+ waterwaysLayer = L.geoJSON(geojsonData, {
+ style: { color: '#1E4D8C', weight: 3, opacity: 0.8 },
+ onEachFeature: function(feature, layer) {
+ layer.on({
+ mouseover: function(e) {
+ e.target.setStyle({ weight: 5, opacity: 1 });
+ if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = 'drop-shadow(0 0 6px rgba(30,77,140,0.6))'; }
+ },
+ mouseout: function(e) {
+ waterwaysLayer.resetStyle(e.target);
+ if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = ''; }
+ }
+ });
+ }
+ }).addTo(map);
+ 
+ console.log('Waterways rendered:', geojsonData.features.length, 'features');
  }
 
  function renderCartTrails(geojsonData) {
-  if (cartTrailsLayer) map.removeLayer(cartTrailsLayer);
-  
-  cartTrailsLayer = L.geoJSON(geojsonData, {
-   style: { color: '#B8312F', weight: 2, opacity: 0.8 }
-  }).addTo(map);
-  
-  console.log('Cart trails rendered:', geojsonData.features.length, 'features');
+ if (cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+ 
+ cartTrailsLayer = L.geoJSON(geojsonData, {
+ style: { color: '#B8312F', weight: 2, opacity: 0.8 },
+ onEachFeature: function(feature, layer) {
+ layer.on({
+ mouseover: function(e) {
+ e.target.setStyle({ weight: 4, opacity: 1 });
+ if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = 'drop-shadow(0 0 6px rgba(184,49,47,0.6))'; }
+ },
+ mouseout: function(e) {
+ cartTrailsLayer.resetStyle(e.target);
+ if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = ''; }
+ }
+ });
+ }
+ }).addTo(map);
+ 
+ console.log('Cart trails rendered:', geojsonData.features.length, 'features');
  }
 
  function createLocationPopup(props) {
@@ -321,23 +397,33 @@ document.addEventListener('DOMContentLoaded', () => {
  function renderLocations(geojsonData) {
   if (locationsLayer) map.removeLayer(locationsLayer);
   
-  locationsLayer = L.geoJSON(geojsonData, {
-   pointToLayer: function(feature, latlng) {
-    return L.circleMarker(latlng, {
-     radius: 6,
-     fillColor: '#2D7D46',
-     color: '#fff',
-     weight: 2,
-     opacity: 0.8,
-     fillOpacity: 0.9
-    });
-   },
-   onEachFeature: function(feature, layer) {
-    if (feature.properties) {
-     layer.bindPopup(createLocationPopup(feature.properties));
-    }
-   }
-  }).addTo(map);
+ locationsLayer = L.geoJSON(geojsonData, {
+ pointToLayer: function(feature, latlng) {
+ return L.circleMarker(latlng, {
+ radius: 6,
+ fillColor: '#2D7D46',
+ color: '#fff',
+ weight: 2,
+ opacity: 0.8,
+ fillOpacity: 0.9
+ });
+ },
+ onEachFeature: function(feature, layer) {
+ if (feature.properties) {
+ layer.bindPopup(createLocationPopup(feature.properties));
+ }
+ layer.on({
+ mouseover: function(e) {
+ e.target.setStyle({ radius: 9, weight: 3, fillOpacity: 1 });
+ if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = 'drop-shadow(0 0 6px rgba(45,125,70,0.7))'; }
+ },
+ mouseout: function(e) {
+ locationsLayer.resetStyle(e.target);
+ if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = ''; }
+ }
+ });
+ }
+ }).addTo(map);
   
   console.log('Locations rendered:', geojsonData.features.length, 'features');
  }
