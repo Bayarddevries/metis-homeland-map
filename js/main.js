@@ -48,25 +48,25 @@ document.addEventListener('DOMContentLoaded', () => {
   waterways: {
    title: '💧 Waterways',
    about: 'This layer shows the major waterways of the Métis Homeland including rivers, lakes, and streams. These water routes were essential for transportation, trade, and sustenance, forming the backbone of the Métis economy and culture.',
-   sources: 'Natural Resources Canada, Manitoba Historical Society, Provincial hydrographic data',
+   sources: 'MANITOBA MÉTIS KNOWLEDGE, LAND USE AND OCCUPANCY STUDY MMF, 2022',
    features: []
   },
   trails: {
    title: '🛤️ Cart Trails',
    about: 'Historic Métis cart trails connecting settlements across the homeland. These trails were traveled by Red River carts, unique to the Métis, enabling trade networks spanning hundreds of kilometers. The trails follow natural portage routes and connect major waterways.',
-   sources: 'Manitoba Archives, Hudson Bay Company records, Historical maps and journals',
+   sources: 'MANITOBA MÉTIS KNOWLEDGE, LAND USE AND OCCUPANCY STUDY MMF, 2022',
    features: []
   },
   locations: {
    title: '📍 Places & Communities',
    about: 'Métis settlements, communities, and significant locations across the homeland. These places represent centers of Métis culture, trade, and governance. Many locations date to the early fur trade era and remain important to Métis families today.',
-   sources: 'Manitoba Historical Society, Census records, Community oral histories',
+   sources: 'Barkwell, Lawrence J. "20th Century Métis Displacement and Road Allowance Communities in Manitoba." Louis Riel Institute, 8 Nov. 2016; Barkwell, Lawrence. Historic Métis Settlements in Manitoba and Geographical Place Names. Louis Riel Institute, 2018',
    features: []
   },
   buffalo: {
    title: '🦬 Buffalo Herd Ranges',
    about: 'This layer shows the dramatic contraction of buffalo range from pre-contact times through 1889. The buffalo were central to Métis culture, economy, and survival. By understanding where the buffalo were, we understand where the Métis could live and thrive. The rapid disappearance of the buffalo after 1870 forced dramatic changes to Métis lifeways.',
-   sources: 'Hornaday (1889), Meades (1982), Manitoba Conservation Data Centre',
+   sources: 'Hornaday, William Temple. The Extermination of the American Bison. Washington, D.C.: Government Printing Office(1889),',
    eras: [
     {
      name: 'Original Range',
