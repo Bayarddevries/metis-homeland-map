@@ -1272,6 +1272,24 @@ RESPONSIVE — PHONES & TABLETS
  .close-btn {
  min-height: 44px;
  }
+
+ /* Compact bottom bar on mobile */
+ .bottom-bar {
+   padding: 8px 12px;
+   gap: 8px;
+ }
+
+ /* Larger touch targets for info buttons */
+ .info-btn {
+   width: 28px;
+   height: 28px;
+   font-size: 16px;
+ }
+
+ /* Adjust layer-control gap */
+ .layer-control {
+   gap: 4px;
+ }
 }
 
 /* Tablets & medium screens (481-768px) */
