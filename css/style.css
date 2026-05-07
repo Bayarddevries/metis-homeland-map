@@ -183,6 +183,56 @@ BOTTOM CONTROL BAR
  100% { transform: scale(1); }
 }
 
+/* Layer control wrapper - holds button + info icon */
+.layer-control {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+/* Info button - small (i) icon for layer details */
+.info-btn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.info-btn:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+/* Adjust layer-btn inside layer-control */
+.layer-control .layer-btn {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Bottom bar - center all items */
+.bottom-bar {
+  justify-content: center;
+}
+
+/* Remove flex:1 from layer-toggles so it doesn't push stats/theme to right */
+.layer-toggles {
+  flex: 0 1 auto;
+  justify-content: center;
+}
+
+
 /* Bottom bar entrance stagger */
 .bottom-bar .layer-btn,
 .bottom-bar .stats-toggle,

@@ -58,34 +58,49 @@
  <!-- Bottom Control Bar -->
  <div class="bottom-bar" role="toolbar" aria-label="Map layer controls">
  <!-- Layer Toggles -->
- <div class="layer-toggles" role="group" aria-label="Map layers">
- <button class="layer-btn active" data-layer="waterways" title="Waterways - click for info"
- aria-pressed="true" aria-label="Waterways layer, currently on">
- <span class="icon" aria-hidden="true">💧</span>
- <span class="label">Water</span>
- </button>
- <button class="layer-btn active" data-layer="trails" title="Cart Trails - click for info"
- aria-pressed="true" aria-label="Cart Trails layer, currently on">
- <span class="icon" aria-hidden="true">🛤️</span>
- <span class="label">Trails</span>
- </button>
- <button class="layer-btn active" data-layer="locations" title="Locations - click for info"
- aria-pressed="true" aria-label="Locations layer, currently on">
- <span class="icon" aria-hidden="true">📍</span>
- <span class="label">Places</span>
- </button>
- <button class="layer-btn" data-layer="buffalo" title="Buffalo Herds - click for info"
- aria-pressed="false" aria-label="Buffalo Herds layer, currently off">
- <span class="icon" aria-hidden="true">🦬</span>
- <span class="label">Buffalo</span>
- </button>
- <button class="layer-btn" data-layer="battles" title="Battles - click for info"
- aria-pressed="false" aria-label="Battles layer, currently off">
- <span class="icon" aria-hidden="true">⚔️</span>
- <span class="label">Battles</span>
- </button>
- </div>
- <!-- Stats Toggle — lives inside bar, flex-aligned to right -->
+<div class="layer-toggles" role="group" aria-label="Map layers">
+<div class="layer-control" data-layer="waterways">
+  <button class="layer-btn active" data-layer="waterways" title="Toggle Waterways layer"
+  aria-pressed="true" aria-label="Waterways layer, currently on">
+  <span class="icon" aria-hidden="true">💧</span>
+  <span class="label">Water</span>
+  </button>
+  <button class="info-btn" data-layer="waterways" title="Waterways info" aria-label="Waterways layer info">ⓘ</button>
+</div>
+<div class="layer-control" data-layer="trails">
+  <button class="layer-btn active" data-layer="trails" title="Toggle Cart Trails layer"
+  aria-pressed="true" aria-label="Cart Trails layer, currently on">
+  <span class="icon" aria-hidden="true">🛤️</span>
+  <span class="label">Trails</span>
+  </button>
+  <button class="info-btn" data-layer="trails" title="Cart Trails info" aria-label="Cart Trails layer info">ⓘ</button>
+</div>
+<div class="layer-control" data-layer="locations">
+  <button class="layer-btn active" data-layer="locations" title="Toggle Locations layer"
+  aria-pressed="true" aria-label="Locations layer, currently on">
+  <span class="icon" aria-hidden="true">📍</span>
+  <span class="label">Places</span>
+  </button>
+  <button class="info-btn" data-layer="locations" title="Locations info" aria-label="Locations layer info">ⓘ</button>
+</div>
+<div class="layer-control" data-layer="buffalo">
+  <button class="layer-btn" data-layer="buffalo" title="Toggle Buffalo Herds layer"
+  aria-pressed="false" aria-label="Buffalo Herds layer, currently off">
+  <span class="icon" aria-hidden="true">🦬</span>
+  <span class="label">Buffalo</span>
+  </button>
+  <button class="info-btn" data-layer="buffalo" title="Buffalo Herds info" aria-label="Buffalo Herds layer info">ⓘ</button>
+</div>
+<div class="layer-control" data-layer="battles">
+  <button class="layer-btn" data-layer="battles" title="Toggle Battles layer"
+  aria-pressed="false" aria-label="Battles layer, currently off">
+  <span class="icon" aria-hidden="true">⚔️</span>
+  <span class="label">Battles</span>
+  </button>
+  <button class="info-btn" data-layer="battles" title="Battles info" aria-label="Battles layer info">ⓘ</button>
+</div>
+</div>
+<!-- Stats Toggle — lives inside bar, flex-aligned to right -->
  <button class="control-btn stats-toggle" id="statsToggle" title="Toggle Stats"
  aria-label="Toggle data overview panel" aria-expanded="false" aria-controls="statsPanel">
  <span aria-hidden="true">📊</span>

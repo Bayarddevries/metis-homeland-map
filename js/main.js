@@ -198,20 +198,31 @@ document.addEventListener('DOMContentLoaded', () => {
  }
  }
 
- // Layer buttons - open info panel
- const layerBtns = document.querySelectorAll('.layer-btn');
- layerBtns.forEach(btn => {
- btn.addEventListener('click', () => {
- const layer = btn.dataset.layer;
- // If this layer's info is already showing, collapse it
- if (layerInfoPanel.classList.contains('visible') && layerInfoTitle.textContent === layerInfo[layer]?.title) {
- layerInfoPanel.classList.remove('visible');
- } else {
- showLayerInfo(layer);
- }
- });
- });
+// Layer buttons - toggle layer on/off
+const layerBtns = document.querySelectorAll('.layer-btn');
+layerBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const layer = btn.dataset.layer;
+    toggleLayer(layer);
+  });
+});
 
+// Info buttons - open layer info panel
+const infoBtns = document.querySelectorAll('.info-btn');
+infoBtns.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation(); // prevent triggering layer toggle
+    const layer = btn.dataset.layer;
+    // If this layer's info is already showing, collapse it
+    if (layerInfoPanel.classList.contains('visible') && layerInfoTitle.textContent === layerInfo[layer]?.title) {
+      layerInfoPanel.classList.remove('visible');
+    } else {
+      showLayerInfo(layer);
+    }
+  });
+});
+
+// Show layer info panel
  // Show layer info panel
  function showLayerInfo(layerName) {
   const info = layerInfo[layerName];
