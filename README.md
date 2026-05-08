@@ -93,6 +93,21 @@ python3 -m http.server 8000
 3. Update `js/main.js` to load new layer
 4. Add to layer control
 
+## Cultural Content Disclaimer
+
+The stories, narratives, and interpretations presented in this project are based on historical research and community knowledge. They are intended for educational and cultural preservation purposes.
+
+- **Historical Interpretation**: The settlement stories and historical narratives are interpretive works based on sources cited in [ATTRIBUTION.md](ATTRIBUTION.md). They do not represent definitive historical accounts.
+- **Community Voice**: We acknowledge the Métis Nation's ownership of their stories, histories, and cultural knowledge.
+- **Respectful Use**: This project honors the traditional lands, waters, and communities represented. If you believe any content requires correction or additional context, please open an issue.
+
+## Attribution
+
+All data sources, map tiles, libraries, and assets are documented in [ATTRIBUTION.md](ATTRIBUTION.md). Key sources include:
+- Manitoba Métis Federation (MMF) — *Knowledge, Land Use and Occupancy Study* (2022)
+- Lawrence Barkwell — Métis settlement research (2016, 2018)
+- OpenStreetMap contributors — Base map data (CC BY-SA 2.0)
+
 ## License
 
 This project is for the Métis Homeland community.
