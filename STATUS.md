@@ -2,8 +2,8 @@
 project: "Métis Homeland Map V8"
 repo: "https://github.com/Bayarddevries/metis-homeland-map"
 deployed_url: "https://bayarddevries.github.io/metis-homeland-map/"
-last_updated: "2026-05-07"
-deployed_commit: "ec5f9f8"
+last_updated: "2026-05-08"
+deployed_commit: "7b41c22"
 completion_percent: 75
 pages_source: "master"
 main_js: "js/main.js"
@@ -19,6 +19,8 @@ main_js: "js/main.js"
 - **Vertical layout** — info button below layer button
 - **Stats + dark mode grouped** — centered in bottom bar
 - **Panel mutual exclusion** — only one panel open at a time
+- **Copyright audit** — ATTRIBUTION.md + cultural disclaimer added
+- **Shoebox photos** — confirmed original with written citizen consent
 
 ## What's Next 📋
 1. **#7** Buffalo herds layer
@@ -37,6 +39,7 @@ None currently.
 
 ## Recent Commits
 ```
+7b41c22 - docs: add ATTRIBUTION.md and cultural disclaimer (2026-05-08)
 ec5f9f8 - Vertical info button layout + stats/theme grouped (2026-05-07)
 ab5a0c6 - Center bottom bar items, fix layer-toggles flex
 f3eb9f4 - Improve mobile touch targets and compact bottom bar
