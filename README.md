@@ -59,17 +59,50 @@ This repo contains multiple map iterations:
 
 ### Updating Data
 
-**From Google Earth (KMZ/KML):**
+**Easy way — one script does everything:**
 ```bash
-python3 scripts/convert_kml.py waterways.kmz data/waterways.geojson
+python3 scripts/import_data.py ~/Desktop/cart_trails.kmz
+```
+It auto-detects which layer you're updating based on the filename,
+converts the file, and writes the correct GeoJSON output.
+
+Recognized layer keywords in your filename:
+| Keyword in filename | Output file |
+|---|---|
+| `cart`, `trail` | `data/cart_trails.geojson` |
+| `water`, `river`, `way` | `data/waterways.geojson` |
+| `location` | `data/locations.geojson` |
+| `battle` | `data/battles.geojson` |
+| `buffalo`, `herd` | `data/buffalo_herds.geojson` |
+
+**After converting, push to update the live map:**
+```bash
+git add data/<the-updated-file>.geojson
+git commit -m "Update <layer>"
+git push
+```
+GitHub Pages redeploys in ~60 seconds.
+
+**Manual way — per-format scripts:**
+
+From Google Earth (KMZ/KML):
+```bash
+python3 scripts/convert_kml.py input.kmz data/<output>.geojson [layer_name]
 ```
 
-**From CSV:**
+From CSV:
 ```bash
-python3 scripts/convert_csv.py locations.csv data/locations.geojson
+python3 scripts/convert_csv.py input.csv data/locations.geojson
 ```
+CSV columns: `Location Name`, `Latitude`, `Longitude`, `Description`, `Story`, `Founded`, `Community Type`
 
-CSV columns: `Location Name`, `Latitude`, `Longitude`, `Description`, `Founded`, `Community Type`
+### Data Source Formats for New Layers
+
+If you're adding a layer the map doesn't know about yet:
+1. Export from Google Earth as KMZ
+2. Run: `python3 scripts/import_data.py your_file.kmz`
+3. The script will ask you to pick an output slot if it can't guess
+4. The new file goes under `data/` — reference it in `js/main.js` to display it
 
 ## File Structure
 
