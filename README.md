@@ -1,114 +1,129 @@
-# Métis Homeland Map V5
+# Métis Homeland Map
 
-An interactive web map displaying Métis homeland historical data including waterways, cart trails, and settlements/locations.
+**Status:** Active development (~75% complete)
+**Live site:** https://bayarddevries.github.io/metis-homeland-map/
+**Version:** V8 (as of May 2026)
+**Platform:** HTML/CSS/JS + Leaflet.js + OpenStreetMap
+
+---
+
+## Overview
+
+Interactive web map displaying the historical Métis homeland, including
+waterways, Red River cart trails, settlements, buffalo herds, and battle
+locations. Designed for both desktop and mobile, with a dark mode default.
+
+This repo evolved from [homeland-map-v5](https://github.com/Bayarddevries/homeland-map-v5)
+and is now the canonical map project (V6 → V8+).
 
 ## Features
 
-- **Waterways**: Historical river and waterway routes (blue lines)
-- **Cart Trails**: Red River cart trail routes (red dashed lines)
-- **Locations**: 229+ historical settlements, forts, and communities (green markers)
-- **Layer Controls**: Toggle visibility of each data type
-- **Interactive Popups**: Click on features to see details
+- **Waterways** — Historical river and waterway routes (blue lines)
+- **Cart Trails** — Red River cart trail routes (red dashed lines)
+- **Locations** — 229+ historical settlements, forts, communities
+- **Battles** — 6 historical Métis battle locations
+- **Buffalo herds** — *Planned (issue #7)*
+- **Dark mode** — Default theme with inverted Voyager tiles
+- **Splash page** — ∞ symbol entry screen
+- **Mobile-optimized** — Bottom-sheet panels, 65vh max-height
+- **Layer controls** — Toggle visibility + info panels per layer
+- **Panel mutual exclusion** — Only one panel open at a time
 
 ## Quick Start
 
-1. Open `index.html` in a web browser
-2. Or serve via local server: `python3 -m http.server 8000`
+1. Open `index.html` in a web browser, or
+2. Serve via local server:
+   ```bash
+   python3 scripts/serve.py
+   # or
+   python3 -m http.server 8000
+   ```
 3. Navigate to `http://localhost:8000`
+
+## Map Versions
+
+This repo contains multiple map iterations:
+- `index.html` — Current (V8, dark mode default)
+- `index-v9.html` — V9 experimental
+- `index-v7.html` — V7 experimental
+- `index-classic.html` — Classic/light theme
 
 ## Data Sources
 
-### Current Data (V5)
-- `data/waterways.geojson` - 41 waterway segments (converted from Waterways.kmz)
-- `data/cart-trails.geojson` - 43 cart trail segments (converted from Cart Trails.kmz)
-- `data/locations.geojson` - 229 locations (converted from Locations.csv)
+| Data | Format | Count |
+|------|--------|-------|
+| Waterways | GeoJSON | 41 segments |
+| Cart trails | GeoJSON | 43 segments |
+| Locations | GeoJSON | 229 points |
+| Battles | GeoJSON | 6 locations |
 
 ### Updating Data
 
-#### From Google Earth (KMZ/KML)
-1. Draw shapes in Google Earth
-2. Save/Export as KMZ or KML
-3. Place in project root
-4. Run conversion script:
+**From Google Earth (KMZ/KML):**
 ```bash
 python3 scripts/convert_kml.py waterways.kmz data/waterways.geojson
 ```
 
-#### From CSV
-1. Ensure CSV has columns: `Location Name`, `Latitude`, `Longitude`, `Description`, `Founded`, `Community Type`
-2. Place in project root
-3. Run conversion script:
+**From CSV:**
 ```bash
 python3 scripts/convert_csv.py locations.csv data/locations.geojson
 ```
 
+CSV columns: `Location Name`, `Latitude`, `Longitude`, `Description`, `Founded`, `Community Type`
+
 ## File Structure
 
 ```
-homeland-map-v5/
-├── index.html              # Main page
-├── css/
-│   └── style.css           # Styling
-├── js/
-│   └── main.js             # Map logic
-├── data/
-│   ├── waterways.geojson   # Waterway lines
-│   ├── cart-trails.geojson # Cart trail lines
-│   └── locations.geojson   # Location points
-├── scripts/
-│   ├── convert_kml.py      # KML to GeoJSON converter
-│   └── convert_csv.py      # CSV to GeoJSON converter
-└── README.md               # This file
+metis-homeland-map/
+├── index.html              # Current map (V8)
+├── index-v7.html, v9.html  # Experimental versions
+├── index-classic.html      # Light theme variant
+├── css/                    # Stylesheets (per version)
+├── js/                     # Map logic (per version)
+├── data/                   # GeoJSON data files
+├── scripts/                # Python data conversion tools
+├── docs/                   # Project docs (STATUS, CHANGELOG, ATTRIBUTION)
+├── lib/                    # Third-party libraries
+├── node_modules/           # Node dependencies
+├── splash-mockup.html      # Splash page design
+└── test-*.html             # Test pages
 ```
 
 ## Technology Stack
 
-- **Leaflet.js** - Interactive map library
-- **OpenStreetMap** - Base map tiles
-- **GeoJSON** - Data format
-- Vanilla HTML/CSS/JavaScript (no build step required)
+- **Leaflet.js** — Interactive map library
+- **OpenStreetMap / CartoDB Voyager** — Base map tiles
+- **GeoJSON** — Data format
+- **Vanilla HTML/CSS/JS** — No build step required
+- **Python 3** — Data conversion scripts
 
-## Future Enhancements (V6+)
+## Project Status
 
-- [ ] KMZ/KML file upload and parsing in browser
-- [ ] Shape drawing tools (polygon, line)
-- [ ] Admin interface for data management
-- [ ] Export functionality
-- [ ] Search/filter locations
-- [ ] Timeline view for historical changes
-- [ ] Story integration with location narratives
+See `STATUS.md` for current completion state and roadmap.
+See `CHANGELOG.md` for version history.
+See `ATTRIBUTION.md` for data source attribution and cultural disclaimer.
 
-## Development
+### Next Up (from STATUS.md)
+1. Buffalo herds layer (#7)
+2. Integration work (#12)
+3. Transitions (#13)
+4. Popup improvements (#15)
 
-### Running Locally
-```bash
-cd homeland-map-v5
-python3 -m http.server 8000
-# Open http://localhost:8000
-```
+## Deployment
 
-### Adding New Data
-1. Convert source data to GeoJSON
-2. Place in `data/` directory
-3. Update `js/main.js` to load new layer
-4. Add to layer control
+- CI auto-deploys to GitHub Pages on push to `master` branch
+- **Do NOT manually sync `docs/`** — CI handles this
+- Pages source: `master` branch (not `main`, not `gh-pages`)
+- Always test mobile with Chrome DevTools (F12 → Ctrl+Shift+M)
 
-## Cultural Content Disclaimer
+## Shared Navigation
 
-The stories, narratives, and interpretations presented in this project are based on historical research and community knowledge. They are intended for educational and cultural preservation purposes.
+This site is part of the RRMNHC web suite, linked via `site-nav.js` to:
+- [RRMNHC Website](https://bayarddevries.github.io/rrmnhc-website/)
+- [Shoebox Digital Archive](https://bayarddevries.github.io/shoebox-v2/)
 
-- **Historical Interpretation**: The settlement stories and historical narratives are interpretive works based on sources cited in [ATTRIBUTION.md](ATTRIBUTION.md). They do not represent definitive historical accounts.
-- **Community Voice**: We acknowledge the Métis Nation's ownership of their stories, histories, and cultural knowledge.
-- **Respectful Use**: This project honors the traditional lands, waters, and communities represented. If you believe any content requires correction or additional context, please open an issue.
+## License & Attribution
 
-## Attribution
-
-All data sources, map tiles, libraries, and assets are documented in [ATTRIBUTION.md](ATTRIBUTION.md). Key sources include:
-- Manitoba Métis Federation (MMF) — *Knowledge, Land Use and Occupancy Study* (2022)
-- Lawrence Barkwell — Métis settlement research (2016, 2018)
-- OpenStreetMap contributors — Base map data (CC BY-SA 2.0)
-
-## License
-
-This project is for the Métis Homeland community.
-
+See `ATTRIBUTION.md` for data source attribution.
+Cultural disclaimer included. All Métis historical data researched from
+primary sources.
