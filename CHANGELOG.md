@@ -7,6 +7,16 @@ and this project uses dates rather than versions (unversioned site).
 
 ## [Unreleased]
 
+### Changed
+- Data update workflow: `scripts/import_data.py` now patches `js/data.js` directly
+  instead of writing to unused standalone GeoJSON files
+- README: documented that all data is embedded in `js/data.js`, not external files
+- README: explicit layer-to-filename mapping table
+
+### Added
+- `scripts/import_data.py` — one-command import: drop a KMZ/KML/CSV, it converts
+  AND patches `js/data.js` in place, then prints the exact git push commands
+
 ### Planned
 - #7 Buffalo herds layer
 - #12 Integration work  

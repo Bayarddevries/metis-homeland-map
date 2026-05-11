@@ -52,42 +52,45 @@ This repo contains multiple map iterations:
 
 | Data | Format | Count |
 |------|--------|-------|
-| Waterways | GeoJSON | 41 segments |
-| Cart trails | GeoJSON | 43 segments |
-| Locations | GeoJSON | 229 points |
-| Battles | GeoJSON | 6 locations |
-
+| Waterways | GeoJSON (embedded in js/data.js) | 41 segments |
+| Cart trails | GeoJSON (embedded in js/data.js) | 43 segments |
+| Locations | GeoJSON (embedded in js/data.js) | 229 points |
+| Battles | GeoJSON (external: data/battles.geojson) | 6 locations |
+| Buffalo herds | GeoJSON (embedded in js/data.js) | 9 range polygons |
 ### Updating Data
 
-**Easy way — one script does everything:**
+**The important thing to know:** All map data is embedded as JavaScript objects in `js/data.js`. 
+To update, you convert your file AND rewrite that data.js file — `scripts/import_data.py` does both in one step.
+
+**Easy way — one command:**
 ```bash
 python3 scripts/import_data.py ~/Desktop/cart_trails.kmz
 ```
-It auto-detects which layer you're updating based on the filename,
-converts the file, and writes the correct GeoJSON output.
+It auto-detects which layer from the filename, converts to GeoJSON, 
+patches `js/data.js` in place. Then commit + push to go live.
 
-Recognized layer keywords in your filename:
-| Keyword in filename | Output file |
+| Keyword in filename | Layer name in data.js |
 |---|---|
-| `cart`, `trail` | `data/cart_trails.geojson` |
-| `water`, `river`, `way` | `data/waterways.geojson` |
-| `location` | `data/locations.geojson` |
-| `battle` | `data/battles.geojson` |
-| `buffalo`, `herd` | `data/buffalo_herds.geojson` |
+| `cart`, `trail`, `path` | `cartTrails` |
+| `water`, `river`, `waterway` | `waterways` |
+| `location`, `community`, `settlement` | `locations` |
+| `battle` | `battles` |
+| `buffalo`, `herd`, `bison` | `buffaloHerds` |
 
-**After converting, push to update the live map:**
+**To push to the live map:**
 ```bash
-git add data/<the-updated-file>.geojson
-git commit -m "Update <layer>"
+git add js/data.js
+git commit -m "Update <layer> from <filename>"
 git push
 ```
 GitHub Pages redeploys in ~60 seconds.
 
 **Manual way — per-format scripts:**
+These only convert → GeoJSON. You still need to merge into data.js yourself.
 
 From Google Earth (KMZ/KML):
 ```bash
-python3 scripts/convert_kml.py input.kmz data/<output>.geojson [layer_name]
+python3 scripts/convert_kml.py input.kmz output.geojson [layer_name]
 ```
 
 From CSV:
@@ -95,14 +98,6 @@ From CSV:
 python3 scripts/convert_csv.py input.csv data/locations.geojson
 ```
 CSV columns: `Location Name`, `Latitude`, `Longitude`, `Description`, `Story`, `Founded`, `Community Type`
-
-### Data Source Formats for New Layers
-
-If you're adding a layer the map doesn't know about yet:
-1. Export from Google Earth as KMZ
-2. Run: `python3 scripts/import_data.py your_file.kmz`
-3. The script will ask you to pick an output slot if it can't guess
-4. The new file goes under `data/` — reference it in `js/main.js` to display it
 
 ## File Structure
 
