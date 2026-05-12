@@ -474,12 +474,21 @@ infoBtns.forEach(btn => {
     if (feature.properties && feature.properties.name) {
      const name = feature.properties.name;
      let eraDesc = '';
+     let population = '';
+     let source = '';
+     
      if (name.includes('Original')) {
       eraDesc = 'Pre-contact range - vast territory supporting enormous herds';
+      population = '<strong>Population:</strong> 24-30 million buffalo (1800) [6]';
+      source = 'Isenberg (2000)';
      } else if (name.includes('1870')) {
       eraDesc = '1870 range - shrinking rapidly due to commercial hunting';
+      population = '<strong>Population:</strong> 5.5 million buffalo (1870) [9]<br><small>Down from 20M (1850) [7] and 12-15M (1865) [8]</small>';
+      source = 'Hornaday (1889), Roe (1951), Flores (1991)';
      } else if (name.includes('1889')) {
       eraDesc = '1889 range - remnant herds, nearly extinct';
+      population = '<strong>Population:</strong> 653 buffalo (1889) [11]<br><small>Down from 395,000 (1880) [10]</small>';
+      source = 'McHugh (1972), Dary (1974)';
      }
      
      layer.bindPopup(
@@ -488,8 +497,9 @@ infoBtns.forEach(btn => {
       '</div>' +
       '<div class="popup-body">' +
       '<p class="popup-description">' + eraDesc + '</p>' +
+      '<p style="font-size: 12px; color: #333; margin: 8px 0;">' + population + '</p>' +
       '<p style="font-size: 11px; color: #666; font-style: italic;">' +
-      '<strong>Source:</strong> Hornaday (1889)' +
+      '<strong>Source:</strong> ' + source +
       '</p>' +
       '</div>'
      );
