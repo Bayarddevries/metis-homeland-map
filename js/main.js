@@ -66,27 +66,27 @@ document.addEventListener('DOMContentLoaded', () => {
   buffalo: {
    title: '🦬 Buffalo Herd Ranges',
    about: 'This layer shows the dramatic contraction of buffalo range from pre-contact times through 1889. The buffalo were central to Métis culture, economy, and survival. By understanding where the buffalo were, we understand where the Métis could live and thrive. The rapid disappearance of the buffalo after 1870 forced dramatic changes to Métis lifeways.',
-   sources: 'Hornaday, William Temple. The Extermination of the American Bison. Washington, D.C.: Government Printing Office(1889),',
+   sources: 'Population estimates: [6] Isenberg, Andrew C. The Destruction of the Bison: An Environmental History, 1750-1920. Cambridge University Press, 2000. [7] Roe, Frank Gilbert. The North American Buffalo: A Critical Study of the Species in Its Wild State. University of Toronto Press, 1951. [8] Flores, Dan L. "Bison Ecology and Bison Diplomacy: The Southern Plains from 1800 to 1850." Journal of American History 78, no. 2 (1991): 465-485. [9] Hornaday, William Temple. The Extermination of the American Bison. Washington, D.C.: Government Printing Office, 1889. [10] Dary, David A. The Buffalo Book. Swallow Press, 1974. [11] McHugh, Tom. The Time of the Buffalo. University of Nebraska Press, 1972. Range data: Hornaday, William Temple. The Extermination of the American Bison. Washington, D.C.: Government Printing Office, 1889.',
    eras: [
     {
      name: 'Original Range',
      color: '#4CAF50',
      count: 1,
-     description: 'Pre-contact buffalo distribution across the northern plains. This vast territory supported enormous herds and was the foundation of Plains Indigenous economies for millennia.',
+     description: 'Pre-contact buffalo distribution across the northern plains. This vast territory supported enormous herds and was the foundation of Plains Indigenous economies for millennia. Population: 24-30 million buffalo in 1800 [6].',
      polygons: []
     },
     {
      name: '1870 Range',
      color: '#FF9800',
      count: 2,
-     description: 'By 1870, commercial hunting and westward expansion had already reduced the range. The buffalo were still present but their territory was shrinking rapidly. This period coincides with Manitoba entry into Confederation.',
+     description: 'By 1870, commercial hunting and westward expansion had already reduced the range. The buffalo were still present but their territory was shrinking rapidly. This period coincides with Manitoba entry into Confederation. Population: 5.5 million buffalo in 1870 [9], down from 20 million in 1850 [7] and 12-15 million in 1865 [8].',
      polygons: []
     },
     {
      name: '1889 Range',
      color: '#F44336',
      count: 6,
-     description: 'By 1889, the buffalo were nearly extinct. Only scattered remnant herds survived in remote areas. This represents one of the most rapid ecological collapses in recorded history, devastating the Métis economy and way of life.',
+     description: 'By 1889, the buffalo were nearly extinct. Only scattered remnant herds survived in remote areas. This represents one of the most rapid ecological collapses in recorded history, devastating the Métis economy and way of life. Population: 653 buffalo in 1889 [11], down from 395,000 in 1880 [10].',
      polygons: []
     }
    ]
