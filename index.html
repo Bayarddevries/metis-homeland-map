@@ -450,19 +450,26 @@
  })();
  </script>
 
- <!-- Splash dismiss -->
- <script>
- (function() {
- var splash = document.getElementById('splashScreen');
- var enterBtn = document.getElementById('enterMapBtn');
- if (splash && enterBtn) {
+<!-- Splash dismiss -->
+<script>
+(function() {
+var splash = document.getElementById('splashScreen');
+var enterBtn = document.getElementById('enterMapBtn');
+if (splash && enterBtn) {
  enterBtn.addEventListener('click', function() {
- splash.classList.add('fade-out');
- setTimeout(function() { splash.remove(); }, 400);
+  splash.classList.add('fade-out');
+  // Trigger map entrance animation
+  var mapEl = document.getElementById('map');
+  if (mapEl) mapEl.classList.add('map-entrance');
+  // Trigger bottom bar slide-up
+  var bar = document.querySelector('.bottom-bar');
+  if (bar) bar.classList.add('entrance');
+  // Remove splash after animation completes
+  setTimeout(function() { splash.remove(); }, 800);
  });
- }
- })();
- </script>
+}
+})();
+</script>
 
  <!-- Shared Navigation -->
  <script src="site-nav.js"></script>
