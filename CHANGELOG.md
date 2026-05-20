@@ -12,10 +12,15 @@ and this project uses dates rather than versions (unversioned site).
   instead of writing to unused standalone GeoJSON files
 - README: documented that all data is embedded in `js/data.js`, not external files
 - README: explicit layer-to-filename mapping table
+- Locations markers now color-coded by community_type category (7 buckets)
+- Filter panel with colored pills to show/hide location categories live
 
 ### Added
 - `scripts/import_data.py` — one-command import: drop a KMZ/KML/CSV, it converts
   AND patches `js/data.js` in place, then prints the exact git push commands
+- Places filter panel: toggle location categories with colored pill buttons
+- Category-based marker colors for locations (settlement=green, fort=red, etc.)
+- Filter counts show visible/total per category and live summary footer
 
 ### Planned
 - #7 Buffalo herds layer
