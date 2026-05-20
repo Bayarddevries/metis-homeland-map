@@ -1521,3 +1521,28 @@ RESPONSIVE — PHONES & TABLETS
  top: 20px;
  }
 }
+
+/* On-map buffalo era labels */
+.buffalo-label {
+ background: rgba(26, 23, 20, 0.85) !important;
+ color: #E8DFD2 !important;
+ border: none !important;
+ border-radius: 4px !important;
+ font-family: 'Manrope', sans-serif !important;
+ font-size: 13px !important;
+ font-weight: 600 !important;
+ padding: 4px 10px !important;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+ letter-spacing: 0.3px !important;
+ white-space: nowrap !important;
+}
+
+.dark-mode .buffalo-label {
+ background: rgba(245, 235, 220, 0.9) !important;
+ color: #1A1714 !important;
+ box-shadow: 0 2px 8px rgba(0,0,0,0.4) !important;
+}
+
+.buffalo-label:before {
+ display: none !important;
+}

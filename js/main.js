@@ -503,6 +503,19 @@ infoBtns.forEach(btn => {
       '</p>' +
       '</div>'
      );
+
+     // Add on-map label
+     var labelText = '';
+     if (name.includes('Original')) labelText = 'Original Range';
+     else if (name.includes('1870')) labelText = '1870 Range';
+     else if (name.includes('1889')) labelText = '1889 Range';
+     if (labelText) {
+      layer.bindTooltip(labelText, {
+       permanent: true,
+       direction: 'center',
+       className: 'buffalo-label'
+      });
+     }
     }
    }
   }).addTo(map);
