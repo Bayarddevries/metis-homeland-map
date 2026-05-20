@@ -5,28 +5,40 @@ All notable changes to the Métis Homeland Map project are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project uses dates rather than versions (unversioned site).
 
+## [2026-05-20]
+
+### Added
+- Splash → map entrance animation (scale+fade on splash, zoom+reveal on map)
+- Bottom bar slide-up entrance with staggered button reveal
+- Layer toggle fade transitions (CSS-based, in/out 0.35s)
+- Info panel backdrop overlay for slide-up panels
+- Places filter panel — 8 colored pill buttons to show/hide location categories
+- Category-based marker colors (settlement=green, fort=red, road allowance=orange, etc.)
+- Filter counts per category with live summary footer ("Showing X of 229 locations")
+- Category descriptions with ⓘ info icons — tap to learn what each type means
+
+### Changed
+- Locations markers now color-coded by community_type category (7 buckets)
+- Filter panel uses CSS theme variables instead of hardcoded dark colors
+- Filter panel z-index bumped to 1001 (above bottom bar)
+
+### Fixed
+- Filter panel was behind bottom bar (z-index 999 vs 1000)
+- Mobile bottom bar positioning — switched to `position: fixed` + `left/right` centering
+- Mobile label overflow — icons-only layout at ≤430px width
+- Filter panel clipping on mobile — viewport-constrained height with scrollable pills
+- Mobile responsive breakpoints for all filter elements
+
 ## [Unreleased]
 
 ### Changed
-- Data update workflow: `scripts/import_data.py` now patches `js/data.js` directly
-  instead of writing to unused standalone GeoJSON files
-- README: documented that all data is embedded in `js/data.js`, not external files
-- README: explicit layer-to-filename mapping table
-- Locations markers now color-coded by community_type category (7 buckets)
-- Filter panel with colored pills to show/hide location categories live
 
 ### Added
-- `scripts/import_data.py` — one-command import: drop a KMZ/KML/CSV, it converts
-  AND patches `js/data.js` in place, then prints the exact git push commands
-- Places filter panel: toggle location categories with colored pill buttons
-- Category-based marker colors for locations (settlement=green, fort=red, etc.)
-- Filter counts show visible/total per category and live summary footer
 
 ### Planned
 - #7 Buffalo herds layer
-- #12 Integration work  
-- #13 Transitions
-- #15 Popup improvements (partial - mobile fix complete)
+- #12 Integration work
+- Redraw cart trails with actual route names
 
 ## [2026-05-07]
 
