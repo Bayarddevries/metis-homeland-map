@@ -1546,3 +1546,69 @@ RESPONSIVE — PHONES & TABLETS
 .buffalo-label:before {
  display: none !important;
 }
+
+/* Buffalo population table */
+.buffalo-pop-table {
+ width: 100%;
+ border-collapse: collapse;
+ margin-top: 8px;
+ font-size: 13px;
+ line-height: 1.5;
+}
+
+.buffalo-pop-table th {
+ text-align: left;
+ padding: 6px 8px;
+ border-bottom: 2px solid #4A3F2F;
+ color: #4A3F2F;
+ font-weight: 700;
+ font-size: 11px;
+ text-transform: uppercase;
+ letter-spacing: 0.5px;
+}
+
+.buffalo-pop-table td {
+ padding: 5px 8px;
+ border-bottom: 1px solid #E0D6C8;
+}
+
+.buffalo-pop-table tr:last-child td {
+ border-bottom: none;
+}
+
+.buffalo-pop-table td:first-child {
+ font-weight: 600;
+ color: #2D2418;
+ white-space: nowrap;
+}
+
+.buffalo-pop-table td:nth-child(2) {
+ font-weight: 600;
+ color: #8B0000;
+}
+
+.buffalo-pop-table td:nth-child(3) {
+ font-size: 11px;
+ color: #6B5D4D;
+}
+
+.dark-mode .buffalo-pop-table th {
+ color: #D4A520;
+ border-bottom-color: #D4A520;
+}
+
+.dark-mode .buffalo-pop-table td {
+ border-bottom-color: #3D352A;
+}
+
+.dark-mode .buffalo-pop-table td:first-child {
+ color: #E8DFD2;
+}
+
+.dark-mode .buffalo-pop-table td:nth-child(2) {
+ color: #E57373;
+}
+
+.dark-mode .buffalo-pop-table td:nth-child(3) {
+ color: #B8A998;
+}

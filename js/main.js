@@ -66,27 +66,27 @@ document.addEventListener('DOMContentLoaded', () => {
   buffalo: {
    title: '🦬 Buffalo Herd Ranges',
    about: 'This layer shows the dramatic contraction of buffalo range from pre-contact times through 1889. The buffalo were central to Métis culture, economy, and survival. By understanding where the buffalo were, we understand where the Métis could live and thrive. The rapid disappearance of the buffalo after 1870 forced dramatic changes to Métis lifeways.',
-   sources: 'Population estimates: [6] Isenberg, Andrew C. The Destruction of the Bison: An Environmental History, 1750-1920. Cambridge University Press, 2000. [7] Roe, Frank Gilbert. The North American Buffalo: A Critical Study of the Species in Its Wild State. University of Toronto Press, 1951. [8] Flores, Dan L. "Bison Ecology and Bison Diplomacy: The Southern Plains from 1800 to 1850." Journal of American History 78, no. 2 (1991): 465-485. [9] Hornaday, William Temple. The Extermination of the American Bison. Washington, D.C.: Government Printing Office, 1889. [10] Dary, David A. The Buffalo Book. Swallow Press, 1974. [11] McHugh, Tom. The Time of the Buffalo. University of Nebraska Press, 1972. Range data: Hornaday, William Temple. The Extermination of the American Bison. Washington, D.C.: Government Printing Office, 1889.',
+   sources: 'Range data: Hornaday, William Temple. The Extermination of the American Bison. Washington, D.C.: Government Printing Office, 1889. Population estimates: [6] Isenberg (2000), [7] Lott, American Bison, [8] Ken Burns / PBS timeline, [9] Lott, [10] Roe (1951), [11] Hornaday (1888).',
    eras: [
     {
      name: 'Original Range',
      color: '#4CAF50',
      count: 1,
-     description: 'Pre-contact buffalo distribution across the northern plains. This vast territory supported enormous herds and was the foundation of Plains Indigenous economies for millennia. Population: 24-30 million buffalo in 1800 [6].',
+     description: 'Pre-contact buffalo distribution across the northern plains. This vast territory supported enormous herds and was the foundation of Plains Indigenous economies for millennia. Population estimates: 24-30 million buffalo in 1800 [6].',
      polygons: []
     },
     {
      name: '1870 Range',
      color: '#FF9800',
      count: 2,
-     description: 'By 1870, commercial hunting and westward expansion had already reduced the range. The buffalo were still present but their territory was shrinking rapidly. This period coincides with Manitoba entry into Confederation. Population: 5.5 million buffalo in 1870 [9], down from 20 million in 1850 [7] and 12-15 million in 1865 [8].',
+     description: 'By 1870, commercial hunting and westward expansion had already reduced the range. The buffalo were still present but their territory was shrinking rapidly. This period coincides with Manitoba entry into Confederation. Population estimates: 5.5 million buffalo in 1870 [9], down from 20 million in 1850 [7] and 12-15 million in 1865 [8].',
      polygons: []
     },
     {
      name: '1889 Range',
      color: '#F44336',
      count: 6,
-     description: 'By 1889, the buffalo were nearly extinct. Only scattered remnant herds survived in remote areas. This represents one of the most rapid ecological collapses in recorded history, devastating the Métis economy and way of life. Population: 653 buffalo in 1889 [11], down from 395,000 in 1880 [10].',
+     description: 'By 1889, the buffalo were nearly extinct. Only scattered remnant herds survived in remote areas. This represents one of the most rapid ecological collapses in recorded history, devastating the Métis economy and way of life. Population estimates: 653 buffalo in 1889 [11], down from 395,000 in 1880 [10].',
      polygons: []
     }
    ]
@@ -296,6 +296,20 @@ infoBtns.forEach(btn => {
    content += '</div>';
   }
 
+  // Buffalo population table
+  if (layerName === 'buffalo') {
+   content += '<div class="layer-info-section layer-info-features"><h4>Population Estimates</h4>';
+   content += '<table class="buffalo-pop-table">';
+   content += '<tr><th>Year</th><th>Population</th><th>Source</th></tr>';
+   content += '<tr><td>1800</td><td>24-30 Million</td><td>[6] Isenberg (2000)</td></tr>';
+   content += '<tr><td>1850</td><td>20 Million</td><td>[7] Lott, American Bison</td></tr>';
+   content += '<tr><td>1865</td><td>12-15 Million</td><td>[8] Ken Burns / PBS</td></tr>';
+   content += '<tr><td>1870</td><td>5.5 Million</td><td>[9] Lott</td></tr>';
+   content += '<tr><td>1880</td><td>395,000</td><td>[10] Roe (1951)</td></tr>';
+   content += '<tr><td>1889</td><td>653</td><td>[11] Hornaday (1888)</td></tr>';
+   content += '</table></div>';
+  }
+
   layerInfoContent.innerHTML = content;
   
   // Add toggle checkbox listener
@@ -484,11 +498,11 @@ infoBtns.forEach(btn => {
      } else if (name.includes('1870')) {
       eraDesc = '1870 range - shrinking rapidly due to commercial hunting';
       population = '<strong>Population:</strong> 5.5 million buffalo (1870) [9]<br><small>Down from 20M (1850) [7] and 12-15M (1865) [8]</small>';
-      source = 'Hornaday (1889), Roe (1951), Flores (1991)';
+      source = 'Lott, PBS, Hornaday (1888)';
      } else if (name.includes('1889')) {
       eraDesc = '1889 range - remnant herds, nearly extinct';
       population = '<strong>Population:</strong> 653 buffalo (1889) [11]<br><small>Down from 395,000 (1880) [10]</small>';
-      source = 'McHugh (1972), Dary (1974)';
+      source = 'Roe (1951), Hornaday (1888)';
      }
      
      layer.bindPopup(
