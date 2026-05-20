@@ -395,7 +395,8 @@ if (filterToggleBtn && filterPanel) {
 
 // Filter pill click handlers
 document.querySelectorAll('.filter-pill').forEach(pill => {
- pill.addEventListener('click', () => {
+ pill.addEventListener('click', (e) => {
+  if (e.target.closest('.pill-info')) return; // handled by info click
   const cat = pill.dataset.category;
   if (!cat) return;
   filterState[cat] = !filterState[cat];
@@ -404,9 +405,51 @@ document.querySelectorAll('.filter-pill').forEach(pill => {
  });
 });
 
+// Category descriptions for info tooltips
+const categoryDescriptions = {
+ settlement: 'Permanent communities, villages, and settlements — the heart of Métis life. Includes river lot farms, wintering sites, and trading hubs.',
+ fort: 'Forts and trading posts — hubs of the fur trade economy. Many were built by the North West Company and Hudson\'s Bay Company along major waterways.',
+ 'road-allowance': 'Communities built on public road allowances — the narrow strips of Crown land along roadsides where displaced Métis families settled after losing their river lots in the late 1800s.',
+ parish: 'Catholic parishes and missions — spiritual and social centers that anchored Métis communities. Often founded by missionary priests like Father Belcourt.',
+ landmark: 'Significant geographic features, historic sites, and landmarks — including battlefields, ceremonial sites, and natural landmarks used for navigation.',
+ transport: 'Transportation routes and hubs — including portages, ferry crossings, stopping points, and early railway settlements that connected Métis communities.',
+ traditional: 'Sites of traditional land use — harvesting grounds, sugar bushes, seasonal camps, and gathering places tied to Métis subsistence and cultural practices.',
+ other: 'Unclassified locations with no recorded community type in the source data.'
+};
+
+// Filter pill info icon click — show description in footer
+document.querySelectorAll('.pill-info').forEach(info => {
+ info.addEventListener('click', (e) => {
+  e.stopPropagation();
+  const cat = info.dataset.category;
+  if (!cat) return;
+  const footer = document.getElementById('filterFooter');
+  if (!footer) return;
+  const desc = categoryDescriptions[cat];
+  if (desc) {
+   // Toggle: clicking same one again returns to default
+   if (footer.dataset.activeInfo === cat) {
+    footer.textContent = `Showing ${document.querySelectorAll('.filter-pill.active').length} categories active`;
+    footer.classList.remove('has-desc');
+    delete footer.dataset.activeInfo;
+   } else {
+    footer.textContent = desc;
+    footer.classList.add('has-desc');
+    footer.dataset.activeInfo = cat;
+   }
+  }
+ });
+});
+
 // Re-apply filter to locations layer
 function reapplyLocationFilter() {
  if (!rawLocationsData) return;
+ // Reset description footer when toggling
+ const ft = document.getElementById('filterFooter');
+ if (ft && ft.dataset.activeInfo) {
+  ft.classList.remove('has-desc');
+  delete ft.dataset.activeInfo;
+ }
  // Rebuild location layer with only visible categories
  const visible = { features: [] };
  for (const feat of rawLocationsData.features) {

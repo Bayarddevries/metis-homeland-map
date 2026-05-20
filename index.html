@@ -121,16 +121,16 @@
 <!-- Places Filter Panel -->
 <div class="filter-panel" id="filterPanel" role="region" aria-label="Filter places by type">
  <div class="filter-pills">
-  <div class="filter-pill active" data-category="settlement" style="--pill-color:#4CAF50;"><span class="pill-dot"></span>Settlements <span class="pill-count" id="count-settlement">0</span></div>
-  <div class="filter-pill active" data-category="fort" style="--pill-color:#B8312F;"><span class="pill-dot"></span>Forts &amp; Posts <span class="pill-count" id="count-fort">0</span></div>
-  <div class="filter-pill active" data-category="road-allowance" style="--pill-color:#FF9800;"><span class="pill-dot"></span>Road Allowance <span class="pill-count" id="count-road-allowance">0</span></div>
-  <div class="filter-pill active" data-category="parish" style="--pill-color:#9C27B0;"><span class="pill-dot"></span>Parish / Mission <span class="pill-count" id="count-parish">0</span></div>
-  <div class="filter-pill active" data-category="landmark" style="--pill-color:#2196F3;"><span class="pill-dot"></span>Landmarks <span class="pill-count" id="count-landmark">0</span></div>
-  <div class="filter-pill active" data-category="transport" style="--pill-color:#FFC107;color:#1A1714;"><span class="pill-dot" style="border-color:#BFA000;"></span>Transport <span class="pill-count" id="count-transport">0</span></div>
-  <div class="filter-pill active" data-category="traditional" style="--pill-color:#795548;"><span class="pill-dot"></span>Traditional <span class="pill-count" id="count-traditional">0</span></div>
+  <div class="filter-pill active" data-category="settlement" style="--pill-color:#4CAF50;"><span class="pill-dot"></span>Settlements <span class="pill-count" id="count-settlement">0</span><span class="pill-info" data-category="settlement" title="What is a Settlement?">ⓘ</span></div>
+  <div class="filter-pill active" data-category="fort" style="--pill-color:#B8312F;"><span class="pill-dot"></span>Forts &amp; Posts <span class="pill-count" id="count-fort">0</span><span class="pill-info" data-category="fort" title="What is a Fort / Trading Post?">ⓘ</span></div>
+  <div class="filter-pill active" data-category="road-allowance" style="--pill-color:#FF9800;"><span class="pill-dot"></span>Road Allowance <span class="pill-count" id="count-road-allowance">0</span><span class="pill-info" data-category="road-allowance" title="What is a Road Allowance community?">ⓘ</span></div>
+  <div class="filter-pill active" data-category="parish" style="--pill-color:#9C27B0;"><span class="pill-dot"></span>Parish / Mission <span class="pill-count" id="count-parish">0</span><span class="pill-info" data-category="parish" title="What is a Parish / Mission?">ⓘ</span></div>
+  <div class="filter-pill active" data-category="landmark" style="--pill-color:#2196F3;"><span class="pill-dot"></span>Landmarks <span class="pill-count" id="count-landmark">0</span><span class="pill-info" data-category="landmark" title="What is a Landmark?">ⓘ</span></div>
+  <div class="filter-pill active" data-category="transport" style="--pill-color:#FFC107;color:#1A1714;"><span class="pill-dot" style="border-color:#BFA000;"></span>Transport <span class="pill-count" id="count-transport">0</span><span class="pill-info" data-category="transport" title="What is a Transportation site?">ⓘ</span></div>
+  <div class="filter-pill active" data-category="traditional" style="--pill-color:#795548;"><span class="pill-dot"></span>Traditional <span class="pill-count" id="count-traditional">0</span><span class="pill-info" data-category="traditional" title="What is a Traditional site?">ⓘ</span></div>
   <div class="filter-pill" data-category="other" style="--pill-color:#6B5D4D;"><span class="pill-dot"></span>Other <span class="pill-count" id="count-other">0</span></div>
  </div>
- <div class="filter-footer">Tap a pill to show/hide that type on the map</div>
+ <div class="filter-footer" id="filterFooter">Tap a pill to show/hide that type on the map</div>
 </div>
 
 <!-- Collapsible Stats Panel -->
