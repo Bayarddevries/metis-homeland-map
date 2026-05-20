@@ -1811,11 +1811,32 @@ MOBILE RESPONSIVE FIXES
 ============================================ */
 
 @media (max-width: 600px) {
- /* Bottom bar: tighter buttons, smaller icons */
+ /* Fixed positioning on mobile — more reliable than translate centering */
  .bottom-bar {
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  width: auto;
+  transform: none;
+  bottom: 20px;
   padding: 8px 10px;
   gap: 4px;
  }
+ .bottom-bar.entrance {
+  animation: barSlideUpMobile 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+ }
+
+@keyframes barSlideUpMobile {
+ from {
+  transform: translateY(24px);
+  opacity: 0;
+ }
+ to {
+  transform: translateY(0);
+  opacity: 1;
+ }
+}
+
  .layer-btn {
   padding: 6px 6px;
   gap: 2px;
@@ -1841,6 +1862,13 @@ MOBILE RESPONSIVE FIXES
   font-size: 15px;
  }
  .stats-theme-group {
+  gap: 4px;
+ }
+
+ /* Layer toggles fill remaining space */
+ .layer-toggles {
+  flex: 1;
+  min-width: 0;
   gap: 4px;
  }
 
