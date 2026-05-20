@@ -757,12 +757,13 @@ PLACES FILTER PANEL
 ============================================ */
 
 .filter-panel {
- position: absolute;
- bottom: 100px;
+ position: fixed;
+ bottom: 90px;
  left: 50%;
  transform: translateX(-50%) translateY(12px);
  width: calc(100% - 40px);
  max-width: 640px;
+ max-height: calc(100vh - 180px);
  background: var(--bg-overlay);
  backdrop-filter: blur(12px);
  -webkit-backdrop-filter: blur(12px);
@@ -774,6 +775,8 @@ PLACES FILTER PANEL
  pointer-events: none;
  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
  overflow: hidden;
+ display: flex;
+ flex-direction: column;
 }
 .filter-panel.visible {
  opacity: 1;
@@ -1801,4 +1804,137 @@ RESPONSIVE — PHONES & TABLETS
 
 .dark-mode .buffalo-pop-table td:nth-child(3) {
  color: #B8A998;
+}
+
+/* ============================================
+MOBILE RESPONSIVE FIXES
+============================================ */
+
+@media (max-width: 600px) {
+ /* Bottom bar: tighter buttons, smaller icons */
+ .bottom-bar {
+  padding: 8px 10px;
+  gap: 4px;
+ }
+ .layer-btn {
+  padding: 6px 6px;
+  gap: 2px;
+ }
+ .layer-btn .icon {
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+ }
+ .layer-btn .label {
+  font-size: 8px;
+  letter-spacing: 0.3px;
+ }
+ .layer-control .info-btn {
+  width: 14px;
+  height: 14px;
+  font-size: 8px;
+ }
+ .control-btn,
+ .theme-toggle {
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+ }
+ .stats-theme-group {
+  gap: 4px;
+ }
+
+ /* Filter panel: constrain height on mobile */
+ .filter-panel {
+  bottom: 85px;
+  max-height: calc(100vh - 140px);
+  max-width: calc(100% - 20px);
+ }
+ .filter-pills {
+  padding: 10px 12px;
+  gap: 4px;
+  overflow-y: auto;
+  flex: 1;
+ }
+ .filter-pill {
+  font-size: 10px;
+  padding: 4px 10px 4px 8px;
+  gap: 4px;
+ }
+ .pill-dot {
+  width: 6px;
+  height: 6px;
+ }
+ .pill-count {
+  font-size: 9px;
+ }
+ .pill-info {
+  width: 14px;
+  height: 14px;
+  font-size: 9px;
+ }
+ .filter-footer {
+  font-size: 9px;
+  padding: 6px 12px 10px;
+  min-height: 26px;
+ }
+ .filter-footer.has-desc {
+  font-size: 10px;
+ }
+}
+
+@media (max-width: 430px) {
+ /* Narrow: icons only, labels hidden */
+ .layer-btn .label {
+  display: none;
+ }
+ .layer-btn .icon {
+  font-size: 18px;
+  width: 22px;
+  height: 22px;
+ }
+ .layer-btn {
+  padding: 6px 4px;
+  gap: 2px;
+ }
+ .layer-control .info-btn {
+  margin-top: 0;
+ }
+ .layer-control {
+  gap: 1px;
+ }
+
+ /* Filter panel: tighter on narrow screens */
+ .filter-panel {
+  bottom: 80px;
+  max-height: calc(100vh - 130px);
+  width: calc(100% - 12px);
+  max-width: calc(100% - 12px);
+ }
+ .filter-pills {
+  padding: 8px 10px;
+  gap: 4px;
+ }
+ .filter-pill {
+  font-size: 9px;
+  padding: 3px 8px 3px 6px;
+ }
+}
+
+@media (max-width: 360px) {
+ /* Very narrow: hide labels, icons only */
+ .layer-btn .label {
+  display: none;
+ }
+ .layer-btn .icon {
+  font-size: 18px;
+  width: 22px;
+  height: 22px;
+ }
+ .layer-btn {
+  padding: 6px 4px;
+ }
+ .layer-control .info-btn {
+  margin-top: 0;
+ }
 }
