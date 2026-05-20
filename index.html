@@ -102,6 +102,10 @@
 </div>
 <!-- Stats Toggle — lives inside bar, flex-aligned to right -->
 <div class="stats-theme-group">
+ <button class="control-btn filter-toggle" id="filterToggle" title="Filter Places"
+ aria-label="Toggle places filter panel" aria-expanded="false">
+ <span aria-hidden="true">🔍</span>
+ </button>
  <button class="control-btn stats-toggle" id="statsToggle" title="Toggle Stats"
  aria-label="Toggle data overview panel" aria-expanded="false" aria-controls="statsPanel">
  <span aria-hidden="true">📊</span>
@@ -111,10 +115,25 @@
  aria-label="Toggle dark mode" aria-pressed="false">
  <span aria-hidden="true">🌙</span>
  </button>
-</div>
  </div>
+</div>
 
- <!-- Collapsible Stats Panel -->
+<!-- Places Filter Panel -->
+<div class="filter-panel" id="filterPanel" role="region" aria-label="Filter places by type">
+ <div class="filter-pills">
+  <div class="filter-pill active" data-category="settlement" style="--pill-color:#4CAF50;"><span class="pill-dot"></span>Settlements <span class="pill-count" id="count-settlement">0</span></div>
+  <div class="filter-pill active" data-category="fort" style="--pill-color:#B8312F;"><span class="pill-dot"></span>Forts &amp; Posts <span class="pill-count" id="count-fort">0</span></div>
+  <div class="filter-pill active" data-category="road-allowance" style="--pill-color:#FF9800;"><span class="pill-dot"></span>Road Allowance <span class="pill-count" id="count-road-allowance">0</span></div>
+  <div class="filter-pill active" data-category="parish" style="--pill-color:#9C27B0;"><span class="pill-dot"></span>Parish / Mission <span class="pill-count" id="count-parish">0</span></div>
+  <div class="filter-pill active" data-category="landmark" style="--pill-color:#2196F3;"><span class="pill-dot"></span>Landmarks <span class="pill-count" id="count-landmark">0</span></div>
+  <div class="filter-pill active" data-category="transport" style="--pill-color:#FFC107;color:#1A1714;"><span class="pill-dot" style="border-color:#BFA000;"></span>Transport <span class="pill-count" id="count-transport">0</span></div>
+  <div class="filter-pill active" data-category="traditional" style="--pill-color:#795548;"><span class="pill-dot"></span>Traditional <span class="pill-count" id="count-traditional">0</span></div>
+  <div class="filter-pill" data-category="other" style="--pill-color:#6B5D4D;"><span class="pill-dot"></span>Other <span class="pill-count" id="count-other">0</span></div>
+ </div>
+ <div class="filter-footer">Tap a pill to show/hide that type on the map</div>
+</div>
+
+<!-- Collapsible Stats Panel -->
 <div class="panel-backdrop" id="panelBackdrop"></div>
  <div class="stats-panel" id="statsPanel" role="region" aria-label="Data overview"
  aria-hidden="true">
