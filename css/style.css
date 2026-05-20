@@ -132,6 +132,11 @@ body {
  transition: filter 0.2s ease, stroke-width 0.2s ease;
 }
 
+/* Layer fade on toggle — CSS transition handles opacity smoothness */
+.leaflet-overlay-pane .leaflet-interactive {
+ transition: opacity 0.35s ease;
+}
+
 /* ============================================
 BOTTOM CONTROL BAR
 ============================================ */
@@ -750,6 +755,22 @@ SPLASH SCREEN
 /* ============================================
 COLLAPSIBLE PANELS
 ============================================ */
+
+/* Panel backdrop — subtle dark overlay behind info/stats panels */
+.panel-backdrop {
+ position: fixed;
+ inset: 0;
+ z-index: 998;
+ background: rgba(0, 0, 0, 0.35);
+ opacity: 0;
+ pointer-events: none;
+ transition: opacity 0.3s ease;
+}
+.panel-backdrop.visible {
+ opacity: 1;
+ pointer-events: auto;
+}
+
 .stats-panel,
 .legend-panel,
 .layer-info-panel {

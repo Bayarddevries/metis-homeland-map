@@ -148,51 +148,50 @@ document.addEventListener('DOMContentLoaded', () => {
  if (layerName === 'locations' && data) renderLocations(data.locations);
  if (layerName === 'buffalo' && data) renderBuffaloHerds(data.buffaloHerds);
  if (layerName === 'battles' && data) renderBattles(data.battles);
- // Fade in the layer
+// Fade in the layer using CSS transition
  const layer = layerMap[layerName];
  if (layer) {
- layer.eachLayer(l => {
- if (l.getElement) {
- const el = l.getElement();
- if (el) { el.style.transition = 'opacity 0.4s ease'; el.style.opacity = '0'; requestAnimationFrame(() => { el.style.opacity = ''; }); }
- }
- if (l.setStyle) l.setStyle({opacity: 0.01, fillOpacity: 0.01});
- });
- // Animate opacity back up
- setTimeout(() => {
- if (layerName === 'waterways' && waterwaysLayer) waterwaysLayer.setStyle({opacity: 0.8, fillOpacity: 0.4});
- if (layerName === 'trails' && cartTrailsLayer) cartTrailsLayer.setStyle({opacity: 0.8, fillOpacity: 0.4});
- if (layerName === 'locations' && locationsLayer) locationsLayer.setStyle({opacity: 1, fillOpacity: 0.9});
- if (layerName === 'buffalo' && buffaloHerdsLayer) buffaloHerdsLayer.setStyle({opacity: 0.8, fillOpacity: 0.6});
- if (layerName === 'battles' && battlesLayer) battlesLayer.setStyle({opacity: 0.9, fillOpacity: 0.7});
- }, 30);
+  // Start invisible, then next frame CSS transition fades in
+  layer.eachLayer(l => {
+   if (l.getElement) {
+    const el = l.getElement();
+    if (el) el.style.opacity = '0';
+   }
+  });
+  requestAnimationFrame(() => {
+   layer.eachLayer(l => {
+    if (l.getElement) {
+     const el = l.getElement();
+     if (el) el.style.opacity = '';
+    }
+   });
+  });
  }
  console.log(`${layerName}: ON`);
- } else {
+} else {
  if (btn) btn.classList.remove('active');
- // Fade out before removing
+ // Fade out via CSS transition, then remove from map
  const layer = layerMap[layerName];
  if (layer) {
- layer.eachLayer(l => {
- if (l.getElement) {
- const el = l.getElement();
- if (el) { el.style.transition = 'opacity 0.3s ease'; el.style.opacity = '0'; }
- }
- if (l.setStyle) l.setStyle({opacity: 0, fillOpacity: 0});
- });
- setTimeout(() => {
- if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
- if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
- if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
- if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
- if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
- }, 300);
+  layer.eachLayer(l => {
+   if (l.getElement) {
+    const el = l.getElement();
+    if (el) el.style.opacity = '0';
+   }
+  });
+  setTimeout(() => {
+   if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
+   if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+   if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
+   if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+   if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
+  }, 380);
  } else {
- if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
- if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
- if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
- if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
- if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
+  if (layerName === 'waterways' && waterwaysLayer) map.removeLayer(waterwaysLayer);
+  if (layerName === 'trails' && cartTrailsLayer) map.removeLayer(cartTrailsLayer);
+  if (layerName === 'locations' && locationsLayer) map.removeLayer(locationsLayer);
+  if (layerName === 'buffalo' && buffaloHerdsLayer) map.removeLayer(buffaloHerdsLayer);
+  if (layerName === 'battles' && battlesLayer) map.removeLayer(battlesLayer);
  }
  console.log(`${layerName}: OFF`);
  }
