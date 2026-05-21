@@ -1817,12 +1817,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Little Chicago (Chicago Line)",
-        "description": "Pejorative term for road allowance communities where Métis were displaced.",
+        "description": "Chicago Line (Little Chicago) was a Métis road allowance community located 5–7 miles outside of Lestock, Saskatchewan, home to 15–20 families on marginal land of brush, sloughs, and swamp. Adults worked seasonally — brush cutting, stone picking, hay cutting, and picking Seneca root. Some children attended the Residential Mission Day School at Lestock. In 1949, the government relocated many families to the Métis Colony at Green Lake; a couple of years later, the government burnt down the road allowance houses at Chicago Line.",
         "story": "Life on the Line: A story about the struggle for basic services in a community designated with a pejorative name by the nearby township.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Métis Road Allowance Communities: Little Chicago or Chicago Line, Saskatchewan. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
