@@ -2602,12 +2602,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Rat River (Rivière aux Rats)",
-        "description": "Wintering site with plentiful hay and wood. Surrounds the present community of St. Pierre Jolys.",
+        "description": "Rat River (Rivière aux Rats, Wasushk Watapa) was a Métis wintering site located where the Rat River flows into the Red River. After the boundary line left Pembina in the United States, many Métis relocated to Canada. When they could not obtain a U.S. missionary, on March 2, 1825 the Bishop of Juliopolis wrote to Robert Pelly, Governor of Assiniboia, requesting land at Rat River near la Saline. The Rat River Métis Settlement surrounded the present community of St. Pierre Jolys. The area had plentiful hay lands and wood for making Red River carts.",
         "story": "Rat River Winterers: A narrative about the 1825 petition of the local Métis for permanent land title near the salt works.",
         "founded": "1822-1825",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Rivière aux Rats, St. Pierre Jolys, Manitoba. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
