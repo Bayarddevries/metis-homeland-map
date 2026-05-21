@@ -3360,13 +3360,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Teton River",
-        "description": "Métis immigrants to Montana after the Riel rebellion settled in the canyon on the South Fork of the Teton River, about 25 miles west of Choteau. In 1896 there were 10 to 15 cabins; at its peak the settlement consisted of over 100 residents and about two dozen dwellings. The Métis community maintained a cemetery and lived traditionally in the canyon.\nSource: Barkwell, Lawrence J. Front Range Métis. Louis Riel Institute.",
+        "description": "The South Fork of the Teton River west of Choteau, Montana, flows through a canyon that was home to over 100 Métis, many of whom are buried in the old community cemetery maintained by the Wiseman family. Settlers like Jean-Baptiste Gariepy arrived in the canyon after 1885 to avoid U.S. forced removal to Canada, and were later joined by Métis refugees from the Riel Resistance. The Métis lived off the land, hunting, woodhawking, and collecting buffalo bones. Joseph Kinsey Howard conducted his research for Strange Empire while living among these Métis.",
         "story": "The South Fork Hunt: A narrative following a Métis hunting brigade as they establish a winter camp on the Teton River. The story illustrates the vast geographic reach of the Métis family networks, linking the Montana plains to the Red River settlements through marriage and trade.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Front Range Métis (Teton River). Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Teton River, South Fork. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -3646,13 +3646,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Whiskey Flats",
-        "description": "",
+        "description": "Whiskey Flats was a Métis road allowance community built on floodplain along the Yukon River in Whitehorse, Yukon, dating back to at least 1942. It was located on government land and unused property belonging to large private companies. Whiskey Flats was eventually bulldozed and cleared for a city park.",
         "story": "Life on the Flats: A survival story set in a road allowance community, where families use their ingenuity to build homes from scrap materials. The narrative focuses on the community's resilience in the face of social segregation and their determination to provide an education for their children despite being excluded from municipal services.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Whiskey Flats and Moccasin Flats. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -3704,13 +3704,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Williams County",
-        "description": "",
+        "description": "When allotments of the Turtle Mountain reservation were found insufficient, many Métis were given land in western North Dakota, mostly in Williams County. Many Métis gave up their reservation land and moved to Williams County, taking what animals they had to the new land.",
         "story": "Borderland Kin: A story of a Métis family whose land holdings and kinship ties span the boundary between Manitoba and Williams County. The plot centers on the challenges of navigating new international regulations that threatened to divide their community and their traditional hunting territories.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Williams County North Dakota Metis. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
