@@ -1562,13 +1562,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Kelly Lake",
-        "description": "",
+        "description": "Kelly Lake is British Columbia's only distinct Métis community. It was established around 1910 by Métis migrating west from Flying Shot, Alberta, marking the end of a century-long migration north and west from the Red River. Kelly Lake was chosen because it offered good water, wild hay, logs for cabins and fuel, and an abundance of moose and smaller game. Located 1.6 kilometres inside the BC border, 56 kilometres south of Dawson Creek, the community is predominantly Métis with families of Cree-Métis ancestry. The isolation of Kelly Lake has allowed its residents to retain their unique cultural identity, and the community has been pursuing land claims through the British Columbia Treaty Commission process.",
         "story": "High Altitude Kinship: A story detailing the unique mountain lifestyle and enduring cultural traditions of the Kelly Lake Métis.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Dorion-Paquin, Paquin, and Young. The Kelly Lake, British Columbia Métis. Louis Riel Institute / Gabriel Dumont Institute."
       },
       "geometry": {
         "type": "Point",
