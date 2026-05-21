@@ -18,6 +18,7 @@ and this project uses dates rather than versions (unversioned site).
   - Crossover types use comma format (e.g. "Fort, Settlement")
   - Full mapping applied to all 199 features
 - Filter categories now powered by explicit `category` field instead of substring matching
+- Popup improvements (#15): color-coded header bar (4px accent) matching category, added category label tag before community_type
 
 ### Removed
 - 30 duplicate location entries merged (229 → 199 unique locations) — 27 clusters reviewed
