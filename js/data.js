@@ -260,19 +260,19 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Black Butte (Butte Noir)",
-        "description": "",
+        "description": "Black Butte was a camping and meeting place for the Dakota and Metis buffalo hunters. It is located NE of Velva, North Dakota on the big bend of the Souris River. The Buffalo Hunt of September 1860 is described in a report in the Nor'Wester, November 15, 1860, page 3. They note that the Metis camped at Butte Noir.",
         "story": "The Lookout: A story follows a buffalo scout stationed at Black Butte, monitoring the herds and approaching brigades during the peak of the 19th-century hunts.",
         "founded": "Historic",
         "community_type": "Settlement, Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Black Butte (Butte Noir). Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -102.6667,
-          48.9833
+          -100.95,
+          48.1167
         ]
       }
     },
