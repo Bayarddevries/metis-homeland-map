@@ -1465,19 +1465,19 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Heart Butte",
-        "description": "",
+        "description": "Heart Butte, also called Mni Wakan Cante (Heart of the Sacred Water) by the Dakota, is located eight miles south-east of Fort Totten on the south shore of Devil's Lake. In 1868, Father Genin set a large wooden cross on top of Heart Butte and held a mass for 500 Metis and 900 Dakota.",
         "story": "Prairie Kinship: A story about the cultural and family ties between Heart Butte and the Canadian Red River Métis.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Heart Butte, North Dakota. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -112.8361,
-          48.2911
+          -98.8573,
+          47.9339
         ]
       }
     },
