@@ -1504,19 +1504,19 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Island Cache",
-        "description": "",
+        "description": "Island Cache was located just before the forks of the Fraser and Nechako Rivers. It was a short-lived Métis road allowance-type community at the juncture of the Nechako and Fraser Rivers, separated from Prince George by a flood channel. The references tell the story of how after a severe flood in 1972, the community was bulldozed and the Métis were pushed out by the city of Prince George and the area was turned into an industrial zone.",
         "story": "Mountain Crossing: A story follows a Métis family moving through the western passes to settle at Island Cache, linking the plains and the coast.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Island Cache, British Columbia. Louis Riel Institute. References: Evans, Krebs et al. A Brief History of the Short Life of the Island Cache (2004); Evans and Foster. 'A Case of Genocide.' Shima, Vol. 4, No. 2, 2010."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -113.0,
-          54.0
+          -122.75,
+          53.9167
         ]
       }
     },
