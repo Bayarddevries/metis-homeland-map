@@ -19,6 +19,7 @@ and this project uses dates rather than versions (unversioned site).
   - Full mapping applied to all 199 features
 - Filter categories now powered by explicit `category` field instead of substring matching
 - Popup improvements (#15): color-coded header bar (4px accent) matching category, added category label tag before community_type
+- Sourced descriptions for 26 locations: cleared placeholder Virtual Museum boilerplate; Duck Mountain and Carlton House now have verbatim excerpts from Barkwell monograph with citation; all 26 have source attribution field
 
 ### Removed
 - 30 duplicate location entries merged (229 → 199 unique locations) — 27 clusters reviewed

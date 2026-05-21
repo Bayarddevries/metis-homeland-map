@@ -27,11 +27,10 @@ main_js: "js/main.js"
 - **Places filter** — 8 color-coded community_type categories with descriptions
 - **Duplicate cleanup** — 30 duplicate location entries merged (229 → 199 unique), 27 clusters reviewed and resolved
 - **Community type normalization** — mapped 64 values to 8 filter categories; added `category` field; cleaned `community_type` values
-- **Popup improvements (#15)** — color-coded header bar, category label tag (stories suppressed for now)
+- **Popup improvements (#15)** — color-coded header bar, category label tag, source citation for descriptions
 
 ## What's Next 📋
-1. **Popup content refinement (#15)** — remaining: identify and fix placeholder/AI-sounding description boilerplate
-2. **Cart trails** — re-trace with route names (on hold)
+1. **Cart trails** — re-trace with route names (on hold)
 
 ## Blockers 🚫
 None currently.

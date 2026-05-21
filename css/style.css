@@ -1407,6 +1407,14 @@ MAP CONTROLS POLISH
   font-weight: 600;
 }
 
+.popup-source {
+  font-size: 11px;
+  color: var(--text-secondary);
+  padding: 8px 16px 12px;
+  border-top: 1px solid var(--border-color);
+  line-height: 1.4;
+}
+
 /* ============================================
 ACCESSIBILITY
 ============================================ */

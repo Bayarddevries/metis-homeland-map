@@ -585,7 +585,13 @@ function createLocationPopup(props) {
     html += `<span class="popup-tag founded">Founded: ${props.founded}</span>`;
   }
 
-  html += '</div></div>';
+  html += '</div>';
+
+  if (props.source) {
+    html += `<div class="popup-source">Source: ${props.source}</div>`;
+  }
+
+  html += '</div>';
   return html;
 }
 
