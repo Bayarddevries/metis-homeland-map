@@ -7,6 +7,18 @@ and this project uses dates rather than versions (unversioned site).
 
 ## [2026-05-21]
 
+### Added
+- `category` field to all location features (8 filter categories)
+- Location marker colors by category (green=settlement, red=fort, orange=road allowance, purple=parish, blue=landmark, yellow=transport, brown=traditional)
+- Filter JS now reads `category` field directly (with legacy fallback)
+
+### Changed
+- Community type normalization: 64 values cleaned to 8 categories
+  - Redundant prefixes stripped (e.g. "Settlement / Wintering site" → "Wintering site")
+  - Crossover types use comma format (e.g. "Fort, Settlement")
+  - Full mapping applied to all 199 features
+- Filter categories now powered by explicit `category` field instead of substring matching
+
 ### Removed
 - 30 duplicate location entries merged (229 → 199 unique locations) — 27 clusters reviewed
   - 19 merge clusters, 3 keep-both, 1 keep-all-three

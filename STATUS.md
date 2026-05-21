@@ -26,12 +26,12 @@ main_js: "js/main.js"
 - **Buffalo herds (#7)** — era labels on-map + population timeline in info panel
 - **Places filter** — 8 color-coded community_type categories with descriptions
 - **Duplicate cleanup** — 30 duplicate location entries merged (229 → 199 unique), 27 clusters reviewed and resolved
+- **Community type normalization** — mapped 64 values to 8 filter categories; added `category` field; cleaned `community_type` values
 
 ## What's Next 📋
-1. **Community type normalization** — map 66 community_type values to the 8 UI filter categories (P1)
-2. **#12** Integration work
-3. **#15** Popup content refinement
-4. **Cart trails** — re-trace with route names (on hold)
+1. **Integration work (#12)** — make sure the filter actually works in the live UI (functional check)
+2. **Popup content refinement (#15)** — improve popup layout, mobile, and highlight category types
+3. **Cart trails** — re-trace with route names (on hold)
 
 ## Blockers 🚫
 None currently.
