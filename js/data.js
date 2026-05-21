@@ -2902,13 +2902,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Smokey River",
-        "description": "",
+        "description": "The Smoky River is a major tributary of the Peace River in western Alberta, named for 'smouldering beds of coal in the riverbank' noted by the Cree. The river valley was home to many Métis families (Gladu, Joachim, Cardinal, Le Prêtre) documented in scrip applications from the 1870s–1890s, with settlements at Jasper House, Dunvegan, Peace River Landing, and Lesser Slave Lake.",
         "story": "Scrip on the Smokey: A narrative exploring the 1885 scrip commission's visit to the Smokey River area. The story follows a family as they weigh the government's offer of scrip against their traditional land rights, illustrating the legal and social shifts occurring in the western Métis settlements during the late 19th century.",
         "founded": "Historic",
         "community_type": "Hub",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Smokey River, Alberta Scrip Applications. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -3131,13 +3131,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "St. Peter's Mission",
-        "description": "William Boushie, a Métis settler, moved his family to St. Peter's Mission when his children reached school age. St. Peter's Mission served as an educational and community center for Métis families on the Montana Front Range.\nSource: Barkwell, Lawrence J. Front Range Métis. Louis Riel Institute.",
+        "description": "St. Peter's Mission (1859) was the third Jesuit mission in Montana, first located at Priest's Butte near Choteau, later moved to Sun River and then its present location west of Cascade. In 1883 Louis Riel taught a parochial school there, instructing Métis children and attending political meetings where Gabriel Azure was elected chairman. Many Métis at St. Peter's gave Riel power of attorney to sell their Canadian scrip rights. At its peak 500 children were taught at the mission.",
         "story": "Riel’s Classmates: A narrative set in the mission schoolroom, exploring the intellectual and political awakening of young Métis students. The story details the influence of the mission's teachings on their understanding of land rights and national identity, which would later fuel the Resistance movements.",
         "founded": "Historic",
         "community_type": "Mission",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Front Range Métis (St. Peter's Mission). Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. St. Peter's Mission. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
