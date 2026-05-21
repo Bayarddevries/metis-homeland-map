@@ -2583,12 +2583,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Rat Portage",
-        "description": "Disputed area between Manitoba and Ontario (today's Kenora).",
+        "description": "Rat Portage (renamed Kenora in 1905) was the main trading post on the north side of Lake of the Woods in the Rainy Lake district. The name is a shortened corruption of Wauzhushk Onigum, the 'rat carrying place' — the major portage linking Lake of the Woods to the Winnipeg River. Métis managers of the post included James Isbister, Francois Mainville, Charles Goulait, and George McPherson. The post moved to the mainland in 1861. Rat Portage became the centre of the Ontario-Manitoba boundary dispute (1870–1884), with both provinces claiming it, each operating jails and issuing competing mining titles until the Privy Council decided for Ontario in 1884.",
         "story": "Boundary Wars: A political drama about the confusion when the town was incorporated by both provinces simultaneously in 1882.",
         "founded": "1882 (Incorporation)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Rat Portage – Name changed to Kenora in 1905. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
