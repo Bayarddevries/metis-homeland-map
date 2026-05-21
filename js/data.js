@@ -375,13 +375,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Butte St. Paul (\"Ot Accowabiwinins\")",
-        "description": "",
+        "description": "Butte St. Paul ('Ot Accowabiwinins') is located northwest of Dunseith, North Dakota, on the Turtle Mountain escarpment. It was named by missionary George Anthony Belcourt, who survived a blizzard there in January 1850 and celebrated Mass on the feast of the Conversion of St. Paul (Jan 25). Belcourt blessed a large wooden cross on the summit, and a commemorative cairn was dedicated in 1933.",
         "story": "The Vision at the Butte: A story explores the traditional spiritual significance of the butte for the Métis and their ancestors who used it as a landmark and ceremonial site.",
         "founded": "Ancient",
         "community_type": "Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Butte St. Paul. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
