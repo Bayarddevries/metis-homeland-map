@@ -5,40 +5,40 @@ All notable changes to the Métis Homeland Map project are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project uses dates rather than versions (unversioned site).
 
+## [2026-05-21]
+
+### Removed
+- 30 duplicate location entries merged (229 → 199 unique locations) — 27 clusters reviewed
+  - 19 merge clusters, 3 keep-both, 1 keep-all-three
+  - 5 entries renamed for clarity
+  - 9 content merges preserving unique descriptions/stories
+  - Full decision log: `~/.hermes/kanban/output/homeland_duplicate_decisions.csv`
+  - Remaining locations: `~/.hermes/kanban/output/homeland_locations_remaining.csv`
+
+### Changed
+- Consolidated duplicate entries preserving best name, founded date, and unique descriptions
+
 ## [2026-05-20]
 
 ### Added
-- Splash → map entrance animation (scale+fade on splash, zoom+reveal on map)
-- Bottom bar slide-up entrance with staggered button reveal
-- Layer toggle fade transitions (CSS-based, in/out 0.35s)
-- Info panel backdrop overlay for slide-up panels
-- Places filter panel — 8 colored pill buttons to show/hide location categories
-- Category-based marker colors (settlement=green, fort=red, road allowance=orange, etc.)
-- Filter counts per category with live summary footer ("Showing X of 229 locations")
-- Category descriptions with ⓘ info icons — tap to learn what each type means
+- Buffalo herd era labels: "Original Range", "1870 Range", "1889 Range" on-map tooltips (#7)
+- Buffalo population timeline table in info panel w/ sources (Isenberg, Lott, PBS, Roe, Hornaday)
+- Places filter panel — 8 color-coded community_type categories with ⓘ descriptions
+- Splash→map entrance animation with zoom reveal and bottom bar slide-up (#13)
+- Layer toggle fade in/out transitions (#13)
+- Info panel backdrop overlay (#13)
+- Kanban task: Data Review — locations audit + layers recommendations (Research Archivist)
 
 ### Changed
-- Locations markers now color-coded by community_type category (7 buckets)
-- Filter panel uses CSS theme variables instead of hardcoded dark colors
-- Filter panel z-index bumped to 1001 (above bottom bar)
-
-### Fixed
-- Filter panel was behind bottom bar (z-index 999 vs 1000)
-- Mobile bottom bar positioning — switched to `position: fixed` + `left/right` centering
-- Mobile label overflow — icons-only layout at ≤430px width
-- Filter panel clipping on mobile — viewport-constrained height with scrollable pills
-- Mobile responsive breakpoints for all filter elements
-
-## [Unreleased]
-
-### Changed
-
-### Added
+- Bottom bar: switched to `position: fixed` with left/right centering for reliable mobile layout
+- Mobile bottom bar: icons-only mode at ≤430px width
+- Layer pills color-coded by community_type category
+- Filter panel properly z-indexed and scrollable on mobile
 
 ### Planned
-- #7 Buffalo herds layer
 - #12 Integration work
-- Redraw cart trails with actual route names
+- #15 Popup improvements (content refinement)
+- Cart trail data re-trace with route names
 
 ## [2026-05-07]
 
