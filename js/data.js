@@ -2736,25 +2736,6 @@ window.homelandData = {
     {
       "type": "Feature",
       "properties": {
-        "name": "Rivière St. Pierre",
-        "description": "An early explorer name for the Souris River and the Little Saskatchewan River.",
-        "story": "Naming the Waters: A narrative following explorer's men as they name the winding rivers in the 1730s.",
-        "founded": "1734",
-        "community_type": "Geographic Feature",
-        "type": "location",
-        "category": "landmark"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -97.0422,
-          49.4456
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Rock Lake (Lac des Roches)",
         "description": "Source of Pembina River; inhabited by descendants of Henry’s Métis employees. People intermarried with Nakoda and Chippewa Cree.",
         "story": "The Lake Band: A story about intermarried families depicting their shared life and trade connections in the Pembina hills.",
@@ -3157,9 +3138,9 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "St. Pierre",
-        "description": "An early explorer name for the Souris River and the Little Saskatchewan River.",
+        "description": "St. Pierre (originally St. Pierre-Jolys) is a Métis wintering settlement on the Rat River in Manitoba, near the present-day community of St. Pierre-Jolys. The region was home to Métis families through the 19th century. The name 'Rivière St. Pierre' was also an early French explorer name applied to several rivers, including the Souris River, so named because they were discovered on the feast day of St. Peter.",
         "story": "Naming the Waters: A narrative following explorer's men as they name the winding rivers in the 1730s.",
-        "founded": "1822",
+        "founded": "1822 / 1734",
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement"
