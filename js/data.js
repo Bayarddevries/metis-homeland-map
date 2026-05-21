@@ -164,13 +164,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Battle River Valley",
-        "description": "",
+        "description": "Battle River (Notikiwin Seppe in Cree) originates south from Battle Lake in central Alberta and flows east into Saskatchewan, discharging into the North Saskatchewan River at Battleford. The Métis families of the Salois and Laboucanes settled in the valley in the mid-1800s, establishing trade routes using Red River carts and raising livestock. During the 1870s and 1880s, the Battle River valley became a corridor for Métis settlement at Laboucane (Duhamel), Saint-Paul-des-Métis, and the Battleford area.",
         "story": "The Western Hunt: A narrative following a hunt brigade as they move through the Battle River Valley, documenting the seasonal lifestyle and kinship ties established in the western interior.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Saskatchewan Métis Communities: Historical Overview. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -1678,13 +1678,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Lac Ste. Anne",
-        "description": "",
+        "description": "Lac Ste. Anne in Alberta is one of the oldest Métis communities in western Canada. It was a major fur trade and mission centre, and since 1889 has been the site of an annual Métis pilgrimage in July. The Métis community at Lac Ste. Anne was established in the early 1800s, with families including the Gladu, Calliou, and Bruguier families. Many Kelly Lake Métis trace their origins to Lac Ste. Anne.",
         "story": "Pilgrimage to the Lake: A story explores the spiritual traditions and annual summer gatherings at Lac Ste. Anne.",
         "founded": "1844",
         "community_type": "Mission, Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Saskatchewan Métis Communities. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -1717,13 +1717,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Lake Pepin",
-        "description": "",
+        "description": "By the Treaty of Prairie du Chien (July 15, 1830), the M'dewakantonwan Dakota set aside a tract of land along the west side of Lake Pepin in Minnesota for their Half-Breed relatives — the 'Lake Pepin Half Breed Tract.' Augustin Rocque was the first Métis settler, born at Prairie du Chien about 1795. The tract ran 15 miles inland from below Red Wing, parallel to Lake Pepin and the Mississippi for 32 miles. Certificates were issued to Half-Breeds and became valuable holdings in subsequent years.",
         "story": "Mississippi Kin: A story follows families moving along the Mississippi trade routes between Red River and Lake Pepin.",
         "founded": "1830",
         "community_type": "Reserved Lands",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Lake Pepin Half-Breed Tract. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
