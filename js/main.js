@@ -60,16 +60,32 @@ const filterState = {
 };
 
 // Map community_type values to filter categories with colors
-function getLocationCategory(type) {
- const t = (type || '').toLowerCase();
- if (t.includes('road allowance') || t.includes('road-allowance')) return { cat: 'road-allowance', color: '#FF9800' };
- if (t.includes('settlement') || t.includes('reserved lands')) return { cat: 'settlement', color: '#4CAF50' };
- if (t.includes('fort') || t.includes('trading post') || t.includes('trading outpost')) return { cat: 'fort', color: '#B8312F' };
- if (t.includes('parish') || t.includes('mission')) return { cat: 'parish', color: '#9C27B0' };
- if (t.includes('historic') || t.includes('landmark') || t.includes('sanctuary') || t.includes('geographic')) return { cat: 'landmark', color: '#2196F3' };
- if (t.includes('transport') || t.includes('route') || t.includes('hub')) return { cat: 'transport', color: '#FFC107' };
- if (t.includes('harvest') || t.includes('seasonal') || t.includes('gathering') || t.includes('traditional') || t.includes('ceremonial') || t.includes('meeting')) return { cat: 'traditional', color: '#795548' };
- return { cat: 'other', color: '#6B5D4D' };
+function getLocationCategory(feature) {
+  // Use the explicit category field if available
+  const cat = feature.properties && feature.properties.category;
+  if (cat) {
+    const colors = {
+      'settlement': '#4CAF50',
+      'fort': '#B8312F',
+      'road-allowance': '#FF9800',
+      'parish': '#9C27B0',
+      'landmark': '#2196F3',
+      'transport': '#FFC107',
+      'traditional': '#795548',
+      'other': '#6B5D4D'
+    };
+    return { cat: cat, color: colors[cat] || '#6B5D4D' };
+  }
+  // Fallback: infer from community_type (legacy)
+  const t = (feature.properties && feature.properties.community_type || '').toLowerCase();
+  if (t.includes('road allowance') || t.includes('road-allowance')) return { cat: 'road-allowance', color: '#FF9800' };
+  if (t.includes('settlement') || t.includes('reserved lands')) return { cat: 'settlement', color: '#4CAF50' };
+  if (t.includes('fort') || t.includes('trading post') || t.includes('trading outpost')) return { cat: 'fort', color: '#B8312F' };
+  if (t.includes('parish') || t.includes('mission')) return { cat: 'parish', color: '#9C27B0' };
+  if (t.includes('historic') || t.includes('landmark') || t.includes('sanctuary') || t.includes('geographic')) return { cat: 'landmark', color: '#2196F3' };
+  if (t.includes('transport') || t.includes('route') || t.includes('hub')) return { cat: 'transport', color: '#FFC107' };
+  if (t.includes('harvest') || t.includes('seasonal') || t.includes('gathering') || t.includes('traditional') || t.includes('ceremonial') || t.includes('meeting')) return { cat: 'traditional', color: '#795548' };
+  return { cat: 'other', color: '#6B5D4D' };
 }
 
  // Layer info data
@@ -453,14 +469,14 @@ function reapplyLocationFilter() {
  // Rebuild location layer with only visible categories
  const visible = { features: [] };
  for (const feat of rawLocationsData.features) {
-  const cat = getLocationCategory(feat.properties.community_type).cat;
+  const cat = getLocationCategory(feat).cat;
   if (filterState[cat]) visible.features.push(feat);
  }
  // Count visible for footer
  let totalVisible = 0;
  for (const cat in filterState) {
   if (filterState[cat]) {
-   const count = rawLocationsData.features.filter(f => getLocationCategory(f.properties.community_type).cat === cat).length;
+   const count = rawLocationsData.features.filter(f => getLocationCategory(f).cat === cat).length;
    totalVisible += count;
   }
  }
@@ -549,18 +565,18 @@ function renderLocations(geojsonData) {
 
  // Update pill counts
  for (const feat of (rawLocationsData || geojsonData).features) {
-  const cat = getLocationCategory(feat.properties.community_type).cat;
+  const cat = getLocationCategory(feat).cat;
   // skip — counts computed below
  }
  for (const cat in filterState) {
-  const count = (rawLocationsData || geojsonData).features.filter(f => getLocationCategory(f.properties.community_type).cat === cat).length;
+  const count = (rawLocationsData || geojsonData).features.filter(f => getLocationCategory(f).cat === cat).length;
   const el = document.getElementById('count-' + cat);
   if (el) el.textContent = count;
  }
 
  locationsLayer = L.geoJSON(geojsonData, {
  pointToLayer: function(feature, latlng) {
- const catInfo = getLocationCategory(feature.properties.community_type);
+ const catInfo = getLocationCategory(feature);
  return L.circleMarker(latlng, {
  radius: 6,
  fillColor: catInfo.color,

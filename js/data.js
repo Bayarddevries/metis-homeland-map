@@ -15,8 +15,9 @@ window.homelandData = {
         "description": "This North West Company \"canoe fort\" was established on the north shore of the Souris River, which was originally called Rivière St. Pierre by La Vérendrye. Located near present-day Hartney, the fort was strategically surrounded on three sides by the river for natural defense. It was built to challenge the growing competition of the Hudson’s Bay Company in the Assiniboine region. Astronomer David Thompson recorded its precise latitude, noting it was roughly 13.5 miles from where Plum Creek entered the Souris.",
         "story": "The Silent Fort: A suspenseful narrative focused on the final year of operations, depicting the anxiety of traders during a lone winter at a fort \"too open to the incursions of the Sioux Indians\". The story ends with the hasty decision to desert the post just before David Thompson’s 1797 arrival found it empty.",
         "founded": "1795",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -33,8 +34,9 @@ window.homelandData = {
         "description": "Located south of Lake Ebb and Flow and its associated reserve, this settlement recorded a population of ninety Métis in 1959. It was categorized as a community where the Métis lived on the \"fringe\" of an Indian Reserve. The area is historically significant as a site for traditional maple sugaring.",
         "story": "The Fringe Dwellers: A social drama exploring the lives of a family at Bacon Ridge, navigating the cultural and legal gap between the neighboring reserve and the provincial government while harvesting maple syrup.",
         "founded": "1950s (Documented)",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -51,8 +53,9 @@ window.homelandData = {
         "description": "A French-Métis parish on the Assiniboine River between St. François Xavier and Poplar Point. Father Belcourt founded the mission to transition the Métis and Saulteaux to a sedentary lifestyle by providing plows and oxen to plant potatoes, corn, and oats. The settlement included a school led by the Nolin sisters, who were fluent in French, English, Ojibwa, and Cree.",
         "story": "Graves in the Current: A haunting historical piece set during the catastrophic 1882 flood. As the cemetery slides into the rising Assiniboine, families are forced to make a difficult trek to North Dakota with their parish priest, Cyrille Saint-Pierre, to seek a new beginning.",
         "founded": "1832",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +73,8 @@ window.homelandData = {
         "story": "Guardians of the Bay: A narrative centered on the community’s efforts to maintain their unique identity and their sacred free burial grounds as the surrounding area begins to transform into a popular tourist destination for outsiders.",
         "founded": "1884",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -87,8 +91,9 @@ window.homelandData = {
         "description": "This area was settled by the Red River Métis in the late 1700s. Barrows is the largest of a cluster of five associated Métis communities situated on the northern edge of the Porcupine Forest. It served as a rapidly constructed lumber town for the Red Deer Lumber Company. By the mid-1920s, the mill operation ceased, leading to a decline in the town's prominence. The area is historically linked to the Fort Red Deer River (or Fort Rivière la Biche), a North West Company post founded by Hugh McGillis in 1794. In 1959, the census recorded 130 Métis in Baden, 40 in Barrows, 20 in National Mills, and 59 in Red Deer Lake.",
         "story": "The Last Sawmill: A historical drama set in 1926 following a Métis family in Barrows as the Red Deer Lumber Company mill whistles blow for the final time. The story explores their struggle to maintain their deep connection to the Porcupine Forest while the economic engine of their town is dismantled, forcing a choice between the land they have occupied since the 1700s and seeking labor in the cities to the south.",
         "founded": "Late 1700s",
-        "community_type": "Settlement (Lumber Towns)",
-        "type": "location"
+        "community_type": "Lumber Towns",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -105,8 +110,9 @@ window.homelandData = {
         "description": "Originally established as a wintering post and depot for the North West Company in 1732, this location was vital because the soil was suitable for agriculture when other areas failed. In 1792, Simon Fraser and Lesieur Toussaint established a larger post here, also known as Sieurs Fort. It served as a strategic provisioning hub where bags of pemmican from the upper Assiniboine were stored for canoe brigades traveling to the far northwest. It was the unofficial capital of the NW Company's Lake Winnipeg district. By 1817, the Métis staff were farming wheat, barley, and potatoes, effectively supplying the Red River Settlement with seed grain during years of crop failure.",
         "story": "The Provisioning Brigade: A historical account set during a winter of starvation in the early Red River Settlement. The narrative follows the Métis staff at Bas de la Rivière as they manage a massive ranch for hogs and cattle and work through the night at their horse-powered flour mill to prepare life-saving seed grain and salted Traverse Bay whitefish for the desperate Selkirk Settlers.",
         "founded": "1732",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -123,8 +129,9 @@ window.homelandData = {
         "description": "This community spanned both shores of the Winnipeg River, from Pointe au Foutre (the portage at Pine Falls) down to Traverse Bay on Lake Winnipeg. It was ideally positioned for the October whitefish fishery, where fish spawn on the gravel bottoms of the bay. By the early 1800s, it featured extensive gardens that sold vegetables to incoming settlers. After the amalgamation of the fur companies in 1821, the site lost its status as a major transshipment hub but remained a thriving Métis agricultural and fishing community. In 1958, the road allowance community at Pine Falls alone recorded a population of 300 Métis.",
         "story": "The Whitefish Run: A vibrant seasonal story centered on the annual October migration of whitefish. The plot follows families as they gather on the gravel shoals of Traverse Bay, utilizing traditional fishing techniques to stock their winter larders. The narrative contrasts the tranquility of the river life with the frantic labor of the \"Harvest Brigade\" that once defined the post's importance to the entire northwest.",
         "founded": "1732",
-        "community_type": "Fort / Settlement",
-        "type": "location"
+        "community_type": "Fort, Settlement",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -141,8 +148,9 @@ window.homelandData = {
         "description": "A destination for French-speaking Métis who moved permanently to their traditional wintering quarters after the 1869-70 Resistance. It is recognized as a significant community in the Métis Homeland.",
         "story": "Relocation West: A story follows a family from the Red River valley making the long journey west to their wintering grounds in Batoche to escape the social and political changes following 1870.",
         "founded": "Historic wintering site",
-        "community_type": "Settlement (Wintering site)",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -159,8 +167,9 @@ window.homelandData = {
         "description": "Recognized in the Virtual Museum as a significant community area associated with Buffalo Lake. It was part of the western territory utilized by the Métis during the buffalo hunting era.",
         "story": "The Western Hunt: A narrative following a hunt brigade as they move through the Battle River Valley, documenting the seasonal lifestyle and kinship ties established in the western interior.",
         "founded": "Historic",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -177,8 +186,9 @@ window.homelandData = {
         "description": "Located on the east shore of Lake Winnipeg, this site was a stopping point for Métis boatmen since 1765. It was a thriving community until 1970, when a ban on fishing due to mercury contamination devastated the local economy. Most fishermen were forced to relocate, leaving the remainder dependent on government compensation.",
         "story": "The Poisoned Lake: A poignant story about a legendary fisherman from Berens River dealing with the sudden loss of his livelihood and his traditional connection to the water after the 1970 mercury crisis.",
         "founded": "1814 (First post)",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -195,8 +205,9 @@ window.homelandData = {
         "description": "A road allowance community located seven kilometers northwest of The Pas. When The Pas was incorporated in 1912, Big Eddy was intentionally excluded from the town boundaries. This exclusion allowed the municipality to deny Métis residents access to basic services like water and sewer.",
         "story": "Outside the Line: A political drama following a community leader in Big Eddy as he petitions the government to extend simple town services to his community, which is visible but legally excluded from the town's prosperity.",
         "founded": "1912 (Incorporation exclusion)",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -213,8 +224,9 @@ window.homelandData = {
         "description": "Named after James Curtis Bird, an HBC Chief Factor who received a 3,000-acre land grant here in 1824. Known as \"the Pines,\" its high ground served as a vital sanctuary for Red River settlers and their livestock during the great floods of 1826 and 1852.",
         "story": "Refuge in the Pines: A survival story set during the 1852 flood, where diverse groups of Métis and settlers huddle together on the high ground while the valley below becomes an inland sea.",
         "founded": "1824 (Grant)",
-        "community_type": "Historic Sanctuary",
-        "type": "location"
+        "community_type": "Sanctuary",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -232,7 +244,8 @@ window.homelandData = {
         "story": "The Orkney Dream: A historical tragedy detailing the resilience and heartbreak of the Orkney freemen as they attempt to build a permanent home only to be defeated by disease and insects in 1819.",
         "founded": "1817",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -249,8 +262,9 @@ window.homelandData = {
         "description": "Listed in the Virtual Museum as a significant Métis community. It was part of the geographic network of the plains Métis.",
         "story": "The Lookout: A story follows a buffalo scout stationed at Black Butte, monitoring the herds and approaching brigades during the peak of the 19th-century hunts.",
         "founded": "Historic",
-        "community_type": "Settlement / Landmark",
-        "type": "location"
+        "community_type": "Settlement, Landmark",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -268,7 +282,8 @@ window.homelandData = {
         "story": "The Blood River Brigade: A story following a York boat brigade's stop at the post, highlighting the cultural interactions between traders and local bands along the eastern shore.",
         "founded": "1794",
         "community_type": "Trading Post",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -285,8 +300,9 @@ window.homelandData = {
         "description": "Traditional harvesting grounds within the Swan Pelican Provincial Forest used by the Métis and First Nations people of Pine Creek, Camperville, and Duck Bay. Located on unoccupied Crown lands, these grounds were essential for food and medicinal gathering.",
         "story": "The Blue Harvest: A seasonal narrative focusing on the annual gathering of families at the patch, where traditional harvesting is blended with the sharing of oral histories and medicinal knowledge.",
         "founded": "Ancient / Traditional",
-        "community_type": "Traditional Harvesting Site",
-        "type": "location"
+        "community_type": "Harvesting Site",
+        "type": "location",
+        "category": "traditional"
       },
       "geometry": {
         "type": "Point",
@@ -304,7 +320,8 @@ window.homelandData = {
         "story": "The Pasture War: A narrative focusing on the 1930s displacement, following a family as they watch their homestead being transformed into a government-run pasture while their homes are burned.",
         "founded": "Early 1880s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -321,8 +338,9 @@ window.homelandData = {
         "description": "Brandon House was founded by the HBC on the northeast bank of the Assiniboine River. It was a central trade hub but underwent several moves due to competition. In 1816, it was famously captured and plundered by Cuthbert Grant and a party of Métis as a prelude to the Battle of Seven Oaks.",
         "story": "The Capture of Brandon House: A tense historical drama set on June 1, 1816, following the strategic decisions of Cuthbert Grant's party as they seize the fort's pemmican stores to bypass the Red River colony.",
         "founded": "Oct 16, 1793",
-        "community_type": "Forts / Trading Posts",
-        "type": "location"
+        "community_type": "Fort, Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -339,8 +357,9 @@ window.homelandData = {
         "description": "Listed as a site of a historic Métis settlement and wintering grounds in the Battle River Valley.",
         "story": "Winter at Buffalo Lake: A narrative detailing the social life and survival strategies of a Métis wintering brigade (hivernants) at Buffalo Lake during the mid-19th century.",
         "founded": "Historic",
-        "community_type": "Settlement (Wintering site)",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -358,7 +377,8 @@ window.homelandData = {
         "story": "The Vision at the Butte: A story explores the traditional spiritual significance of the butte for the Métis and their ancestors who used it as a landmark and ceremonial site.",
         "founded": "Ancient",
         "community_type": "Landmark",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -375,8 +395,9 @@ window.homelandData = {
         "description": "Located south of Darlingford with an elevation of 1,550 feet, this was a sacred ceremonial site for Plains Indians who called it Mepawaquomoshin (Little Dance Hill). It was a strategic landmark for Red River buffalo hunters. In the mid-1850s, a legendary battle occurred here where 1,500 buffalo hunters defeated a Sioux war party; roughly 597 warriors were reportedly buried on the western slope. In 1909, an anthropologist from the University of Toronto dug into the mound, removing many artifacts to the dismay of local Aboriginal people.",
         "story": "The Ancestors' Smudge: A poignant modern story following Métis and Dakota descendants from Belcourt, North Dakota, as they make their annual autumn trek to the hill. The narrative focuses on the solemn ceremony of walking the mound, scattering tobacco, and offering food to the spirits of the warriors buried there, attempting to reclaim the spiritual significance of a site once desecrated by early 20th-century anthropologists.",
         "founded": "Ancient / Historic",
-        "community_type": "Historic / Ceremonial Site",
-        "type": "location"
+        "community_type": "Ceremonial Site",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -394,7 +415,8 @@ window.homelandData = {
         "story": "The Salt Makers: A story of the community's origins in the 1860s salt trade, focusing on families building a new life and the memory of the \"salt cribs\" at Flett's Point.",
         "founded": "1860s (Salt); 1914 (Renamed)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -412,7 +434,8 @@ window.homelandData = {
         "story": "The Freight Road: A narrative following a Red River cart brigade along the trail, highlighting the unique culture and challenges found at each stopping house during the long trek to Edmonton.",
         "founded": "Early 1800s",
         "community_type": "Transportation Route",
-        "type": "location"
+        "type": "location",
+        "category": "transport"
       },
       "geometry": {
         "type": "Point",
@@ -429,8 +452,9 @@ window.homelandData = {
         "description": "A strategic region south of The Pas used for farming and gathering. It includes settlements like Young's Point and was historically a rendezvous for hunters awaiting spring fish runs.",
         "story": "Pasquia Shadows: A narrative exploring early 20th-century farming efforts as Métis families navigated the transition from the fur trade to a sedentary life in the valley.",
         "founded": "Ancient Rendezvous; 1741 (Fort)",
-        "community_type": "Settlement Hub",
-        "type": "location"
+        "community_type": "Hub",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -448,7 +472,8 @@ window.homelandData = {
         "story": "The Strategic Turn: An action-focused historical piece about Grant’s maneuver at Catfish Creek to bypass the HBC monopoly and prepare for the battle at Seven Oaks.",
         "founded": "#N/A",
         "community_type": "Geographic Landmark",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -466,7 +491,8 @@ window.homelandData = {
         "story": "The Settlement of Cayer: A story focused on 1950s life in Cayer, highlighting the social fabric and independence of this self-sufficient northern community.",
         "founded": "1950s (Documented)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -483,8 +509,9 @@ window.homelandData = {
         "description": "A self-sufficient community on the west shore of Cedar Lake, its name derived from the Cree word for \"a place for fishing with nets\". In the early 1960s, the entire settlement—composed of 43 First Nations and 12 Métis families—was flooded out by the Grand Rapids Hydro Project. They were relocated to Easterville on a townsite that was deemed unsuitable for their traditional subsistence lifestyle. The community received only $20,000 in compensation and vague, unfulfilled promises of economic aid from the provincial government.",
         "story": "The Sunken Village: A heartbreaking narrative following a Métis Elder who returns to the shore of the hydro reservoir. He watches the water where his home and the sturgeon fishery once existed, reflecting on the 1962 relocation where his family, who did not speak English, was pressured into signing documents they didn't understand, leading to the construction of permanent government dependency.",
         "founded": "Ancient; Relocated 1960s",
-        "community_type": "Settlement (Flooded)",
-        "type": "location"
+        "community_type": "Flooded",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -501,8 +528,9 @@ window.homelandData = {
         "description": "The location of \"The Passage,\" a natural ford for Red River carts. Among the earliest settlers on the river lot farms were the Beauchemin, Hogue, and Morrissette families.",
         "story": "Bypassing the Forks: A story about independent traders in the 1840s using \"The Passage\" in Charleswood to bypass the HBC monopoly at the Forks.",
         "founded": "Early 1800s",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -520,7 +548,8 @@ window.homelandData = {
         "story": "Frontier Ties: A story explores the kinship links between the Red River Métis and the Montana settlements like Choteau during the late 19th-century migrations.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -537,8 +566,9 @@ window.homelandData = {
         "description": "A road allowance community south of Sherridon known as \"Moccasin Flats\". Residents worked in mining and guiding but were denied land titles. Senator Ed Head recalled rebuilding log homes further down the road whenever they were forced to move.",
         "story": "The Guiding Ghost: A story based on James Sayese, who guided the discovery of the Sherridon Mine but lived in a shack on the road allowance because he wasn't allowed to own land.",
         "founded": "#N/A",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -555,8 +585,9 @@ window.homelandData = {
         "description": "A road allowance community south of Sherridon known as \"Moccasin Flats\". Residents worked in mining and guiding but were denied land titles. Senator Ed Head recalled rebuilding log homes further down the road whenever they were forced to move.",
         "story": "The Guiding Ghost: A story based on James Sayese, who guided the discovery of the Sherridon Mine but lived in a shack on the road allowance because he wasn't allowed to own land.",
         "founded": "Early 1900s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -573,8 +604,9 @@ window.homelandData = {
         "description": "Site of St. Peter’s Anglican Mission established on land donated by Chief Peguis. By 1850, it was a productive community with 500 residents living on narrow river lots practicing agriculture.",
         "story": "Peguis’ Sanctuary: A narrative about the collaboration between Chief Peguis and Anglican missionaries to build a farming sanctuary for his people at Cooks Creek.",
         "founded": "1833",
-        "community_type": "Mission / Settlement",
-        "type": "location"
+        "community_type": "Mission, Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -592,7 +624,8 @@ window.homelandData = {
         "story": "The Summerberry Trappers: A narrative centered on the seasonal trapping cycle in the marsh, seen through the eyes of a Cormorant family during the peak years of the northern trade.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -609,8 +642,9 @@ window.homelandData = {
         "description": "A 2,000-year-old portage between the Grassy River and Lake Athapapuskow. Métis trapper David Collins is credited with showing prospectors the claim that became the Flin Flon mines.",
         "story": "The Billion-Dollar Claim: A historical account following David Collins, exploring the irony of a trapper discovering a massive mining complex while receiving only a pittance in return.",
         "founded": "Ancient; 1804 (Post)",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -628,7 +662,8 @@ window.homelandData = {
         "story": "The Salt Expedition: A story of traditional salt-harvesting trips to Crane River, highlighting the shared labor and community ties of local families.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -645,8 +680,9 @@ window.homelandData = {
         "description": "Originally composed of long Métis river lots south of the Assiniboine River in Winnipeg. Wealthy development starting in 1902 displaced original residents, pushing them toward Rooster Town.",
         "story": "The Advancing Suburb: A historical drama about a Métis family watching the surveyor’s stakes for the new suburb advance toward their river lot, signaling the end of their way of life.",
         "founded": "Pre-1870 (Lots); 1902 (Suburb)",
-        "community_type": "Settlement (Displaced)",
-        "type": "location"
+        "community_type": "Displaced",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -663,8 +699,9 @@ window.homelandData = {
         "description": "A major fur trade juncture established in 1774. It was the main route into the North in the late 1800s.",
         "story": "Gatekeeper of the North: A story about life at Cumberland House as a central hub where brigades and prospectors met guides like James Sayese.",
         "founded": "1774",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -682,7 +719,8 @@ window.homelandData = {
         "story": "Fidler’s Stand: A rivalry story between the young Charles Fidler and the NWC traders at the nearby Desjarlais House during the height of the fur trade wars.",
         "founded": "1817",
         "community_type": "Trading Post",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -699,8 +737,9 @@ window.homelandData = {
         "description": "A vital seasonal hunting ground and settlement area for the plains Métis. Hivernant families and brigades utilized the area extensively.",
         "story": "The Winter Brigade: A narrative detailing the lives of Métis families like the Dubois or Bonneaus during their wintering seasons in the Cypress Hills.",
         "founded": "Historic",
-        "community_type": "Settlement (Wintering site)",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -718,7 +757,8 @@ window.homelandData = {
         "story": "Limestone Sanctuary: A story following a family choosing the safety of Deer Rapids' high ground during a major flood year while central settlements are swept away.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -735,8 +775,9 @@ window.homelandData = {
         "description": "Located on the east shore of Lake Winnipeg; home to itinerant Métis such as prospector Louis Simard Sr.. Simard held claims in several mining shafts like the San Antonio.",
         "story": "Simard’s Claim: A narrative following a northern prospector as he travels the rugged shores of Lake Winnipeg, searching for gold while maintaining his connection to his community.",
         "founded": "1901 (Documented)",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -753,8 +794,9 @@ window.homelandData = {
         "description": "A road allowance community in Winnipeg near the CPR Weston shops. Created as Métis were displaced by industrial expansion and urban development.",
         "story": "Shanties by the Tracks: A narrative exploring the daily life and survival strategies of the \"Dog Patch\" community on the edge of the expanding industrial rail yards.",
         "founded": "Early 1900s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -772,7 +814,8 @@ window.homelandData = {
         "story": "The Scrip Petition: A historical legal drama about the 1893 petition of the Duck Bay Métis as they struggle to reclaim their rights after being misled into taking scrip.",
         "founded": "Ancient; 1859 (Post)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -790,7 +833,8 @@ window.homelandData = {
         "story": "Forest Harvest: A story about the families who marketed furs hunted in the Duck Mountains via the Pelly Trail and Shell River.",
         "founded": "Historic",
         "community_type": "Geographic Landmark",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -807,8 +851,9 @@ window.homelandData = {
         "description": "The relocation site for families from the flooded Cedar Lake community. The townsite was deemed unsuitable for their traditional way of life, leading to government dependency.",
         "story": "Resilience at Easterville: A modern story following a younger generation as they rediscover the traditional fishing skills of their Cedar Lake ancestors in a new land.",
         "founded": "Early 1960s",
-        "community_type": "Settlement (Relocated)",
-        "type": "location"
+        "community_type": "Relocated",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -826,7 +871,8 @@ window.homelandData = {
         "story": "The Church of Lonely Lake: A story of community labor and faith as families build their own sanctuary during the height of the Great Depression.",
         "founded": "1938 (Church)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -843,8 +889,9 @@ window.homelandData = {
         "description": "A major northwestern trade hub and destination for Red River families moving west.",
         "story": "The Long Trail: A story following a Red River cart brigade from St. Andrews to Edmonton as families seek new farmland and opportunities in the west.",
         "founded": "1795",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -861,8 +908,9 @@ window.homelandData = {
         "description": "A mission and trading post where trade relations were notoriously tense in the late 1700s. Duncan Cameron wintered there in 1795-96.",
         "story": "The Tense Trade: A narrative about the \"fighting trade\" of 1796 at Fairford, focusing on the fierce competition between independent traders and companies.",
         "founded": "1795 (Post); 1842 (Mission)",
-        "community_type": "Mission / Trading Post",
-        "type": "location"
+        "community_type": "Mission, Trading Post",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -880,7 +928,8 @@ window.homelandData = {
         "story": "The Strategic Turn: An action-focused historical piece about Grant’s maneuver at Catfish Creek to bypass the HBC monopoly and prepare for the battle at Seven Oaks.",
         "founded": "Historic",
         "community_type": "Historic Site",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -897,8 +946,9 @@ window.homelandData = {
         "description": "Fortified camps built by Dakota refugees in 1864. They featured circular trenches and pits where women and children took refuge during attacks by bounty hunters.",
         "story": "The Ring of Pits: A survival story follows a Dakota family taking refuge in the trenches while being hunted after the 1862 uprising.",
         "founded": "1864",
-        "community_type": "Historic Site (Defensive)",
-        "type": "location"
+        "community_type": "Defensive Site",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -915,8 +965,9 @@ window.homelandData = {
         "description": "Originally an HBC post built to counter the NWC's Bas-de-la-Rivière. It was a key provisioning post where pemmican from the upper Assiniboine was stored for northwestern brigades.",
         "story": "The Pemmican Depot: A narrative about the strategic importance of Fort Alexander as the \"gas station\" of the northern canoe routes.",
         "founded": "1793",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -933,8 +984,9 @@ window.homelandData = {
         "description": "Established in present-day Winnipegosis by Chevalier de la Vérendrye. Explorer Peter Fidler died here in 1822. Later known as \"Dogtown\".",
         "story": "Fidler’s Final Map: A historical piece focusing on the final days of Peter Fidler at Fort Dauphin, reflecting on his decades of exploration.",
         "founded": "1741",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -951,8 +1003,9 @@ window.homelandData = {
         "description": "Built by Robert Grant of the North West Company in 1791, this post was situated on the Upper Assiniboine River near the mouth of the Rivière Tremblante. It became the favorite residence of Cuthbert Grant Sr. when he took charge of the district in 1793. The fort functioned as both a source of high-quality furs and a provisioning depot for brigades heading to Athabasca country. Grant abandoned the post in 1798 due to extreme competition from 14 other rival posts in the immediate region.",
         "story": "Grant’s Favorite Post: A historical drama set during the winter of 1794. The plot focuses on the domestic life of Cuthbert Grant Sr. as he manages the logistics of a major provisioning post while navigating the tensions of the \"fur trade wars.\" The story culminates in his decision to abandon his beloved fort as the market becomes overcrowded with competitors, signaling the end of an era on the Upper Assiniboine.",
         "founded": "1791",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -969,8 +1022,9 @@ window.homelandData = {
         "description": "Built by Joseph Desjarlais and protected by an oak palisade. It was a major supplier of pemmican and whiskey.",
         "story": "The Independent Trader: A historical thriller centered on the 1846 seizure of furs at Fort Desjarlais by Cuthbert Grant during a crackdown on illicit trade.",
         "founded": "1836",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -987,8 +1041,9 @@ window.homelandData = {
         "description": "Established on the Qu’Appelle River; it served as the headquarters for the Swan River District. Managed by famous Métis traders like the McKays.",
         "story": "The McKay Dynasty: A narrative focused on the John Richard McKay family at Fort Ellice, depicting their role as powerful intermediaries.",
         "founded": "1794",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1005,8 +1060,9 @@ window.homelandData = {
         "description": "Built at the Forks by the NWC; seized by Louis Riel in 1869. Site for meetings of the Legislative Assembly of Assiniboia.",
         "story": "The Assembly at the Forks: A political drama set inside the fort in 1870 as the provisional government debates joining Canada.",
         "founded": "1810",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1023,8 +1079,9 @@ window.homelandData = {
         "description": "Established near a buffalo crossing and sturgeon fishery. Home of Chief Peichito Tanner, who operated 250 Red River carts.",
         "story": "Tanner’s Cart Train: A story about Peichito Tanner’s massive freighting operation moving goods across the plains.",
         "founded": "1738",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1041,8 +1098,9 @@ window.homelandData = {
         "description": "Listed in the Virtual Museum as a significant Métis location.",
         "story": "Coast to Coast: A narrative linking the plains Métis with their kin at Fort Langley, highlighting the vast reach of the family networks.",
         "founded": "Historic",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1059,8 +1117,9 @@ window.homelandData = {
         "description": "Built on the Upper Assiniboine near buffalo wintering grounds. Buffalo could be seen grazing from the fort gate at almost any season.",
         "story": "Harmon’s Enchanted Abode: A narrative about the \"enchanted abode\" described by Harmon where buffalo are always in view from the gate.",
         "founded": "1790",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1077,8 +1136,9 @@ window.homelandData = {
         "description": "Built by Cuthbert Grant after the HBC closed Brandon House. Used to trade with Métis and Indians from Turtle Mountain to Qu’Appelle.",
         "story": "Warden of the Plains: A standoff story set in 1824, where Cuthbert Grant uses his authority to protect his trade from American encroachment.",
         "founded": "1824",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1095,8 +1155,9 @@ window.homelandData = {
         "description": "Headquarters for the Swan River District before being replaced by Fort Ellice.",
         "story": "District Hub: A story follows a trader moving between Pelly and the surrounding outposts, documenting the logistical challenges of the Swan River trade.",
         "founded": "1824",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1113,8 +1174,9 @@ window.homelandData = {
         "description": "Located south-west of Morden; first post supplied by Red River Carts from Pembina. Built by Alexander Henry the Younger.",
         "story": "First Cart from Pembina: A story about the very first cart caravan to arrive, marking the birth of overland transportation in the region.",
         "founded": "1802",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1131,8 +1193,9 @@ window.homelandData = {
         "description": "Located at the south point of the Forks; originally river lots owned by Métis families. Residents were displaced by suburban expansion.",
         "story": "The Lost River Lots: A historical mystery exploring how the original Métis owners of Fort Rouge were systematically displaced by land speculators.",
         "founded": "1738",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1149,8 +1212,9 @@ window.homelandData = {
         "description": "Built on the Souris River for Mandan trade. Abandoned when HBC built Brandon House but later re-established.",
         "story": "The Mandan Trade: A story about the competitive race in 1793 to reach the lucrative Mandan trade before the HBC.",
         "founded": "1793",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1167,8 +1231,9 @@ window.homelandData = {
         "description": "Built by La Vérendrye in the early 1730s; ruins discovered in 1902. Contained remains of La Vérendrye's son.",
         "story": "Discovery of the Ruins: A historical account following the 1902 discovery of the fort and the return of remains to St. Boniface.",
         "founded": "Early 1730s",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1185,8 +1250,9 @@ window.homelandData = {
         "description": "A road allowance community near Binscarth established by refugees from Ste. Madeleine. After their homes in Ste. Madeleine were burned in 1939 to make way for a community pasture, residents resettled on a former gravel pit that had once been part of the Gambler Reserve. The community was sarcastically named Selby Town after a municipal official responsible for their displacement. In 1946, the Fouillard Special School was built to replace the mission school they lost.",
         "story": "Salvaged Timber: A story of profound spiritual and physical resilience. As the families of Ste. Madeleine watch their village burn, they decide to save what they can. The plot follows a group of men as they physically dismantle logs from their original church to drag them to \"The Corner\" to rebuild the St. Hubert Church, ensuring that their faith and community identity survive the displacement.",
         "founded": "1939",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -1204,7 +1270,8 @@ window.homelandData = {
         "story": "Montana Refuge: A story explores the lives of the \"landless\" Métis in communities like Four Persons after the migrations from Red River.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1221,8 +1288,9 @@ window.homelandData = {
         "description": "Traditional meeting place north of Seven Oaks. Site of annual rendezvous where partners met brigades bringing pemmican.",
         "story": "The Annual Rendezvous: A story of the grand gathering at Frog Plain, capturing the music, dance, and commerce of voyageur brigades.",
         "founded": "Early 1800s",
-        "community_type": "Meeting Site / Rendezvous",
-        "type": "location"
+        "community_type": "Meeting Site, Rendezvous",
+        "type": "location",
+        "category": "traditional"
       },
       "geometry": {
         "type": "Point",
@@ -1239,8 +1307,9 @@ window.homelandData = {
         "description": "A historic ferry crossing on the South Saskatchewan River operated by Gabriel Dumont.",
         "story": "The Ferryman of the South: A narrative centered on Gabriel Dumont, depicting his role as a community leader and the logistics of operating the crossing.",
         "founded": "1870s",
-        "community_type": "Settlement / Transportation site",
-        "type": "location"
+        "community_type": "Transportation Site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1258,7 +1327,8 @@ window.homelandData = {
         "story": "Memories of the Fiddle: A nostalgic story told by an Elder about the final years of the community's exclusive identity before the resort arrived.",
         "founded": "Early 1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1275,8 +1345,9 @@ window.homelandData = {
         "description": "The Red River community was formed after 1823 north of Winnipeg on high ground. In 1840, it was 39% Métis fathers and 97% Aboriginal mothers. The Saskatchewan River site was a fur trade gateway at the river's mouth at Lake Winnipeg. It was a base for \"free traders\" and a gathering place for seasonal sturgeon fishing. In the 1960s, the provincial government bulldozed Métis homes to clear the area for a hydro project, forcing residents to accept minimal compensation.",
         "story": "Bulldozers at Dawn: A poignant narrative following a Métis family at the mouth of the Saskatchewan River. They are among the families whose homes were designated for destruction by the Grand Rapids Hydro Project. The story details the pressure they felt to sign away their land for \"minimum sums\" and the tragic day they watched their ancestral homes being leveled to make way for the dam.",
         "founded": "1823 (Red River) / 1864 (HBC Sask River)",
-        "community_type": "Settlement / Fort",
-        "type": "location"
+        "community_type": "Settlement, Fort",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1294,7 +1365,8 @@ window.homelandData = {
         "story": "The Railroad Laborers: A story about the Métis of Grande Pointe who built the very railroad that would eventually transform their community.",
         "founded": "1860s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1312,7 +1384,8 @@ window.homelandData = {
         "story": "Winter at Grassy Narrows: A story set at the isolated outpost follows a Métis clerk managing the post during a harsh Lake Winnipeg winter.",
         "founded": "Pre-1875",
         "community_type": "Trading Post (Outpost)",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1329,8 +1402,9 @@ window.homelandData = {
         "description": "Listed as a significant Métis community in Saskatchewan.",
         "story": "The Northern Trade: A story about the canoe routes through Green Lake, depicting the life of the northern voyageurs.",
         "founded": "Historic",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1348,7 +1422,8 @@ window.homelandData = {
         "story": "The Wintering Band: A story set in the 1840s focusing on the life of a buffalo-hunting band surviving the cold in the shelter of the hills.",
         "founded": "Historic",
         "community_type": "Geographic Landmark",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -1366,7 +1441,8 @@ window.homelandData = {
         "story": "Across the 49th: A narrative exploring the cross-border migrations and scrip applications of the Havre Métis.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1384,7 +1460,8 @@ window.homelandData = {
         "story": "Prairie Kinship: A story about the cultural and family ties between Heart Butte and the Canadian Red River Métis.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1401,8 +1478,9 @@ window.homelandData = {
         "description": "Primary stopping point for buffalo hunters to repair carts. Famous for spring \"sugar lots\" where families tapped maple trees.\n\n---\n\nWinding river site famous for cart builders and \"sugar lots\". Now called Boyne River.",
         "story": "The Sugar Moon: A seasonal story of the trek from Grantown to the maple groves where families find their kettles hidden exactly where they left them.",
         "founded": "#N/A",
-        "community_type": "Settlement / Sugar Bush Site",
-        "type": "location"
+        "community_type": "Sugar Bush Site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1420,7 +1498,8 @@ window.homelandData = {
         "story": "Mountain Crossing: A story follows a Métis family moving through the western passes to settle at Island Cache, linking the plains and the coast.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1438,7 +1517,8 @@ window.homelandData = {
         "story": "Desperate Haven: A story of the 1815 evacuation of the colony to Jack River, highlighting the survival skills of Métis guides.",
         "founded": "1796",
         "community_type": "Trading Post",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1455,8 +1535,9 @@ window.homelandData = {
         "description": "Lands set aside for Métis people in the United States.",
         "story": "The US Reserve: A legal drama explores the struggle of families to hold onto land in the Kansas tracts during American westward expansion.",
         "founded": "1825",
-        "community_type": "Reserved Lands / Settlement",
-        "type": "location"
+        "community_type": "Reserved Lands",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1474,7 +1555,8 @@ window.homelandData = {
         "story": "High Altitude Kinship: A story detailing the unique mountain lifestyle and enduring cultural traditions of the Kelly Lake Métis.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1492,7 +1574,8 @@ window.homelandData = {
         "story": "The Stone Medicine: A spiritual narrative exploring traditional significance and \"medicine stories\" associated with the Kettle Stones.",
         "founded": "Ancient",
         "community_type": "Geographic Landmark",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -1509,8 +1592,9 @@ window.homelandData = {
         "description": "Established at the narrows of Lake Manitoba. Relocated in 1828 to oppose independent hunters. Treaty Two signed here in 1871.",
         "story": "The Narrows Treaty: A historical drama focused on the signing of Treaty Two, depicting varying expectations of Métis and government.",
         "founded": "#N/A",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1528,7 +1612,8 @@ window.homelandData = {
         "story": "The Hill Trade: A narrative follows a trader managing the frantic trade during a peak buffalo season in the hills.",
         "founded": "Early 1800s",
         "community_type": "Trading Outpost",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1546,7 +1631,8 @@ window.homelandData = {
         "story": "Relocation to Duhamel: A story detailing the migration of the Laboucane family from Red River to build a new agricultural community in the west.",
         "founded": "1870s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1563,8 +1649,9 @@ window.homelandData = {
         "description": "A traditional Métis wintering site that became a permanent settlement by the late 1860s, also known as Oak Lake.",
         "story": "Wintering at the Lake: A winter narrative focusing on the transition from temporary buffalo camp to permanent settlement at Oak Lake.",
         "founded": "Late 1860s",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1581,8 +1668,9 @@ window.homelandData = {
         "description": "A vital historic Métis mission and gathering place in Alberta.",
         "story": "Pilgrimage to the Lake: A story explores the spiritual traditions and annual summer gatherings at Lac Ste. Anne.",
         "founded": "1844",
-        "community_type": "Mission / Settlement",
-        "type": "location"
+        "community_type": "Mission, Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -1599,8 +1687,9 @@ window.homelandData = {
         "description": "Ancient camping place on Turtle Mountain that became a wintering site for hunters from Grantown. First settlers included Louis Lee Racine.",
         "story": "Cross-Border Winter: A story about families whose lives spanned the international boundary before it was strictly enforced.",
         "founded": "Late 1800s",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1617,8 +1706,9 @@ window.homelandData = {
         "description": "A Métis tract mentioned in the Virtual Museum associated with early US land grants.",
         "story": "Mississippi Kin: A story follows families moving along the Mississippi trade routes between Red River and Lake Pepin.",
         "founded": "1830",
-        "community_type": "Reserved Lands / Settlement",
-        "type": "location"
+        "community_type": "Reserved Lands",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1635,8 +1725,9 @@ window.homelandData = {
         "description": "Established in the 1850s at Pigeon Lake on the Assiniboine River, this post first appears in HBC records in 1856. It was managed by William Lane and was primarily used for its farming operations. The post was located about five miles past the St. François Xavier church. In 1864, it was the site where a plot was hatched to capture Dakota refugee leaders Little Six and Medicine Bottle. They were reportedly lured into a trap and drugged with wine before being bound and transported to Fort Pembina.",
         "story": "The Drugged Wine Plot: A suspenseful historical thriller set in January 1864. The story follows William Lane and John McKenzie as they coordinate a clandestine operation to capture the Dakota leaders. The narrative explores the ethics of the betrayal as they use the sanctuary of the post to offer drugged wine to the refugees, leading to their capture and delivery to American authorities at the border.",
         "founded": "1856",
-        "community_type": "Trading Post / Farm Depot",
-        "type": "location"
+        "community_type": "Trading Post, Farm Depot",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1653,8 +1744,9 @@ window.homelandData = {
         "description": "Listed as a significant site in the Virtual Museum.",
         "story": "The High Ground Hunt: A narrative following a hunt brigade as they camp at Last Mountain Lake during a summer buffalo run.",
         "founded": "Historic",
-        "community_type": "Seasonal Camp / Hunt site",
-        "type": "location"
+        "community_type": "Seasonal Camp, Hunt Site",
+        "type": "location",
+        "category": "traditional"
       },
       "geometry": {
         "type": "Point",
@@ -1671,8 +1763,9 @@ window.homelandData = {
         "description": "Recreation area on the Assiniboine that hosted the annual \"Old Timers & Pioneers Picnic\". Featured jigging and fiddling contests.",
         "story": "The Old Timers Picnic: A vibrant story set during a 1940s picnic, capturing the music and dance of a major Métis cultural celebration.",
         "founded": "1931 (Resort)",
-        "community_type": "Gathering / Recreation Site",
-        "type": "location"
+        "community_type": "Gathering, Recreation Site",
+        "type": "location",
+        "category": "traditional"
       },
       "geometry": {
         "type": "Point",
@@ -1690,7 +1783,8 @@ window.homelandData = {
         "story": "The Master Masons: A historical piece about stonemasons as they construct the Little Britain church using local limestone.",
         "founded": "1826",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1707,8 +1801,9 @@ window.homelandData = {
         "description": "Pejorative term for road allowance communities where Métis were displaced.",
         "story": "Life on the Line: A story about the struggle for basic services in a community designated with a pejorative name by the nearby township.",
         "founded": "Early 1900s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -1726,7 +1821,8 @@ window.homelandData = {
         "story": "The Last York Boat: A story about the final boat trip to the post in 1871, marking the end of a legendary era of transportation.",
         "founded": "1848",
         "community_type": "Trading Post",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1744,7 +1840,8 @@ window.homelandData = {
         "story": "Rapide Waters: A narrative centered on the ancient buffalo migration routes through the river valley as seen by a Métis hunting party.",
         "founded": "Ancient",
         "community_type": "Geographic Landmark",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -1761,8 +1858,9 @@ window.homelandData = {
         "description": "Established in 1988 for Métis displaced from Bloodvein Reserve. The community dispersed within five years as many returned to the reserve.",
         "story": "The Short-Lived Home: A modern story about the intense sense of community at Longbody Creek and the eventual return of its residents.",
         "founded": "1988",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -1780,7 +1878,8 @@ window.homelandData = {
         "story": "The Master Boatbuilder: A story of a craftsman at Loon Straits whose custom-built boat survives a legendary storm that sinks larger vessels.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1797,8 +1896,9 @@ window.homelandData = {
         "description": "Settled in 1850s by families from central parishes. A community of freighters and buffalo hunters whose cattle grazed along the Seine.",
         "story": "Grazing the Seine: A story of founding families searching for new grazing lands and the eventual renaming of the parish by Bishop Tache.\n\n---\n\nGraze and Freight: A story follows founding families as they graze cattle along the Seine and operate freighting brigades.",
         "founded": "1850s",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -1815,8 +1915,9 @@ window.homelandData = {
         "description": "Road allowance community west of Portage la Prairie. Residents displaced by the rail line and later lobbied for housing land in 1961.",
         "story": "Lobbying for Land: A story about the leadership of Alfred Roulette in 1961 as he lobbies the municipality for housing for the landless Métis.",
         "founded": "1870s (Documented)",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -1834,7 +1935,8 @@ window.homelandData = {
         "story": "Sound of the Throat: A narrative exploring the legend of the eerie sound at Wood Falls, set against the 1904 river lot survey.",
         "founded": "1904 (Survey)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1851,8 +1953,9 @@ window.homelandData = {
         "description": "See entry for Kinosota.",
         "story": "Post at the Narrows: A historical story about daily operations seen through the eyes of its Métis staff.",
         "founded": "Mid-1790s",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1870,7 +1973,8 @@ window.homelandData = {
         "story": "Old England on the Red: A story about the cultural blend of Orkney-descended families and Saulteaux people in the district.",
         "founded": "1790 (Peguis arrival)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1887,8 +1991,9 @@ window.homelandData = {
         "description": "Stopping place for York boats renamed in 1903 after Daniel Matheson. Residents descend from Norwegian, English, and Icelandic settlers.",
         "story": "The Island Keeper: A story centered on Daniel Matheson, the first lighthouse keeper, watching lake traffic from his island home.",
         "founded": "1867 (Post)",
-        "community_type": "Settlement / Stopping Point",
-        "type": "location"
+        "community_type": "Stopping Point",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1905,8 +2010,9 @@ window.homelandData = {
         "description": "Located on a narrow strip between Lake Manitoba and Lake Winnipegosis. Fur trade hub and later ranching community.",
         "story": "The Plain Portage: A story about the strategic route used for centuries to move between the great lakes of Manitoba.",
         "founded": "Early 1900s (Ranching)",
-        "community_type": "Settlement / Stopping Point",
-        "type": "location"
+        "community_type": "Stopping Point",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1923,8 +2029,9 @@ window.homelandData = {
         "description": "Road allowance settlement east of The Pas named for bark-covered teepees. Disappeared due to flooding from Grand Rapids dam.",
         "story": "The Bark Tents: A story about the final season at Metikewap as residents prepare to leave before the rising water arrives.",
         "founded": "Historic",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -1942,7 +2049,8 @@ window.homelandData = {
         "story": "Moving the Camp: A narrative about relocation from the island to the permanent settlement on the riverbank.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -1959,8 +2067,9 @@ window.homelandData = {
         "description": "Significant HBC post on Lake Superior mentioned in Virtual Museum.",
         "story": "Superior Trade: A story detailing the importance of Michipicoten as a transshipment point for Red River goods moving toward the east.",
         "founded": "Historic",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -1978,7 +2087,8 @@ window.homelandData = {
         "story": "Expulsion from the Plains: A story follows a family during the 1882 expulsion from Montana back across the border into Canada.",
         "founded": "Late 1800s",
         "community_type": "Historic Site",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -1996,7 +2106,8 @@ window.homelandData = {
         "story": "The Flooded Delta: A narrative focused on the Summerberry Marsh trappers dealing with the loss of their traditional lands.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2013,8 +2124,9 @@ window.homelandData = {
         "description": "Site of native horticulture in 1805 where corn and potatoes were grown. HBC established a post here in 1813 with sixty horses.",
         "story": "The Netley Gardens: A story set in 1805 depicting thriving gardens and traders arriving to buy produce.",
         "founded": "1803 (Post)",
-        "community_type": "Trading Post / Agricultural site",
-        "type": "location"
+        "community_type": "Trading Post, Agricultural Site",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -2031,8 +2143,9 @@ window.homelandData = {
         "description": "Transshipment hub where Chief Factors met in council. World-renowned center for building York boats.",
         "story": "Council of Factors: A story about the grand meetings at Norway House, depicting its role as the fur trade capital.",
         "founded": "1817",
-        "community_type": "Fort / Settlement / Depot",
-        "type": "location"
+        "community_type": "Fort, Settlement, Depot",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -2049,8 +2162,9 @@ window.homelandData = {
         "description": "Watering stop west of Brandon; became a permanent settlement by late 1860s. Staffed by 50-100 Métis men.",
         "story": "Wintering at the Lake: A winter narrative focusing on the 1860s transition from seasonal camp to established settlement.",
         "founded": "Late 1860s",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2067,8 +2181,9 @@ window.homelandData = {
         "description": "HBC trading post and wintering place for cattle where Métis took land grants. Associated with the \"Oak Point Nation\".",
         "story": "The Oak Point Nation: A story about the signing of Treaty One and the pressure put on the local band to relocate.",
         "founded": "1860s (Post)",
-        "community_type": "Trading Post / Wintering site",
-        "type": "location"
+        "community_type": "Trading Post, Wintering Site",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -2085,8 +2200,9 @@ window.homelandData = {
         "description": "Rendezvous point for Cree and Métis hunters. Site of Devon Mission, established by Rev. Henry Budd in 1840.",
         "story": "Devon Mission: A biographical story about Rev. Henry Budd, exploring his leadership in building the local mission.",
         "founded": "1741 (Fort); 1840 (Mission)",
-        "community_type": "Settlement / Rendezvous Site",
-        "type": "location"
+        "community_type": "Rendezvous Site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2103,8 +2219,9 @@ window.homelandData = {
         "description": "Established on the Hayes River route Midway between York Factory and Norway House. William Sinclair raised 12 children there.",
         "story": "The Sinclair Family: A family saga following the Sinclairs, depicting life on the northern trade route.",
         "founded": "1798",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -2121,8 +2238,9 @@ window.homelandData = {
         "description": "Significant community area mentioned in Virtual Museum.",
         "story": "Valley Life: A narrative detailing the seasonal patterns of harvesting and kinship in Park Valley during the settlement era.",
         "founded": "Historic",
-        "community_type": "Settlement Hub",
-        "type": "location"
+        "community_type": "Hub",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2139,8 +2257,9 @@ window.homelandData = {
         "description": "Named for buffalo wool rubbed off on trees. Strategic wintering spot for hunters and site of early trading outposts.",
         "story": "The Wintering Band: A story set in the 1840s focusing on the life of a buffalo-hunting band surviving the cold in the shelter of the hills.",
         "founded": "1797 (HBC Post)",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2157,8 +2276,9 @@ window.homelandData = {
         "description": "Red River community north of Ste. Agathe inhabited by buffalo hunters and freighters.",
         "story": "Freighters on the Red: A story about the freighting life following a cart train stopping at the river lots.",
         "founded": "Mid-1800s",
-        "community_type": "Settlement (River Lot)",
-        "type": "location"
+        "community_type": "River Lot",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2175,8 +2295,9 @@ window.homelandData = {
         "description": "Railway division point where Métis engaged in track maintenance and sturgeon fishery. Division point until 1972.",
         "story": "End of the Steel: A story about Luke Clemons, a Métis man managing transportation at the terminus using a gas car.",
         "founded": "1914",
-        "community_type": "Settlement (Railway)",
-        "type": "location"
+        "community_type": "Railway",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2194,7 +2315,8 @@ window.homelandData = {
         "story": "The Vanishing Home: A legal drama about families losing their homes to a dam while being told they have no legal right to compensation for unsurveyed land.",
         "founded": "1874",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2212,7 +2334,8 @@ window.homelandData = {
         "story": "The Bullhead Fishery: A story follows Jesse Matheson operating a stopping place for lake travelers during the York boat era.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2229,8 +2352,9 @@ window.homelandData = {
         "description": "Lowest post on Assiniboine; chief trade hub for Mandan Indians. Abandoned in 1794.",
         "story": "Trade with the Mandans: A story detailing a 1790 horse-back mission from Pine Fort to Mandan villages across the plains.",
         "founded": "1768 (Fort des Épinettes)",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -2247,8 +2371,9 @@ window.homelandData = {
         "description": "Settlement of hunters and salt makers where most were disenfranchised after 1870. Known as Petite Pointe à Saline.",
         "story": "Disenfranchised Lands: A drama about a family in 1870 losing their land due to mismanagement of the scrip system.",
         "founded": "Mid-1800s",
-        "community_type": "Settlement / Parish",
-        "type": "location"
+        "community_type": "Settlement, Parish",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2265,8 +2390,9 @@ window.homelandData = {
         "description": "Red River parish founded by Métis in early 1800s. Site of 1869 Resistance action against surveyors.",
         "story": "The St. Adolphe Resistance: An action story about the day Métis pulled out John Snow’s survey stakes to protect their property.",
         "founded": "Early 1800s",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2284,7 +2410,8 @@ window.homelandData = {
         "story": "The Road Builders: A story about Métis laborers building the Dawson Road while their own land rights are ignored by surveyors.",
         "founded": "1850s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2301,8 +2428,9 @@ window.homelandData = {
         "description": "A historic Métis name for Carlton House mentioned in the Virtual Museum.",
         "story": "Post on the Plain: A narrative detailing life at the Carlton House post under its traditional name, focusing on the buffalo trade.",
         "founded": "Historic",
-        "community_type": "Historic Site / Fort",
-        "type": "location"
+        "community_type": "Historic Fort",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -2320,7 +2448,8 @@ window.homelandData = {
         "story": "Trader Poitras: A narrative following the trader managing complex relations on the frontier Assiniboine.",
         "founded": "1807",
         "community_type": "Trading Post",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -2337,8 +2466,9 @@ window.homelandData = {
         "description": "Settlement featuring a log church with a bell from York Factory. Church completed in 1864.",
         "story": "The Church Bell’s Journey: A narrative about Poplar Point settlers building their church and installing its famous historic bell.",
         "founded": "1850s",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2356,7 +2486,8 @@ window.homelandData = {
         "story": "The Long Portage: A story follows the Portage La Loche brigade, capturing the extreme physical labor and camaraderie of the northern boatmen.",
         "founded": "Historic",
         "community_type": "Transportation Hub",
-        "type": "location"
+        "type": "location",
+        "category": "transport"
       },
       "geometry": {
         "type": "Point",
@@ -2373,8 +2504,9 @@ window.homelandData = {
         "description": "Mission site east of St. Eustache on land gifted by Governor Simpson. Nolin sisters opened a school here in 1834.",
         "story": "School on the Prairie: A story follows the Nolin sisters establishing a four-language school at the mission for local children.",
         "founded": "1834",
-        "community_type": "Mission / Settlement site",
-        "type": "location"
+        "community_type": "Mission, Settlement Site",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2392,7 +2524,8 @@ window.homelandData = {
         "story": "Princess of the Harbour: A story of the community's unique identity and life as a remote northern fishing settlement.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2409,8 +2542,9 @@ window.homelandData = {
         "description": "Road allowance community downstream from The Pas. Founded by Charles Rall and Elizabeth Knight.",
         "story": "Charles Rall’s Home: A narrative follows a prospector who decides to build a homestead for his family in the northern delta.",
         "founded": "1915",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -2428,7 +2562,8 @@ window.homelandData = {
         "story": "Boundary Wars: A political drama about the confusion when the town was incorporated by both provinces simultaneously in 1882.",
         "founded": "1882 (Incorporation)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2445,8 +2580,9 @@ window.homelandData = {
         "description": "Wintering site with plentiful hay and wood. Surrounds the present community of St. Pierre Jolys.",
         "story": "Rat River Winterers: A narrative about the 1825 petition of the local Métis for permanent land title near the salt works.",
         "founded": "1822-1825",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2463,8 +2599,9 @@ window.homelandData = {
         "description": "This cluster of five Métis communities is located on the edge of the Porcupine Forest near the former Fort Red Deer River trading post. Barrows served as a major lumber town for the Red Deer Lumber Company until the sawmill closed around 1927. Baden was the largest of these communities in 1959 with 130 residents.",
         "story": "The Last Sawmill: A historical story set in the late 1920s detailing the sudden collapse of the local lumber industry. A family must weigh their deep ties to the forest against the economic pressure to move south to the city.",
         "founded": "1794 (Post)",
-        "community_type": "Trading Post site / Settlement",
-        "type": "location"
+        "community_type": "Trading Post site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2481,8 +2618,9 @@ window.homelandData = {
         "description": "Network of narrow river lots extending north, home to hunters and farmers. Lots extended two miles east and west of river.",
         "story": "Generations on the Red: A family saga following a Métis family on their narrow lot from the fur trade through the 1869 Resistance.",
         "founded": "Pre-1870",
-        "community_type": "Settlement / Parish",
-        "type": "location"
+        "community_type": "Settlement, Parish",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2499,8 +2637,9 @@ window.homelandData = {
         "description": "Known as Manitouapau Hills or \"Hill of the Buffalo Hunt\". Sacred grounds for elk and a strategic migration route.",
         "story": "Hunts of the Mountain: A spiritual story following a hunter through the sacred migration routes and the Elk Sacred Grounds.",
         "founded": "Ancient",
-        "community_type": "Historic Site / Landmark",
-        "type": "location"
+        "community_type": "Historic Landmark",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -2517,8 +2656,9 @@ window.homelandData = {
         "description": "Métis community west of Sturgeon Creek with a buffalo crossing and ferry. Formally renamed St. Charles in 1854.\n\n---\n\nThe location of \"The Passage,\" a natural ford for Red River carts. Among the earliest settlers on the river lot farms were the Beauchemin, Hogue, and Morrissette families.",
         "story": "Crossing the Esturgeon: A story set during the 1852 flood as families flee to the higher ground of the St. Charles parish.",
         "founded": "Early 1800s",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2535,8 +2675,9 @@ window.homelandData = {
         "description": "Rest stop for Red River carts making their way south to St. Paul. Named for the abundant burdock (gratchias).",
         "story": "Cart Trains at Gratchias: A narrative exploring the vibrant culture of cart trains as they rest and repair at the Morris site.",
         "founded": "Historic",
-        "community_type": "Settlement / Transportation site",
-        "type": "location"
+        "community_type": "Transportation Site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2553,8 +2694,9 @@ window.homelandData = {
         "description": "Settlement dating back to 1822; cradle of the 1869-70 Resistance. Site of the famous wooden blockade turned back McDougall.",
         "story": "The Barrière Morning: A historical drama centered on the morning the Métis blockade turned back the Canadian governor and his retinue.",
         "founded": "1822",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2572,7 +2714,8 @@ window.homelandData = {
         "story": "Naming the Waters: A narrative following explorer's men as they name the winding rivers in the 1730s.",
         "founded": "1734",
         "community_type": "Geographic Feature",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -2590,7 +2733,8 @@ window.homelandData = {
         "story": "The Lake Band: A story about intermarried families depicting their shared life and trade connections in the Pembina hills.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2607,8 +2751,9 @@ window.homelandData = {
         "description": "Last known road allowance community in Winnipeg, located between railway tracks. Named Pakan Town for hazelnuts. Evicted in 1959 to make way for a shopping mall and school.",
         "story": "Hazelnut Summer: A poignant story follows a child harvesting nuts while sensing the impending arrival of the city’s bulldozers in 1959.",
         "founded": "Early 1900s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -2626,7 +2771,8 @@ window.homelandData = {
         "story": "The Brine Boilers: A story detailing the grueling labor of the Monkman family as they harvest and evaporate salt across the lake from Winnipegosis to supply the northern brigades.",
         "founded": "1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2644,7 +2790,8 @@ window.homelandData = {
         "story": "The Scrip Deception: A legal drama following François Desmerais and the 1886 petition to the Prime Minister, detailing how families felt \"forced\" to take scrip and sell it for goods, only to regret it a week later.",
         "founded": "1871",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2662,7 +2809,8 @@ window.homelandData = {
         "story": "Refuge on the Rapids: A historical survival story following a family as they flee the 1826 flood, finding safety on the limestone banks of Sault à la Biche while the central settlement is submerged.",
         "founded": "Early 1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2679,8 +2827,9 @@ window.homelandData = {
         "description": "Site of the 1816 battle known to the Métis as La battaille de la Grenouillère (Battle of Frog Plain). The conflict began when HBC Governor Semple's men opened fire on a Métis brigade led by Cuthbert Grant. The Métis victory is commemorated as a defining moment of national identity.",
         "story": "Paashkiiyaakanaan (We Won): An action-filled historical retelling of June 19, 1816, following the young Joseph Letendre dit Batoche during the frantic minutes of the battle that changed the course of the fur trade.",
         "founded": "June 19, 1816",
-        "community_type": "Historic Site (Battlefield)",
-        "type": "location"
+        "community_type": "Battlefield",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -2697,8 +2846,9 @@ window.homelandData = {
         "description": "An HBC post located on Pelican Lake, which was part of the Shoal River system. It served as a trade hub for the local Cree-Saulteaux Band and was connected to the settlement at Pelican Rapids.",
         "story": "Trade at Shoal River: A narrative focused on the seasonal interactions and kinship ties between the Métis traders at the post and the members of the Shoal River Cree-Saulteaux Band.",
         "founded": "#N/A",
-        "community_type": "Settlement / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2716,7 +2866,8 @@ window.homelandData = {
         "story": "Turning the Point: A family saga following the migration of families between Mallard and Rock Ridge in 1895, drawn by the abundance of wild game, berries, and Seneca root.\n\n---\n\nThe Enniship Settlers: A pioneer story about families who moved to Mallard in 1895, drawn by traditional harvesting opportunities.",
         "founded": "1895 (Mallard)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2733,8 +2884,9 @@ window.homelandData = {
         "description": "This location is identified in the Virtual Museum of Métis History and Culture as having significant scrip applications from the Alberta region. It represents a key area of Métis settlement in the western homeland territory beyond the Red River Valley.",
         "story": "Scrip on the Smokey: A narrative exploring the 1885 scrip commission's visit to the Smokey River area. The story follows a family as they weigh the government's offer of scrip against their traditional land rights, illustrating the legal and social shifts occurring in the western Métis settlements during the late 19th century.",
         "founded": "Historic",
-        "community_type": "Settlement Hub",
-        "type": "location"
+        "community_type": "Hub",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2752,7 +2904,8 @@ window.homelandData = {
         "story": "The Diverted River: A modern tragedy following a commercial fisherman at South Indian Lake as he watches the rising, murky waters of the hydro project destroy the pristine whitefish grounds of his ancestors.",
         "founded": "1803 (Original Post)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2770,7 +2923,8 @@ window.homelandData = {
         "story": "Montana Pioneers: A family saga detailing the long trek from the Red River valley to Spring Creek, Montana. The plot explores how the community established a new life on the \"Front Range,\" maintaining their Michif language and Catholic traditions in a new territory.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2788,7 +2942,8 @@ window.homelandData = {
         "story": "Berry Summer, Fish Fall: A vibrant seasonal narrative exploring the life of the community as they transition from the July berry festival to the intense labor of the fall whitefish spawn.",
         "founded": "1870 (Relocation)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2805,8 +2960,9 @@ window.homelandData = {
         "description": "A continuous circular earthen embankment 114 metres in diameter with interior rifle pits. It was built by a group of Dakota led by \"The Leaf\" who were fleeing bounty hunters in 1864. The site is a rare example of a ćunkaśke (Nation of the Forts) defensive structure.",
         "story": "Rifle Pits at Dawn: A tense historical drama set in May 1864, as the Dakota frantically dig entrenchments to protect their women and children from a looming attack by Minnesota bounty hunters.",
         "founded": "1864",
-        "community_type": "Historic / Defensive Site",
-        "type": "location"
+        "community_type": "Defensive Site",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -2823,8 +2979,9 @@ window.homelandData = {
         "description": "Located at the limestone rapids of the Red River south of Selkirk. It was chosen for early Indian and Métis settlements because the high ground offered protection from the massive floods that frequently devastated the Forks. The Selkirk Settlers later renamed the area St. Andrews.",
         "story": "Refuge on the Rapids: A historical survival story following a family as they flee the 1826 flood, finding safety on the limestone banks of Sault à la Biche while the central settlement is submerged.",
         "founded": "1823",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2841,8 +2998,9 @@ window.homelandData = {
         "description": "Named by Bishop Provencher in honor of an English missionary. It was the historic center of the Red River Settlement and the administrative heart of the Métis Nation. Provencher famously said it would take \"the faith of a Boniface\" to work with the Métis.\n\n---\n\nThe historic heart of the Red River Métis Homeland, this area served as the administrative, religious, and political center. St. Boniface was named by Bishop Provencher, who said it would take \"the faith of a Boniface\" to work with the Métis. The region is covered in multiple census databases (1901, 1911, 1916) and was the site of the Legislative Assembly of Assiniboia.",
         "story": "The Heart of the Nation: A historical account of the founding of the mission and its transformation into the central gathering place for the legislative assembly that brought Manitoba into Confederation.\n\n---\n\nThe Forks of History: A sweeping historical narrative set during the winter of 1869-70. The plot follows the families of St. Boniface as they gather at the Cathedral and Upper Fort Garry to support Louis Riel’s provisional government, illustrating the community's role in the birth of the province of Manitoba and the defense of Métis rights.",
         "founded": "1818",
-        "community_type": "Parish / Settlement Hub",
-        "type": "location"
+        "community_type": "Settlement Hub",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2859,8 +3017,9 @@ window.homelandData = {
         "description": "Originally part of the Baie St. Paul parish, the mission was destroyed by extensive flooding in 1882. Many residents relocated to North Dakota, but Bishop Tache sent missionary Thomas Quevillion to find a new, higher site. St. Eustache was established in January 1898 and named after the patron saint of hunters. In 1958, it was recorded as a large road allowance community with 434 Métis residents.",
         "story": "The Saint of Hunters: A historical story about the community's rebirth in 1898. Following the heartbreak of seeing their ancestors' graves slide into the Assiniboine River in 1882, the narrative follows a family as they work with missionary Thomas Quevillion to build a new church on safer ground, dedicating their new home to St. Eustache to honor their enduring identity as buffalo hunters.",
         "founded": "1898",
-        "community_type": "Settlement / Road Allowance",
-        "type": "location"
+        "community_type": "Settlement, Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -2877,8 +3036,9 @@ window.homelandData = {
         "description": "Established by Cuthbert Grant in 1823 as a buffer for the Red River Settlement. First industrial site in Manitoba for cart construction.",
         "story": "The Cart Builders: An epic narrative about the assembly of a 900-person cart brigade at Grantown for the massive annual hunt on the plains.",
         "founded": "1823",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2895,8 +3055,9 @@ window.homelandData = {
         "description": "This location in North Dakota was where Father Belcourt moved his mission and school in 1853, thirty miles west of Pembina. It became a significant hub for Métis families who were forced to leave the Red River Settlement or Pembina due to international boundary shifts. It was also the home of John Tanner before he enlisted in the Union Army during the American Civil War.",
         "story": "The Mission on the Hill: A story focused on the 1853 relocation of Belcourt’s parishioners from Baie St. Paul to St. Joseph. The plot details the labor of building a new school and church on the slopes of the Pembina Hills, creating a sanctuary for families seeking a life away from the fur trade monopoly of the Hudson's Bay Company.",
         "founded": "1853",
-        "community_type": "Mission / Settlement",
-        "type": "location"
+        "community_type": "Mission, Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2914,7 +3075,8 @@ window.homelandData = {
         "story": "Persistence of Michif: A linguistic drama set in a schoolroom where Métis students secretly maintain their language despite authorities' pressure to change.",
         "founded": "1824",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2931,8 +3093,9 @@ window.homelandData = {
         "description": "Founded in 1853 by Reverend William Cockran and families from Middlechurch and St. Andrews. The settlers moved westward as the good river lots near the Forks were exhausted, seeking new farmland along the Assiniboine.",
         "story": "Portage Bound: A narrative following the Anderson and Whitford families as they drive their carts west from the crowded Red River to stake a new future at St. Mary’s.",
         "founded": "1853",
-        "community_type": "Parish / Settlement",
-        "type": "location"
+        "community_type": "Settlement",
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2950,7 +3113,8 @@ window.homelandData = {
         "story": "Riel’s Classmates: A narrative set in the mission schoolroom, exploring the intellectual and political awakening of young Métis students. The story details the influence of the mission's teachings on their understanding of land rights and national identity, which would later fuel the Resistance movements.",
         "founded": "Historic",
         "community_type": "Mission",
-        "type": "location"
+        "type": "location",
+        "category": "parish"
       },
       "geometry": {
         "type": "Point",
@@ -2967,8 +3131,9 @@ window.homelandData = {
         "description": "An early explorer name for the Souris River and the Little Saskatchewan River.",
         "story": "Naming the Waters: A narrative following explorer's men as they name the winding rivers in the 1730s.",
         "founded": "1822",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -2986,7 +3151,8 @@ window.homelandData = {
         "story": "Raising Riel: A domestic drama set in the Riel home in St. Vital, following the young Louis as he learns the traditions of the buffalo hunt and the responsibilities of leadership.",
         "founded": "1824",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3003,8 +3169,9 @@ window.homelandData = {
         "description": "A traditional community of over twenty families homesteaded since the 1870s. In 1938, the town was destroyed to create a community pasture. Homes were burned, dogs were shot, and the church was dismantled.",
         "story": "Defending the Bell: An intense story of defiance where Joe Venne and community members arm themselves with rifles to confront the crew sent to dismantle their church, saving the building from becoming a piggery.",
         "founded": "1870s",
-        "community_type": "Settlement (Destroyed)",
-        "type": "location"
+        "community_type": "Destroyed",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3022,7 +3189,8 @@ window.homelandData = {
         "story": "The Exploratory Trip: A story following the Neault and Spence families on their 190-mile journey from St. Vital to the Turtle River, discovering graves marked by a tall oak cross that proved their ancestors were already there.",
         "founded": "1889",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3039,8 +3207,9 @@ window.homelandData = {
         "description": "Known as \"Snake Indian Hills,\" it was a high-ground sanctuary used for centuries to escape Red River floods. The \"Faith Trail\" brought settlers in ox-drawn carts to the region.",
         "story": "Floods of the Valley: A story follows a cart brigade during the early 1800s, racing against rising waters to reach the safety of the Stony Mountain plateau.",
         "founded": "1870 (Homestead)",
-        "community_type": "Sanctuary / Landmark",
-        "type": "location"
+        "community_type": "Sanctuary",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -3057,8 +3226,9 @@ window.homelandData = {
         "description": "A road allowance tent community in the Ste. Anne area inhabited by the families of woodcutters working in the forests to the east. The name \"Stovepipe\" referred to the makeshift stovepipes poking through the tent roofs.",
         "story": "Shanties of Stovepipe: A survival story detailing the daily life of a woodcutter's family in the Ste. Anne area, living in a road allowance camp during a bitter winter.",
         "founded": "Mid-1800s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -3075,8 +3245,9 @@ window.homelandData = {
         "description": "A historic maple sugaring site for the Métis of Ebb and Flow and Bacon Ridge. Families like that of \"Nonoonse\" returned every spring for over forty years to continue the traditions of their grandmothers.",
         "story": "Syrup Spring: A cultural narrative centered on Nonoonse as she returns to Sugar Island to tap the maples, demonstrating the enduring spiritual and economic importance of the sugar bush.",
         "founded": "Ancient",
-        "community_type": "Traditional Harvesting Site",
-        "type": "location"
+        "community_type": "Harvesting Site",
+        "type": "location",
+        "category": "traditional"
       },
       "geometry": {
         "type": "Point",
@@ -3093,8 +3264,9 @@ window.homelandData = {
         "description": "A massive drainage basin east of The Pas used for muskrat trapping. The traditional livelihood was destroyed by the Grand Rapids Dam, leading to a long struggle for compensation by the Métis Federation.",
         "story": "The Muskrat Marsh: A family narrative following the impact of the Grand Rapids Generating Station on commercial trapping and the eventual fight for historical justice and compensation.",
         "founded": "Historic",
-        "community_type": "Traditional Harvesting Area",
-        "type": "location"
+        "community_type": "Harvesting Area",
+        "type": "location",
+        "category": "traditional"
       },
       "geometry": {
         "type": "Point",
@@ -3112,7 +3284,8 @@ window.homelandData = {
         "story": "The Monkmans of Swan: A story following a family moving from their isolated creek-side home to the growing community of St. Laurent following the 1871 treaty.",
         "founded": "Pre-1871",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3129,8 +3302,9 @@ window.homelandData = {
         "description": "Established in 1790 by the HBC and Cuthbert Grant. The post’s primary purpose was to trade for birch bark for canoe-making. Many modern Métis families trace their roots to the men who operated this post.",
         "story": "Bark and Fur: A historical piece focusing on the skilled Métis canoe-makers at Swan River House who were vital to the logistics of the entire northern trade network.",
         "founded": "1790",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -3147,8 +3321,9 @@ window.homelandData = {
         "description": "Founded by John Tanner, a veteran of the American Civil War, who built a ferry and store here on the Carlton Trail. The name was changed to Minnedosa in 1883 by land speculators.",
         "story": "The Crossing Ferry: A historical piece following John Tanner’s journey from the Union Army to the Little Saskatchewan River, establishing a vital hub for the western cart trains.",
         "founded": "1869",
-        "community_type": "Settlement / Transportation Hub",
-        "type": "location"
+        "community_type": "Transportation Hub",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3165,8 +3340,9 @@ window.homelandData = {
         "description": "This site in Montana (South Fork) is identified as a significant Métis community in the Virtual Museum. It served as a wintering and hunting quarter for the plains Métis moving across the international boundary.",
         "story": "The South Fork Hunt: A narrative following a Métis hunting brigade as they establish a winter camp on the Teton River. The story illustrates the vast geographic reach of the Métis family networks, linking the Montana plains to the Red River settlements through marriage and trade.",
         "founded": "Historic",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3183,8 +3359,9 @@ window.homelandData = {
         "description": "Rendezvous point for Cree and Métis hunters. Site of Devon Mission, established by Rev. Henry Budd in 1840.",
         "story": "Devon Mission: A biographical story about Rev. Henry Budd, exploring his leadership in building the local mission.",
         "founded": "1741 (Fort)",
-        "community_type": "Settlement / Rendezvous Site",
-        "type": "location"
+        "community_type": "Rendezvous Site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3202,7 +3379,8 @@ window.homelandData = {
         "story": "Bypassing the Forks: A suspenseful story about \"free traders\" in the 1840s using \"The Passage\" under the cover of night to smuggle furs past the company's eyes.",
         "founded": "Early 1800s",
         "community_type": "Transportation Landmark",
-        "type": "location"
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -3219,8 +3397,9 @@ window.homelandData = {
         "description": "Located on the Hudson Bay Railway line. Before the rail, the Métis here operated York boats and dog teams. The community was a key sturgeon fishing camp known as \"The Fiddle.\"",
         "story": "Fishing the Fiddle: A narrative detailing the seasonal rhythms of the sturgeon fishery at Thicket Portage and the transition from river travel to the \"Bay Line\" railway era.",
         "founded": "1914 (Rail)",
-        "community_type": "Settlement (Railway)",
-        "type": "location"
+        "community_type": "Railway",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3237,8 +3416,9 @@ window.homelandData = {
         "description": "A road allowance community outside of The Pas named for the founding family. It was represented by the Northern Halfbreed Association starting in the 1930s.\n\n---\n\nA Métis road allowance community south of Binscarth. It was settled in 1939 by refugees from Ste. Madeleine after their original homes were burned. The community was sarcastically named \"Selby Town\" after one of the municipal officials the Métis blamed for their displacement.",
         "story": "The Thomas Claim: A story of the family's struggle for land title and recognition as they lobby the government to survey the Crown lands they called home.\n\n---\n\nThe Sarcastic Name: A story of community resilience where the displaced families of Ste. Madeleine use humor as a weapon of protest, naming their shanty town after the man who signed the order to burn their homes.",
         "founded": "1930s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -3255,8 +3435,9 @@ window.homelandData = {
         "description": "A road allowance community south of Rooster Town in Winnipeg. It was built from scrap metal and tin by destitute families during the Depression.",
         "story": "Baseball on the Flats: A lighthearted sports story about high-stakes baseball games played on dirt lots between the children of Rooster Town and Tin Town in the 1950s.",
         "founded": "1930s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -3274,7 +3455,8 @@ window.homelandData = {
         "story": "Life at Crescent Lake: A communal story detailing the daily life of families in \"Tokyo,\" exploring their strategies for self-sufficiency through small-scale farming and trapping while maintaining their unique Michif culture in the Saskatchewan interior.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3291,8 +3473,9 @@ window.homelandData = {
         "description": "A favorite wintering spot with abundant game. Turtle Mountain House was established in 1846 and operated by Antoine Desjarlais until 1855. It was a site of Métis resistance and starvation during the \"winter of 1894.\"",
         "story": "Starvation Winter: A historical drama focused on the 1894 winter, depicting the community's struggle for survival and the failure of government aid during an extreme blizzard.",
         "founded": "1846 (Post)",
-        "community_type": "Landmark / Settlement",
-        "type": "location"
+        "community_type": "Landmark, Settlement",
+        "type": "location",
+        "category": "landmark"
       },
       "geometry": {
         "type": "Point",
@@ -3309,8 +3492,9 @@ window.homelandData = {
         "description": "A road allowance community northeast of The Pas named for its patriarch, John Umphreville. The family was connected to a vast kinship network extending from Moose Lake to Prince Albert.",
         "story": "The Umphreville Saga: A story following the patriarch’s descendants as they build a legacy in the northern river delta despite being excluded from town services.",
         "founded": "1900s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -3327,8 +3511,9 @@ window.homelandData = {
         "description": "This region's history is characterized as an Upper Athabasca Ethnohistory, involving the Snare, Snake, and Iroquois-Métis people. It was a key area for the northwestern fur trade and the Iroquois voyageur families who settled there.",
         "story": "The Mountain Voyageurs: A historical piece following the descendants of Iroquois \"trip-men\" as they settle in the Upper Athabasca. The narrative explores the blending of cultures in the mountain foothills, creating a distinct Métis identity rooted in the demanding labor of the northwestern canoe brigades.",
         "founded": "Historic",
-        "community_type": "Settlement Hub",
-        "type": "location"
+        "community_type": "Hub",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3345,8 +3530,9 @@ window.homelandData = {
         "description": "Network of narrow river lots extending north, home to hunters and farmers. Lots extended two miles east and west of river.",
         "story": "Generations on the Red: A family saga following a Métis family on their narrow lot from the fur trade through the 1869 Resistance.",
         "founded": "1822",
-        "community_type": "Fort / administrative center",
-        "type": "location"
+        "community_type": "Administrative Center",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -3364,7 +3550,8 @@ window.homelandData = {
         "story": "Fish Station Rhythms: A narrative centered on the Wabowden fish station, exploring the logistics and camaraderie of the northern commercial fishery.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3382,7 +3569,8 @@ window.homelandData = {
         "story": "Traversing the Waterhen: A travel narrative following a hunting party as they navigate the complex river channels between the two great Manitoba lakes.",
         "founded": "Historic",
         "community_type": "Transportation Route",
-        "type": "location"
+        "type": "location",
+        "category": "transport"
       },
       "geometry": {
         "type": "Point",
@@ -3399,8 +3587,9 @@ window.homelandData = {
         "description": "A mining supply center developed after gold was discovered in gold-bearing quartz in 1914. Former MMF President Ed Head worked here as a diamond-driller.",
         "story": "Herb Lake Gold: A gold rush story from a Métis perspective, depicting the impact of the sudden influx of prospectors on traditional trapping grounds.",
         "founded": "1914",
-        "community_type": "Settlement (Mining town)",
-        "type": "location"
+        "community_type": "Mining Town",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3418,7 +3607,8 @@ window.homelandData = {
         "story": "Old Mrs. Morrissette’s Memory: A narrative centered on \"Old Mrs. Morrissette\" recounting her vivid memories of the 1826 flood for the children of the 1880s settlers.",
         "founded": "1820s",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3435,8 +3625,9 @@ window.homelandData = {
         "description": "Listed alongside Moccasin Flats in the Virtual Museum, this was a road allowance community. These communities were often characterized by pejorative names given by nearby white settlements and lacked basic services like water and sewage.",
         "story": "Life on the Flats: A survival story set in a road allowance community, where families use their ingenuity to build homes from scrap materials. The narrative focuses on the community's resilience in the face of social segregation and their determination to provide an education for their children despite being excluded from municipal services.",
         "founded": "Early 1900s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -3453,8 +3644,9 @@ window.homelandData = {
         "description": "First named \"White Mud River Settlement\" after the color of the clay on its banks. It was a hunter's village with a small church and burial ground.",
         "story": "The White Mud Census: A story based on the 1870 census of the 150 residents, detailing the daily lives of hunters and their families before the 1881 floods.\n\n---\n\nThe Chicago of the North: A historical tragedy depicting the final days of Totogan as floodwaters rise, causing buildings to float away and settlers to pull up stakes.",
         "founded": "Historic",
-        "community_type": "Settlement (Abandoned)",
-        "type": "location"
+        "community_type": "Abandoned",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3472,7 +3664,8 @@ window.homelandData = {
         "story": "Post at the Narrows: A historical account of daily life at the isolated Lake Winnipeg outpost as seen through the eyes of its Métis staff.",
         "founded": "Pre-1859",
         "community_type": "Trading Post (Outpost)",
-        "type": "location"
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -3490,7 +3683,8 @@ window.homelandData = {
         "story": "Borderland Kin: A story of a Métis family whose land holdings and kinship ties span the boundary between Manitoba and Williams County. The plot centers on the challenges of navigating new international regulations that threatened to divide their community and their traditional hunting territories.",
         "founded": "Historic",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3507,8 +3701,9 @@ window.homelandData = {
         "description": "Historically known as Talle de Saules, this was a vital hivernant (wintering) community in Saskatchewan. It was a major destination for Métis families after the 1870 and 1885 Resistance movements.",
         "story": "The Willow Haven: A narrative set after the 1885 Resistance, following families as they find sanctuary in Willow Bunch. The story details the community's transformation from a temporary wintering site into a permanent cultural hub for the plains Métis.",
         "founded": "Historic",
-        "community_type": "Settlement / Wintering site",
-        "type": "location"
+        "community_type": "Wintering site",
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3525,8 +3720,9 @@ window.homelandData = {
         "description": "A Métis road allowance community located in the Northwest Territories. It is part of the extensive northern network of Métis settlements characterized by displacement and landlessness.",
         "story": "Northern Resilience: A modern story set in the NWT, focusing on the history of the Willow Flats residents as they advocate for land titles and recognition of their unique contributions to the northern economy and transportation networks.",
         "founded": "Early 1900s",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
@@ -3544,7 +3740,8 @@ window.homelandData = {
         "story": "Little Muddy Water Boom: A story set during the community's economic peak, following a family working in the timber mills during the early 1900s.",
         "founded": "1741 (Fort)",
         "community_type": "Settlement",
-        "type": "location"
+        "type": "location",
+        "category": "settlement"
       },
       "geometry": {
         "type": "Point",
@@ -3561,8 +3758,9 @@ window.homelandData = {
         "description": "The central base of operations for the HBC fur trade for centuries. It featured a massive octagonal star fort designed to withstand naval attacks.",
         "story": "The Star Fort: A historical piece detailing the 1697 Battle of Hudson’s Bay—the largest northern naval battle—taking place just off the coast of the factory.",
         "founded": "1684",
-        "community_type": "Fort / Trading Post",
-        "type": "location"
+        "community_type": "Trading Post",
+        "type": "location",
+        "category": "fort"
       },
       "geometry": {
         "type": "Point",
@@ -3579,8 +3777,9 @@ window.homelandData = {
         "description": "A road allowance community south of The Pas in the Pasquia Settlement named for Josiah Young. It was excluded from town boundaries, denying residents basic services.",
         "story": "Outside the Boundaries: A social drama focusing on the Josiah Young family as they build a productive life on the road allowance while being denied town water and sewer.",
         "founded": "1950s (Census)",
-        "community_type": "Road Allowance Community",
-        "type": "location"
+        "community_type": "Road Allowance",
+        "type": "location",
+        "category": "road-allowance"
       },
       "geometry": {
         "type": "Point",
