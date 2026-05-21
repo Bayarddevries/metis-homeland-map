@@ -1678,13 +1678,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Lac Ste. Anne",
-        "description": "Lac Ste. Anne in Alberta is one of the oldest Métis communities in western Canada. It was a major fur trade and mission centre, and since 1889 has been the site of an annual Métis pilgrimage in July. The Métis community at Lac Ste. Anne was established in the early 1800s, with families including the Gladu, Calliou, and Bruguier families. Many Kelly Lake Métis trace their origins to Lac Ste. Anne.",
+        "description": "Gabriel Dumont (1795–1880) and his extended kin group of bison hunters established Lac St. Anne west of Edmonton. Known as Manitou Sakahigan to the Métis, it became the site of an annual Métis religious pilgrimage. In 1844 a Catholic mission was set up — the first permanent Catholic mission west of Winnipeg. By 1887 the buffalo had disappeared and the lake lost importance as a gathering place, but Father Lestanc built a shrine and the first pilgrimage was held in 1889. The feast day of St. Anne is July 26.",
         "story": "Pilgrimage to the Lake: A story explores the spiritual traditions and annual summer gatherings at Lac Ste. Anne.",
         "founded": "1844",
         "community_type": "Mission, Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Saskatchewan Métis Communities. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Lac St. Anne, Alberta. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
