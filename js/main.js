@@ -530,35 +530,64 @@ function reapplyLocationFilter() {
  console.log('Cart trails rendered:', geojsonData.features.length, 'features');
  }
 
- function createLocationPopup(props) {
-   const name = props.name || 'Unknown Location';
-   let html = `
- <div class="popup-header">
- <div class="popup-title">${name}</div>
- </div>
- <div class="popup-body">
- `;
+function createLocationPopup(props) {
+  const name = props.name || 'Unknown Location';
 
-   if (props.description) {
-     const desc = props.description.length > 400
-       ? props.description.substring(0, 400) + '…'
-       : props.description;
-     html += `<div class="popup-description">${desc}</div>`;
-   }
+  // Category labels and colors for the popup
+  const catLabels = {
+    settlement: 'Settlement',
+    fort: 'Forts & Posts',
+    'road-allowance': 'Road Allowance',
+    parish: 'Parish / Mission',
+    landmark: 'Landmark',
+    transport: 'Transport',
+    traditional: 'Traditional',
+    other: 'Other'
+  };
+  const catColors = {
+    settlement: '#4CAF50',
+    fort: '#B8312F',
+    'road-allowance': '#FF9800',
+    parish: '#9C27B0',
+    landmark: '#2196F3',
+    transport: '#FFC107',
+    traditional: '#795548',
+    other: '#6B5D4D'
+  };
 
-   html += '<div class="popup-meta">';
+  const accent = catColors[props.category] || '#6B5D4D';
 
-   if (props.founded && props.founded !== '#N/A' && props.founded !== '') {
-     html += `<span class="popup-tag founded">Founded: ${props.founded}</span>`;
-   }
+  let html = `
+<div class="popup-header" style="--popup-accent: ${accent};">
+<div class="popup-title">${name}</div>
+</div>
+<div class="popup-body">
+`;
 
-   if (props.community_type) {
-     html += `<span class="popup-tag type">${props.community_type}</span>`;
-   }
+  if (props.description) {
+    const desc = props.description.length > 400
+      ? props.description.substring(0, 400) + '…'
+      : props.description;
+    html += `<div class="popup-description">${desc}</div>`;
+  }
 
-   html += '</div></div>';
-   return html;
- }
+  html += '<div class="popup-meta">';
+
+  if (props.category) {
+    html += `<span class="popup-tag category" style="--tag-accent: ${accent};">${catLabels[props.category] || props.category}</span>`;
+  }
+
+  if (props.community_type && props.community_type !== (catLabels[props.category] || props.category)) {
+    html += `<span class="popup-tag subtype">${props.community_type}</span>`;
+  }
+
+  if (props.founded && props.founded !== '#N/A' && props.founded !== '') {
+    html += `<span class="popup-tag founded">Founded: ${props.founded}</span>`;
+  }
+
+  html += '</div></div>';
+  return html;
+}
 
 function renderLocations(geojsonData) {
  if (locationsLayer) map.removeLayer(locationsLayer);
