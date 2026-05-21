@@ -1353,6 +1353,7 @@ MAP CONTROLS POLISH
 .popup-header {
  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
  padding: 14px 18px;
+ border-top: 4px solid var(--popup-accent, var(--text-primary));
 }
 
 .popup-title {
@@ -1393,9 +1394,17 @@ MAP CONTROLS POLISH
  background: rgba(30, 77, 140, 0.12);
 }
 
-.popup-tag.type {
+.popup-tag.type,
+.popup-tag.category,
+.popup-tag.subtype {
  color: var(--metis-green);
  background: rgba(45, 125, 70, 0.12);
+}
+
+.popup-tag.category {
+  color: var(--tag-accent, var(--metis-green));
+  background: color-mix(in srgb, var(--tag-accent, var(--metis-green)) 12%, transparent);
+  font-weight: 600;
 }
 
 /* ============================================
