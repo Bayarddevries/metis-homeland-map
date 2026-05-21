@@ -2253,13 +2253,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Park Valley",
-        "description": "",
+        "description": "Park Valley (originally Nukeewin — 'The Stopping Place') was a Métis road allowance community in Saskatchewan where Maria Campbell grew up. In 1915, the creation of Prince Albert National Park displaced the Non-Status Indian and Métis families who lived there. The name Nukeewin was changed to Park Valley in 1925.",
         "story": "Valley Life: A narrative detailing the seasonal patterns of harvesting and kinship in Park Valley during the settlement era.",
         "founded": "Historic",
         "community_type": "Hub",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Park Valley, Saskatchewan. Louis Riel Institute. Citing Campbell, Maria. 'Kookoom Mariah and the Mennonite Mrs.' Journal of Mennonite Studies, Vol. 19, 2001."
       },
       "geometry": {
         "type": "Point",
@@ -2502,13 +2502,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Portage La Loche",
-        "description": "",
+        "description": "The Portage La Loche (Methye Portage) Brigade was organized in 1826, with men recruited from the Red River Settlement by the Hudson's Bay Company. The brigade traveled 4,000 miles annually by York boat, from Red River to Portage La Loche — the Height of Land separating waters flowing into the Arctic Sea from those draining into Hudson's Bay. Many of the boatmen were Métis, and many took part in the 1869 Red River Resistance. The brigade was broken into shorter sections after the Resistance.",
         "story": "The Long Portage: A story follows the Portage La Loche brigade, capturing the extreme physical labor and camaraderie of the northern boatmen.",
         "founded": "Historic",
         "community_type": "Transportation Hub",
         "type": "location",
         "category": "transport",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. The Portage La Loche Brigade. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
