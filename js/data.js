@@ -1545,12 +1545,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Kansas Half Breed Tracts",
-        "description": "Lands set aside for Métis people in the United States.",
+        "description": "An 1825 treaty with the Kaw (Kansa) Indians reserved 640 acres for each of 23 Kaw mixed-blood Métis along the north bank of the Kansas River from present-day Topeka to Williamstown. The tracts became important sites: Tract 3 became the Pappan Ferry on the Oregon Trail; Tract 4 was allotted to Julie Gonville, maternal grandmother of U.S. Vice President Charles Curtis. A parallel 1825 treaty with the Osage reserved 42 one-square-mile tracts for French-Osage mixed bloods in eastern Kansas and Oklahoma.",
         "story": "The US Reserve: A legal drama explores the struggle of families to hold onto land in the Kansas tracts during American westward expansion.",
         "founded": "1825",
         "community_type": "Reserved Lands",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Kansa Half Breed Tracts. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
