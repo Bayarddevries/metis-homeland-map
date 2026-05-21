@@ -892,12 +892,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Edmonton House (Fort Augustus)",
-        "description": "A major northwestern trade hub and destination for Red River families moving west.",
+        "description": "Fort Edmonton (also called Fort-des-Prairies by the Métis and Amiskwaskahegan — 'Beaver Hills House' — by the Cree) was the end point of the Carlton Trail, the main overland route for Métis freighters between Red River Settlement and the west. Built by the HBC in 1795 near the NWC's Fort Augustus, it had 60–80 Métis employees living nearby with their families. The fort was moved upstream to present-day downtown Edmonton in 1801 due to lack of firewood, and later to the site of the Alberta Legislature after floods in the late 1820s.",
         "story": "The Long Trail: A story following a Red River cart brigade from St. Andrews to Edmonton as families seek new farmland and opportunities in the west.",
         "founded": "1795",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Edmonton House. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
