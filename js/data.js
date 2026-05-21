@@ -2080,13 +2080,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Michipicoten Post",
-        "description": "",
+        "description": "Michipicoten River empties into Michipicoten Bay on the eastern shore of Lake Superior near Wawa, Ontario, providing access to James Bay via the Missinaibi and Moose Rivers. A French trading post was built at the river's mouth in the early 18th century. The HBC began building posts along the route in the 1770s, and the post remained in use until 1904. After 1821, the Moose River–Missinaibi–Michipicoten route became the established supply route for HBC's Lake Superior District.",
         "story": "Superior Trade: A story detailing the importance of Michipicoten as a transshipment point for Red River goods moving toward the east.",
         "founded": "Historic",
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Michipicoten Post and Michipicoten River. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -2100,13 +2100,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Milk River",
-        "description": "",
+        "description": "In 1879, Colonel Miles was dispatched from Fort Keogh, Montana to break up Métis camps on the Milk River. On August 4, Miles and Captain Overshine arrested a band of Métis with 143 carts and 193 horses at Porcupine Creek. In total, 829 Métis were arrested and 665 Red River carts seized, then deported across the border into Canada.",
         "story": "Expulsion from the Plains: A story follows a family during the 1882 expulsion from Montana back across the border into Canada.",
         "founded": "Late 1800s",
         "community_type": "Historic Site",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Deportation of the Métis on the Milk River, Montana. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
