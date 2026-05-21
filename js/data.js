@@ -547,13 +547,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Choteau",
-        "description": "",
+        "description": "Métis families who arrived from Canada after the failed Riel rebellion of 1885 were among the earliest settlers along northern Montana's Front Range around Choteau. Métis families hid in the foothills and canyons due to fears of deportation.\nSource: Barkwell, Lawrence J. Front Range Métis. Louis Riel Institute.",
         "story": "Frontier Ties: A story explores the kinship links between the Red River Métis and the Montana settlements like Choteau during the late 19th-century migrations.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Front Range Métis (Choteau). Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -1100,13 +1100,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Fort Langley",
-        "description": "",
+        "description": "Fort Langley was established on the Fraser River by Chief Trader James McMillan in 1827, assisted by his clerks including François Annance (Métis), Donald Manson, and George Barnston. The post had an excellent salmon fishery and began an export lumber trade. It was rebuilt 4 km upstream in 1839. During the 1858 Gold Rush, Fort Langley was the departure point for prospectors and the site of the Crown Colony proclamation.\nSource: Barkwell, Lawrence J. Fort Langley. Louis Riel Institute.",
         "story": "Coast to Coast: A narrative linking the plains Métis with their kin at Fort Langley, highlighting the vast reach of the family networks.",
         "founded": "Historic",
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Fort Langley. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -1406,13 +1406,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Green Lake (Lac Vert)",
-        "description": "",
+        "description": "Green Lake (Lac Vert), Saskatchewan, was founded by the Métis in 1782. The site hosted Northwest Company and Hudson's Bay Company posts. Located 55 km northeast of Meadow Lake, it served as a key entrepôt between Fort Carlton and the Methye Portage. In 1940 the province established the Central Farm agricultural project to assist Métis residents.\nSource: Barkwell, Lawrence J. Green Lake, Saskatchewan. Louis Riel Institute.",
         "story": "The Northern Trade: A story about the canoe routes through Green Lake, depicting the life of the northern voyageurs.",
         "founded": "Historic",
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Green Lake, Saskatchewan. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -3131,13 +3131,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "St. Peter's Mission",
-        "description": "",
+        "description": "William Boushie, a Métis settler, moved his family to St. Peter's Mission when his children reached school age. St. Peter's Mission served as an educational and community center for Métis families on the Montana Front Range.\nSource: Barkwell, Lawrence J. Front Range Métis. Louis Riel Institute.",
         "story": "Riel’s Classmates: A narrative set in the mission schoolroom, exploring the intellectual and political awakening of young Métis students. The story details the influence of the mission's teachings on their understanding of land rights and national identity, which would later fuel the Resistance movements.",
         "founded": "Historic",
         "community_type": "Mission",
         "type": "location",
         "category": "parish",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Front Range Métis (St. Peter's Mission). Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -3360,13 +3360,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Teton River",
-        "description": "",
+        "description": "Métis immigrants to Montana after the Riel rebellion settled in the canyon on the South Fork of the Teton River, about 25 miles west of Choteau. In 1896 there were 10 to 15 cabins; at its peak the settlement consisted of over 100 residents and about two dozen dwellings. The Métis community maintained a cemetery and lived traditionally in the canyon.\nSource: Barkwell, Lawrence J. Front Range Métis. Louis Riel Institute.",
         "story": "The South Fork Hunt: A narrative following a Métis hunting brigade as they establish a winter camp on the Teton River. The story illustrates the vast geographic reach of the Métis family networks, linking the Montana plains to the Red River settlements through marriage and trade.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Front Range Métis (Teton River). Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
