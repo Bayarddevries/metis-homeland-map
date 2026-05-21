@@ -356,12 +356,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Buffalo Lake",
-        "description": "Listed as a site of a historic Métis settlement and wintering grounds in the Battle River Valley.",
+        "description": "Buffalo Lake and the Battle River Valley in present day Alberta came to prominence as Métis gathering places after the great small-pox epidemic (la picotte) of 1870. The Métis fled from St. Albert, Lac St. Anne and Edmonton to escape the disease. The Buffalo Lake site is located between Lynn and Buffalo Lakes southeast of Edmonton, part of a network of four Métis wintering sites including Salois' Crossing near Duhamel, Tail Creek near Boss Hill, Todd's Crossing near Ponoka, and Dried Meat Hill.",
         "story": "Winter at Buffalo Lake: A narrative detailing the social life and survival strategies of a Métis wintering brigade (hivernants) at Buffalo Lake during the mid-19th century.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Buffalo Lake and the Battle River Valley. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
