@@ -1639,13 +1639,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Laboucane (Duhamel)",
-        "description": "",
+        "description": "The Laboucane Settlement (later Duhamel Settlement) was founded in the early 1870s by François Gabriel Dumont, who moved from Lac St. Anne to the Battle River with his brother-in-law Abraham Salois and the Salois sons. The community was located at the Saddle Lake–Battleford crossing of the Battle River, between modern Wetaskiwin and Camrose. Six Laboucane brothers settled north and south of the river, and the Métis operated as buffalo hunters and later as farmers. In 1881 a mission was established and named Duhamel after Archbishop Thomas Duhamel of Ottawa.",
         "story": "Relocation to Duhamel: A story detailing the migration of the Laboucane family from Red River to build a new agricultural community in the west.",
         "founded": "1870s",
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Laboucane Settlement. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
@@ -1756,13 +1756,13 @@ window.homelandData = {
       "type": "Feature",
       "properties": {
         "name": "Last Mountain Lake",
-        "description": "",
+        "description": "Last Mountain Lake (also called Long Lake) was a well-known wintering site for Métis bison hunters. The Hudson's Bay Company built Last Mountain House at the southern end of the lake in 1869. After the post was destroyed by fire, a pair of hunting camps developed on the lake's south shore — one Métis and one First Nations. The area later became Canada's first federal bird sanctuary in 1887.",
         "story": "The High Ground Hunt: A narrative following a hunt brigade as they camp at Last Mountain Lake during a summer buffalo run.",
         "founded": "Historic",
         "community_type": "Seasonal Camp, Hunt Site",
         "type": "location",
         "category": "traditional",
-        "source": "Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)"
+        "source": "Barkwell, Lawrence J. Last Mountain Lake. Louis Riel Institute."
       },
       "geometry": {
         "type": "Point",
