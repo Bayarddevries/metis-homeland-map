@@ -625,16 +625,17 @@ function renderLocations(geojsonData) {
  if (feature.properties) {
  layer.bindPopup(createLocationPopup(feature.properties));
  }
- layer.on({
- mouseover: function(e) {
- e.target.setStyle({ radius: 9, weight: 3, fillOpacity: 1 });
- if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = 'drop-shadow(0 0 6px rgba(45,125,70,0.7))'; }
- },
- mouseout: function(e) {
- locationsLayer.resetStyle(e.target);
- if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = ''; }
- }
- });
+  layer.on({
+    mouseover: function(e) {
+      e.target.setStyle({ radius: 9, weight: 3, fillOpacity: 1 });
+      if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = 'drop-shadow(0 0 6px rgba(45,125,70,0.7))'; }
+    },
+    mouseout: function(e) {
+      // Reset to default values (pointToLayer defaults)
+      e.target.setStyle({ radius: 6, weight: 2, fillOpacity: 0.9 });
+      if (e.target.getElement) { const el = e.target.getElement(); if (el) el.style.filter = ''; }
+    }
+  });
  }
  }).addTo(map);
 
