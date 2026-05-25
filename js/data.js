@@ -17,7 +17,8 @@ window.homelandData = {
         "founded": "1795",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +37,8 @@ window.homelandData = {
         "founded": "1950s (Documented)",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -55,7 +57,8 @@ window.homelandData = {
         "founded": "1832",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -74,7 +77,8 @@ window.homelandData = {
         "founded": "1884",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -93,7 +97,8 @@ window.homelandData = {
         "founded": "Late 1700s",
         "community_type": "Lumber Towns",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -112,7 +117,8 @@ window.homelandData = {
         "founded": "1732",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -131,7 +137,8 @@ window.homelandData = {
         "founded": "1732",
         "community_type": "Fort, Settlement",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -150,7 +157,8 @@ window.homelandData = {
         "founded": "Historic wintering site",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -189,7 +197,8 @@ window.homelandData = {
         "founded": "1814 (First post)",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -208,7 +217,8 @@ window.homelandData = {
         "founded": "1912 (Incorporation exclusion)",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -227,7 +237,8 @@ window.homelandData = {
         "founded": "1824 (Grant)",
         "community_type": "Sanctuary",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -246,7 +257,8 @@ window.homelandData = {
         "founded": "1817",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -285,7 +297,8 @@ window.homelandData = {
         "founded": "1794",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -304,7 +317,8 @@ window.homelandData = {
         "founded": "Ancient / Traditional",
         "community_type": "Harvesting Site",
         "type": "location",
-        "category": "traditional"
+        "category": "traditional",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -323,7 +337,8 @@ window.homelandData = {
         "founded": "Early 1880s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +357,8 @@ window.homelandData = {
         "founded": "Oct 16, 1793",
         "community_type": "Fort, Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -401,7 +417,8 @@ window.homelandData = {
         "founded": "Ancient / Historic",
         "community_type": "Ceremonial Site",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -420,7 +437,8 @@ window.homelandData = {
         "founded": "1860s (Salt); 1914 (Renamed)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -439,7 +457,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Transportation Route",
         "type": "location",
-        "category": "transport"
+        "category": "transport",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -458,7 +477,8 @@ window.homelandData = {
         "founded": "Ancient Rendezvous; 1741 (Fort)",
         "community_type": "Hub",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -477,7 +497,8 @@ window.homelandData = {
         "founded": "#N/A",
         "community_type": "Geographic Landmark",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -496,7 +517,8 @@ window.homelandData = {
         "founded": "1950s (Documented)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -515,7 +537,8 @@ window.homelandData = {
         "founded": "Ancient; Relocated 1960s",
         "community_type": "Flooded",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -534,7 +557,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -573,7 +597,8 @@ window.homelandData = {
         "founded": "#N/A",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -592,7 +617,8 @@ window.homelandData = {
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -611,7 +637,8 @@ window.homelandData = {
         "founded": "1833",
         "community_type": "Mission, Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -630,7 +657,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -649,7 +677,8 @@ window.homelandData = {
         "founded": "Ancient; 1804 (Post)",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -668,7 +697,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -687,7 +717,8 @@ window.homelandData = {
         "founded": "Pre-1870 (Lots); 1902 (Suburb)",
         "community_type": "Displaced",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -706,7 +737,8 @@ window.homelandData = {
         "founded": "1774",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -725,7 +757,8 @@ window.homelandData = {
         "founded": "1817",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -744,7 +777,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -763,7 +797,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -782,7 +817,8 @@ window.homelandData = {
         "founded": "1901 (Documented)",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -801,7 +837,8 @@ window.homelandData = {
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -820,7 +857,8 @@ window.homelandData = {
         "founded": "Ancient; 1859 (Post)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -859,7 +897,8 @@ window.homelandData = {
         "founded": "Early 1960s",
         "community_type": "Relocated",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -878,7 +917,8 @@ window.homelandData = {
         "founded": "1938 (Church)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -917,7 +957,8 @@ window.homelandData = {
         "founded": "1795 (Post); 1842 (Mission)",
         "community_type": "Mission, Trading Post",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -936,7 +977,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Historic Site",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -955,7 +997,8 @@ window.homelandData = {
         "founded": "1864",
         "community_type": "Defensive Site",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -974,7 +1017,8 @@ window.homelandData = {
         "founded": "1793",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -993,7 +1037,8 @@ window.homelandData = {
         "founded": "1741",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1012,7 +1057,8 @@ window.homelandData = {
         "founded": "1791",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1031,7 +1077,8 @@ window.homelandData = {
         "founded": "1836",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1050,7 +1097,8 @@ window.homelandData = {
         "founded": "1794",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1069,7 +1117,8 @@ window.homelandData = {
         "founded": "1810",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1088,7 +1137,8 @@ window.homelandData = {
         "founded": "1738",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1127,7 +1177,8 @@ window.homelandData = {
         "founded": "1790",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1146,7 +1197,8 @@ window.homelandData = {
         "founded": "1824",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1165,7 +1217,8 @@ window.homelandData = {
         "founded": "1824",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1184,7 +1237,8 @@ window.homelandData = {
         "founded": "1802",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1203,7 +1257,8 @@ window.homelandData = {
         "founded": "1738",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1222,7 +1277,8 @@ window.homelandData = {
         "founded": "1793",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1241,7 +1297,8 @@ window.homelandData = {
         "founded": "Early 1730s",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1260,7 +1317,8 @@ window.homelandData = {
         "founded": "1939",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1299,7 +1357,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Meeting Site, Rendezvous",
         "type": "location",
-        "category": "traditional"
+        "category": "traditional",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1318,7 +1377,8 @@ window.homelandData = {
         "founded": "1870s",
         "community_type": "Transportation Site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1337,7 +1397,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1356,7 +1417,8 @@ window.homelandData = {
         "founded": "1823 (Red River) / 1864 (HBC Sask River)",
         "community_type": "Settlement, Fort",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1375,7 +1437,8 @@ window.homelandData = {
         "founded": "1860s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1394,7 +1457,8 @@ window.homelandData = {
         "founded": "Pre-1875",
         "community_type": "Trading Post (Outpost)",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1433,7 +1497,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Geographic Landmark",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1492,7 +1557,8 @@ window.homelandData = {
         "founded": "#N/A",
         "community_type": "Sugar Bush Site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1531,7 +1597,8 @@ window.homelandData = {
         "founded": "1796",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1590,7 +1657,8 @@ window.homelandData = {
         "founded": "Ancient",
         "community_type": "Geographic Landmark",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1609,7 +1677,8 @@ window.homelandData = {
         "founded": "#N/A",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1628,7 +1697,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Trading Outpost",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1667,7 +1737,8 @@ window.homelandData = {
         "founded": "Late 1860s",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1706,7 +1777,8 @@ window.homelandData = {
         "founded": "Late 1800s",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1745,7 +1817,8 @@ window.homelandData = {
         "founded": "1856",
         "community_type": "Trading Post, Farm Depot",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1784,7 +1857,8 @@ window.homelandData = {
         "founded": "1931 (Resort)",
         "community_type": "Gathering, Recreation Site",
         "type": "location",
-        "category": "traditional"
+        "category": "traditional",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1803,7 +1877,8 @@ window.homelandData = {
         "founded": "1826",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1842,7 +1917,8 @@ window.homelandData = {
         "founded": "1848",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1861,7 +1937,8 @@ window.homelandData = {
         "founded": "Ancient",
         "community_type": "Geographic Landmark",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1880,7 +1957,8 @@ window.homelandData = {
         "founded": "1988",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1899,7 +1977,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -1918,7 +1997,8 @@ window.homelandData = {
         "founded": "1850s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1937,7 +2017,8 @@ window.homelandData = {
         "founded": "1870s (Documented)",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1956,7 +2037,8 @@ window.homelandData = {
         "founded": "1904 (Survey)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1975,7 +2057,8 @@ window.homelandData = {
         "founded": "Mid-1790s",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -1994,7 +2077,8 @@ window.homelandData = {
         "founded": "1790 (Peguis arrival)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2013,7 +2097,8 @@ window.homelandData = {
         "founded": "1867 (Post)",
         "community_type": "Stopping Point",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2032,7 +2117,8 @@ window.homelandData = {
         "founded": "Early 1900s (Ranching)",
         "community_type": "Stopping Point",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2051,7 +2137,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2070,7 +2157,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2129,7 +2217,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2148,7 +2237,8 @@ window.homelandData = {
         "founded": "1803 (Post)",
         "community_type": "Trading Post, Agricultural Site",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2167,7 +2257,8 @@ window.homelandData = {
         "founded": "1817",
         "community_type": "Fort, Settlement, Depot",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2186,7 +2277,8 @@ window.homelandData = {
         "founded": "Late 1860s",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2205,7 +2297,8 @@ window.homelandData = {
         "founded": "1860s (Post)",
         "community_type": "Trading Post, Wintering Site",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2224,7 +2317,8 @@ window.homelandData = {
         "founded": "1741 (Fort); 1840 (Mission)",
         "community_type": "Rendezvous Site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2243,7 +2337,8 @@ window.homelandData = {
         "founded": "1798",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2282,7 +2377,8 @@ window.homelandData = {
         "founded": "1797 (HBC Post)",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2301,7 +2397,8 @@ window.homelandData = {
         "founded": "Mid-1800s",
         "community_type": "River Lot",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2320,7 +2417,8 @@ window.homelandData = {
         "founded": "1914",
         "community_type": "Railway",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2339,7 +2437,8 @@ window.homelandData = {
         "founded": "1874",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2358,7 +2457,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2377,7 +2477,8 @@ window.homelandData = {
         "founded": "1768 (Fort des Épinettes)",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2396,7 +2497,8 @@ window.homelandData = {
         "founded": "Mid-1800s",
         "community_type": "Settlement, Parish",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2415,7 +2517,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2434,7 +2537,8 @@ window.homelandData = {
         "founded": "1850s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2473,7 +2577,8 @@ window.homelandData = {
         "founded": "1807",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2492,7 +2597,8 @@ window.homelandData = {
         "founded": "1850s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2531,7 +2637,8 @@ window.homelandData = {
         "founded": "1834",
         "community_type": "Mission, Settlement Site",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2550,7 +2657,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2569,7 +2677,8 @@ window.homelandData = {
         "founded": "1915",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2628,7 +2737,8 @@ window.homelandData = {
         "founded": "1794 (Post)",
         "community_type": "Trading Post site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2647,7 +2757,8 @@ window.homelandData = {
         "founded": "Pre-1870",
         "community_type": "Settlement, Parish",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2666,7 +2777,8 @@ window.homelandData = {
         "founded": "Ancient",
         "community_type": "Historic Landmark",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2685,7 +2797,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2704,7 +2817,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Transportation Site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2723,7 +2837,8 @@ window.homelandData = {
         "founded": "1822",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2742,7 +2857,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2761,7 +2877,8 @@ window.homelandData = {
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2780,7 +2897,8 @@ window.homelandData = {
         "founded": "1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2799,7 +2917,8 @@ window.homelandData = {
         "founded": "1871",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2818,7 +2937,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2837,7 +2957,8 @@ window.homelandData = {
         "founded": "June 19, 1816",
         "community_type": "Battlefield",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2856,7 +2977,8 @@ window.homelandData = {
         "founded": "#N/A",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2875,7 +2997,8 @@ window.homelandData = {
         "founded": "1895 (Mallard)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2914,7 +3037,8 @@ window.homelandData = {
         "founded": "1803 (Original Post)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2933,7 +3057,8 @@ window.homelandData = {
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -2952,7 +3077,8 @@ window.homelandData = {
         "founded": "1870 (Relocation)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2971,7 +3097,8 @@ window.homelandData = {
         "founded": "1864",
         "community_type": "Defensive Site",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -2990,7 +3117,8 @@ window.homelandData = {
         "founded": "1823",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3009,7 +3137,8 @@ window.homelandData = {
         "founded": "1818",
         "community_type": "Settlement Hub",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3028,7 +3157,8 @@ window.homelandData = {
         "founded": "1898",
         "community_type": "Settlement, Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3047,7 +3177,8 @@ window.homelandData = {
         "founded": "1823",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3066,7 +3197,8 @@ window.homelandData = {
         "founded": "1853",
         "community_type": "Mission, Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3085,7 +3217,8 @@ window.homelandData = {
         "founded": "1824",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3104,7 +3237,8 @@ window.homelandData = {
         "founded": "1853",
         "community_type": "Settlement",
         "type": "location",
-        "category": "parish"
+        "category": "parish",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3143,7 +3277,8 @@ window.homelandData = {
         "founded": "1822 / 1734",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3162,7 +3297,8 @@ window.homelandData = {
         "founded": "1824",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3181,7 +3317,8 @@ window.homelandData = {
         "founded": "1870s",
         "community_type": "Destroyed",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3200,7 +3337,8 @@ window.homelandData = {
         "founded": "1889",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3219,7 +3357,8 @@ window.homelandData = {
         "founded": "1870 (Homestead)",
         "community_type": "Sanctuary",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3238,7 +3377,8 @@ window.homelandData = {
         "founded": "Mid-1800s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3257,7 +3397,8 @@ window.homelandData = {
         "founded": "Ancient",
         "community_type": "Harvesting Site",
         "type": "location",
-        "category": "traditional"
+        "category": "traditional",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3276,7 +3417,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Harvesting Area",
         "type": "location",
-        "category": "traditional"
+        "category": "traditional",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3295,7 +3437,8 @@ window.homelandData = {
         "founded": "Pre-1871",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3314,7 +3457,8 @@ window.homelandData = {
         "founded": "1790",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3333,7 +3477,8 @@ window.homelandData = {
         "founded": "1869",
         "community_type": "Transportation Hub",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3372,7 +3517,8 @@ window.homelandData = {
         "founded": "1741 (Fort)",
         "community_type": "Rendezvous Site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3391,7 +3537,8 @@ window.homelandData = {
         "founded": "Early 1800s",
         "community_type": "Transportation Landmark",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3410,7 +3557,8 @@ window.homelandData = {
         "founded": "1914 (Rail)",
         "community_type": "Railway",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3429,7 +3577,8 @@ window.homelandData = {
         "founded": "1930s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3448,7 +3597,8 @@ window.homelandData = {
         "founded": "1930s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3467,7 +3617,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3486,7 +3637,8 @@ window.homelandData = {
         "founded": "1846 (Post)",
         "community_type": "Landmark, Settlement",
         "type": "location",
-        "category": "landmark"
+        "category": "landmark",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3505,7 +3657,8 @@ window.homelandData = {
         "founded": "1900s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3524,7 +3677,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Hub",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3543,7 +3697,8 @@ window.homelandData = {
         "founded": "1822",
         "community_type": "Administrative Center",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3562,7 +3717,8 @@ window.homelandData = {
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3581,7 +3737,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Transportation Route",
         "type": "location",
-        "category": "transport"
+        "category": "transport",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3600,7 +3757,8 @@ window.homelandData = {
         "founded": "1914",
         "community_type": "Mining Town",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3619,7 +3777,8 @@ window.homelandData = {
         "founded": "1820s",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3658,7 +3817,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Abandoned",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3677,7 +3837,8 @@ window.homelandData = {
         "founded": "Pre-1859",
         "community_type": "Trading Post (Outpost)",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3716,7 +3877,8 @@ window.homelandData = {
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3735,7 +3897,8 @@ window.homelandData = {
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Virtual Museum of Métis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
       },
       "geometry": {
         "type": "Point",
@@ -3754,7 +3917,8 @@ window.homelandData = {
         "founded": "1741 (Fort)",
         "community_type": "Settlement",
         "type": "location",
-        "category": "settlement"
+        "category": "settlement",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3773,7 +3937,8 @@ window.homelandData = {
         "founded": "1684",
         "community_type": "Trading Post",
         "type": "location",
-        "category": "fort"
+        "category": "fort",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
@@ -3792,7 +3957,8 @@ window.homelandData = {
         "founded": "1950s (Census)",
         "community_type": "Road Allowance",
         "type": "location",
-        "category": "road-allowance"
+        "category": "road-allowance",
+        "source": "Barkwell, Lawrence J. Historic Métis Settlements in Manitoba. Louis Riel Institute, July 2018."
       },
       "geometry": {
         "type": "Point",
