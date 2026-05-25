@@ -22,6 +22,19 @@ and this project uses dates rather than versions (unversioned site).
 - Rat Portage sourced with full Barkwell citation
 - **Archived all 198 AI-generated narrative story hooks** (creative writing prompts from Métis Trail RPG project) to `data/story-hooks-archive.{json,md}`; cleared from production `js/data.js`
 
+### Added
+- **Battles layer fully sourced** — 6 battle locations (Seven Oaks, Grand Coteau, Duck Lake, Fish Creek, Batoche, Loon Lake) now have source citations from Barkwell monographs and HSMBC
+- Battle descriptions rewritten to factual, sourced tone consistent with location articles
+- Source citations:
+  - Seven Oaks: Barkwell, *We Won at Frog Plain* (Louis Riel Institute, 2015)
+  - Grand Coteau: Barkwell, *Battle of the Grand Coteau: 1851* (Louis Riel Institute)
+  - Duck Lake, Fish Creek, Batoche: Barkwell, *Veterans and Families of the 1885 Northwest Resistance* (GDI, 2011)
+  - Loon Lake: HSMBC, Steele Narrows NHS (Minutes, 1950)
+
+### Fixed
+- Location marker hover now properly returns to normal size (replaced `resetStyle` with explicit defaults) (#16)
+- JS syntax error in data.js: missing comma between locations and buffaloHerds sections (#17)
+
 ## [2026-05-21]
 
 ### Added

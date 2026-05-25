@@ -3,8 +3,8 @@ project: "Métis Homeland Map V8"
 repo: "https://github.com/Bayarddevries/metis-homeland-map"
 deployed_url: "https://bayarddevries.github.io/metis-homeland-map/"
 last_updated: "2026-05-25"
-deployed_commit: "58c6ed0"
-completion_percent: 93
+deployed_commit: "99c2721"
+completion_percent: 95
 pages_source: "master"
 main_js: "js/main.js"
 ---
@@ -30,6 +30,8 @@ main_js: "js/main.js"
 - **Popup improvements (#15)** — color-coded header bar, category label tag, source citation for descriptions
 - **Source citations complete** — all 198 locations have proper source attribution (124 Barkwell Manitoba Settlements, 32 individual Barkwell monographs, 44 Virtual Museum)
 - **Story hooks archived** — all 198 AI-generated narrative hooks (Métis Trail RPG creative prompts) archived and cleared from production data
+- **Battles layer sourced** — 6 battles with full source citations (4 Barkwell monographs, 1 HSMBC); descriptions rewritten to factual tone
+- **Hover fix** — location markers no longer stay enlarged after hover; `resetStyle` replaced with explicit defaults
 
 ## What's Next 📋
 1. **Cart trails** — re-trace with route names (on hold)
@@ -45,6 +47,9 @@ None currently.
 
 ## Recent Commits
 ```
+99c2721 - feat: complete battle sourcing + update descriptions (2026-05-25)
+f8decf4 - fix: location marker hover returns to normal (resetStyle bug) (2026-05-25)
+943f837 - fix: restore JS syntax (missing comma between locations and buffaloHerds) (2026-05-25)
 58c6ed0 - feat: add source citations for all 198 locations (2026-05-25)
 bcab11e - feat: merged St. Pierre + Rivière St. Pierre duplicates; update source CSV (2026-05-21)
 8ab69ff - feat: sourced Rat Portage from Barkwell PDF #14601 (2026-05-21)
