@@ -13,9 +13,10 @@
       "properties": {
         "name": "Battle of Seven Oaks (Frog Plain)",
         "date": "June 19, 1816",
-        "description": "The Fight for Sovereignty: This was the definitive assertion of the Métis as a \"New Nation.\" Triggered by the Pemmican Proclamation—which sought to monopolize the Métis' primary trade and food source—this skirmish saw 60 Métis defeat a larger HBC force in minutes. It proved the Métis were a political and military power in the West, not just \"employees\" or \"squatters.\"",
+        "description": "The culmination of the Pemmican Wars and escalating fur trade disputes between the HBC and NWC. On June 19, 1816, approximately 60 Métis led by Cuthbert Grant clashed with HBC Governor Robert Semple and a group of settlers at Frog Plain (Seven Oaks). The encounter, lasting less than 30 minutes, resulted in Semple's death and 21 HBC fatalities. The event marked the assertion of the Métis as a political and military force in the Red River region.",
         "historical_figures": "Cuthbert Grant; Pierre Falcon; Governor Semple (HBC).",
-        "layer": "battles"
+        "layer": "battles",
+        "source": "Barkwell, Lawrence J. Paashkiiyaakanaan daan la prayrii di la Goornouyayr: We Won at Frog Plain. Louis Riel Institute, 2015. ISBN 978-1-927531-08-2."
       }
     },
     {
@@ -30,9 +31,10 @@
       "properties": {
         "name": "Battle of Grand Coteau",
         "date": "July 15–16, 1851",
-        "description": "The Fight for the Hunt: A massive defense of the St. François Xavier hunting brigade against roughly 2,000 Dakota warriors. Beyond a territorial dispute, this was about the survival of the bison hunt—the engine of the Métis economy. The use of a \"moving fortress\" (carts in a circle with rifle pits dug beneath) became the blueprint for Métis defensive warfare.",
+        "description": "On July 15-16, 1851, a Métis buffalo hunting party from St. François Xavier, led by Jean Baptiste Falcon, defended their camp against an estimated 2,000 Yanktonai Dakota warriors. The Métis formed a defensive position using Red River carts in a circle with rifle pits dug beneath them. After two days of fighting, the Dakota withdrew. The engagement demonstrated the Métis' capacity to protect their hunting territory and the buffalo economy that sustained their communities.",
         "historical_figures": "Jean Baptiste Falcon; Pascal Breland; Father Louis Laflèche.",
-        "layer": "battles"
+        "layer": "battles",
+        "source": "Barkwell, Lawrence J. Battle of the Grand Coteau: 1851. Louis Riel Institute."
       }
     },
     {
@@ -47,9 +49,10 @@
       "properties": {
         "name": "Battle of Duck Lake",
         "date": "March 26, 1885",
-        "description": "The Spark of Resistance: Sparked by the Canadian government’s refusal to grant land titles to Métis settlers along the South Saskatchewan River. When a parley between the NWMP and Métis went wrong, a 30-minute firefight erupted. This victory forced the Canadian government to acknowledge the Métis' military resolve, though it led to the immediate dispatch of 5,000 troops.",
+        "description": "The first engagement of the 1885 Northwest Resistance, taking place on March 26 near Duck Lake, Saskatchewan. After the Canadian government repeatedly ignored Métis petitions for land rights and political representation, a confrontation erupted between NWMP led by Superintendent Crozier and Métis fighters led by Gabriel Dumont and Louis Riel. The 30-minute firefight left the NWMP retreating and marked the beginning of open conflict in the South Saskatchewan River valley.",
         "historical_figures": "Gabriel Dumont; Isidore Dumont; Supt. Leif Crozier.",
-        "layer": "battles"
+        "layer": "battles",
+        "source": "Barkwell, Lawrence J. Veterans and Families of the 1885 Northwest Resistance. Gabriel Dumont Institute, 2011. ISBN 978-1-926795-03-4."
       }
     },
     {
@@ -64,9 +67,10 @@
       "properties": {
         "name": "Battle of Fish Creek (Tourond’s Coulée)",
         "date": "April 24, 1885",
-        "description": "The Guerilla Defense: Fought on the homestead of the Tourond family, this was an ambush designed to stall the Canadian army's march on Batoche. Dumont utilized the steep, brush-heavy coulee to trap Middleton’s troops. The battle proved that the Métis' superior knowledge of the local terrain could neutralize the army's superior numbers and technology (like the Gatling gun).",
+        "description": "Fought on April 24, 1885 on the homestead of the Tourond family, approximately 25 km south of Batoche. Gabriel Dumont used the steep, brush-filled coulee to ambush General Middleton’s advancing Canadian column as it marched north toward Batoche. The Métis force, hampered by a shortage of ammunition and operable firearms, stalled Middleton’s advance for three days. The engagement proved that terrain knowledge could offset superior numbers and artillery.",
         "historical_figures": "Gabriel Dumont; General Middleton; The Tourond Family.",
-        "layer": "battles"
+        "layer": "battles",
+        "source": "Barkwell, Lawrence J. Veterans and Families of the 1885 Northwest Resistance. Gabriel Dumont Institute, 2011. ISBN 978-1-926795-03-4."
       }
     },
     {
@@ -81,9 +85,10 @@
       "properties": {
         "name": "Battle of Batoche",
         "date": "May 9–12, 1885",
-        "description": "The Final Stand: This was an all-out defense of the community’s headquarters and homes. For four days, Métis families (men, women, and children) lived in pits while under heavy artillery fire. They weren't just fighting for Riel; they were fighting to prevent the displacement of their entire society. The resistance ended only when ammunition was replaced by stones and nails in their rifles.",
+        "description": "The decisive engagement of the 1885 Northwest Resistance, lasting from May 9 to May 12. Métis defenders, supported by Dakota and Cree allies, held rifle pits around the settlement of Batoche against General Middleton's force of over 800 troops, artillery, and a riverboat. Running low on ammunition, the Métis were forced to use stones and nails in their rifles. The fall of Batoche ended organized Métis military resistance in 1885.",
         "historical_figures": "Louis Riel; Gabriel Dumont; Josèphte Tourond; Marguerite Riel.",
-        "layer": "battles"
+        "layer": "battles",
+        "source": "Barkwell, Lawrence J. Veterans and Families of the 1885 Northwest Resistance. Gabriel Dumont Institute, 2011. ISBN 978-1-926795-03-4."
       }
     },
     {
@@ -98,9 +103,10 @@
       "properties": {
         "name": "Battle of Loon Lake",
         "date": "June 3, 1885",
-        "description": "The Retreat to the North: The final military engagement on Canadian soil. After the fall of Batoche, Métis and First Nations families retreated into the muskeg and bush to avoid capture. This battle was a desperate rearguard action to protect the elders and children from the pursuing North-West Mounted Police.",
+        "description": "The final engagement of the 1885 Northwest Resistance, occurring on June 3 at Steele Narrows, near Loon Lake, Saskatchewan. Following the Battle of Frenchman Butte, First Nations forces led by Mistahimaskwa (Big Bear) retreated northward with hostages from Fort Pitt. Major Samuel Steele and his NWMP scouts attacked the retreating camp at the narrows connecting Makwa Lake and Sanderson Bay. After a three-hour exchange, the First Nations forces withdrew northward, eventually surrendering at Fort Carlton on July 2.",
         "historical_figures": "Big Bear (Mistahimaskwa); Samuel Steele.",
-        "layer": "battles"
+        "layer": "battles",
+        "source": "Historic Sites and Monuments Board of Canada. Steele Narrows National Historic Site of Canada. Minutes, 1950."
       }
     }
   ]
