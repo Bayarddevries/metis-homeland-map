@@ -13,7 +13,6 @@ window.homelandData = {
       "properties": {
         "name": "Ash House (Fort de la Frèniere)",
         "description": "This North West Company \"canoe fort\" was established on the north shore of the Souris River, which was originally called Rivière St. Pierre by La Vérendrye. Located near present-day Hartney, the fort was strategically surrounded on three sides by the river for natural defense. It was built to challenge the growing competition of the Hudson’s Bay Company in the Assiniboine region. Astronomer David Thompson recorded its precise latitude, noting it was roughly 13.5 miles from where Plum Creek entered the Souris.",
-        "story": "The Silent Fort: A suspenseful narrative focused on the final year of operations, depicting the anxiety of traders during a lone winter at a fort \"too open to the incursions of the Sioux Indians\". The story ends with the hasty decision to desert the post just before David Thompson’s 1797 arrival found it empty.",
         "founded": "1795",
         "community_type": "Trading Post",
         "type": "location",
@@ -33,7 +32,6 @@ window.homelandData = {
       "properties": {
         "name": "Bacon Ridge",
         "description": "Located south of Lake Ebb and Flow and its associated reserve, this settlement recorded a population of ninety Métis in 1959. It was categorized as a community where the Métis lived on the \"fringe\" of an Indian Reserve. The area is historically significant as a site for traditional maple sugaring.",
-        "story": "The Fringe Dwellers: A social drama exploring the lives of a family at Bacon Ridge, navigating the cultural and legal gap between the neighboring reserve and the provincial government while harvesting maple syrup.",
         "founded": "1950s (Documented)",
         "community_type": "Road Allowance",
         "type": "location",
@@ -53,7 +51,6 @@ window.homelandData = {
       "properties": {
         "name": "Baie St. Paul (Saulteaux Village)",
         "description": "A French-Métis parish on the Assiniboine River between St. François Xavier and Poplar Point. Father Belcourt founded the mission to transition the Métis and Saulteaux to a sedentary lifestyle by providing plows and oxen to plant potatoes, corn, and oats. The settlement included a school led by the Nolin sisters, who were fluent in French, English, Ojibwa, and Cree.",
-        "story": "Graves in the Current: A haunting historical piece set during the catastrophic 1882 flood. As the cemetery slides into the rising Assiniboine, families are forced to make a difficult trek to North Dakota with their parish priest, Cyrille Saint-Pierre, to seek a new beginning.",
         "founded": "1832",
         "community_type": "Settlement",
         "type": "location",
@@ -73,7 +70,6 @@ window.homelandData = {
       "properties": {
         "name": "Balsam Bay",
         "description": "A Métis community located south of Grand Beach with a recorded history dating to 1884. It was named by Matilda Aerson (née Thomas). The community was known for its local cemetery, which provided free burial grounds for several surrounding settlements including Beaconia, Stony Point, and Belair.",
-        "story": "Guardians of the Bay: A narrative centered on the community’s efforts to maintain their unique identity and their sacred free burial grounds as the surrounding area begins to transform into a popular tourist destination for outsiders.",
         "founded": "1884",
         "community_type": "Settlement",
         "type": "location",
@@ -93,7 +89,6 @@ window.homelandData = {
       "properties": {
         "name": "Barrows (Baden, Powell, National Mills and Red Deer Lake)",
         "description": "This area was settled by the Red River Métis in the late 1700s. Barrows is the largest of a cluster of five associated Métis communities situated on the northern edge of the Porcupine Forest. It served as a rapidly constructed lumber town for the Red Deer Lumber Company. By the mid-1920s, the mill operation ceased, leading to a decline in the town's prominence. The area is historically linked to the Fort Red Deer River (or Fort Rivière la Biche), a North West Company post founded by Hugh McGillis in 1794. In 1959, the census recorded 130 Métis in Baden, 40 in Barrows, 20 in National Mills, and 59 in Red Deer Lake.",
-        "story": "The Last Sawmill: A historical drama set in 1926 following a Métis family in Barrows as the Red Deer Lumber Company mill whistles blow for the final time. The story explores their struggle to maintain their deep connection to the Porcupine Forest while the economic engine of their town is dismantled, forcing a choice between the land they have occupied since the 1700s and seeking labor in the cities to the south.",
         "founded": "Late 1700s",
         "community_type": "Lumber Towns",
         "type": "location",
@@ -113,7 +108,6 @@ window.homelandData = {
       "properties": {
         "name": "Bas de la Rivière (Fort Alexander)",
         "description": "Originally established as a wintering post and depot for the North West Company in 1732, this location was vital because the soil was suitable for agriculture when other areas failed. In 1792, Simon Fraser and Lesieur Toussaint established a larger post here, also known as Sieurs Fort. It served as a strategic provisioning hub where bags of pemmican from the upper Assiniboine were stored for canoe brigades traveling to the far northwest. It was the unofficial capital of the NW Company's Lake Winnipeg district. By 1817, the Métis staff were farming wheat, barley, and potatoes, effectively supplying the Red River Settlement with seed grain during years of crop failure.",
-        "story": "The Provisioning Brigade: A historical account set during a winter of starvation in the early Red River Settlement. The narrative follows the Métis staff at Bas de la Rivière as they manage a massive ranch for hogs and cattle and work through the night at their horse-powered flour mill to prepare life-saving seed grain and salted Traverse Bay whitefish for the desperate Selkirk Settlers.",
         "founded": "1732",
         "community_type": "Trading Post",
         "type": "location",
@@ -133,7 +127,6 @@ window.homelandData = {
       "properties": {
         "name": "Bas de la Rivière (Pine Falls, Fort Alexander)",
         "description": "This community spanned both shores of the Winnipeg River, from Pointe au Foutre (the portage at Pine Falls) down to Traverse Bay on Lake Winnipeg. It was ideally positioned for the October whitefish fishery, where fish spawn on the gravel bottoms of the bay. By the early 1800s, it featured extensive gardens that sold vegetables to incoming settlers. After the amalgamation of the fur companies in 1821, the site lost its status as a major transshipment hub but remained a thriving Métis agricultural and fishing community. In 1958, the road allowance community at Pine Falls alone recorded a population of 300 Métis.",
-        "story": "The Whitefish Run: A vibrant seasonal story centered on the annual October migration of whitefish. The plot follows families as they gather on the gravel shoals of Traverse Bay, utilizing traditional fishing techniques to stock their winter larders. The narrative contrasts the tranquility of the river life with the frantic labor of the \"Harvest Brigade\" that once defined the post's importance to the entire northwest.",
         "founded": "1732",
         "community_type": "Fort, Settlement",
         "type": "location",
@@ -153,7 +146,6 @@ window.homelandData = {
       "properties": {
         "name": "Batoche",
         "description": "A destination for French-speaking Métis who moved permanently to their traditional wintering quarters after the 1869-70 Resistance. It is recognized as a significant community in the Métis Homeland.",
-        "story": "Relocation West: A story follows a family from the Red River valley making the long journey west to their wintering grounds in Batoche to escape the social and political changes following 1870.",
         "founded": "Historic wintering site",
         "community_type": "Wintering site",
         "type": "location",
@@ -173,7 +165,6 @@ window.homelandData = {
       "properties": {
         "name": "Battle River Valley",
         "description": "Battle River (Notikiwin Seppe in Cree) originates south from Battle Lake in central Alberta and flows east into Saskatchewan, discharging into the North Saskatchewan River at Battleford. The Métis families of the Salois and Laboucanes settled in the valley in the mid-1800s, establishing trade routes using Red River carts and raising livestock. During the 1870s and 1880s, the Battle River valley became a corridor for Métis settlement at Laboucane (Duhamel), Saint-Paul-des-Métis, and the Battleford area.",
-        "story": "The Western Hunt: A narrative following a hunt brigade as they move through the Battle River Valley, documenting the seasonal lifestyle and kinship ties established in the western interior.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
@@ -193,7 +184,6 @@ window.homelandData = {
       "properties": {
         "name": "Berens River",
         "description": "Located on the east shore of Lake Winnipeg, this site was a stopping point for Métis boatmen since 1765. It was a thriving community until 1970, when a ban on fishing due to mercury contamination devastated the local economy. Most fishermen were forced to relocate, leaving the remainder dependent on government compensation.",
-        "story": "The Poisoned Lake: A poignant story about a legendary fisherman from Berens River dealing with the sudden loss of his livelihood and his traditional connection to the water after the 1970 mercury crisis.",
         "founded": "1814 (First post)",
         "community_type": "Trading Post",
         "type": "location",
@@ -213,7 +203,6 @@ window.homelandData = {
       "properties": {
         "name": "Big Eddy (Settlement)",
         "description": "A road allowance community located seven kilometers northwest of The Pas. When The Pas was incorporated in 1912, Big Eddy was intentionally excluded from the town boundaries. This exclusion allowed the municipality to deny Métis residents access to basic services like water and sewer.",
-        "story": "Outside the Line: A political drama following a community leader in Big Eddy as he petitions the government to extend simple town services to his community, which is visible but legally excluded from the town's prosperity.",
         "founded": "1912 (Incorporation exclusion)",
         "community_type": "Road Allowance",
         "type": "location",
@@ -233,7 +222,6 @@ window.homelandData = {
       "properties": {
         "name": "Birds Hill",
         "description": "Named after James Curtis Bird, an HBC Chief Factor who received a 3,000-acre land grant here in 1824. Known as \"the Pines,\" its high ground served as a vital sanctuary for Red River settlers and their livestock during the great floods of 1826 and 1852.",
-        "story": "Refuge in the Pines: A survival story set during the 1852 flood, where diverse groups of Métis and settlers huddle together on the high ground while the valley below becomes an inland sea.",
         "founded": "1824 (Grant)",
         "community_type": "Sanctuary",
         "type": "location",
@@ -253,7 +241,6 @@ window.homelandData = {
       "properties": {
         "name": "Birsay Village (Orkney Town)",
         "description": "Built west of Fort Douglas by Orkney-Cree Michif freemen seeking a sedentary life. Named for the home parish of leader Magnus Spence. The village was hit by outbreaks of whooping cough and measles, followed by a plague of grasshoppers that destroyed their crops.",
-        "story": "The Orkney Dream: A historical tragedy detailing the resilience and heartbreak of the Orkney freemen as they attempt to build a permanent home only to be defeated by disease and insects in 1819.",
         "founded": "1817",
         "community_type": "Settlement",
         "type": "location",
@@ -273,7 +260,6 @@ window.homelandData = {
       "properties": {
         "name": "Black Butte (Butte Noir)",
         "description": "Black Butte was a camping and meeting place for the Dakota and Metis buffalo hunters. It is located NE of Velva, North Dakota on the big bend of the Souris River. The Buffalo Hunt of September 1860 is described in a report in the Nor'Wester, November 15, 1860, page 3. They note that the Metis camped at Butte Noir.",
-        "story": "The Lookout: A story follows a buffalo scout stationed at Black Butte, monitoring the herds and approaching brigades during the peak of the 19th-century hunts.",
         "founded": "Historic",
         "community_type": "Settlement, Landmark",
         "type": "location",
@@ -293,7 +279,6 @@ window.homelandData = {
       "properties": {
         "name": "Blood River Post (Bloodvein River)",
         "description": "An HBC post located at the mouth of the Bloodvein River on Lake Winnipeg. It was part of the extensive northern trade network utilized by Métis boatmen.",
-        "story": "The Blood River Brigade: A story following a York boat brigade's stop at the post, highlighting the cultural interactions between traders and local bands along the eastern shore.",
         "founded": "1794",
         "community_type": "Trading Post",
         "type": "location",
@@ -313,7 +298,6 @@ window.homelandData = {
       "properties": {
         "name": "Blueberry Patch",
         "description": "Traditional harvesting grounds within the Swan Pelican Provincial Forest used by the Métis and First Nations people of Pine Creek, Camperville, and Duck Bay. Located on unoccupied Crown lands, these grounds were essential for food and medicinal gathering.",
-        "story": "The Blue Harvest: A seasonal narrative focusing on the annual gathering of families at the patch, where traditional harvesting is blended with the sharing of oral histories and medicinal knowledge.",
         "founded": "Ancient / Traditional",
         "community_type": "Harvesting Site",
         "type": "location",
@@ -333,7 +317,6 @@ window.homelandData = {
       "properties": {
         "name": "Boggy Creek and San Clara",
         "description": "Settled by fur trade families in the 1880s, these hubs near Roblin were thriving communities for trapping and trade. In the late 1930s, many founding families (Jeromes, Langans) were forcibly displaced under the Prairie Farm Rehabilitation Act to create community pastures.",
-        "story": "The Pasture War: A narrative focusing on the 1930s displacement, following a family as they watch their homestead being transformed into a government-run pasture while their homes are burned.",
         "founded": "Early 1880s",
         "community_type": "Settlement",
         "type": "location",
@@ -353,7 +336,6 @@ window.homelandData = {
       "properties": {
         "name": "Brandon House and Fort Assiniboine",
         "description": "Brandon House was founded by the HBC on the northeast bank of the Assiniboine River. It was a central trade hub but underwent several moves due to competition. In 1816, it was famously captured and plundered by Cuthbert Grant and a party of Métis as a prelude to the Battle of Seven Oaks.",
-        "story": "The Capture of Brandon House: A tense historical drama set on June 1, 1816, following the strategic decisions of Cuthbert Grant's party as they seize the fort's pemmican stores to bypass the Red River colony.",
         "founded": "Oct 16, 1793",
         "community_type": "Fort, Trading Post",
         "type": "location",
@@ -373,7 +355,6 @@ window.homelandData = {
       "properties": {
         "name": "Buffalo Lake",
         "description": "Buffalo Lake and the Battle River Valley in present day Alberta came to prominence as Métis gathering places after the great small-pox epidemic (la picotte) of 1870. The Métis fled from St. Albert, Lac St. Anne and Edmonton to escape the disease. The Buffalo Lake site is located between Lynn and Buffalo Lakes southeast of Edmonton, part of a network of four Métis wintering sites including Salois' Crossing near Duhamel, Tail Creek near Boss Hill, Todd's Crossing near Ponoka, and Dried Meat Hill.",
-        "story": "Winter at Buffalo Lake: A narrative detailing the social life and survival strategies of a Métis wintering brigade (hivernants) at Buffalo Lake during the mid-19th century.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
@@ -393,7 +374,6 @@ window.homelandData = {
       "properties": {
         "name": "Butte St. Paul (\"Ot Accowabiwinins\")",
         "description": "Butte St. Paul ('Ot Accowabiwinins') is located northwest of Dunseith, North Dakota, on the Turtle Mountain escarpment. It was named by missionary George Anthony Belcourt, who survived a blizzard there in January 1850 and celebrated Mass on the feast of the Conversion of St. Paul (Jan 25). Belcourt blessed a large wooden cross on the summit, and a commemorative cairn was dedicated in 1933.",
-        "story": "The Vision at the Butte: A story explores the traditional spiritual significance of the butte for the Métis and their ancestors who used it as a landmark and ceremonial site.",
         "founded": "Ancient",
         "community_type": "Landmark",
         "type": "location",
@@ -413,7 +393,6 @@ window.homelandData = {
       "properties": {
         "name": "Calf Mountain (Tete de Boeuf), Little Dance Hill",
         "description": "Located south of Darlingford with an elevation of 1,550 feet, this was a sacred ceremonial site for Plains Indians who called it Mepawaquomoshin (Little Dance Hill). It was a strategic landmark for Red River buffalo hunters. In the mid-1850s, a legendary battle occurred here where 1,500 buffalo hunters defeated a Sioux war party; roughly 597 warriors were reportedly buried on the western slope. In 1909, an anthropologist from the University of Toronto dug into the mound, removing many artifacts to the dismay of local Aboriginal people.",
-        "story": "The Ancestors' Smudge: A poignant modern story following Métis and Dakota descendants from Belcourt, North Dakota, as they make their annual autumn trek to the hill. The narrative focuses on the solemn ceremony of walking the mound, scattering tobacco, and offering food to the spirits of the warriors buried there, attempting to reclaim the spiritual significance of a site once desecrated by early 20th-century anthropologists.",
         "founded": "Ancient / Historic",
         "community_type": "Ceremonial Site",
         "type": "location",
@@ -433,7 +412,6 @@ window.homelandData = {
       "properties": {
         "name": "Camperville",
         "description": "History is rooted in the 1860s salt trade where Métis prepared salt for the HBC. Renamed for Father Camper, who encouraged Métis from St. Laurent to settle there. A residential school was established in 1894 to educate Indian and Métis children.",
-        "story": "The Salt Makers: A story of the community's origins in the 1860s salt trade, focusing on families building a new life and the memory of the \"salt cribs\" at Flett's Point.",
         "founded": "1860s (Salt); 1914 (Renamed)",
         "community_type": "Settlement",
         "type": "location",
@@ -453,7 +431,6 @@ window.homelandData = {
       "properties": {
         "name": "Carlton Trail (Métis Stopping Points)",
         "description": "A network of stopping houses established as Métis freighted goods west to Edmonton. These houses, such as High Bluff and Tanner’s Crossing, evolved into small Métis settlements.",
-        "story": "The Freight Road: A narrative following a Red River cart brigade along the trail, highlighting the unique culture and challenges found at each stopping house during the long trek to Edmonton.",
         "founded": "Early 1800s",
         "community_type": "Transportation Route",
         "type": "location",
@@ -473,7 +450,6 @@ window.homelandData = {
       "properties": {
         "name": "Carrot River Valley (Pasquia Settlement)",
         "description": "A strategic region south of The Pas used for farming and gathering. It includes settlements like Young's Point and was historically a rendezvous for hunters awaiting spring fish runs.",
-        "story": "Pasquia Shadows: A narrative exploring early 20th-century farming efforts as Métis families navigated the transition from the fur trade to a sedentary life in the valley.",
         "founded": "Ancient Rendezvous; 1741 (Fort)",
         "community_type": "Hub",
         "type": "location",
@@ -493,7 +469,6 @@ window.homelandData = {
       "properties": {
         "name": "Catfish Creek",
         "description": "Flows into the Assiniboine River near present-day Polo Park. Historically significant as the location where Cuthbert Grant and his men left the river to move north to Frog Plain in 1816.",
-        "story": "The Strategic Turn: An action-focused historical piece about Grant’s maneuver at Catfish Creek to bypass the HBC monopoly and prepare for the battle at Seven Oaks.",
         "founded": "#N/A",
         "community_type": "Geographic Landmark",
         "type": "location",
@@ -513,7 +488,6 @@ window.homelandData = {
       "properties": {
         "name": "Cayer",
         "description": "A Métis community located northeast of McCreary and east of Dauphin. Named for Narcisse K. Cayer, it had a population of 150 Métis residents in 1959.",
-        "story": "The Settlement of Cayer: A story focused on 1950s life in Cayer, highlighting the social fabric and independence of this self-sufficient northern community.",
         "founded": "1950s (Documented)",
         "community_type": "Settlement",
         "type": "location",
@@ -533,7 +507,6 @@ window.homelandData = {
       "properties": {
         "name": "Cedar Lake (Chemanwawin) Métis Settlement",
         "description": "A self-sufficient community on the west shore of Cedar Lake, its name derived from the Cree word for \"a place for fishing with nets\". In the early 1960s, the entire settlement—composed of 43 First Nations and 12 Métis families—was flooded out by the Grand Rapids Hydro Project. They were relocated to Easterville on a townsite that was deemed unsuitable for their traditional subsistence lifestyle. The community received only $20,000 in compensation and vague, unfulfilled promises of economic aid from the provincial government.",
-        "story": "The Sunken Village: A heartbreaking narrative following a Métis Elder who returns to the shore of the hydro reservoir. He watches the water where his home and the sturgeon fishery once existed, reflecting on the 1962 relocation where his family, who did not speak English, was pressured into signing documents they didn't understand, leading to the construction of permanent government dependency.",
         "founded": "Ancient; Relocated 1960s",
         "community_type": "Flooded",
         "type": "location",
@@ -553,7 +526,6 @@ window.homelandData = {
       "properties": {
         "name": "Charleswood (St. Charles Parish)",
         "description": "The location of \"The Passage,\" a natural ford for Red River carts. Among the earliest settlers on the river lot farms were the Beauchemin, Hogue, and Morrissette families.",
-        "story": "Bypassing the Forks: A story about independent traders in the 1840s using \"The Passage\" in Charleswood to bypass the HBC monopoly at the Forks.",
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -573,7 +545,6 @@ window.homelandData = {
       "properties": {
         "name": "Choteau",
         "description": "Métis families who arrived from Canada after the failed Riel rebellion of 1885 were among the earliest settlers along northern Montana's Front Range around Choteau. Métis families hid in the foothills and canyons due to fears of deportation.\nSource: Barkwell, Lawrence J. Front Range Métis. Louis Riel Institute.",
-        "story": "Frontier Ties: A story explores the kinship links between the Red River Métis and the Montana settlements like Choteau during the late 19th-century migrations.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -593,7 +564,6 @@ window.homelandData = {
       "properties": {
         "name": "Cold Lake",
         "description": "A road allowance community south of Sherridon known as \"Moccasin Flats\". Residents worked in mining and guiding but were denied land titles. Senator Ed Head recalled rebuilding log homes further down the road whenever they were forced to move.",
-        "story": "The Guiding Ghost: A story based on James Sayese, who guided the discovery of the Sherridon Mine but lived in a shack on the road allowance because he wasn't allowed to own land.",
         "founded": "#N/A",
         "community_type": "Road Allowance",
         "type": "location",
@@ -613,7 +583,6 @@ window.homelandData = {
       "properties": {
         "name": "Cold Lake (Kississing)",
         "description": "A road allowance community south of Sherridon known as \"Moccasin Flats\". Residents worked in mining and guiding but were denied land titles. Senator Ed Head recalled rebuilding log homes further down the road whenever they were forced to move.",
-        "story": "The Guiding Ghost: A story based on James Sayese, who guided the discovery of the Sherridon Mine but lived in a shack on the road allowance because he wasn't allowed to own land.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -633,7 +602,6 @@ window.homelandData = {
       "properties": {
         "name": "Cooks Creek",
         "description": "Site of St. Peter’s Anglican Mission established on land donated by Chief Peguis. By 1850, it was a productive community with 500 residents living on narrow river lots practicing agriculture.",
-        "story": "Peguis’ Sanctuary: A narrative about the collaboration between Chief Peguis and Anglican missionaries to build a farming sanctuary for his people at Cooks Creek.",
         "founded": "1833",
         "community_type": "Mission, Settlement",
         "type": "location",
@@ -653,7 +621,6 @@ window.homelandData = {
       "properties": {
         "name": "Cormorant",
         "description": "Located north of The Pas on Cormorant Lake, this is a historic Indigenous campsite and fishing area. In 1959, it had 169 Métis residents and was key to managing the Summerberry Marsh trapping.",
-        "story": "The Summerberry Trappers: A narrative centered on the seasonal trapping cycle in the marsh, seen through the eyes of a Cormorant family during the peak years of the northern trade.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -673,7 +640,6 @@ window.homelandData = {
       "properties": {
         "name": "Cranberry Portage",
         "description": "A 2,000-year-old portage between the Grassy River and Lake Athapapuskow. Métis trapper David Collins is credited with showing prospectors the claim that became the Flin Flon mines.",
-        "story": "The Billion-Dollar Claim: A historical account following David Collins, exploring the irony of a trapper discovering a massive mining complex while receiving only a pittance in return.",
         "founded": "Ancient; 1804 (Post)",
         "community_type": "Trading Post",
         "type": "location",
@@ -693,7 +659,6 @@ window.homelandData = {
       "properties": {
         "name": "Crane River (O-Chi-Chak-Ko-Sipi)",
         "description": "Located on the northwest shore of Lake Manitoba. Historically, Métis and First Nations gathered here to collect salt. It borders the Crane River First Nation.",
-        "story": "The Salt Expedition: A story of traditional salt-harvesting trips to Crane River, highlighting the shared labor and community ties of local families.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -713,7 +678,6 @@ window.homelandData = {
       "properties": {
         "name": "Crescentwood",
         "description": "Originally composed of long Métis river lots south of the Assiniboine River in Winnipeg. Wealthy development starting in 1902 displaced original residents, pushing them toward Rooster Town.",
-        "story": "The Advancing Suburb: A historical drama about a Métis family watching the surveyor’s stakes for the new suburb advance toward their river lot, signaling the end of their way of life.",
         "founded": "Pre-1870 (Lots); 1902 (Suburb)",
         "community_type": "Displaced",
         "type": "location",
@@ -733,7 +697,6 @@ window.homelandData = {
       "properties": {
         "name": "Cumberland House",
         "description": "A major fur trade juncture established in 1774. It was the main route into the North in the late 1800s.",
-        "story": "Gatekeeper of the North: A story about life at Cumberland House as a central hub where brigades and prospectors met guides like James Sayese.",
         "founded": "1774",
         "community_type": "Trading Post",
         "type": "location",
@@ -753,7 +716,6 @@ window.homelandData = {
       "properties": {
         "name": "Curling River Post",
         "description": "Established by Peter Fidler's son Charles to compete with NWC posts near Minnedosa. It was located on the Curling (now Rolling) River.",
-        "story": "Fidler’s Stand: A rivalry story between the young Charles Fidler and the NWC traders at the nearby Desjarlais House during the height of the fur trade wars.",
         "founded": "1817",
         "community_type": "Trading Post",
         "type": "location",
@@ -773,7 +735,6 @@ window.homelandData = {
       "properties": {
         "name": "Cypress Hills",
         "description": "A vital seasonal hunting ground and settlement area for the plains Métis. Hivernant families and brigades utilized the area extensively.",
-        "story": "The Winter Brigade: A narrative detailing the lives of Métis families like the Dubois or Bonneaus during their wintering seasons in the Cypress Hills.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
@@ -793,7 +754,6 @@ window.homelandData = {
       "properties": {
         "name": "Deer Rapids",
         "description": "The location of early Indian and Métis settlements on the Red River, later known as St. Andrews.",
-        "story": "Limestone Sanctuary: A story following a family choosing the safety of Deer Rapids' high ground during a major flood year while central settlements are swept away.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -813,7 +773,6 @@ window.homelandData = {
       "properties": {
         "name": "Dog Head Settlement",
         "description": "Located on the east shore of Lake Winnipeg; home to itinerant Métis such as prospector Louis Simard Sr.. Simard held claims in several mining shafts like the San Antonio.",
-        "story": "Simard’s Claim: A narrative following a northern prospector as he travels the rugged shores of Lake Winnipeg, searching for gold while maintaining his connection to his community.",
         "founded": "1901 (Documented)",
         "community_type": "Trading Post",
         "type": "location",
@@ -833,7 +792,6 @@ window.homelandData = {
       "properties": {
         "name": "Dog Patch",
         "description": "A road allowance community in Winnipeg near the CPR Weston shops. Created as Métis were displaced by industrial expansion and urban development.",
-        "story": "Shanties by the Tracks: A narrative exploring the daily life and survival strategies of the \"Dog Patch\" community on the edge of the expanding industrial rail yards.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -853,7 +811,6 @@ window.homelandData = {
       "properties": {
         "name": "Duck Bay (Baie de Canard)",
         "description": "A centuries-old gathering place on Lake Winnipegosis known for salt springs and fisheries. Many members took scrip in 1885 but unsuccessfully petitioned to return to Treaty status in 1893.",
-        "story": "The Scrip Petition: A historical legal drama about the 1893 petition of the Duck Bay Métis as they struggle to reclaim their rights after being misled into taking scrip.",
         "founded": "Ancient; 1859 (Post)",
         "community_type": "Settlement",
         "type": "location",
@@ -873,7 +830,6 @@ window.homelandData = {
       "properties": {
         "name": "Duck Mountain",
         "description": "San Clara and Boggy Creek are located north of Roblin, Manitoba and west of the Duck Mountain Provincial Forest. Prior to the 1870's, the Cree, Ojibway and Métis First Nations inhabited the Roblin area. Early settlement patterns were intimately linked to the fur trade and related transportation networks. The Pelly Trail and the Shell River facilitated the marketing of furs hunted in the Duck Mountains. In the early 1880's, the Métis concentrated their land claims around San Clara and Boggy Creek.",
-        "story": "Forest Harvest: A story about the families who marketed furs hunted in the Duck Mountains via the Pelly Trail and Shell River.",
         "founded": "Historic",
         "community_type": "Geographic Landmark",
         "type": "location",
@@ -893,7 +849,6 @@ window.homelandData = {
       "properties": {
         "name": "Easterville",
         "description": "The relocation site for families from the flooded Cedar Lake community. The townsite was deemed unsuitable for their traditional way of life, leading to government dependency.",
-        "story": "Resilience at Easterville: A modern story following a younger generation as they rediscover the traditional fishing skills of their Cedar Lake ancestors in a new land.",
         "founded": "Early 1960s",
         "community_type": "Relocated",
         "type": "location",
@@ -913,7 +868,6 @@ window.homelandData = {
       "properties": {
         "name": "Eddystone",
         "description": "Originally called Lonely Lake; in 1938, residents collaborated to build the St. Thomas Aquinas Catholic Church. Land was donated by Jim Spence.",
-        "story": "The Church of Lonely Lake: A story of community labor and faith as families build their own sanctuary during the height of the Great Depression.",
         "founded": "1938 (Church)",
         "community_type": "Settlement",
         "type": "location",
@@ -933,7 +887,6 @@ window.homelandData = {
       "properties": {
         "name": "Edmonton House (Fort Augustus)",
         "description": "Fort Edmonton (also called Fort-des-Prairies by the Métis and Amiskwaskahegan — 'Beaver Hills House' — by the Cree) was the end point of the Carlton Trail, the main overland route for Métis freighters between Red River Settlement and the west. Built by the HBC in 1795 near the NWC's Fort Augustus, it had 60–80 Métis employees living nearby with their families. The fort was moved upstream to present-day downtown Edmonton in 1801 due to lack of firewood, and later to the site of the Alberta Legislature after floods in the late 1820s.",
-        "story": "The Long Trail: A story following a Red River cart brigade from St. Andrews to Edmonton as families seek new farmland and opportunities in the west.",
         "founded": "1795",
         "community_type": "Trading Post",
         "type": "location",
@@ -953,7 +906,6 @@ window.homelandData = {
       "properties": {
         "name": "Fairford Settlement (formerly Pinaymootang)",
         "description": "A mission and trading post where trade relations were notoriously tense in the late 1700s. Duncan Cameron wintered there in 1795-96.",
-        "story": "The Tense Trade: A narrative about the \"fighting trade\" of 1796 at Fairford, focusing on the fierce competition between independent traders and companies.",
         "founded": "1795 (Post); 1842 (Mission)",
         "community_type": "Mission, Trading Post",
         "type": "location",
@@ -973,7 +925,6 @@ window.homelandData = {
       "properties": {
         "name": "Fish Creek",
         "description": "Flows into the Assiniboine River near present-day Polo Park. Historically significant as the location where Cuthbert Grant and his men left the river to move north to Frog Plain in 1816.",
-        "story": "The Strategic Turn: An action-focused historical piece about Grant’s maneuver at Catfish Creek to bypass the HBC monopoly and prepare for the battle at Seven Oaks.",
         "founded": "Historic",
         "community_type": "Historic Site",
         "type": "location",
@@ -993,7 +944,6 @@ window.homelandData = {
       "properties": {
         "name": "Flee Island Entrenchments",
         "description": "Fortified camps built by Dakota refugees in 1864. They featured circular trenches and pits where women and children took refuge during attacks by bounty hunters.",
-        "story": "The Ring of Pits: A survival story follows a Dakota family taking refuge in the trenches while being hunted after the 1862 uprising.",
         "founded": "1864",
         "community_type": "Defensive Site",
         "type": "location",
@@ -1013,7 +963,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Alexander (Sagkeeng)",
         "description": "Originally an HBC post built to counter the NWC's Bas-de-la-Rivière. It was a key provisioning post where pemmican from the upper Assiniboine was stored for northwestern brigades.",
-        "story": "The Pemmican Depot: A narrative about the strategic importance of Fort Alexander as the \"gas station\" of the northern canoe routes.",
         "founded": "1793",
         "community_type": "Trading Post",
         "type": "location",
@@ -1033,7 +982,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Dauphin",
         "description": "Established in present-day Winnipegosis by Chevalier de la Vérendrye. Explorer Peter Fidler died here in 1822. Later known as \"Dogtown\".",
-        "story": "Fidler’s Final Map: A historical piece focusing on the final days of Peter Fidler at Fort Dauphin, reflecting on his decades of exploration.",
         "founded": "1741",
         "community_type": "Trading Post",
         "type": "location",
@@ -1053,7 +1001,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort de la Rivière Tremblante (Grant’s House, Aspin House)",
         "description": "Built by Robert Grant of the North West Company in 1791, this post was situated on the Upper Assiniboine River near the mouth of the Rivière Tremblante. It became the favorite residence of Cuthbert Grant Sr. when he took charge of the district in 1793. The fort functioned as both a source of high-quality furs and a provisioning depot for brigades heading to Athabasca country. Grant abandoned the post in 1798 due to extreme competition from 14 other rival posts in the immediate region.",
-        "story": "Grant’s Favorite Post: A historical drama set during the winter of 1794. The plot focuses on the domestic life of Cuthbert Grant Sr. as he manages the logistics of a major provisioning post while navigating the tensions of the \"fur trade wars.\" The story culminates in his decision to abandon his beloved fort as the market becomes overcrowded with competitors, signaling the end of an era on the Upper Assiniboine.",
         "founded": "1791",
         "community_type": "Trading Post",
         "type": "location",
@@ -1073,7 +1020,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Desjarlais",
         "description": "Built by Joseph Desjarlais and protected by an oak palisade. It was a major supplier of pemmican and whiskey.",
-        "story": "The Independent Trader: A historical thriller centered on the 1846 seizure of furs at Fort Desjarlais by Cuthbert Grant during a crackdown on illicit trade.",
         "founded": "1836",
         "community_type": "Trading Post",
         "type": "location",
@@ -1093,7 +1039,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Ellice",
         "description": "Established on the Qu’Appelle River; it served as the headquarters for the Swan River District. Managed by famous Métis traders like the McKays.",
-        "story": "The McKay Dynasty: A narrative focused on the John Richard McKay family at Fort Ellice, depicting their role as powerful intermediaries.",
         "founded": "1794",
         "community_type": "Trading Post",
         "type": "location",
@@ -1113,7 +1058,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Gibralter",
         "description": "Built at the Forks by the NWC; seized by Louis Riel in 1869. Site for meetings of the Legislative Assembly of Assiniboia.",
-        "story": "The Assembly at the Forks: A political drama set inside the fort in 1870 as the provisional government debates joining Canada.",
         "founded": "1810",
         "community_type": "Trading Post",
         "type": "location",
@@ -1133,7 +1077,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort la Reine (Portage la Prairie)",
         "description": "Established near a buffalo crossing and sturgeon fishery. Home of Chief Peichito Tanner, who operated 250 Red River carts.",
-        "story": "Tanner’s Cart Train: A story about Peichito Tanner’s massive freighting operation moving goods across the plains.",
         "founded": "1738",
         "community_type": "Trading Post",
         "type": "location",
@@ -1153,7 +1096,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Langley",
         "description": "Fort Langley was established on the Fraser River by Chief Trader James McMillan in 1827, assisted by his clerks including François Annance (Métis), Donald Manson, and George Barnston. The post had an excellent salmon fishery and began an export lumber trade. It was rebuilt 4 km upstream in 1839. During the 1858 Gold Rush, Fort Langley was the departure point for prospectors and the site of the Crown Colony proclamation.\nSource: Barkwell, Lawrence J. Fort Langley. Louis Riel Institute.",
-        "story": "Coast to Coast: A narrative linking the plains Métis with their kin at Fort Langley, highlighting the vast reach of the family networks.",
         "founded": "Historic",
         "community_type": "Trading Post",
         "type": "location",
@@ -1173,7 +1115,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Montagne à la Bosse",
         "description": "Built on the Upper Assiniboine near buffalo wintering grounds. Buffalo could be seen grazing from the fort gate at almost any season.",
-        "story": "Harmon’s Enchanted Abode: A narrative about the \"enchanted abode\" described by Harmon where buffalo are always in view from the gate.",
         "founded": "1790",
         "community_type": "Trading Post",
         "type": "location",
@@ -1193,7 +1134,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Mr. Grant",
         "description": "Built by Cuthbert Grant after the HBC closed Brandon House. Used to trade with Métis and Indians from Turtle Mountain to Qu’Appelle.",
-        "story": "Warden of the Plains: A standoff story set in 1824, where Cuthbert Grant uses his authority to protect his trade from American encroachment.",
         "founded": "1824",
         "community_type": "Trading Post",
         "type": "location",
@@ -1213,7 +1153,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Pelly",
         "description": "Headquarters for the Swan River District before being replaced by Fort Ellice.",
-        "story": "District Hub: A story follows a trader moving between Pelly and the surrounding outposts, documenting the logistical challenges of the Swan River trade.",
         "founded": "1824",
         "community_type": "Trading Post",
         "type": "location",
@@ -1233,7 +1172,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Pinancewaywining",
         "description": "Located south-west of Morden; first post supplied by Red River Carts from Pembina. Built by Alexander Henry the Younger.",
-        "story": "First Cart from Pembina: A story about the very first cart caravan to arrive, marking the birth of overland transportation in the region.",
         "founded": "1802",
         "community_type": "Trading Post",
         "type": "location",
@@ -1253,7 +1191,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Rouge",
         "description": "Located at the south point of the Forks; originally river lots owned by Métis families. Residents were displaced by suburban expansion.",
-        "story": "The Lost River Lots: A historical mystery exploring how the original Métis owners of Fort Rouge were systematically displaced by land speculators.",
         "founded": "1738",
         "community_type": "Trading Post",
         "type": "location",
@@ -1273,7 +1210,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort Souris",
         "description": "Built on the Souris River for Mandan trade. Abandoned when HBC built Brandon House but later re-established.",
-        "story": "The Mandan Trade: A story about the competitive race in 1793 to reach the lucrative Mandan trade before the HBC.",
         "founded": "1793",
         "community_type": "Trading Post",
         "type": "location",
@@ -1293,7 +1229,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort St. Charles",
         "description": "Built by La Vérendrye in the early 1730s; ruins discovered in 1902. Contained remains of La Vérendrye's son.",
-        "story": "Discovery of the Ruins: A historical account following the 1902 discovery of the fort and the return of remains to St. Boniface.",
         "founded": "Early 1730s",
         "community_type": "Trading Post",
         "type": "location",
@@ -1313,7 +1248,6 @@ window.homelandData = {
       "properties": {
         "name": "Fouillard Town (The Corner / Li Kwayn)",
         "description": "A road allowance community near Binscarth established by refugees from Ste. Madeleine. After their homes in Ste. Madeleine were burned in 1939 to make way for a community pasture, residents resettled on a former gravel pit that had once been part of the Gambler Reserve. The community was sarcastically named Selby Town after a municipal official responsible for their displacement. In 1946, the Fouillard Special School was built to replace the mission school they lost.",
-        "story": "Salvaged Timber: A story of profound spiritual and physical resilience. As the families of Ste. Madeleine watch their village burn, they decide to save what they can. The plot follows a group of men as they physically dismantle logs from their original church to drag them to \"The Corner\" to rebuild the St. Hubert Church, ensuring that their faith and community identity survive the displacement.",
         "founded": "1939",
         "community_type": "Road Allowance",
         "type": "location",
@@ -1333,7 +1267,6 @@ window.homelandData = {
       "properties": {
         "name": "Four Persons",
         "description": "",
-        "story": "Montana Refuge: A story explores the lives of the \"landless\" Métis in communities like Four Persons after the migrations from Red River.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -1353,7 +1286,6 @@ window.homelandData = {
       "properties": {
         "name": "Frog Plain (La Grenouillère)",
         "description": "Traditional meeting place north of Seven Oaks. Site of annual rendezvous where partners met brigades bringing pemmican.",
-        "story": "The Annual Rendezvous: A story of the grand gathering at Frog Plain, capturing the music, dance, and commerce of voyageur brigades.",
         "founded": "Early 1800s",
         "community_type": "Meeting Site, Rendezvous",
         "type": "location",
@@ -1373,7 +1305,6 @@ window.homelandData = {
       "properties": {
         "name": "Gabriel's Crossing",
         "description": "A historic ferry crossing on the South Saskatchewan River operated by Gabriel Dumont.",
-        "story": "The Ferryman of the South: A narrative centered on Gabriel Dumont, depicting his role as a community leader and the logistics of operating the crossing.",
         "founded": "1870s",
         "community_type": "Transportation Site",
         "type": "location",
@@ -1393,7 +1324,6 @@ window.homelandData = {
       "properties": {
         "name": "Grand Marais",
         "description": "Community on the east shore of Lake Winnipeg that maintained exclusive Métis identity until the mid-1950s. Overwhelmed by the tourist industry.",
-        "story": "Memories of the Fiddle: A nostalgic story told by an Elder about the final years of the community's exclusive identity before the resort arrived.",
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -1413,7 +1343,6 @@ window.homelandData = {
       "properties": {
         "name": "Grand Rapids (Red River and Saskatchewan River)",
         "description": "The Red River community was formed after 1823 north of Winnipeg on high ground. In 1840, it was 39% Métis fathers and 97% Aboriginal mothers. The Saskatchewan River site was a fur trade gateway at the river's mouth at Lake Winnipeg. It was a base for \"free traders\" and a gathering place for seasonal sturgeon fishing. In the 1960s, the provincial government bulldozed Métis homes to clear the area for a hydro project, forcing residents to accept minimal compensation.",
-        "story": "Bulldozers at Dawn: A poignant narrative following a Métis family at the mouth of the Saskatchewan River. They are among the families whose homes were designated for destruction by the Grand Rapids Hydro Project. The story details the pressure they felt to sign away their land for \"minimum sums\" and the tragic day they watched their ancestral homes being leveled to make way for the dam.",
         "founded": "1823 (Red River) / 1864 (HBC Sask River)",
         "community_type": "Settlement, Fort",
         "type": "location",
@@ -1433,7 +1362,6 @@ window.homelandData = {
       "properties": {
         "name": "Grande Pointe",
         "description": "Métis settlement dating back to the 1860s along the Seine River. Residents found employment building the Pembina Branch Railway in the 1870s.",
-        "story": "The Railroad Laborers: A story about the Métis of Grande Pointe who built the very railroad that would eventually transform their community.",
         "founded": "1860s",
         "community_type": "Settlement",
         "type": "location",
@@ -1453,7 +1381,6 @@ window.homelandData = {
       "properties": {
         "name": "Grassy Narrows House",
         "description": "HBC outpost on Lake Winnipeg staffed by Métis families like the Whiteways and Spences. Located on the west bank of the Hecla channel.",
-        "story": "Winter at Grassy Narrows: A story set at the isolated outpost follows a Métis clerk managing the post during a harsh Lake Winnipeg winter.",
         "founded": "Pre-1875",
         "community_type": "Trading Post (Outpost)",
         "type": "location",
@@ -1473,7 +1400,6 @@ window.homelandData = {
       "properties": {
         "name": "Green Lake (Lac Vert)",
         "description": "Green Lake (Lac Vert), Saskatchewan, was founded by the Métis in 1782. The site hosted Northwest Company and Hudson's Bay Company posts. Located 55 km northeast of Meadow Lake, it served as a key entrepôt between Fort Carlton and the Methye Portage. In 1940 the province established the Central Farm agricultural project to assist Métis residents.\nSource: Barkwell, Lawrence J. Green Lake, Saskatchewan. Louis Riel Institute.",
-        "story": "The Northern Trade: A story about the canoe routes through Green Lake, depicting the life of the northern voyageurs.",
         "founded": "Historic",
         "community_type": "Trading Post",
         "type": "location",
@@ -1493,7 +1419,6 @@ window.homelandData = {
       "properties": {
         "name": "Hair Hills or Pembina Mountains",
         "description": "Named for buffalo wool rubbed off on trees. Strategic wintering spot for hunters and site of early trading outposts.",
-        "story": "The Wintering Band: A story set in the 1840s focusing on the life of a buffalo-hunting band surviving the cold in the shelter of the hills.",
         "founded": "Historic",
         "community_type": "Geographic Landmark",
         "type": "location",
@@ -1513,7 +1438,6 @@ window.homelandData = {
       "properties": {
         "name": "Havre",
         "description": "",
-        "story": "Across the 49th: A narrative exploring the cross-border migrations and scrip applications of the Havre Métis.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -1533,7 +1457,6 @@ window.homelandData = {
       "properties": {
         "name": "Heart Butte",
         "description": "Heart Butte, also called Mni Wakan Cante (Heart of the Sacred Water) by the Dakota, is located eight miles south-east of Fort Totten on the south shore of Devil's Lake. In 1868, Father Genin set a large wooden cross on top of Heart Butte and held a mass for 500 Metis and 900 Dakota.",
-        "story": "Prairie Kinship: A story about the cultural and family ties between Heart Butte and the Canadian Red River Métis.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -1553,7 +1476,6 @@ window.homelandData = {
       "properties": {
         "name": "Îlets de Bois (now Carman)",
         "description": "Primary stopping point for buffalo hunters to repair carts. Famous for spring \"sugar lots\" where families tapped maple trees.\n\n---\n\nWinding river site famous for cart builders and \"sugar lots\". Now called Boyne River.",
-        "story": "The Sugar Moon: A seasonal story of the trek from Grantown to the maple groves where families find their kettles hidden exactly where they left them.",
         "founded": "#N/A",
         "community_type": "Sugar Bush Site",
         "type": "location",
@@ -1573,7 +1495,6 @@ window.homelandData = {
       "properties": {
         "name": "Island Cache",
         "description": "Island Cache was located just before the forks of the Fraser and Nechako Rivers. It was a short-lived Métis road allowance-type community at the juncture of the Nechako and Fraser Rivers, separated from Prince George by a flood channel. The references tell the story of how after a severe flood in 1972, the community was bulldozed and the Métis were pushed out by the city of Prince George and the area was turned into an industrial zone.",
-        "story": "Mountain Crossing: A story follows a Métis family moving through the western passes to settle at Island Cache, linking the plains and the coast.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -1593,7 +1514,6 @@ window.homelandData = {
       "properties": {
         "name": "Jack River Post",
         "description": "HBC post south of Norway House; relocation site for Selkirk Settlers in 1815. Replaced by modern Norway House site in 1827.",
-        "story": "Desperate Haven: A story of the 1815 evacuation of the colony to Jack River, highlighting the survival skills of Métis guides.",
         "founded": "1796",
         "community_type": "Trading Post",
         "type": "location",
@@ -1613,7 +1533,6 @@ window.homelandData = {
       "properties": {
         "name": "Kansas Half Breed Tracts",
         "description": "An 1825 treaty with the Kaw (Kansa) Indians reserved 640 acres for each of 23 Kaw mixed-blood Métis along the north bank of the Kansas River from present-day Topeka to Williamstown. The tracts became important sites: Tract 3 became the Pappan Ferry on the Oregon Trail; Tract 4 was allotted to Julie Gonville, maternal grandmother of U.S. Vice President Charles Curtis. A parallel 1825 treaty with the Osage reserved 42 one-square-mile tracts for French-Osage mixed bloods in eastern Kansas and Oklahoma.",
-        "story": "The US Reserve: A legal drama explores the struggle of families to hold onto land in the Kansas tracts during American westward expansion.",
         "founded": "1825",
         "community_type": "Reserved Lands",
         "type": "location",
@@ -1633,7 +1552,6 @@ window.homelandData = {
       "properties": {
         "name": "Kelly Lake",
         "description": "Kelly Lake is British Columbia's only distinct Métis community. It was established around 1910 by Métis migrating west from Flying Shot, Alberta, marking the end of a century-long migration north and west from the Red River. Kelly Lake was chosen because it offered good water, wild hay, logs for cabins and fuel, and an abundance of moose and smaller game. Located 1.6 kilometres inside the BC border, 56 kilometres south of Dawson Creek, the community is predominantly Métis with families of Cree-Métis ancestry. The isolation of Kelly Lake has allowed its residents to retain their unique cultural identity, and the community has been pursuing land claims through the British Columbia Treaty Commission process.",
-        "story": "High Altitude Kinship: A story detailing the unique mountain lifestyle and enduring cultural traditions of the Kelly Lake Métis.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -1653,7 +1571,6 @@ window.homelandData = {
       "properties": {
         "name": "Kettle Stones",
         "description": "Sandstone concretions in the Swan-Pelican forest. Traditional harvesting area for families of Pine Creek and Duck Bay.",
-        "story": "The Stone Medicine: A spiritual narrative exploring traditional significance and \"medicine stories\" associated with the Kettle Stones.",
         "founded": "Ancient",
         "community_type": "Geographic Landmark",
         "type": "location",
@@ -1673,7 +1590,6 @@ window.homelandData = {
       "properties": {
         "name": "Kinosota",
         "description": "Established at the narrows of Lake Manitoba. Relocated in 1828 to oppose independent hunters. Treaty Two signed here in 1871.",
-        "story": "The Narrows Treaty: A historical drama focused on the signing of Treaty Two, depicting varying expectations of Métis and government.",
         "founded": "#N/A",
         "community_type": "Trading Post",
         "type": "location",
@@ -1693,7 +1609,6 @@ window.homelandData = {
       "properties": {
         "name": "La Chevulure Montagne Post (Hair Hills Post)",
         "description": "Outpost established by Alexander Henry the Younger in the early 1800s to serve hunters of the Pembina hills.",
-        "story": "The Hill Trade: A narrative follows a trader managing the frantic trade during a peak buffalo season in the hills.",
         "founded": "Early 1800s",
         "community_type": "Trading Outpost",
         "type": "location",
@@ -1713,7 +1628,6 @@ window.homelandData = {
       "properties": {
         "name": "Laboucane (Duhamel)",
         "description": "The Laboucane Settlement (later Duhamel Settlement) was founded in the early 1870s by François Gabriel Dumont, who moved from Lac St. Anne to the Battle River with his brother-in-law Abraham Salois and the Salois sons. The community was located at the Saddle Lake–Battleford crossing of the Battle River, between modern Wetaskiwin and Camrose. Six Laboucane brothers settled north and south of the river, and the Métis operated as buffalo hunters and later as farmers. In 1881 a mission was established and named Duhamel after Archbishop Thomas Duhamel of Ottawa.",
-        "story": "Relocation to Duhamel: A story detailing the migration of the Laboucane family from Red River to build a new agricultural community in the west.",
         "founded": "1870s",
         "community_type": "Settlement",
         "type": "location",
@@ -1733,7 +1647,6 @@ window.homelandData = {
       "properties": {
         "name": "Lac des Chênes (Flat Creek)",
         "description": "A traditional Métis wintering site that became a permanent settlement by the late 1860s, also known as Oak Lake.",
-        "story": "Wintering at the Lake: A winter narrative focusing on the transition from temporary buffalo camp to permanent settlement at Oak Lake.",
         "founded": "Late 1860s",
         "community_type": "Wintering site",
         "type": "location",
@@ -1753,7 +1666,6 @@ window.homelandData = {
       "properties": {
         "name": "Lac Ste. Anne",
         "description": "Gabriel Dumont (1795–1880) and his extended kin group of bison hunters established Lac St. Anne west of Edmonton. Known as Manitou Sakahigan to the Métis, it became the site of an annual Métis religious pilgrimage. In 1844 a Catholic mission was set up — the first permanent Catholic mission west of Winnipeg. By 1887 the buffalo had disappeared and the lake lost importance as a gathering place, but Father Lestanc built a shrine and the first pilgrimage was held in 1889. The feast day of St. Anne is July 26.",
-        "story": "Pilgrimage to the Lake: A story explores the spiritual traditions and annual summer gatherings at Lac Ste. Anne.",
         "founded": "1844",
         "community_type": "Mission, Settlement",
         "type": "location",
@@ -1773,7 +1685,6 @@ window.homelandData = {
       "properties": {
         "name": "Lake Metigoshe Métis Settlement",
         "description": "Ancient camping place on Turtle Mountain that became a wintering site for hunters from Grantown. First settlers included Louis Lee Racine.",
-        "story": "Cross-Border Winter: A story about families whose lives spanned the international boundary before it was strictly enforced.",
         "founded": "Late 1800s",
         "community_type": "Wintering site",
         "type": "location",
@@ -1793,7 +1704,6 @@ window.homelandData = {
       "properties": {
         "name": "Lake Pepin",
         "description": "By the Treaty of Prairie du Chien (July 15, 1830), the M'dewakantonwan Dakota set aside a tract of land along the west side of Lake Pepin in Minnesota for their Half-Breed relatives — the 'Lake Pepin Half Breed Tract.' Augustin Rocque was the first Métis settler, born at Prairie du Chien about 1795. The tract ran 15 miles inland from below Red Wing, parallel to Lake Pepin and the Mississippi for 32 miles. Certificates were issued to Half-Breeds and became valuable holdings in subsequent years.",
-        "story": "Mississippi Kin: A story follows families moving along the Mississippi trade routes between Red River and Lake Pepin.",
         "founded": "1830",
         "community_type": "Reserved Lands",
         "type": "location",
@@ -1813,7 +1723,6 @@ window.homelandData = {
       "properties": {
         "name": "Lane’s Post (St. François Xavier)",
         "description": "Established in the 1850s at Pigeon Lake on the Assiniboine River, this post first appears in HBC records in 1856. It was managed by William Lane and was primarily used for its farming operations. The post was located about five miles past the St. François Xavier church. In 1864, it was the site where a plot was hatched to capture Dakota refugee leaders Little Six and Medicine Bottle. They were reportedly lured into a trap and drugged with wine before being bound and transported to Fort Pembina.",
-        "story": "The Drugged Wine Plot: A suspenseful historical thriller set in January 1864. The story follows William Lane and John McKenzie as they coordinate a clandestine operation to capture the Dakota leaders. The narrative explores the ethics of the betrayal as they use the sanctuary of the post to offer drugged wine to the refugees, leading to their capture and delivery to American authorities at the border.",
         "founded": "1856",
         "community_type": "Trading Post, Farm Depot",
         "type": "location",
@@ -1833,7 +1742,6 @@ window.homelandData = {
       "properties": {
         "name": "Last Mountain Lake",
         "description": "Last Mountain Lake (also called Long Lake) was a well-known wintering site for Métis bison hunters. The Hudson's Bay Company built Last Mountain House at the southern end of the lake in 1869. After the post was destroyed by fire, a pair of hunting camps developed on the lake's south shore — one Métis and one First Nations. The area later became Canada's first federal bird sanctuary in 1887.",
-        "story": "The High Ground Hunt: A narrative following a hunt brigade as they camp at Last Mountain Lake during a summer buffalo run.",
         "founded": "Historic",
         "community_type": "Seasonal Camp, Hunt Site",
         "type": "location",
@@ -1853,7 +1761,6 @@ window.homelandData = {
       "properties": {
         "name": "Lido Plage",
         "description": "Recreation area on the Assiniboine that hosted the annual \"Old Timers & Pioneers Picnic\". Featured jigging and fiddling contests.",
-        "story": "The Old Timers Picnic: A vibrant story set during a 1940s picnic, capturing the music and dance of a major Métis cultural celebration.",
         "founded": "1931 (Resort)",
         "community_type": "Gathering, Recreation Site",
         "type": "location",
@@ -1873,7 +1780,6 @@ window.homelandData = {
       "properties": {
         "name": "Little Britain",
         "description": "Early name for Lockport; settled by retiring Orkneymen and families. Known for its landmark Presbyterian church built by master stonemasons.",
-        "story": "The Master Masons: A historical piece about stonemasons as they construct the Little Britain church using local limestone.",
         "founded": "1826",
         "community_type": "Settlement",
         "type": "location",
@@ -1893,7 +1799,6 @@ window.homelandData = {
       "properties": {
         "name": "Little Chicago (Chicago Line)",
         "description": "Chicago Line (Little Chicago) was a Métis road allowance community located 5–7 miles outside of Lestock, Saskatchewan, home to 15–20 families on marginal land of brush, sloughs, and swamp. Adults worked seasonally — brush cutting, stone picking, hay cutting, and picking Seneca root. Some children attended the Residential Mission Day School at Lestock. In 1949, the government relocated many families to the Métis Colony at Green Lake; a couple of years later, the government burnt down the road allowance houses at Chicago Line.",
-        "story": "Life on the Line: A story about the struggle for basic services in a community designated with a pejorative name by the nearby township.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -1913,7 +1818,6 @@ window.homelandData = {
       "properties": {
         "name": "Little Grand Rapids House",
         "description": "HBC post at Family Lake named for rapids on Berens River. Supplies were delivered by York boat until 1871.",
-        "story": "The Last York Boat: A story about the final boat trip to the post in 1871, marking the end of a legendary era of transportation.",
         "founded": "1848",
         "community_type": "Trading Post",
         "type": "location",
@@ -1933,7 +1837,6 @@ window.homelandData = {
       "properties": {
         "name": "Little Saskatchewan River",
         "description": "Originates in Riding Mountain; called \"Rivière Rapide\" by David Thompson. Its valley was a key wintering area for bison.",
-        "story": "Rapide Waters: A narrative centered on the ancient buffalo migration routes through the river valley as seen by a Métis hunting party.",
         "founded": "Ancient",
         "community_type": "Geographic Landmark",
         "type": "location",
@@ -1953,7 +1856,6 @@ window.homelandData = {
       "properties": {
         "name": "Longbody Creek (Kenepikiniwewe)",
         "description": "Established in 1988 for Métis displaced from Bloodvein Reserve. The community dispersed within five years as many returned to the reserve.",
-        "story": "The Short-Lived Home: A modern story about the intense sense of community at Longbody Creek and the eventual return of its residents.",
         "founded": "1988",
         "community_type": "Road Allowance",
         "type": "location",
@@ -1973,7 +1875,6 @@ window.homelandData = {
       "properties": {
         "name": "Loon Straits",
         "description": "Fishing and trapping community on eastern shore of Lake Winnipeg. Residents renowned for building seaworthy oak and cedar boats.",
-        "story": "The Master Boatbuilder: A story of a craftsman at Loon Straits whose custom-built boat survives a legendary storm that sinks larger vessels.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -1993,7 +1894,6 @@ window.homelandData = {
       "properties": {
         "name": "Lorette (Petit Point des Chênes)",
         "description": "Settled in 1850s by families from central parishes. A community of freighters and buffalo hunters whose cattle grazed along the Seine.",
-        "story": "Grazing the Seine: A story of founding families searching for new grazing lands and the eventual renaming of the parish by Bishop Tache.\n\n---\n\nGraze and Freight: A story follows founding families as they graze cattle along the Seine and operate freighting brigades.",
         "founded": "1850s",
         "community_type": "Settlement",
         "type": "location",
@@ -2013,7 +1913,6 @@ window.homelandData = {
       "properties": {
         "name": "MacGregor",
         "description": "Road allowance community west of Portage la Prairie. Residents displaced by the rail line and later lobbied for housing land in 1961.",
-        "story": "Lobbying for Land: A story about the leadership of Alfred Roulette in 1961 as he lobbies the municipality for housing for the landless Métis.",
         "founded": "1870s (Documented)",
         "community_type": "Road Allowance",
         "type": "location",
@@ -2033,7 +1932,6 @@ window.homelandData = {
       "properties": {
         "name": "Manigotagan (Bad Throat River)",
         "description": "Named for the sound of a waterfall like a bad sound in the throat. Surveyed into 18 river lots in 1904 for Métis laborers.",
-        "story": "Sound of the Throat: A narrative exploring the legend of the eerie sound at Wood Falls, set against the 1904 river lot survey.",
         "founded": "1904 (Survey)",
         "community_type": "Settlement",
         "type": "location",
@@ -2053,7 +1951,6 @@ window.homelandData = {
       "properties": {
         "name": "Manitoba House (Kinosota)",
         "description": "See entry for Kinosota.",
-        "story": "Post at the Narrows: A historical story about daily operations seen through the eyes of its Métis staff.",
         "founded": "Mid-1790s",
         "community_type": "Trading Post",
         "type": "location",
@@ -2073,7 +1970,6 @@ window.homelandData = {
       "properties": {
         "name": "Mapleton",
         "description": "Also called \"Old England,\" home to fur traders and Chief Peguis’ people. Along the Red River north of Lower Fort Garry.",
-        "story": "Old England on the Red: A story about the cultural blend of Orkney-descended families and Saulteaux people in the district.",
         "founded": "1790 (Peguis arrival)",
         "community_type": "Settlement",
         "type": "location",
@@ -2093,7 +1989,6 @@ window.homelandData = {
       "properties": {
         "name": "Matheson Island (formerly Snake Island)",
         "description": "Stopping place for York boats renamed in 1903 after Daniel Matheson. Residents descend from Norwegian, English, and Icelandic settlers.",
-        "story": "The Island Keeper: A story centered on Daniel Matheson, the first lighthouse keeper, watching lake traffic from his island home.",
         "founded": "1867 (Post)",
         "community_type": "Stopping Point",
         "type": "location",
@@ -2113,7 +2008,6 @@ window.homelandData = {
       "properties": {
         "name": "Meadow Portage",
         "description": "Located on a narrow strip between Lake Manitoba and Lake Winnipegosis. Fur trade hub and later ranching community.",
-        "story": "The Plain Portage: A story about the strategic route used for centuries to move between the great lakes of Manitoba.",
         "founded": "Early 1900s (Ranching)",
         "community_type": "Stopping Point",
         "type": "location",
@@ -2133,7 +2027,6 @@ window.homelandData = {
       "properties": {
         "name": "Metikewap (Wooden/Bark Tent)",
         "description": "Road allowance settlement east of The Pas named for bark-covered teepees. Disappeared due to flooding from Grand Rapids dam.",
-        "story": "The Bark Tents: A story about the final season at Metikewap as residents prepare to leave before the rising water arrives.",
         "founded": "Historic",
         "community_type": "Road Allowance",
         "type": "location",
@@ -2153,7 +2046,6 @@ window.homelandData = {
       "properties": {
         "name": "Métis Island",
         "description": "Site of a settlement north of Ross Island at Cross Lake before relocation to Nelson River.",
-        "story": "Moving the Camp: A narrative about relocation from the island to the permanent settlement on the riverbank.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -2173,7 +2065,6 @@ window.homelandData = {
       "properties": {
         "name": "Michipicoten Post",
         "description": "Michipicoten River empties into Michipicoten Bay on the eastern shore of Lake Superior near Wawa, Ontario, providing access to James Bay via the Missinaibi and Moose Rivers. A French trading post was built at the river's mouth in the early 18th century. The HBC began building posts along the route in the 1770s, and the post remained in use until 1904. After 1821, the Moose River–Missinaibi–Michipicoten route became the established supply route for HBC's Lake Superior District.",
-        "story": "Superior Trade: A story detailing the importance of Michipicoten as a transshipment point for Red River goods moving toward the east.",
         "founded": "Historic",
         "community_type": "Trading Post",
         "type": "location",
@@ -2193,7 +2084,6 @@ window.homelandData = {
       "properties": {
         "name": "Milk River",
         "description": "In 1879, Colonel Miles was dispatched from Fort Keogh, Montana to break up Métis camps on the Milk River. On August 4, Miles and Captain Overshine arrested a band of Métis with 143 carts and 193 horses at Porcupine Creek. In total, 829 Métis were arrested and 665 Red River carts seized, then deported across the border into Canada.",
-        "story": "Expulsion from the Plains: A story follows a family during the 1882 expulsion from Montana back across the border into Canada.",
         "founded": "Late 1800s",
         "community_type": "Historic Site",
         "type": "location",
@@ -2213,7 +2103,6 @@ window.homelandData = {
       "properties": {
         "name": "Moose Lake (Settlement)",
         "description": "Community southeast of The Pas whose traditional livelihood was devastated by dam flooding. Recorded 282 Métis in 1958.",
-        "story": "The Flooded Delta: A narrative focused on the Summerberry Marsh trappers dealing with the loss of their traditional lands.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -2233,7 +2122,6 @@ window.homelandData = {
       "properties": {
         "name": "Netley Creek (Rivière aux Morts)",
         "description": "Site of native horticulture in 1805 where corn and potatoes were grown. HBC established a post here in 1813 with sixty horses.",
-        "story": "The Netley Gardens: A story set in 1805 depicting thriving gardens and traders arriving to buy produce.",
         "founded": "1803 (Post)",
         "community_type": "Trading Post, Agricultural Site",
         "type": "location",
@@ -2253,7 +2141,6 @@ window.homelandData = {
       "properties": {
         "name": "Norway House and Rossville",
         "description": "Transshipment hub where Chief Factors met in council. World-renowned center for building York boats.",
-        "story": "Council of Factors: A story about the grand meetings at Norway House, depicting its role as the fur trade capital.",
         "founded": "1817",
         "community_type": "Fort, Settlement, Depot",
         "type": "location",
@@ -2273,7 +2160,6 @@ window.homelandData = {
       "properties": {
         "name": "Oak Lake (Lac des Chênes / Métis Wintering Sites)",
         "description": "Watering stop west of Brandon; became a permanent settlement by late 1860s. Staffed by 50-100 Métis men.",
-        "story": "Wintering at the Lake: A winter narrative focusing on the 1860s transition from seasonal camp to established settlement.",
         "founded": "Late 1860s",
         "community_type": "Wintering site",
         "type": "location",
@@ -2293,7 +2179,6 @@ window.homelandData = {
       "properties": {
         "name": "Oak Point House and Oak Point",
         "description": "HBC trading post and wintering place for cattle where Métis took land grants. Associated with the \"Oak Point Nation\".",
-        "story": "The Oak Point Nation: A story about the signing of Treaty One and the pressure put on the local band to relocate.",
         "founded": "1860s (Post)",
         "community_type": "Trading Post, Wintering Site",
         "type": "location",
@@ -2313,7 +2198,6 @@ window.homelandData = {
       "properties": {
         "name": "Opaskweyaw (The Pas)",
         "description": "Rendezvous point for Cree and Métis hunters. Site of Devon Mission, established by Rev. Henry Budd in 1840.",
-        "story": "Devon Mission: A biographical story about Rev. Henry Budd, exploring his leadership in building the local mission.",
         "founded": "1741 (Fort); 1840 (Mission)",
         "community_type": "Rendezvous Site",
         "type": "location",
@@ -2333,7 +2217,6 @@ window.homelandData = {
       "properties": {
         "name": "Oxford House",
         "description": "Established on the Hayes River route Midway between York Factory and Norway House. William Sinclair raised 12 children there.",
-        "story": "The Sinclair Family: A family saga following the Sinclairs, depicting life on the northern trade route.",
         "founded": "1798",
         "community_type": "Trading Post",
         "type": "location",
@@ -2353,7 +2236,6 @@ window.homelandData = {
       "properties": {
         "name": "Park Valley",
         "description": "Park Valley (originally Nukeewin — 'The Stopping Place') was a Métis road allowance community in Saskatchewan where Maria Campbell grew up. In 1915, the creation of Prince Albert National Park displaced the Non-Status Indian and Métis families who lived there. The name Nukeewin was changed to Park Valley in 1925.",
-        "story": "Valley Life: A narrative detailing the seasonal patterns of harvesting and kinship in Park Valley during the settlement era.",
         "founded": "Historic",
         "community_type": "Hub",
         "type": "location",
@@ -2373,7 +2255,6 @@ window.homelandData = {
       "properties": {
         "name": "Pembina",
         "description": "Named for buffalo wool rubbed off on trees. Strategic wintering spot for hunters and site of early trading outposts.",
-        "story": "The Wintering Band: A story set in the 1840s focusing on the life of a buffalo-hunting band surviving the cold in the shelter of the hills.",
         "founded": "1797 (HBC Post)",
         "community_type": "Trading Post",
         "type": "location",
@@ -2393,7 +2274,6 @@ window.homelandData = {
       "properties": {
         "name": "Petit Point de Roches",
         "description": "Red River community north of Ste. Agathe inhabited by buffalo hunters and freighters.",
-        "story": "Freighters on the Red: A story about the freighting life following a cart train stopping at the river lots.",
         "founded": "Mid-1800s",
         "community_type": "River Lot",
         "type": "location",
@@ -2413,7 +2293,6 @@ window.homelandData = {
       "properties": {
         "name": "Pikwitonei",
         "description": "Railway division point where Métis engaged in track maintenance and sturgeon fishery. Division point until 1972.",
-        "story": "End of the Steel: A story about Luke Clemons, a Métis man managing transportation at the terminus using a gas car.",
         "founded": "1914",
         "community_type": "Railway",
         "type": "location",
@@ -2433,7 +2312,6 @@ window.homelandData = {
       "properties": {
         "name": "Pine Bluff",
         "description": "Self-sufficient settlement southeast of The Pas established as early as 1874. Entirely flooded by the Grand Rapids Dam.",
-        "story": "The Vanishing Home: A legal drama about families losing their homes to a dam while being told they have no legal right to compensation for unsurveyed land.",
         "founded": "1874",
         "community_type": "Settlement",
         "type": "location",
@@ -2453,7 +2331,6 @@ window.homelandData = {
       "properties": {
         "name": "Pine Dock (Bullhead)",
         "description": "Community on Lake Winnipeg historically known as Bullhead.",
-        "story": "The Bullhead Fishery: A story follows Jesse Matheson operating a stopping place for lake travelers during the York boat era.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -2473,7 +2350,6 @@ window.homelandData = {
       "properties": {
         "name": "Fort des Épinettes (Pine Fort)",
         "description": "Lowest post on Assiniboine; chief trade hub for Mandan Indians. Abandoned in 1794.",
-        "story": "Trade with the Mandans: A story detailing a 1790 horse-back mission from Pine Fort to Mandan villages across the plains.",
         "founded": "1768 (Fort des Épinettes)",
         "community_type": "Trading Post",
         "type": "location",
@@ -2493,7 +2369,6 @@ window.homelandData = {
       "properties": {
         "name": "Pointe à Grouette (Petite Pointe à Saline, St. Agathe)",
         "description": "Settlement of hunters and salt makers where most were disenfranchised after 1870. Known as Petite Pointe à Saline.",
-        "story": "Disenfranchised Lands: A drama about a family in 1870 losing their land due to mismanagement of the scrip system.",
         "founded": "Mid-1800s",
         "community_type": "Settlement, Parish",
         "type": "location",
@@ -2513,7 +2388,6 @@ window.homelandData = {
       "properties": {
         "name": "Pointe Coupée (St. Adolphe)",
         "description": "Red River parish founded by Métis in early 1800s. Site of 1869 Resistance action against surveyors.",
-        "story": "The St. Adolphe Resistance: An action story about the day Métis pulled out John Snow’s survey stakes to protect their property.",
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -2533,7 +2407,6 @@ window.homelandData = {
       "properties": {
         "name": "Pointe des Chênes (Grande Pointe des Chênes, Ste. Anne de Chênes)",
         "description": "Woodcutting center where residents were primary laborers for Dawson Road. Enraged by John Snow ignoring boundaries.",
-        "story": "The Road Builders: A story about Métis laborers building the Dawson Road while their own land rights are ignored by surveyors.",
         "founded": "1850s",
         "community_type": "Settlement",
         "type": "location",
@@ -2553,7 +2426,6 @@ window.homelandData = {
       "properties": {
         "name": "Pointe du Chien-Maigre",
         "description": "As the Métis freighted west to Edmonton along the Carlton Trail a number of stopping houses were established and became small Métis settlements. These were: High Bluff, Totogan, White Mud now Westbourne, the Third Crossing, later called Palestine then Gladstone, and Tanner's Crossing.",
-        "story": "Post on the Plain: A narrative detailing life at the Carlton House post under its traditional name, focusing on the buffalo trade.",
         "founded": "Historic",
         "community_type": "Historic Fort",
         "type": "location",
@@ -2573,7 +2445,6 @@ window.homelandData = {
       "properties": {
         "name": "Poitras House",
         "description": "HBC post near Brandon named for the Métis trader in charge.",
-        "story": "Trader Poitras: A narrative following the trader managing complex relations on the frontier Assiniboine.",
         "founded": "1807",
         "community_type": "Trading Post",
         "type": "location",
@@ -2593,7 +2464,6 @@ window.homelandData = {
       "properties": {
         "name": "Poplar Point",
         "description": "Settlement featuring a log church with a bell from York Factory. Church completed in 1864.",
-        "story": "The Church Bell’s Journey: A narrative about Poplar Point settlers building their church and installing its famous historic bell.",
         "founded": "1850s",
         "community_type": "Settlement",
         "type": "location",
@@ -2613,7 +2483,6 @@ window.homelandData = {
       "properties": {
         "name": "Portage La Loche",
         "description": "The Portage La Loche (Methye Portage) Brigade was organized in 1826, with men recruited from the Red River Settlement by the Hudson's Bay Company. The brigade traveled 4,000 miles annually by York boat, from Red River to Portage La Loche — the Height of Land separating waters flowing into the Arctic Sea from those draining into Hudson's Bay. Many of the boatmen were Métis, and many took part in the 1869 Red River Resistance. The brigade was broken into shorter sections after the Resistance.",
-        "story": "The Long Portage: A story follows the Portage La Loche brigade, capturing the extreme physical labor and camaraderie of the northern boatmen.",
         "founded": "Historic",
         "community_type": "Transportation Hub",
         "type": "location",
@@ -2633,7 +2502,6 @@ window.homelandData = {
       "properties": {
         "name": "Prairie à Fournier",
         "description": "Mission site east of St. Eustache on land gifted by Governor Simpson. Nolin sisters opened a school here in 1834.",
-        "story": "School on the Prairie: A story follows the Nolin sisters establishing a four-language school at the mission for local children.",
         "founded": "1834",
         "community_type": "Mission, Settlement Site",
         "type": "location",
@@ -2653,7 +2521,6 @@ window.homelandData = {
       "properties": {
         "name": "Rabbit Point (Princess Harbour)",
         "description": "Small peninsula on Lake Winnipeg near Bloodvein Bay. Positioned 304 air km north of Winnipeg.",
-        "story": "Princess of the Harbour: A story of the community's unique identity and life as a remote northern fishing settlement.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -2673,7 +2540,6 @@ window.homelandData = {
       "properties": {
         "name": "Rall’s (Rahls) Island (Settlement)",
         "description": "Road allowance community downstream from The Pas. Founded by Charles Rall and Elizabeth Knight.",
-        "story": "Charles Rall’s Home: A narrative follows a prospector who decides to build a homestead for his family in the northern delta.",
         "founded": "1915",
         "community_type": "Road Allowance",
         "type": "location",
@@ -2693,7 +2559,6 @@ window.homelandData = {
       "properties": {
         "name": "Rat Portage",
         "description": "Rat Portage (renamed Kenora in 1905) was the main trading post on the north side of Lake of the Woods in the Rainy Lake district. The name is a shortened corruption of Wauzhushk Onigum, the 'rat carrying place' — the major portage linking Lake of the Woods to the Winnipeg River. Métis managers of the post included James Isbister, Francois Mainville, Charles Goulait, and George McPherson. The post moved to the mainland in 1861. Rat Portage became the centre of the Ontario-Manitoba boundary dispute (1870–1884), with both provinces claiming it, each operating jails and issuing competing mining titles until the Privy Council decided for Ontario in 1884.",
-        "story": "Boundary Wars: A political drama about the confusion when the town was incorporated by both provinces simultaneously in 1882.",
         "founded": "1882 (Incorporation)",
         "community_type": "Settlement",
         "type": "location",
@@ -2713,7 +2578,6 @@ window.homelandData = {
       "properties": {
         "name": "Rat River (Rivière aux Rats)",
         "description": "Rat River (Rivière aux Rats, Wasushk Watapa) was a Métis wintering site located where the Rat River flows into the Red River. After the boundary line left Pembina in the United States, many Métis relocated to Canada. When they could not obtain a U.S. missionary, on March 2, 1825 the Bishop of Juliopolis wrote to Robert Pelly, Governor of Assiniboia, requesting land at Rat River near la Saline. The Rat River Métis Settlement surrounded the present community of St. Pierre Jolys. The area had plentiful hay lands and wood for making Red River carts.",
-        "story": "Rat River Winterers: A narrative about the 1825 petition of the local Métis for permanent land title near the salt works.",
         "founded": "1822-1825",
         "community_type": "Wintering site",
         "type": "location",
@@ -2733,7 +2597,6 @@ window.homelandData = {
       "properties": {
         "name": "Red Deer Lake",
         "description": "This cluster of five Métis communities is located on the edge of the Porcupine Forest near the former Fort Red Deer River trading post. Barrows served as a major lumber town for the Red Deer Lumber Company until the sawmill closed around 1927. Baden was the largest of these communities in 1959 with 130 residents.",
-        "story": "The Last Sawmill: A historical story set in the late 1920s detailing the sudden collapse of the local lumber industry. A family must weigh their deep ties to the forest against the economic pressure to move south to the city.",
         "founded": "1794 (Post)",
         "community_type": "Trading Post site",
         "type": "location",
@@ -2753,7 +2616,6 @@ window.homelandData = {
       "properties": {
         "name": "Red River Settlements (North of Upper Fort Garry)",
         "description": "Network of narrow river lots extending north, home to hunters and farmers. Lots extended two miles east and west of river.",
-        "story": "Generations on the Red: A family saga following a Métis family on their narrow lot from the fur trade through the 1869 Resistance.",
         "founded": "Pre-1870",
         "community_type": "Settlement, Parish",
         "type": "location",
@@ -2773,7 +2635,6 @@ window.homelandData = {
       "properties": {
         "name": "Riding Mountain",
         "description": "Known as Manitouapau Hills or \"Hill of the Buffalo Hunt\". Sacred grounds for elk and a strategic migration route.",
-        "story": "Hunts of the Mountain: A spiritual story following a hunter through the sacred migration routes and the Elk Sacred Grounds.",
         "founded": "Ancient",
         "community_type": "Historic Landmark",
         "type": "location",
@@ -2793,7 +2654,6 @@ window.homelandData = {
       "properties": {
         "name": "Rivière Esturgeon (St. Charles)",
         "description": "Métis community west of Sturgeon Creek with a buffalo crossing and ferry. Formally renamed St. Charles in 1854.\n\n---\n\nThe location of \"The Passage,\" a natural ford for Red River carts. Among the earliest settlers on the river lot farms were the Beauchemin, Hogue, and Morrissette families.",
-        "story": "Crossing the Esturgeon: A story set during the 1852 flood as families flee to the higher ground of the St. Charles parish.",
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -2813,7 +2673,6 @@ window.homelandData = {
       "properties": {
         "name": "Rivière Gratchias (Morris)",
         "description": "Rest stop for Red River carts making their way south to St. Paul. Named for the abundant burdock (gratchias).",
-        "story": "Cart Trains at Gratchias: A narrative exploring the vibrant culture of cart trains as they rest and repair at the Morris site.",
         "founded": "Historic",
         "community_type": "Transportation Site",
         "type": "location",
@@ -2833,7 +2692,6 @@ window.homelandData = {
       "properties": {
         "name": "Rivière Sale (St. Norbert)",
         "description": "Settlement dating back to 1822; cradle of the 1869-70 Resistance. Site of the famous wooden blockade turned back McDougall.",
-        "story": "The Barrière Morning: A historical drama centered on the morning the Métis blockade turned back the Canadian governor and his retinue.",
         "founded": "1822",
         "community_type": "Settlement",
         "type": "location",
@@ -2853,7 +2711,6 @@ window.homelandData = {
       "properties": {
         "name": "Rock Lake (Lac des Roches)",
         "description": "Source of Pembina River; inhabited by descendants of Henry’s Métis employees. People intermarried with Nakoda and Chippewa Cree.",
-        "story": "The Lake Band: A story about intermarried families depicting their shared life and trade connections in the Pembina hills.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -2873,7 +2730,6 @@ window.homelandData = {
       "properties": {
         "name": "Rooster Town (Pakan Town)",
         "description": "Last known road allowance community in Winnipeg, located between railway tracks. Named Pakan Town for hazelnuts. Evicted in 1959 to make way for a shopping mall and school.",
-        "story": "Hazelnut Summer: A poignant story follows a child harvesting nuts while sensing the impending arrival of the city’s bulldozers in 1959.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -2893,7 +2749,6 @@ window.homelandData = {
       "properties": {
         "name": "Salt Point Métis Settlement",
         "description": "A community stretching along a five-kilometre section of the east shore of Lake Winnipegosis, accessed via PR #276. In the 1800s, the Monkman family operated a large-scale salt-making enterprise here, preparing salt by evaporation for the Hudson's Bay Company.",
-        "story": "The Brine Boilers: A story detailing the grueling labor of the Monkman family as they harvest and evaporate salt across the lake from Winnipegosis to supply the northern brigades.",
         "founded": "1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -2913,7 +2768,6 @@ window.homelandData = {
       "properties": {
         "name": "Sandy Bay",
         "description": "Originally the White Mud Band, these Ojibway-French mixed-bloods were relocated multiple times—first 20 miles north of Westbourne, then straight north in 1873, and finally to the current site in 1877 due to a surveyor’s error. In 1885, many members were pressured into withdrawing from Treaty to take scrip.",
-        "story": "The Scrip Deception: A legal drama following François Desmerais and the 1886 petition to the Prime Minister, detailing how families felt \"forced\" to take scrip and sell it for goods, only to regret it a week later.",
         "founded": "1871",
         "community_type": "Settlement",
         "type": "location",
@@ -2933,7 +2787,6 @@ window.homelandData = {
       "properties": {
         "name": "Sault à la Biche (Deer Rapids, St. Andrews)",
         "description": "Located at the limestone rapids of the Red River south of Selkirk. It was chosen for early Indian and Métis settlements because the high ground offered protection from the massive floods that frequently devastated the Forks. The Selkirk Settlers later renamed the area St. Andrews.",
-        "story": "Refuge on the Rapids: A historical survival story following a family as they flee the 1826 flood, finding safety on the limestone banks of Sault à la Biche while the central settlement is submerged.",
         "founded": "Early 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -2953,7 +2806,6 @@ window.homelandData = {
       "properties": {
         "name": "Seven Oaks (Sept Chênes)",
         "description": "Site of the 1816 battle known to the Métis as La battaille de la Grenouillère (Battle of Frog Plain). The conflict began when HBC Governor Semple's men opened fire on a Métis brigade led by Cuthbert Grant. The Métis victory is commemorated as a defining moment of national identity.",
-        "story": "Paashkiiyaakanaan (We Won): An action-filled historical retelling of June 19, 1816, following the young Joseph Letendre dit Batoche during the frantic minutes of the battle that changed the course of the fur trade.",
         "founded": "June 19, 1816",
         "community_type": "Battlefield",
         "type": "location",
@@ -2973,7 +2825,6 @@ window.homelandData = {
       "properties": {
         "name": "Shoal River (Shoal River House)",
         "description": "An HBC post located on Pelican Lake, which was part of the Shoal River system. It served as a trade hub for the local Cree-Saulteaux Band and was connected to the settlement at Pelican Rapids.",
-        "story": "Trade at Shoal River: A narrative focused on the seasonal interactions and kinship ties between the Métis traders at the post and the members of the Shoal River Cree-Saulteaux Band.",
         "founded": "#N/A",
         "community_type": "Trading Post",
         "type": "location",
@@ -2993,7 +2844,6 @@ window.homelandData = {
       "properties": {
         "name": "Skownan, Rock Ridge and Mallard Métis Settlements",
         "description": "A cluster of settlements on the south shore of Waterhen Lake. Skownan is a Cree name meaning \"to turn around the point.\" These communities were originally mixed Saulteaux-Métis bands that utilized the rich resources of the lake for hunting and fishing.\n\n---\n\nAssociated with Skownan Band; named for a nearby lake. Settlers moved here in 1895 for wild game and Seneca root.",
-        "story": "Turning the Point: A family saga following the migration of families between Mallard and Rock Ridge in 1895, drawn by the abundance of wild game, berries, and Seneca root.\n\n---\n\nThe Enniship Settlers: A pioneer story about families who moved to Mallard in 1895, drawn by traditional harvesting opportunities.",
         "founded": "1895 (Mallard)",
         "community_type": "Settlement",
         "type": "location",
@@ -3013,7 +2863,6 @@ window.homelandData = {
       "properties": {
         "name": "Smokey River",
         "description": "The Smoky River is a major tributary of the Peace River in western Alberta, named for 'smouldering beds of coal in the riverbank' noted by the Cree. The river valley was home to many Métis families (Gladu, Joachim, Cardinal, Le Prêtre) documented in scrip applications from the 1870s–1890s, with settlements at Jasper House, Dunvegan, Peace River Landing, and Lesser Slave Lake.",
-        "story": "Scrip on the Smokey: A narrative exploring the 1885 scrip commission's visit to the Smokey River area. The story follows a family as they weigh the government's offer of scrip against their traditional land rights, illustrating the legal and social shifts occurring in the western Métis settlements during the late 19th century.",
         "founded": "Historic",
         "community_type": "Hub",
         "type": "location",
@@ -3033,7 +2882,6 @@ window.homelandData = {
       "properties": {
         "name": "South Indian Lake Métis Settlement",
         "description": "A community located 130 km north of Thompson. Originally home to a 1930s HBC post, the area was devastated by the Churchill River Diversion Project, which flooded the lake and ruined the traditional fishing and trapping economy.",
-        "story": "The Diverted River: A modern tragedy following a commercial fisherman at South Indian Lake as he watches the rising, murky waters of the hydro project destroy the pristine whitefish grounds of his ancestors.",
         "founded": "1803 (Original Post)",
         "community_type": "Settlement",
         "type": "location",
@@ -3053,7 +2901,6 @@ window.homelandData = {
       "properties": {
         "name": "Spring Creek (Lewistown)",
         "description": "Located in Montana, this site is recognized for its first Catholic pioneers from the Métis community. It was a significant destination for Métis families migrating south from the Red River Settlement during the late 1800s.",
-        "story": "Montana Pioneers: A family saga detailing the long trek from the Red River valley to Spring Creek, Montana. The plot explores how the community established a new life on the \"Front Range,\" maintaining their Michif language and Catholic traditions in a new territory.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -3073,7 +2920,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Ambroise",
         "description": "A small Métis community on the southeast tip of Lake Manitoba. After 1870, many Métis relocated here to \"scrub land\" that was independent and self-sufficient. The community relied heavily on the October whitefish run and harvesting saskatoon berries.",
-        "story": "Berry Summer, Fish Fall: A vibrant seasonal narrative exploring the life of the community as they transition from the July berry festival to the intense labor of the fall whitefish spawn.",
         "founded": "1870 (Relocation)",
         "community_type": "Settlement",
         "type": "location",
@@ -3093,7 +2939,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Ambroise Dakota Entrenchment (Historic Site)",
         "description": "A continuous circular earthen embankment 114 metres in diameter with interior rifle pits. It was built by a group of Dakota led by \"The Leaf\" who were fleeing bounty hunters in 1864. The site is a rare example of a ćunkaśke (Nation of the Forts) defensive structure.",
-        "story": "Rifle Pits at Dawn: A tense historical drama set in May 1864, as the Dakota frantically dig entrenchments to protect their women and children from a looming attack by Minnesota bounty hunters.",
         "founded": "1864",
         "community_type": "Defensive Site",
         "type": "location",
@@ -3113,7 +2958,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Andrews",
         "description": "Located at the limestone rapids of the Red River south of Selkirk. It was chosen for early Indian and Métis settlements because the high ground offered protection from the massive floods that frequently devastated the Forks. The Selkirk Settlers later renamed the area St. Andrews.",
-        "story": "Refuge on the Rapids: A historical survival story following a family as they flee the 1826 flood, finding safety on the limestone banks of Sault à la Biche while the central settlement is submerged.",
         "founded": "1823",
         "community_type": "Settlement",
         "type": "location",
@@ -3133,7 +2977,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Boniface",
         "description": "Named by Bishop Provencher in honor of an English missionary. It was the historic center of the Red River Settlement and the administrative heart of the Métis Nation. Provencher famously said it would take \"the faith of a Boniface\" to work with the Métis.\n\n---\n\nThe historic heart of the Red River Métis Homeland, this area served as the administrative, religious, and political center. St. Boniface was named by Bishop Provencher, who said it would take \"the faith of a Boniface\" to work with the Métis. The region is covered in multiple census databases (1901, 1911, 1916) and was the site of the Legislative Assembly of Assiniboia.",
-        "story": "The Heart of the Nation: A historical account of the founding of the mission and its transformation into the central gathering place for the legislative assembly that brought Manitoba into Confederation.\n\n---\n\nThe Forks of History: A sweeping historical narrative set during the winter of 1869-70. The plot follows the families of St. Boniface as they gather at the Cathedral and Upper Fort Garry to support Louis Riel’s provisional government, illustrating the community's role in the birth of the province of Manitoba and the defense of Métis rights.",
         "founded": "1818",
         "community_type": "Settlement Hub",
         "type": "location",
@@ -3153,7 +2996,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Eustache (formerly Baie St. Paul)",
         "description": "Originally part of the Baie St. Paul parish, the mission was destroyed by extensive flooding in 1882. Many residents relocated to North Dakota, but Bishop Tache sent missionary Thomas Quevillion to find a new, higher site. St. Eustache was established in January 1898 and named after the patron saint of hunters. In 1958, it was recorded as a large road allowance community with 434 Métis residents.",
-        "story": "The Saint of Hunters: A historical story about the community's rebirth in 1898. Following the heartbreak of seeing their ancestors' graves slide into the Assiniboine River in 1882, the narrative follows a family as they work with missionary Thomas Quevillion to build a new church on safer ground, dedicating their new home to St. Eustache to honor their enduring identity as buffalo hunters.",
         "founded": "1898",
         "community_type": "Settlement, Road Allowance",
         "type": "location",
@@ -3173,7 +3015,6 @@ window.homelandData = {
       "properties": {
         "name": "St. François Xavier",
         "description": "Established by Cuthbert Grant in 1823 as a buffer for the Red River Settlement. First industrial site in Manitoba for cart construction.",
-        "story": "The Cart Builders: An epic narrative about the assembly of a 900-person cart brigade at Grantown for the massive annual hunt on the plains.",
         "founded": "1823",
         "community_type": "Settlement",
         "type": "location",
@@ -3193,7 +3034,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Joseph (Walhalla)",
         "description": "This location in North Dakota was where Father Belcourt moved his mission and school in 1853, thirty miles west of Pembina. It became a significant hub for Métis families who were forced to leave the Red River Settlement or Pembina due to international boundary shifts. It was also the home of John Tanner before he enlisted in the Union Army during the American Civil War.",
-        "story": "The Mission on the Hill: A story focused on the 1853 relocation of Belcourt’s parishioners from Baie St. Paul to St. Joseph. The plot details the labor of building a new school and church on the slopes of the Pembina Hills, creating a sanctuary for families seeking a life away from the fur trade monopoly of the Hudson's Bay Company.",
         "founded": "1853",
         "community_type": "Mission, Settlement",
         "type": "location",
@@ -3213,7 +3053,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Laurent",
         "description": "Established by Métis forced to leave Pembina when it became American territory. Residents maintained a strong Michif identity despite church and school pressure to adopt standard French.",
-        "story": "Persistence of Michif: A linguistic drama set in a schoolroom where Métis students secretly maintain their language despite authorities' pressure to change.",
         "founded": "1824",
         "community_type": "Settlement",
         "type": "location",
@@ -3233,7 +3072,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Mary’s (Portage la Prairie)",
         "description": "Founded in 1853 by Reverend William Cockran and families from Middlechurch and St. Andrews. The settlers moved westward as the good river lots near the Forks were exhausted, seeking new farmland along the Assiniboine.",
-        "story": "Portage Bound: A narrative following the Anderson and Whitford families as they drive their carts west from the crowded Red River to stake a new future at St. Mary’s.",
         "founded": "1853",
         "community_type": "Settlement",
         "type": "location",
@@ -3253,7 +3091,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Peter's Mission",
         "description": "St. Peter's Mission (1859) was the third Jesuit mission in Montana, first located at Priest's Butte near Choteau, later moved to Sun River and then its present location west of Cascade. In 1883 Louis Riel taught a parochial school there, instructing Métis children and attending political meetings where Gabriel Azure was elected chairman. Many Métis at St. Peter's gave Riel power of attorney to sell their Canadian scrip rights. At its peak 500 children were taught at the mission.",
-        "story": "Riel’s Classmates: A narrative set in the mission schoolroom, exploring the intellectual and political awakening of young Métis students. The story details the influence of the mission's teachings on their understanding of land rights and national identity, which would later fuel the Resistance movements.",
         "founded": "Historic",
         "community_type": "Mission",
         "type": "location",
@@ -3273,7 +3110,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Pierre",
         "description": "St. Pierre (originally St. Pierre-Jolys) is a Métis wintering settlement on the Rat River in Manitoba, near the present-day community of St. Pierre-Jolys. The region was home to Métis families through the 19th century. The name 'Rivière St. Pierre' was also an early French explorer name applied to several rivers, including the Souris River, so named because they were discovered on the feast day of St. Peter.",
-        "story": "Naming the Waters: A narrative following explorer's men as they name the winding rivers in the 1730s.",
         "founded": "1822 / 1734",
         "community_type": "Wintering site",
         "type": "location",
@@ -3293,7 +3129,6 @@ window.homelandData = {
       "properties": {
         "name": "St. Vital",
         "description": "Site of the early Métis river lots for families like the Riels, Naults, and Bruces. It developed along a broad elbow of the Red River south of St. Boniface. The Grey Nuns opened a school here in 1860.",
-        "story": "Raising Riel: A domestic drama set in the Riel home in St. Vital, following the young Louis as he learns the traditions of the buffalo hunt and the responsibilities of leadership.",
         "founded": "1824",
         "community_type": "Settlement",
         "type": "location",
@@ -3313,7 +3148,6 @@ window.homelandData = {
       "properties": {
         "name": "Ste. Madeleine",
         "description": "A traditional community of over twenty families homesteaded since the 1870s. In 1938, the town was destroyed to create a community pasture. Homes were burned, dogs were shot, and the church was dismantled.",
-        "story": "Defending the Bell: An intense story of defiance where Joe Venne and community members arm themselves with rifles to confront the crew sent to dismantle their church, saving the building from becoming a piggery.",
         "founded": "1870s",
         "community_type": "Destroyed",
         "type": "location",
@@ -3333,7 +3167,6 @@ window.homelandData = {
       "properties": {
         "name": "Ste. Rose du Lac",
         "description": "Established in 1889 by families from St. Vital looking for haylands to overwinter their animals. Led by the sons of Jean Baptiste Spence and guided by John Desmarais, they settled on the Turtle River.",
-        "story": "The Exploratory Trip: A story following the Neault and Spence families on their 190-mile journey from St. Vital to the Turtle River, discovering graves marked by a tall oak cross that proved their ancestors were already there.",
         "founded": "1889",
         "community_type": "Settlement",
         "type": "location",
@@ -3353,7 +3186,6 @@ window.homelandData = {
       "properties": {
         "name": "Stony Mountain",
         "description": "Known as \"Snake Indian Hills,\" it was a high-ground sanctuary used for centuries to escape Red River floods. The \"Faith Trail\" brought settlers in ox-drawn carts to the region.",
-        "story": "Floods of the Valley: A story follows a cart brigade during the early 1800s, racing against rising waters to reach the safety of the Stony Mountain plateau.",
         "founded": "1870 (Homestead)",
         "community_type": "Sanctuary",
         "type": "location",
@@ -3373,7 +3205,6 @@ window.homelandData = {
       "properties": {
         "name": "Stovepipe (Tuyau)",
         "description": "A road allowance tent community in the Ste. Anne area inhabited by the families of woodcutters working in the forests to the east. The name \"Stovepipe\" referred to the makeshift stovepipes poking through the tent roofs.",
-        "story": "Shanties of Stovepipe: A survival story detailing the daily life of a woodcutter's family in the Ste. Anne area, living in a road allowance camp during a bitter winter.",
         "founded": "Mid-1800s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -3393,7 +3224,6 @@ window.homelandData = {
       "properties": {
         "name": "Sugar Island (Lake Manitoba)",
         "description": "A historic maple sugaring site for the Métis of Ebb and Flow and Bacon Ridge. Families like that of \"Nonoonse\" returned every spring for over forty years to continue the traditions of their grandmothers.",
-        "story": "Syrup Spring: A cultural narrative centered on Nonoonse as she returns to Sugar Island to tap the maples, demonstrating the enduring spiritual and economic importance of the sugar bush.",
         "founded": "Ancient",
         "community_type": "Harvesting Site",
         "type": "location",
@@ -3413,7 +3243,6 @@ window.homelandData = {
       "properties": {
         "name": "Summerberry Marsh",
         "description": "A massive drainage basin east of The Pas used for muskrat trapping. The traditional livelihood was destroyed by the Grand Rapids Dam, leading to a long struggle for compensation by the Métis Federation.",
-        "story": "The Muskrat Marsh: A family narrative following the impact of the Grand Rapids Generating Station on commercial trapping and the eventual fight for historical justice and compensation.",
         "founded": "Historic",
         "community_type": "Harvesting Area",
         "type": "location",
@@ -3433,7 +3262,6 @@ window.homelandData = {
       "properties": {
         "name": "Swan Creek",
         "description": "Located north of St. Laurent near Monkman’s Point. It was inhabited primarily by the Monkman family and their relations, who eventually moved to St. Laurent to form a larger Métis hub.",
-        "story": "The Monkmans of Swan: A story following a family moving from their isolated creek-side home to the growing community of St. Laurent following the 1871 treaty.",
         "founded": "Pre-1871",
         "community_type": "Settlement",
         "type": "location",
@@ -3453,7 +3281,6 @@ window.homelandData = {
       "properties": {
         "name": "Swan River (and Swan River House)",
         "description": "Established in 1790 by the HBC and Cuthbert Grant. The post’s primary purpose was to trade for birch bark for canoe-making. Many modern Métis families trace their roots to the men who operated this post.",
-        "story": "Bark and Fur: A historical piece focusing on the skilled Métis canoe-makers at Swan River House who were vital to the logistics of the entire northern trade network.",
         "founded": "1790",
         "community_type": "Trading Post",
         "type": "location",
@@ -3473,7 +3300,6 @@ window.homelandData = {
       "properties": {
         "name": "Tanner’s Crossing (Minnedosa)",
         "description": "Founded by John Tanner, a veteran of the American Civil War, who built a ferry and store here on the Carlton Trail. The name was changed to Minnedosa in 1883 by land speculators.",
-        "story": "The Crossing Ferry: A historical piece following John Tanner’s journey from the Union Army to the Little Saskatchewan River, establishing a vital hub for the western cart trains.",
         "founded": "1869",
         "community_type": "Transportation Hub",
         "type": "location",
@@ -3493,7 +3319,6 @@ window.homelandData = {
       "properties": {
         "name": "Teton River",
         "description": "The South Fork of the Teton River west of Choteau, Montana, flows through a canyon that was home to over 100 Métis, many of whom are buried in the old community cemetery maintained by the Wiseman family. Settlers like Jean-Baptiste Gariepy arrived in the canyon after 1885 to avoid U.S. forced removal to Canada, and were later joined by Métis refugees from the Riel Resistance. The Métis lived off the land, hunting, woodhawking, and collecting buffalo bones. Joseph Kinsey Howard conducted his research for Strange Empire while living among these Métis.",
-        "story": "The South Fork Hunt: A narrative following a Métis hunting brigade as they establish a winter camp on the Teton River. The story illustrates the vast geographic reach of the Métis family networks, linking the Montana plains to the Red River settlements through marriage and trade.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
@@ -3513,7 +3338,6 @@ window.homelandData = {
       "properties": {
         "name": "The Pas",
         "description": "Rendezvous point for Cree and Métis hunters. Site of Devon Mission, established by Rev. Henry Budd in 1840.",
-        "story": "Devon Mission: A biographical story about Rev. Henry Budd, exploring his leadership in building the local mission.",
         "founded": "1741 (Fort)",
         "community_type": "Rendezvous Site",
         "type": "location",
@@ -3533,7 +3357,6 @@ window.homelandData = {
       "properties": {
         "name": "The Passage (Charleswood)",
         "description": "A natural ford for buffalo and Red River carts where the Assiniboine River was shallow. It was used by independent traders to bypass the HBC monopoly at the Forks.",
-        "story": "Bypassing the Forks: A suspenseful story about \"free traders\" in the 1840s using \"The Passage\" under the cover of night to smuggle furs past the company's eyes.",
         "founded": "Early 1800s",
         "community_type": "Transportation Landmark",
         "type": "location",
@@ -3553,7 +3376,6 @@ window.homelandData = {
       "properties": {
         "name": "Thicket Portage",
         "description": "Located on the Hudson Bay Railway line. Before the rail, the Métis here operated York boats and dog teams. The community was a key sturgeon fishing camp known as \"The Fiddle.\"",
-        "story": "Fishing the Fiddle: A narrative detailing the seasonal rhythms of the sturgeon fishery at Thicket Portage and the transition from river travel to the \"Bay Line\" railway era.",
         "founded": "1914 (Rail)",
         "community_type": "Railway",
         "type": "location",
@@ -3573,7 +3395,6 @@ window.homelandData = {
       "properties": {
         "name": "Thomas Métis Settlement",
         "description": "A road allowance community outside of The Pas named for the founding family. It was represented by the Northern Halfbreed Association starting in the 1930s.\n\n---\n\nA Métis road allowance community south of Binscarth. It was settled in 1939 by refugees from Ste. Madeleine after their original homes were burned. The community was sarcastically named \"Selby Town\" after one of the municipal officials the Métis blamed for their displacement.",
-        "story": "The Thomas Claim: A story of the family's struggle for land title and recognition as they lobby the government to survey the Crown lands they called home.\n\n---\n\nThe Sarcastic Name: A story of community resilience where the displaced families of Ste. Madeleine use humor as a weapon of protest, naming their shanty town after the man who signed the order to burn their homes.",
         "founded": "1930s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -3593,7 +3414,6 @@ window.homelandData = {
       "properties": {
         "name": "Tin Town",
         "description": "A road allowance community south of Rooster Town in Winnipeg. It was built from scrap metal and tin by destitute families during the Depression.",
-        "story": "Baseball on the Flats: A lighthearted sports story about high-stakes baseball games played on dirt lots between the children of Rooster Town and Tin Town in the 1950s.",
         "founded": "1930s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -3613,7 +3433,6 @@ window.homelandData = {
       "properties": {
         "name": "Tokyo at Crescent Lake",
         "description": "A Métis community located near Crescent Lake in Saskatchewan. It is listed as one of the many dispersed settlements that formed after the migrations of the late 19th century.",
-        "story": "Life at Crescent Lake: A communal story detailing the daily life of families in \"Tokyo,\" exploring their strategies for self-sufficiency through small-scale farming and trapping while maintaining their unique Michif culture in the Saskatchewan interior.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -3633,7 +3452,6 @@ window.homelandData = {
       "properties": {
         "name": "Turtle Mountain (and Turtle Mountain House)",
         "description": "A favorite wintering spot with abundant game. Turtle Mountain House was established in 1846 and operated by Antoine Desjarlais until 1855. It was a site of Métis resistance and starvation during the \"winter of 1894.\"",
-        "story": "Starvation Winter: A historical drama focused on the 1894 winter, depicting the community's struggle for survival and the failure of government aid during an extreme blizzard.",
         "founded": "1846 (Post)",
         "community_type": "Landmark, Settlement",
         "type": "location",
@@ -3653,7 +3471,6 @@ window.homelandData = {
       "properties": {
         "name": "Umphreville or Humphreville (Settlement)",
         "description": "A road allowance community northeast of The Pas named for its patriarch, John Umphreville. The family was connected to a vast kinship network extending from Moose Lake to Prince Albert.",
-        "story": "The Umphreville Saga: A story following the patriarch’s descendants as they build a legacy in the northern river delta despite being excluded from town services.",
         "founded": "1900s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -3673,7 +3490,6 @@ window.homelandData = {
       "properties": {
         "name": "Upper Athabasca",
         "description": "This region's history is characterized as an Upper Athabasca Ethnohistory, involving the Snare, Snake, and Iroquois-Métis people. It was a key area for the northwestern fur trade and the Iroquois voyageur families who settled there.",
-        "story": "The Mountain Voyageurs: A historical piece following the descendants of Iroquois \"trip-men\" as they settle in the Upper Athabasca. The narrative explores the blending of cultures in the mountain foothills, creating a distinct Métis identity rooted in the demanding labor of the northwestern canoe brigades.",
         "founded": "Historic",
         "community_type": "Hub",
         "type": "location",
@@ -3693,7 +3509,6 @@ window.homelandData = {
       "properties": {
         "name": "Upper Fort Garry",
         "description": "Network of narrow river lots extending north, home to hunters and farmers. Lots extended two miles east and west of river.",
-        "story": "Generations on the Red: A family saga following a Métis family on their narrow lot from the fur trade through the 1869 Resistance.",
         "founded": "1822",
         "community_type": "Administrative Center",
         "type": "location",
@@ -3713,7 +3528,6 @@ window.homelandData = {
       "properties": {
         "name": "Wabowden",
         "description": "Originally located at Setting Lake on the Grass River route, it relocated to Bowden Lake with the railway in the 1920s. It remains a major center for commercial fishing in the north.",
-        "story": "Fish Station Rhythms: A narrative centered on the Wabowden fish station, exploring the logistics and camaraderie of the northern commercial fishery.",
         "founded": "Late 1800s",
         "community_type": "Settlement",
         "type": "location",
@@ -3733,7 +3547,6 @@ window.homelandData = {
       "properties": {
         "name": "Waterhen River (Rivière de la Poule d'Eau)",
         "description": "The primary outflow for Lake Winnipegosis into Lake Manitoba. It was a vital transportation route used by Métis and Saulteaux hunters to move between St. Laurent and Duck Bay.",
-        "story": "Traversing the Waterhen: A travel narrative following a hunting party as they navigate the complex river channels between the two great Manitoba lakes.",
         "founded": "Historic",
         "community_type": "Transportation Route",
         "type": "location",
@@ -3753,7 +3566,6 @@ window.homelandData = {
       "properties": {
         "name": "Wekusko (Herb) Lake",
         "description": "A mining supply center developed after gold was discovered in gold-bearing quartz in 1914. Former MMF President Ed Head worked here as a diamond-driller.",
-        "story": "Herb Lake Gold: A gold rush story from a Métis perspective, depicting the impact of the sudden influx of prospectors on traditional trapping grounds.",
         "founded": "1914",
         "community_type": "Mining Town",
         "type": "location",
@@ -3773,7 +3585,6 @@ window.homelandData = {
       "properties": {
         "name": "Wheat City",
         "description": "A Métis community in Charleswood dating to the 1820s, located near a buffalo crossing. Families like the Branconniers and Morrissettes worked as harvest laborers and ferrymen.",
-        "story": "Old Mrs. Morrissette’s Memory: A narrative centered on \"Old Mrs. Morrissette\" recounting her vivid memories of the 1826 flood for the children of the 1880s settlers.",
         "founded": "1820s",
         "community_type": "Settlement",
         "type": "location",
@@ -3793,7 +3604,6 @@ window.homelandData = {
       "properties": {
         "name": "Whiskey Flats",
         "description": "Whiskey Flats was a Métis road allowance community built on floodplain along the Yukon River in Whitehorse, Yukon, dating back to at least 1942. It was located on government land and unused property belonging to large private companies. Whiskey Flats was eventually bulldozed and cleared for a city park.",
-        "story": "Life on the Flats: A survival story set in a road allowance community, where families use their ingenuity to build homes from scrap materials. The narrative focuses on the community's resilience in the face of social segregation and their determination to provide an education for their children despite being excluded from municipal services.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -3813,7 +3623,6 @@ window.homelandData = {
       "properties": {
         "name": "White Mud River Settlement (Rat Creek and Totogan)",
         "description": "First named \"White Mud River Settlement\" after the color of the clay on its banks. It was a hunter's village with a small church and burial ground.",
-        "story": "The White Mud Census: A story based on the 1870 census of the 150 residents, detailing the daily lives of hunters and their families before the 1881 floods.\n\n---\n\nThe Chicago of the North: A historical tragedy depicting the final days of Totogan as floodwaters rise, causing buildings to float away and settlers to pull up stakes.",
         "founded": "Historic",
         "community_type": "Abandoned",
         "type": "location",
@@ -3833,7 +3642,6 @@ window.homelandData = {
       "properties": {
         "name": "Whiteway Point",
         "description": "A point on the narrows of Lake Winnipeg named after the HBC official in charge of the post. It is now called West Doghead Point.",
-        "story": "Post at the Narrows: A historical account of daily life at the isolated Lake Winnipeg outpost as seen through the eyes of its Métis staff.",
         "founded": "Pre-1859",
         "community_type": "Trading Post (Outpost)",
         "type": "location",
@@ -3853,7 +3661,6 @@ window.homelandData = {
       "properties": {
         "name": "Williams County",
         "description": "When allotments of the Turtle Mountain reservation were found insufficient, many Métis were given land in western North Dakota, mostly in Williams County. Many Métis gave up their reservation land and moved to Williams County, taking what animals they had to the new land.",
-        "story": "Borderland Kin: A story of a Métis family whose land holdings and kinship ties span the boundary between Manitoba and Williams County. The plot centers on the challenges of navigating new international regulations that threatened to divide their community and their traditional hunting territories.",
         "founded": "Historic",
         "community_type": "Settlement",
         "type": "location",
@@ -3873,7 +3680,6 @@ window.homelandData = {
       "properties": {
         "name": "Willow Bunch",
         "description": "Historically known as Talle de Saules, this was a vital hivernant (wintering) community in Saskatchewan. It was a major destination for Métis families after the 1870 and 1885 Resistance movements.",
-        "story": "The Willow Haven: A narrative set after the 1885 Resistance, following families as they find sanctuary in Willow Bunch. The story details the community's transformation from a temporary wintering site into a permanent cultural hub for the plains Métis.",
         "founded": "Historic",
         "community_type": "Wintering site",
         "type": "location",
@@ -3893,7 +3699,6 @@ window.homelandData = {
       "properties": {
         "name": "Willow Flats",
         "description": "A Métis road allowance community located in the Northwest Territories. It is part of the extensive northern network of Métis settlements characterized by displacement and landlessness.",
-        "story": "Northern Resilience: A modern story set in the NWT, focusing on the history of the Willow Flats residents as they advocate for land titles and recognition of their unique contributions to the northern economy and transportation networks.",
         "founded": "Early 1900s",
         "community_type": "Road Allowance",
         "type": "location",
@@ -3913,7 +3718,6 @@ window.homelandData = {
       "properties": {
         "name": "Winnipegosis",
         "description": "Named for the Cree word meaning \"Little Muddy Water.\" It was the site of the 1741 Fort Dauphin and later a major center for the 20th-century timber and fishing booms.",
-        "story": "Little Muddy Water Boom: A story set during the community's economic peak, following a family working in the timber mills during the early 1900s.",
         "founded": "1741 (Fort)",
         "community_type": "Settlement",
         "type": "location",
@@ -3933,7 +3737,6 @@ window.homelandData = {
       "properties": {
         "name": "York Factory",
         "description": "The central base of operations for the HBC fur trade for centuries. It featured a massive octagonal star fort designed to withstand naval attacks.",
-        "story": "The Star Fort: A historical piece detailing the 1697 Battle of Hudson’s Bay—the largest northern naval battle—taking place just off the coast of the factory.",
         "founded": "1684",
         "community_type": "Trading Post",
         "type": "location",
@@ -3953,7 +3756,6 @@ window.homelandData = {
       "properties": {
         "name": "Young Point Settlement",
         "description": "A road allowance community south of The Pas in the Pasquia Settlement named for Josiah Young. It was excluded from town boundaries, denying residents basic services.",
-        "story": "Outside the Boundaries: A social drama focusing on the Josiah Young family as they build a productive life on the road allowance while being denied town water and sewer.",
         "founded": "1950s (Census)",
         "community_type": "Road Allowance",
         "type": "location",
@@ -3969,6 +3771,5 @@ window.homelandData = {
       }
     }
   ]
-},
-"buffaloHerds": {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": "Original extent of buffalo herds"}, "geometry": {"type": "Polygon", "coordinates": [[[-114.9818262954264, 63.95149906481364], [-115.3862878053188, 63.8563422004042], [-115.7604084041673, 63.72041998548115], [-116.0455717557145, 63.59497920107201], [-116.3279864901318, 63.46908066096798], [-116.5787262432158, 63.30273778070861], [-116.7444774078637, 63.14930375283516], [-116.9088947375245, 62.9963680021256], [-117.0426721981061, 62.80400409338282], [-117.2032919716402, 62.65107576373792], [-117.3621046770624, 62.49811603024951], [-117.5710916260377, 62.29413566095906], [-117.6967720625616, 62.10213498111999], [-117.9002869891284, 61.89823089175539], [-118.002010730129, 61.79695997509374], [-118.0965410126458, 61.56845783745594], [-118.2182531685511, 61.37867180283239], [-118.3670353366899, 61.2273146589381], [-118.4367604420284, 61.08812409133344], [-118.5543700076637, 60.89856340937316], [-118.6990395163693, 60.74718674209085], [-118.7375403172113, 60.57017431984817], [-118.8045516097911, 60.43159117277852], [-118.9479296198129, 60.28128201515368], [-118.959127294516, 60.06816844299684], [-119.0723354136284, 59.88030947872467], [-119.1101555284418, 59.70508705843528], [-119.1475518304795, 59.52999878488932], [-119.2119886454985, 59.39244630057256], [-119.2484510516693, 59.2175860748459], [-119.2392300982207, 59.09288316360124], [-119.3227260704034, 58.86904778207467], [-119.3601790739615, 58.69518933108435], [-119.3972359669498, 58.52140458510718], [-119.5049584827727, 58.33485757240621], [-119.5852830603408, 58.11139406282068], [-119.5766002066629, 57.98767547420531], [-119.6557800789749, 57.76441416259502], [-119.7175412176286, 57.62803582587636], [-119.7291575587677, 57.41844531897087], [-119.7917189452146, 57.28231342852379], [-119.897444706559, 57.09636409474196], [-119.958867960565, 56.96010825461958], [-120.0628879768152, 56.77394957665419], [-120.1913526115012, 56.62425367959458], [-120.3866742653553, 56.46091487734903], [-120.4198493449678, 56.28779497748693], [-120.5218503793193, 56.10113857998287], [-120.6233432243809, 55.91430775587347], [-120.5903484216112, 55.75475721315307], [-120.6654699749966, 55.53130378011144], [-120.6573186480045, 55.40820545665112], [-120.575518291655, 55.17579726364524], [-120.6087223692502, 55.0025052043767], [-120.5765783085627, 54.84300758756346], [-120.4352510230703, 54.62401093586109], [-120.4066710894559, 54.46414146236406], [-120.3369152862233, 54.35454903707222], [-120.2444864388739, 54.20836695947437], [-120.1929597316593, 54.012013020565], [-120.1646294888861, 53.85220695896865], [-120.1135529731323, 53.65589496883955], [-120.0857621670759, 53.49607496320165], [-120.0386097483848, 53.29890173790083], [-119.9931237589215, 53.10123402688783], [-119.9064439295235, 52.9541583067499], [-119.9463361068473, 52.77901207927507], [-119.9231777161745, 52.61773149142874], [-119.9001740483552, 52.45634020733212], [-119.9389949901207, 52.28098745887693], [-119.8537052147895, 52.13362072899448], [-119.8315504721466, 51.97176578366935], [-119.7288904681756, 51.78609002264957], [-119.5855644957325, 51.65160184890359], [-119.3412941134191, 51.58169644133983], [-119.0568766504369, 51.56217092010563], [-118.6119549326687, 51.49428095585289], [-118.4322432964049, 51.40890235031682], [-118.1734780948118, 51.29907727813087], [-117.9958793959415, 51.21281903481492], [-117.7217762518802, 51.06401974929003], [-117.527762815488, 50.93947140405403], [-117.412966681563, 50.83946593077745], [-117.202730543439, 50.67674671798456], [-117.0722715349396, 50.53800524246868], [-116.9429798656386, 50.39863910394601], [-116.8739455256771, 50.24633307061551], [-116.7458529934245, 50.10653748295771], [-116.7117583192611, 50.03019417498709], [-116.6102660724396, 49.80062952578212], [-116.5263042324316, 49.60898834502717], [-116.4595993104498, 49.45538427844513], [-116.344617229842, 49.18503747553698], [-116.2640751075882, 48.99033180718521], [-116.1999895019979, 48.83427349554817], [-116.1781846419803, 48.62637514966898], [-116.1723813081391, 48.45724472643875], [-116.1664372861303, 48.28806920506629], [-116.2753691244819, 48.09340349505361], [-116.3837094335343, 47.89822029397012], [-116.4508237848779, 47.75393316172435], [-116.5028342099334, 47.56834853574994], [-116.6686860267676, 47.35574243264905], [-116.7927238615042, 47.19541332093296], [-116.8437199139073, 47.00808385026435], [-116.9670505265322, 46.84657811663907], [-117.1057614718707, 46.72470927805117], [-117.2282261702769, 46.56224415616117], [-117.3502955355259, 46.39918560698056], [-117.4572027854439, 46.19337648286], [-117.5793503680835, 46.02766332536955], [-117.6448152438136, 45.87599818021559], [-117.9336527569447, 44.42957251968971], [-117.9923362249694, 44.29340929559148], [-117.9774833783754, 44.13044683851306], [-117.9802745601573, 44.00547117236259], [-117.8927734835451, 43.81594408943569], [-117.8785514846726, 43.6532347189417], [-117.9207207632431, 43.47942802085023], [-117.9084645735607, 43.31691972737104], [-117.8248539712849, 43.12795499328725], [-117.8129379612043, 42.96553709296326], [-117.8554944815583, 42.79178950667537], [-117.8435572875205, 42.62940563738451], [-117.8858016035033, 42.45561545386764], [-117.9277014238944, 42.28178575806169], [-117.9167986454071, 42.11940170659575], [-117.9619258604761, 41.94529873361368], [-118.0229258943403, 41.80876171963339], [-118.0140527773816, 41.6460870166319], [-118.0052228153654, 41.48337233132191], [-117.9964346195552, 41.32061448344659], [-117.9341566260109, 41.16964309771105], [-117.8721804652898, 41.01867666995948], [-117.8637702593832, 40.85588661337208], [-117.788562503704, 40.66690263797338], [-117.6616951663737, 40.4895674523278], [-117.4441725108655, 40.37366795996532], [-117.2420906524468, 40.29538056766611], [-117.0022672854722, 40.26631229947014], [-116.7631387626136, 40.23680795616802], [-116.5015994891149, 40.2934732833661], [-116.3724346692279, 40.4027447574141], [-116.2044013613933, 40.56058934771216], [-116.0882895527918, 40.70696658991145], [-115.854207638818, 40.83673078858116], [-115.6731826776668, 40.95490933326867], [-115.4778713511958, 41.03495777380909], [-115.2175352702359, 41.08710027595377], [-115.0109492565007, 41.12806720970379], [-114.7394037712626, 41.14098751070878], [-114.5066310205292, 41.10560491665219], [-114.3259127567276, 41.05993827898189], [-114.1199151525811, 40.93862092423808], [-114.0174247681257, 40.79759130079216], [-113.8658000466827, 40.66592569668866], [-113.766357391328, 40.52431625620327], [-113.6673387151146, 40.3826288954967], [-113.5179534162524, 40.25049227185372], [-113.3692066862891, 40.11821517201292], [-113.2716618160267, 39.97626367883892], [-113.1861535513073, 39.87213728978097], [-113.0274630418414, 39.7016548199114], [-112.9312643000974, 39.5594911065028], [-112.7853392448401, 39.42669711054699], [-112.6406753781704, 39.29347222584147], [-112.4968879597236, 39.15995290036994], [-112.4147033332368, 39.05486437975254], [-112.2120957732828, 38.89182750038054], [-112.1200361584415, 38.74836318051642], [-111.9789018516095, 38.61393076511118], [-111.8385905460818, 38.47913922926256], [-111.6498329195137, 38.35300359807231], [-111.4617690367787, 38.22659175896251], [-111.2354096233214, 38.14706752584083], [-110.9611310444019, 38.07551975451754], [-110.7953364961255, 38.02426949495625], [-110.5716416533667, 37.94263084916813], [-110.3880924739316, 37.81325311915616], [-110.2051265212769, 37.68354325694856], [-110.0804108971217, 37.58397909606307], [-109.8984715282896, 37.45368334161927], [-109.7081188668243, 37.28424468469188], [-109.632998050379, 37.17571244197958], [-109.558090393824, 37.06701105514188], [-109.3607858622738, 36.85719127777173], [-109.2778054389231, 36.70893328850183], [-109.0907685967594, 36.5368824852326], [-109.0004314535338, 36.34773785955767], [-108.9188336764623, 36.19773795173717], [-108.8542669454511, 36.12656725820701], [-108.7085391100005, 35.90530906938768], [-108.6750920074613, 35.74721622790516], [-108.5942407722331, 35.59680041219357], [-108.544486801972, 35.35903029607308], [-108.5031852823811, 35.16057126525235], [-108.4707397085748, 34.99979540729992], [-108.4385050686838, 34.83826325379955], [-108.3592135199596, 34.6842599561653], [-108.2800996505761, 34.52996497761765], [-108.2013253033541, 34.37463877178777], [-108.1537812148083, 34.12996519649943], [-108.0674629759412, 33.93298077137116], [-108.0281747382966, 33.72786233579837], [-107.9503953129748, 33.56913889799562], [-107.9271772841813, 33.44424821176511], [-107.9039879320963, 33.31915253475359], [-107.8110785560378, 33.0758372309872], [-107.733740568884, 32.91566866761959], [-107.6488314545428, 32.71348966642755], [-107.5564754138541, 32.46870010935431], [-107.4871586670947, 32.34977011563605], [-107.2848711871341, 31.97708969883594], [-107.1189422623956, 31.8418857911146], [-107.0512832820267, 31.73297240905622], [-106.8789730999028, 31.55941087358089], [-106.7599822255271, 31.41838027922402], [-106.5967294762804, 31.28325781110517], [-106.4269828314178, 31.10984490160799], [-106.3540827876006, 30.96290343215225], [-106.237297940738, 30.82198066022482], [-106.1653520134891, 30.67527273552196], [-106.0493237933648, 30.53431926509548], [-105.933679394893, 30.39331989664342], [-105.8117401365173, 30.21417812819301], [-105.7476413778256, 30.10555154728484], [-105.6705081802829, 29.9207533009739], [-105.6067980053476, 29.81214308450878], [-105.5302133722001, 29.62740232682279], [-105.4605508427195, 29.48075075967083], [-105.3540536392018, 29.37767374129751], [-105.3224791676729, 29.18726149792499], [-105.2599918950471, 29.07851537929385], [-105.2349211023088, 28.92610582945397], [-105.1602117784521, 28.7410491297077], [-105.1353521853175, 28.58855693749871], [-105.0671944688072, 28.44153067726111], [-104.9991978257343, 28.29448115183225], [-104.9685263088575, 28.10376037170629], [-104.9442112179476, 27.95089174947108], [-104.9199547996365, 27.79795414969119], [-104.9018009202824, 27.68320672416307], [-104.877646476168, 27.53015147097678], [-104.8535488500668, 27.37703295575187], [-104.8664691883037, 27.18001014326106], [-104.8364948166187, 26.98829703164482], [-104.8553887992895, 26.82940894384994], [-104.8315225540837, 26.67574006324837], [-104.8078030532998, 26.52158811357183], [-104.7841303310728, 26.36731599215022], [-104.6752032544099, 26.22381294366273], [-104.6090971311817, 26.07467697684834], [-104.5431232006595, 25.92534389557322], [-104.4772695662424, 25.77587730290786], [-104.3690359395897, 25.63162297616468], [-104.3459240854679, 25.47654425839838], [-104.2322689094072, 25.29306418618906], [-104.1245792194224, 25.14752154179481], [-104.0594090119919, 24.99655415503891], [-103.9096604917229, 24.85530208546422], [-103.7290086199214, 24.7972021332047], [-103.6331022437521, 24.72884504512816], [-103.4470167093366, 24.63109781865086], [-103.303417235105, 24.52829038173058], [-103.1654727522189, 24.46466306161537], [-103.0221391516996, 24.36160685240398], [-102.7998388057245, 24.307353379342], [-102.5721489348056, 24.21293800549001], [-102.3974186808069, 24.19159444137501], [-102.2225351882032, 24.16964381857905], [-101.9998627071843, 24.11217719630055], [-101.7028415558102, 24.14190839640659], [-101.5754556085525, 24.1544775052946], [-101.3153223071319, 24.13971972399231], [-101.1023785266126, 24.15935865882297], [-100.8463864125373, 24.18216298770791], [-100.6755587238534, 24.19713972085171], [-100.4618416496039, 24.21560232066336], [-100.2907257219614, 24.23016583936118], [-99.9474726399432, 24.25783735920029], [-99.77527243493266, 24.27093631281849], [-99.51622065481502, 24.28970006196169], [-99.29950582108354, 24.30440391191071], [-99.12573737929273, 24.31579630847045], [-98.91800522749503, 24.40964723282021], [-98.79216685756113, 24.45786934840011], [-98.62737087314297, 24.54866433152085], [-98.46226232672981, 24.63932195947762], [-98.25783992058265, 24.77241337091793], [-98.14069053289573, 24.90004965810816], [-97.97937590201441, 25.03017009712254], [-97.85653848448581, 25.11735224739641], [-97.74694307791816, 25.32351712846687], [-97.67194222325237, 25.44736586674652], [-97.60099183974113, 25.61065763318472], [-97.61877726032755, 25.76911495954561], [-97.59197647023986, 25.92964320082972], [-97.60963387912638, 26.08761583962675], [-97.63598295936796, 26.32413866339077], [-97.60902720611419, 26.48424045378141], [-97.63027937324131, 26.68059101005875], [-97.63871561872895, 26.75904317619557], [-97.61516138728749, 26.95770410022671], [-97.63206182093516, 27.11439870500083], [-97.60384934078874, 27.27356834860333], [-97.57500024454191, 27.43241731423249], [-97.46437377853356, 27.67475420976182], [-97.3899170298029, 27.83611707193698], [-97.31118537221835, 27.95843657181091], [-97.23976950616213, 28.15862747733179], [-97.16332301195531, 28.3197081631365], [-97.08328635006394, 28.4418628972992], [-96.96453820724028, 28.64460878616853], [-96.79566807437837, 28.81090514237646], [-96.6717686424046, 28.97465703116247], [-96.54662010828115, 29.13815988569175], [-96.46397419377459, 29.26026757038329], [-96.33784504841515, 29.42390603757423], [-96.21078769691496, 29.58755515297233], [-96.07651377529317, 29.67314640735007], [-95.94754077827722, 29.83683566269754], [-95.81520045617009, 29.96149099921986], [-95.68513029856683, 30.12527041486785], [-95.50379033785424, 30.25242222284981], [-95.3689979148489, 30.37714288491999], [-95.18554019726427, 30.50426671214102], [-94.99834853852619, 30.59212932371474], [-94.76457929590532, 30.72145795265973], [-94.52740775838599, 30.81129594122173], [-94.33784978946166, 30.89875328433525], [-94.14462586410517, 30.94673345745923], [-93.94906555067548, 30.9946990131253], [-93.75139684888974, 31.00290030444392], [-93.60284862938654, 31.00886371617555], [-93.35470365606992, 31.01844480456446], [-93.15327551449467, 30.94637704177276], [-92.95100710436735, 30.87391452602828], [-92.79612270025015, 30.75968203956367], [-92.63986949199041, 30.64523187608965], [-92.53261679944076, 30.48908388769066], [-92.42557407380218, 30.33265331878055], [-92.2682817929088, 30.17720635678868], [-92.11369454279871, 30.06118424719718], [-91.9099997539264, 29.98580641736557], [-91.70407015862214, 29.90991703495827], [-91.4472444834158, 29.87437938023237], [-91.24099060670272, 29.83749038967506], [-91.03467475367074, 29.84042197419413], [-90.82784516082873, 29.843035565805], [-90.62351246259377, 29.96597904327433], [-90.416651501193, 30.04869988401542], [-90.31411041327189, 30.17072974145195], [-90.1585945400252, 30.33372161299491], [-90.05425363834996, 30.49643597393761], [-89.89504677657317, 30.61932009132621], [-89.6797401631562, 30.70225944845622], [-89.4597050925994, 30.70393671300844], [-89.23809501191602, 30.74595885969804], [-89.12566030533276, 30.82802005294666], [-89.01102408891448, 30.99176572697069], [-89.00744714690555, 31.15505835313022], [-89.00295712040146, 31.35926945996653], [-88.99934827519266, 31.5227158136102], [-89.05186732286164, 31.68559977908498], [-89.04833911643323, 31.84910200904623], [-89.09883834068764, 32.05289704440533], [-89.0941918817957, 32.21661005149575], [-89.14563123980604, 32.37948014578143], [-89.19612427051025, 32.5832106286619], [-89.19052576618033, 32.78800330026035], [-89.1871566463876, 32.91093106850151], [-89.18151187929038, 33.11589559148762], [-89.11793672363403, 33.36333058031735], [-89.05631455330884, 33.52891986032127], [-88.99314594503885, 33.73578254442644], [-88.85977895588076, 33.98793498141787], [-88.78871895784724, 34.15609760471564], [-88.65922955619956, 34.32613278267233], [-88.466914865155, 34.53996339790414], [-88.2803422723579, 34.67036939365504], [-88.09254050103638, 34.80093529773458], [-87.85241576673587, 34.84877648267971], [-87.55599549062934, 34.85536936522936], [-87.25831569366893, 34.86126456471948], [-87.01779799526273, 34.82449608966726], [-86.78389769511874, 34.7028103138367], [-86.61224462245345, 34.57915528107435], [-86.50304369431998, 34.45398128045202], [-86.33680875128962, 34.2870449728946], [-86.17094597279508, 34.11958723426072], [-86.1300445261182, 33.95049865808805], [-85.9649445984356, 33.78235059217696], [-85.85389546353483, 33.6146495857119], [-85.80381308244634, 33.44663805026372], [-85.75389097745617, 33.27849898305136], [-85.70413502841565, 33.110235348713], [-85.58630792370943, 33.02585045514301], [-85.4212243367108, 32.54825046346541], [-85.28205968120464, 32.5067293801347], [-85.1022633183197, 32.34683628382112], [-84.9667656613805, 32.22703933997229], [-84.83153778114128, 32.10702928517169], [-84.64964898014715, 31.98567435017785], [-84.46598439790401, 31.90296039969287], [-84.32909325102891, 31.82127897825805], [-84.14211664760809, 31.7772909105024], [-83.95975448740394, 31.65486587929729], [-83.77523751973177, 31.5711036577238], [-83.59086488361828, 31.48696879525152], [-83.44878931111651, 31.48227306914217], [-83.21978208866626, 31.35672046093534], [-83.0356778038509, 31.27151140649201], [-82.84779064626126, 31.22520161948838], [-82.65325781540452, 31.25698216734311], [-82.50628002569329, 31.29046602230966], [-82.3464789649047, 31.48081746193929], [-82.18896718848936, 31.63201152781358], [-82.12763074916649, 31.78723831336016], [-82.01746481876947, 31.94058218824603], [-81.95550807096552, 32.09599764002365], [-81.93873246295676, 32.29282750403235], [-81.91608399975743, 32.52967502436855], [-81.9043604004061, 32.64826362857184], [-81.88474004561232, 32.84605111638959], [-81.86501236707512, 33.04400969649561], [-81.84119948310708, 33.28177763961114], [-81.82123960106453, 33.48009453662716], [-81.75141165118463, 33.67684053973313], [-81.6344186361505, 33.83259718536807], [-81.56062245593577, 34.03084676800309], [-81.4858031580868, 34.22958569398735], [-81.41541283474616, 34.38849871776292], [-81.23744545666824, 34.58470544729632], [-81.16593255119525, 34.74409483408954], [-80.9911015480397, 34.90051957771464], [-80.86684619298194, 35.05871301806138], [-80.68926932113793, 35.21576530528392], [-80.50308838404439, 35.41428899786754], [-80.37346395540165, 35.57427920057952], [-80.19009403151858, 35.73292802725932], [-80.06414882301547, 35.85281122132193], [-79.88378189079364, 35.97141325076368], [-79.74911796314072, 36.13286020859335], [-79.55962871755048, 36.29294953885634], [-79.42294632173112, 36.45488981789261], [-79.28442816123948, 36.61751273136529], [-79.14298968570301, 36.781331832146], [-79.05521769391552, 36.94721412584956], [-79.02164481663345, 37.11520231985266], [-78.86876810293224, 37.3223738162423], [-78.72293258215115, 37.48797203746065], [-78.69638513265087, 37.61490025293113], [-78.5862097795705, 37.86800117976487], [-78.4349145825797, 38.0361296342991], [-78.3944173327109, 38.20848634719829], [-78.3535238267191, 38.38127979007666], [-78.36986257149562, 38.5556663179018], [-78.31824382805038, 38.77262131450627], [-78.32419374563472, 38.99126104633915], [-78.3033417709073, 39.07842372038682], [-78.30937303095911, 39.29767969506605], [-78.29586203477619, 39.56677063860565], [-78.24751868312026, 39.74613014428434], [-78.18653058915115, 39.97105024402076], [-78.14963792715926, 40.10638567602981], [-78.08763919594116, 40.33257891551338], [-78.02499237545071, 40.55956475695914], [-77.97440314388128, 40.74172047212901], [-77.9233918388843, 40.92437887091126], [-77.93324469789971, 41.10790904430407], [-78.00466363558392, 41.29210345823071], [-78.076588234262, 41.47651539230608], [-78.14905523840625, 41.66111608628998], [-79.61595563098096, 42.35269085911496], [-78.65663403097702, 42.1830998201092], [-79.0854284099307, 42.37049875699907], [-79.31769800453038, 42.38116732358679], [-79.5496346307838, 42.39139804174199], [-79.7893056695948, 42.36016723272704], [-79.98687601492978, 42.24426129543273], [-80.13293559812779, 42.08571195341012], [-80.2129608900883, 41.96586147302348], [-80.36481018893971, 41.7669238131873], [-80.49986471832932, 41.64981318637761], [-80.69656900992207, 41.49492355179568], [-80.8780519052435, 41.4209611780209], [-81.1211025590545, 41.30864059252733], [-81.35643970660881, 41.23634231437079], [-81.59010732954444, 41.16401266876726], [-81.82722878276208, 41.05183867905151], [-82.05101132170837, 41.01990785400696], [-82.22550475278018, 40.94556887860394], [-82.44797511452887, 40.91302637854218], [-82.729114388496, 40.84180815402954], [-82.95496681286987, 40.7685427485544], [-83.17329983487643, 40.73578105618879], [-83.39098144875842, 40.70271179932289], [-83.60812520701243, 40.66928458043822], [-83.82472788917497, 40.63550233095396], [-84.04078561706575, 40.60136640975853], [-84.19966373776089, 40.6052619350205], [-84.46363861126275, 40.6115699542977], [-84.72964274520373, 40.57828325496023], [-85.04422932172777, 40.58506880192112], [-85.30899735598251, 40.55052604510632], [-85.51808970306394, 40.55410866335387], [-85.72696697075345, 40.55731973405655], [-86.0387322995194, 40.56233643551872], [-86.29809221317217, 40.56602672284108], [-86.5054164179912, 40.56856121356834], [-86.71064407129083, 40.61016228634972], [-86.91600002992496, 40.65137429262596], [-87.12147912788721, 40.69219592688493], [-87.32661046442222, 40.73314205689814], [-87.53169497011913, 40.77395451839076], [-87.73542452168614, 40.85419955379209], [-87.88787298777913, 40.93401491524114], [-88.14429522065265, 41.01370850235826], [-88.34836264321598, 41.13285424007311], [-88.5531963058953, 41.25175734664053], [-88.65393036252762, 41.4107827309801], [-88.75654894361837, 41.49032528856684], [-88.90990109180865, 41.68929074948231], [-89.01243964616968, 41.84857126748809], [-89.11600093748928, 41.96794504761944], [-89.1134608701269, 42.20808115935167], [-89.16421682948784, 42.36940453628323], [-89.1622034000407, 42.53125991458765], [-89.16017665343212, 42.6933582107655], [-89.2115967202818, 42.85536638122359], [-89.20972221387512, 43.01794437515291], [-89.26165552932555, 43.18039010976133], [-89.25993899700966, 43.34343620862239], [-89.31200570120815, 43.54716222696816], [-89.36545346844393, 43.62883521133207], [-89.47188553427202, 43.87625915061118], [-89.52522037101942, 44.04169933189569], [-89.68864657000479, 44.28928531787511], [-89.74329070790601, 44.45524845554331], [-89.85385099656718, 44.5789630584131], [-89.96519926032225, 44.78634845733373], [-90.021458906541, 44.95315682170099], [-90.13395286166639, 45.1215331697655], [-90.24727406201404, 45.29077604689392], [-90.41803698277798, 45.45961796849264], [-90.70133953566287, 45.49865993340899], [-90.8719464301785, 45.53886157663635], [-91.15617630448502, 45.57681309349844], [-91.38272957295293, 45.57245276566297], [-91.61099988210592, 45.61168463830661], [-91.84170744029777, 45.69347068474288], [-92.01643732885516, 45.77601216404243], [-92.25374983781367, 45.94321021543481], [-92.43303194057027, 46.06854127430184], [-92.6106385361846, 46.15068471124086], [-92.79496424959785, 46.31898521012231], [-92.97798597627718, 46.44579416247182], [-93.22072698184675, 46.57270669159343], [-93.40678858293825, 46.70081233824437], [-93.53958750043446, 46.87457893480889], [-93.73254106082156, 47.04711765261552], [-93.92729086334475, 47.21980656481114], [-94.05969372190387, 47.34985191286224], [-94.25273319181882, 47.47848729036633], [-94.38760048318234, 47.60981755960603], [-94.58367967067323, 47.73981425723149], [-94.7875346389247, 47.91654856431657], [-94.9314700802457, 48.03890921834304], [-95.23893764975796, 48.22092403171026], [-95.55994705045515, 48.51748914689374], [-95.69233501284084, 48.66652219271959], [-95.82939715145174, 48.85377934245432], [-95.90450416500349, 49.00499592259305], [-96.03467978328119, 49.11498535987455], [-96.1147466857155, 49.30438528642377], [-96.12731265309799, 49.41965154731238], [-96.20782694595715, 49.60898720411119], [-96.34422155055984, 49.75697897621821], [-96.41720049991548, 49.86932807539768], [-96.61951487042735, 50.05244246509365], [-96.76320221180895, 50.23831409687635], [-96.96338255093507, 50.38236709865884], [-97.15947157371254, 50.48774005633214], [-97.36165058430583, 50.63120275485433], [-97.49872710920411, 50.73963646312162], [-97.70838666982486, 50.92126798153779], [-97.847215933976, 51.02936471081939], [-97.93136421175696, 51.17953593994879], [-98.14492625079488, 51.36055697937696], [-98.2985656984043, 51.54520067753898], [-98.44084355734077, 51.6527213420819], [-98.59027697397907, 51.79872648839823], [-98.80293821014563, 51.94056684070598], [-99.01014123340481, 52.04361881516405], [-99.15592585427719, 52.15101770611252], [-99.36513516861322, 52.25386993468543], [-99.57542798235683, 52.35640149180304], [-99.92048964394283, 52.48798597510623], [-100.1967316166946, 52.58522004123215], [-100.482866654615, 52.72058807624308], [-100.7710292221228, 52.8553699445388], [-100.861163269583, 52.96643859908741], [-101.088636837209, 53.10578227367176], [-101.3273040536362, 53.28371492414857], [-101.5040760135896, 53.46727697967416], [-101.5984137367365, 53.57901069918759], [-101.7786349944382, 53.76345721429603], [-101.9398450268179, 53.86965352419897], [-102.1126702307428, 54.01488188212534], [-102.3416979032893, 54.1150540710284], [-102.5832873791233, 54.25407010228276], [-102.8817849483169, 54.34797973377684], [-103.1821791161986, 54.44143284946961], [-103.4178195011304, 54.54053550943028], [-103.6548772937137, 54.63929074859656], [-103.9602132216639, 54.73115045054569], [-104.2679147569398, 54.82288512130727], [-104.5110748530949, 54.92153212059633], [-104.7273424111379, 54.94075509523157], [-105.1083211645556, 55.02478930240283], [-105.3935150847429, 55.03579224075998], [-105.7110599626576, 55.12598419570284], [-105.9989142559223, 55.13639593208394], [-106.3035904584277, 55.18577980630083], [-106.6094816113976, 55.23447352732801], [-106.916775919323, 55.28259674242118], [-107.2266021504334, 55.33079637336091], [-107.5376663482668, 55.37825770585028], [-107.7993896647805, 55.47292174300036], [-108.081716276945, 55.60693938689252], [-108.2272714328321, 55.75758474318967], [-108.3746751505763, 55.90858270133116], [-108.5040178221151, 56.01991216041138], [-108.6234517542308, 56.25969114243485], [-108.7065944741737, 56.42123926712369], [-108.7906162750744, 56.58305713851392], [-108.8542162357124, 56.70459181201588], [-108.9613458038874, 56.90747879672485], [-109.0699393964052, 57.11078090097993], [-109.1578725839562, 57.27371461216864], [-109.2915657880357, 57.51858884736419], [-109.38242646937, 57.68246281889581], [-109.4297093478999, 57.7653977748936], [-109.5973820395582, 58.05631800138046], [-109.6947962921252, 58.22303940445862], [-109.8189858503644, 58.43238363264742], [-110.0221873822352, 58.63333141873833], [-110.2020926511906, 58.792316805271], [-110.3322480510148, 59.00264273331575], [-110.4401192121624, 59.17269344382787], [-110.5507105017919, 59.34395098294949], [-110.6627355199021, 59.51559105077246], [-110.7762224329641, 59.68761054213243], [-110.7305347493974, 59.8790361452727], [-110.7651228182171, 60.06142125230932], [-110.6371213734823, 60.26300970636459], [-110.5893675133467, 60.45554752600935], [-110.5371245002537, 60.5090105342531], [-110.6893584670139, 61.08763010777461], [-110.7834346630099, 61.23689580157258], [-110.9023598158958, 61.42349325485571], [-110.9985802061201, 61.57277443357493], [-111.1449543052605, 61.79673038650314], [-111.2451156331992, 61.94626031361364], [-111.2663701799449, 62.10707013655734], [-111.313715785777, 62.305472556538], [-111.3356334294126, 62.46650821578523], [-111.4404621849507, 62.61660687021756], [-111.5731248226156, 62.80430028217916], [-111.7344814169196, 63.0295532842845], [-111.8985276000639, 63.25488540148325], [-112.0963823343474, 63.39433082707322], [-112.3262049655777, 63.57158747114876], [-112.5595840865505, 63.7488435110343], [-112.8834214508111, 63.86386898961188], [-114.2423832150251, 63.97004979713049], [-114.9818262954264, 63.95149906481364]]]}}, {"type": "Feature", "properties": {"name": "Range in 1870", "part": 1, "total_parts": 2}, "geometry": {"type": "Polygon", "coordinates": [[[-117.3243443817605, 59.80042566603166], [-117.7781089434654, 59.4551883867798], [-117.9710956015625, 59.15585284025849], [-118.2941882939829, 58.84305702535379], [-118.4914110643253, 58.55630981115515], [-118.5617499293806, 58.29187770371976], [-118.7530416831386, 58.00600384891072], [-118.8237396818558, 57.57501396579986], [-118.8890799771111, 57.31286049075607], [-118.8969151154934, 56.98002771989271], [-118.9067528737495, 56.65001937163139], [-119.0254584299851, 56.29411467867719], [-119.04099311515, 55.97166846826698], [-119.1108959766331, 55.7203893468536], [-119.1270372009315, 55.40060020570616], [-119.1425949592274, 55.08145718646025], [-119.0463995036474, 54.78491098031223], [-118.9519006227474, 54.48922129088389], [-118.9684904610111, 54.17273789281932], [-118.8763386845489, 53.87887688838348], [-118.7365286512055, 53.518202750859], [-118.5486186007618, 53.25216578411148], [-118.5794876883798, 52.94654899292509], [-118.3534073873802, 52.61752293254951], [-118.1754894006891, 52.35475967873037], [-117.8992137457789, 52.11490185432496], [-117.6273227137851, 51.87546557525476], [-117.4606039223529, 51.61510505671226], [-117.1943997530691, 51.37542562197403], [-117.0313581541558, 51.1148409588064], [-116.8705844622355, 50.85474234407305], [-116.513232192197, 50.63528114442309], [-116.2661901423633, 50.39985184946411], [-115.9231140533396, 50.18360306168785], [-115.6824587787548, 49.94793675871981], [-115.4446368663931, 49.71226427617519], [-115.1773654510314, 49.414087387179], [-115.0109871098483, 49.09774795826537], [-114.8796264325656, 48.84493237708797], [-114.7497809362058, 48.59235192121667], [-114.653153021807, 48.402960249019], [-114.4933084765303, 48.08731996217174], [-114.3366609886576, 47.77263062430814], [-114.187099524178, 47.46074232825962], [-114.0688404570951, 47.21134339546161], [-114.0143761389083, 46.88154041509046], [-113.9895531972531, 46.61426195730193], [-113.8742935590489, 46.36541642592319], [-113.8504151987396, 46.09854938762404], [-113.7370286991549, 45.85009006851291], [-113.53541009936, 45.61984277022565], [-113.3357346971089, 45.38957940119827], [-113.1379690719652, 45.1593120029865], [-113.0318007160297, 44.91181306562456], [-112.7527374002062, 44.69989618537457], [-112.5636651455701, 44.4702404900402], [-112.3770615478202, 44.24059527125079], [-112.2545966680503, 43.93187329515301], [-111.9852727328518, 43.71904693246732], [-111.8897550379128, 43.47192246362028], [-111.6240031772692, 43.2584952287207], [-111.3602965724969, 43.04460854065132], [-111.0986220161933, 42.83027985885441], [-110.8389663590556, 42.61553774157112], [-110.4968851328575, 42.41642439960877], [-110.2415186482563, 42.20073248994093], [-109.9898415968158, 41.98425577489031], [-109.6561598701142, 41.78275098583534], [-109.3657916125664, 41.7042230847154], [-109.0368918570136, 41.50049226538523], [-108.7292506566334, 41.35811248809507], [-108.4418958030961, 41.27726425606502], [-108.0723217871374, 41.20998232085676], [-107.7402231208092, 41.26646458264599], [-107.3896890285827, 41.25947013598118], [-107.0393900161472, 41.25141926865527], [-106.7068745519714, 41.30455466961034], [-106.3739655099196, 41.35642005074085], [-106.0404878836537, 41.40732913951983], [-105.7064643906091, 41.45727648530104], [-105.3719116611349, 41.50625208196401], [-105.0368498203962, 41.55425788248934], [-104.7852356433027, 41.58962354193452], [-104.3652948936159, 41.64734165687238], [-104.0287674010975, 41.69236654158419], [-103.6909829474269, 41.73597309223829], [-103.3525850474206, 41.7786378067884], [-103.0135732137179, 41.82033165887248], [-102.6460894096429, 41.73459784998701], [-102.3064847684625, 41.774228545427], [-101.9530170065826, 41.749530153732], [-101.5274471676275, 41.79638521784526], [-101.1733924287754, 41.76916583062057], [-100.9160086184484, 41.79538241611727], [-100.4861257364095, 41.83784407150949], [-100.227666675614, 41.86257774161501], [-99.79605085424669, 41.90254362509917], [-99.363410043091, 41.94093778683119], [-99.03825139470172, 42.09823299930997], [-99.00205069207333, 42.42429937618309], [-99.05206520552956, 42.74297204457395], [-99.09246827928841, 42.99794227789436], [-99.31047607810152, 43.23780813279651], [-99.44122794297941, 43.4849421644661], [-99.48377382582628, 43.7397220512789], [-99.15735629225502, 43.96170334961044], [-99.00848157832279, 44.16808438679166], [-98.67748271818769, 44.38902436303766], [-98.34296357839575, 44.60930866485151], [-98.00355097502951, 44.82921502843462], [-97.76128366020556, 45.10601423327726], [-97.70023781075551, 45.36989452625602], [-97.63855184996052, 45.63403279094643], [-97.57621827818859, 45.89841779631773], [-97.60819962724712, 46.15615668611391], [-97.6323928595157, 46.34955418218401], [-97.7773023008052, 46.72943419928897], [-97.7940158886802, 46.85845932613119], [-98.0295761460858, 47.1663567812011], [-98.35570185035975, 47.40143258927309], [-98.59556950761632, 47.70856881008247], [-98.82561709775482, 47.95240532809479], [-99.03805217866261, 48.06662330053911], [-99.36811550488245, 48.30243129844084], [-99.70140752554627, 48.53740653319444], [-100.0272974040065, 48.70627956036152], [-100.3442615579687, 48.80902303480334], [-100.78447960865, 49.03152539159291], [-101.2036434811857, 49.12200471271896], [-101.635375049781, 49.27822882389541], [-101.8723769311189, 49.45369688151775], [-102.210260720066, 49.61832912431131], [-102.6351381642322, 49.7059202240542], [-103.0922623291268, 49.92220152117586], [-103.437911302443, 50.083271667161], [-103.9686050075144, 50.15427986992876], [-104.4180530621418, 50.30255428293614], [-104.8704116335662, 50.44977050653676], [-105.1258019490791, 50.62039650128653], [-105.5837816144091, 50.76723584199414], [-105.9647051144702, 50.9923039795689], [-106.3290593284344, 51.15023649565293], [-106.7396943751796, 51.43975084595203], [-107.0095191065551, 51.61112867241689], [-107.2022303789929, 51.86359307665083], [-107.6040412478119, 52.08794583413351], [-107.8827099533814, 52.25923646235108], [-108.318163383696, 52.54878787035558], [-108.6036369864553, 52.71904648298975], [-108.9182876864957, 52.95568619028285], [-109.2643632298212, 53.2588256047825], [-109.5597920349259, 53.42771810762994], [-109.9968869946491, 53.65381496479847], [-110.3329669535086, 53.89660890924083], [-110.7823746955061, 54.12250886055977], [-111.1291716692191, 54.36452955842389], [-111.3714530394877, 54.62363536746], [-111.5070354290021, 54.90052566091487], [-111.6797150410175, 55.24753004360538], [-111.8917687624361, 55.66520135334144], [-112.0361611752966, 55.94438525328781], [-112.1061243688267, 56.31405174860149], [-112.1446113749182, 56.62186521048423], [-112.3009737826056, 56.91201055586286], [-112.3823108847108, 57.29501484528515], [-112.5447956333493, 57.58768343269133], [-112.7111112830239, 57.88213895090739], [-112.9237759832181, 58.25144718589762], [-113.097847342841, 58.54785764891096], [-113.1950922594904, 58.93862114440658], [-113.2538537929687, 59.26300264783657], [-113.4450354496457, 59.57353628617639], [-113.6407120003125, 59.88525856093341], [-114.1019676779934, 60.15683803349497], [-114.7286128191942, 60.22957601047033], [-115.3042133310336, 60.22160952149949], [-115.8281436737385, 60.13879524993157], [-116.3497690651423, 60.05396725619507], [-116.8689547770811, 59.96705042975781], [-117.1668086149463, 59.88408967598794], [-117.3243443817605, 59.80042566603166]]]}}, {"type": "Feature", "properties": {"name": "Range in 1870", "part": 2, "total_parts": 2}, "geometry": {"type": "Polygon", "coordinates": [[[-102.9281833325829, 40.66129365176], [-103.2192614295136, 40.43026999068847], [-103.5226356610756, 40.26184845199593], [-103.8243810080696, 40.09270767596906], [-104.1243569199011, 39.92263406477623], [-104.3704190035674, 39.88861239729004], [-104.7493476874222, 39.70460414112021], [-105.060393112804, 39.59431117139405], [-105.2733990379527, 39.43227870288452], [-105.4535385874051, 39.14199952387098], [-105.6483160390455, 38.91428159544045], [-105.5846508489854, 38.65986351292536], [-105.5213633705128, 38.40511651281214], [-105.4584490751027, 38.15004978374886], [-105.395914279442, 37.89467334491757], [-105.3337358797741, 37.63896340564732], [-105.1772168755012, 37.33113542345389], [-104.9578364809035, 37.09896394844196], [-104.7396143150885, 36.86619623509257], [-104.6013172469984, 36.62103300005123], [-104.3846448187638, 36.3846846104318], [-104.2471737554836, 36.13500238861322], [-104.1885592215516, 35.87293971129482], [-104.1156853099373, 35.54464343481875], [-104.0576865248361, 35.28137054689174], [-103.9998148590221, 35.01698494105161], [-103.9278505997948, 34.68577173914057], [-103.9480370375122, 34.40947107312567], [-103.8766024902147, 34.07689017364851], [-103.8968191440344, 33.7997297755133], [-103.8392796382673, 33.52881162215585], [-103.8584653854653, 33.24529572831164], [-103.8010187903038, 32.97201657718601], [-103.743779941544, 32.69800896127401], [-103.6104251593055, 32.43413210759027], [-103.4775107635212, 32.16944313896553], [-103.192737467307, 31.92520883921511], [-102.9225017107484, 31.74875688843095], [-102.7151116225403, 31.49152807225495], [-102.4459496715484, 31.31317072307627], [-102.114724072265, 31.21368223599405], [-101.7837588199443, 31.11321379352218], [-101.3901072762121, 31.09130215678085], [-101.0844795988498, 31.12603557902721], [-100.6878113970461, 31.09502515825412], [-100.3803933049927, 31.12566164283144], [-100.0725184210499, 31.15559188712887], [-99.76420459766383, 31.18481329704623], [-99.46786510178089, 31.28387378128285], [-99.18315688436407, 31.45277488203062], [-98.97514195487004, 31.61416502367101], [-98.68877578570012, 31.78162682890743], [-98.33460108709134, 32.02340509738842], [-98.055292831481, 32.25501299186794], [-97.8658343634128, 32.55130207682812], [-97.83426276161728, 32.83702207672307], [-97.79062454710419, 33.05209672485235], [-97.75878979331769, 33.33659572022466], [-97.73878419144896, 33.6899605793584], [-97.63409655448716, 34.04167352905462], [-97.66680797778638, 34.24569950613333], [-97.65192390935019, 34.65792561968865], [-97.60402881797457, 34.8661718094275], [-97.6479224285901, 35.13670186692353], [-97.62182480675274, 35.47924247813307], [-97.58452892946224, 35.7537640689873], [-97.53599143014486, 35.9605984783564], [-97.49827350295786, 36.23423636064106], [-97.55353734409984, 36.5690612773998], [-97.52132226585381, 36.90384285284639], [-97.49890520423159, 37.3040313934443], [-97.44606182892257, 37.50654093554028], [-97.49649524119468, 37.83488965410699], [-97.52692299070652, 38.03163749782222], [-97.49403224102049, 38.36456130802294], [-97.45069836489033, 38.63165697662749], [-97.4813100751198, 38.82767006424827], [-97.5326290493926, 39.15386389024028], [-97.48838525009931, 39.419706937683], [-97.53469192660927, 39.7425360240682], [-97.73383206101187, 39.92459185881724], [-98.11485874012425, 40.15832347745665], [-98.47698351757121, 40.26168121328384], [-98.93241587413105, 40.4198408230376], [-99.29347596219708, 40.51928195512702], [-99.72884508514065, 40.54589262879191], [-100.0908128990809, 40.64264498641689], [-100.4533325029689, 40.73814489784314], [-100.9133946769588, 40.88758548438175], [-101.2771265799058, 40.98013521500643], [-101.6396780077016, 41.0706320922303], [-101.9897744361559, 41.09649689545724], [-102.3264486311799, 41.05789876797537], [-102.6625785971794, 41.01834224538352], [-102.9701017486063, 40.85125428987941], [-103.095067530864, 40.64083944766974], [-102.9281833325829, 40.66129365176]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 1, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-113.5129009532159, 57.71187286429856], [-113.5062066528725, 57.77836416873268], [-113.4931166917675, 57.86286135592557], [-113.5212984729676, 57.98153980015831], [-113.5496855758132, 58.10028461334732], [-113.7340059721603, 58.17823186394369], [-113.9117889070388, 58.22629219593675], [-114.144789770795, 58.27078480162959], [-114.3625557858726, 58.25543607271295], [-114.5802290924561, 58.23988520588554], [-114.7894528769225, 58.19450782688512], [-114.926866526753, 58.0936159117246], [-115.0009026042644, 57.96717294376813], [-115.0828969449648, 57.87036564830925], [-115.1557580487215, 57.74410100383546], [-115.3434570446469, 57.63920951132722], [-115.4154863561352, 57.5141067829154], [-115.5487087994815, 57.4141001866887], [-115.6722903984837, 57.28484806315788], [-115.8038405031739, 57.18469090425737], [-115.8821202955743, 57.088775186475], [-116.0032194555349, 56.9594474700591], [-116.0803871011186, 56.86352898386778], [-116.1571151726045, 56.76762671688254], [-116.2242241009055, 56.64276403774119], [-116.2392555374586, 56.52247240751762], [-116.3055617907922, 56.39779750246636], [-116.2689889193653, 56.28224150487062], [-116.2245036367607, 56.13865752492109], [-116.0876473964939, 56.03287879064774], [-115.9601988862167, 55.95568602694422], [-115.7487517082563, 55.94427436700469], [-115.5457430462628, 55.96116437741788], [-115.3587301556917, 56.03506042196762], [-115.2301240583299, 56.13353089792376], [-115.1087768202469, 56.2607118592913], [-114.9279523271356, 56.36371619441609], [-114.7974647047516, 56.46254507054806], [-114.6662129971284, 56.56130122317177], [-114.5341881803968, 56.65998060715402], [-114.4013887637206, 56.75858199533105], [-114.2752323213765, 56.88617045898485], [-114.1407638528899, 56.98463603429251], [-114.0055007689137, 57.08301631809604], [-113.8766007565628, 57.21053430893761], [-113.7996139992135, 57.33459731929228], [-113.6689845731865, 57.46236296821522], [-113.601124858526, 57.54972245504393], [-113.5392032317103, 57.64710083642256], [-113.5129009532159, 57.71187286429856]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 2, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-106.7705004201619, 47.10506091393707], [-106.8331517833625, 47.08932610516474], [-106.9562926605721, 47.000281360914], [-106.99302246444, 46.88486919174068], [-107.0295813770667, 46.7694857623893], [-107.0659727424942, 46.65413507488859], [-107.0603348458597, 46.53993409422727], [-106.9711023318229, 46.42791702643498], [-106.7992228250811, 46.3464264291933], [-106.6314546853016, 46.35032218814077], [-106.4241021907253, 46.41200288251495], [-106.3018556631534, 46.52896089536252], [-106.1780463164163, 46.61726850711558], [-106.0546009407273, 46.7341434014199], [-105.9730422696781, 46.8502329513828], [-105.9763157096935, 46.96483638427087], [-105.9795725590542, 47.07946792848293], [-106.1103863210069, 47.16300951374998], [-106.2813620937729, 47.15952908842409], [-106.4521336139271, 47.15580603457788], [-106.6227413886911, 47.15183322976475], [-106.7067468529469, 47.12114749442091], [-106.7705004201619, 47.10506091393707]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 3, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-110.3594928726434, 45.08023266735655], [-110.4712732180558, 45.07201155583964], [-110.6310781074562, 45.05055944711643], [-110.7914172384953, 45.04115335943149], [-110.9516753164281, 45.0315234448987], [-111.1082798356342, 44.99336435655914], [-111.1738347349544, 44.87482649872518], [-111.1594471023529, 44.76132810195721], [-111.145108862798, 44.64777919121859], [-111.0946545874284, 44.56512777134105], [-111.0010877438284, 44.45639866981566], [-110.9043627529682, 44.31909358284825], [-110.771879024897, 44.21246179670925], [-110.6759638140159, 44.07481149462409], [-110.5476012721802, 43.99629704688264], [-110.3406958180594, 43.92208543183747], [-110.1829876164892, 43.93086701163875], [-110.0252206483172, 43.93943196221429], [-109.873394498609, 44.00482031945812], [-109.721255358601, 44.06999830702491], [-109.608175543025, 44.13277960920104], [-109.5800292930527, 44.24871401040812], [-109.5517824072849, 44.36460310512744], [-109.5633538055848, 44.47858619159158], [-109.5749633581786, 44.59251243129406], [-109.6666999976904, 44.70257777416744], [-109.7985247379606, 44.81034065346883], [-109.884587349634, 44.86307992953678], [-110.017033077852, 44.97046511616497], [-110.1866783595796, 45.04696082266642], [-110.229903736688, 45.07310140364698], [-110.3594928726434, 45.08023266735655]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 4, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-107.0908859254585, 42.42902792540976], [-107.2518110229423, 42.48369572582341], [-107.4499980355772, 42.50812414677499], [-107.6068000216725, 42.50420191765553], [-107.7590501115182, 42.442071819387], [-107.8696258475202, 42.35184581900405], [-107.8996194103737, 42.23469060918868], [-107.9680746695286, 42.11594141085656], [-107.9972209943782, 41.99792039451508], [-107.948658887154, 41.88198433474163], [-107.7862259197658, 41.79832318071234], [-107.6627949819, 41.71335225475178], [-107.5418252733618, 41.65751287580098], [-107.3411652975349, 41.57385092084625], [-107.1859806681401, 41.57717744247149], [-106.9939480460602, 41.61045918118987], [-106.8814735557741, 41.67145873219605], [-106.7332173092649, 41.79116751881794], [-106.7413220809019, 41.90871786330261], [-106.7887129054555, 42.0256200383761], [-106.8362192503032, 42.14235972027571], [-106.922498675938, 42.25774160040524], [-107.0085415575631, 42.37252251352307], [-107.0536012300657, 42.45890410747603], [-107.0908859254585, 42.42902792540976]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 5, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-104.1335681206337, 38.6876506555019], [-104.3248477462371, 38.76290761299577], [-104.5166363493483, 38.80041386773863], [-104.7085965860505, 38.80019633277553], [-104.9003432631455, 38.72486742707152], [-104.9956881357724, 38.5748987057352], [-105.0905868307331, 38.42492925273856], [-105.0899207082251, 38.27544527231871], [-105.0892394826381, 38.12602542544217], [-104.9938292295145, 37.97703911488336], [-104.8514553622619, 37.86552536497967], [-104.6622163076138, 37.75385633321134], [-104.4732575407447, 37.71649561822084], [-104.2842131760489, 37.71615215169638], [-104.0941793540902, 37.82751921455728], [-103.9512212067618, 37.90158456759644], [-103.8067975348761, 38.05028542612202], [-103.7575112412734, 38.16218652429466], [-103.7552341683188, 38.31182021578702], [-103.8008214362175, 38.46176769365242], [-103.8945787050859, 38.61194765667925], [-104.037627899758, 38.68734771935884], [-104.1335681206337, 38.6876506555019], [-104.1335681206337, 38.6876506555019]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 6, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-101.2631576693384, 37.1833872912712], [-101.5007065843366, 37.18989808713014], [-101.7380916576063, 37.19593096750694], [-101.8386983955434, 37.04843663020646], [-101.9848042347227, 36.93944799634113], [-102.0832250376635, 36.82930449730903], [-102.0884080444812, 36.67961961695887], [-102.0463745151083, 36.52882533331761], [-101.955744876954, 36.41418220743322], [-101.7714862457853, 36.29698023497631], [-101.5380866426581, 36.25308991145602], [-101.3033442702184, 36.246250091645], [-101.1560448146027, 36.39196552716214], [-101.011039441098, 36.46245654282151], [-100.8620955174022, 36.60784401277947], [-100.7137537916796, 36.71553571822054], [-100.7058080299631, 36.86559389978993], [-100.6978319354288, 37.01566381781389], [-100.7874406979434, 37.13136814777737], [-100.9729707377007, 37.24991043688693], [-101.1624509017386, 37.29308394139174], [-101.2580219151653, 37.29581302315686], [-101.2631576693384, 37.1833872912712]]]}}]}
+}"buffaloHerds": {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": "Original extent of buffalo herds"}, "geometry": {"type": "Polygon", "coordinates": [[[-114.9818262954264, 63.95149906481364], [-115.3862878053188, 63.8563422004042], [-115.7604084041673, 63.72041998548115], [-116.0455717557145, 63.59497920107201], [-116.3279864901318, 63.46908066096798], [-116.5787262432158, 63.30273778070861], [-116.7444774078637, 63.14930375283516], [-116.9088947375245, 62.9963680021256], [-117.0426721981061, 62.80400409338282], [-117.2032919716402, 62.65107576373792], [-117.3621046770624, 62.49811603024951], [-117.5710916260377, 62.29413566095906], [-117.6967720625616, 62.10213498111999], [-117.9002869891284, 61.89823089175539], [-118.002010730129, 61.79695997509374], [-118.0965410126458, 61.56845783745594], [-118.2182531685511, 61.37867180283239], [-118.3670353366899, 61.2273146589381], [-118.4367604420284, 61.08812409133344], [-118.5543700076637, 60.89856340937316], [-118.6990395163693, 60.74718674209085], [-118.7375403172113, 60.57017431984817], [-118.8045516097911, 60.43159117277852], [-118.9479296198129, 60.28128201515368], [-118.959127294516, 60.06816844299684], [-119.0723354136284, 59.88030947872467], [-119.1101555284418, 59.70508705843528], [-119.1475518304795, 59.52999878488932], [-119.2119886454985, 59.39244630057256], [-119.2484510516693, 59.2175860748459], [-119.2392300982207, 59.09288316360124], [-119.3227260704034, 58.86904778207467], [-119.3601790739615, 58.69518933108435], [-119.3972359669498, 58.52140458510718], [-119.5049584827727, 58.33485757240621], [-119.5852830603408, 58.11139406282068], [-119.5766002066629, 57.98767547420531], [-119.6557800789749, 57.76441416259502], [-119.7175412176286, 57.62803582587636], [-119.7291575587677, 57.41844531897087], [-119.7917189452146, 57.28231342852379], [-119.897444706559, 57.09636409474196], [-119.958867960565, 56.96010825461958], [-120.0628879768152, 56.77394957665419], [-120.1913526115012, 56.62425367959458], [-120.3866742653553, 56.46091487734903], [-120.4198493449678, 56.28779497748693], [-120.5218503793193, 56.10113857998287], [-120.6233432243809, 55.91430775587347], [-120.5903484216112, 55.75475721315307], [-120.6654699749966, 55.53130378011144], [-120.6573186480045, 55.40820545665112], [-120.575518291655, 55.17579726364524], [-120.6087223692502, 55.0025052043767], [-120.5765783085627, 54.84300758756346], [-120.4352510230703, 54.62401093586109], [-120.4066710894559, 54.46414146236406], [-120.3369152862233, 54.35454903707222], [-120.2444864388739, 54.20836695947437], [-120.1929597316593, 54.012013020565], [-120.1646294888861, 53.85220695896865], [-120.1135529731323, 53.65589496883955], [-120.0857621670759, 53.49607496320165], [-120.0386097483848, 53.29890173790083], [-119.9931237589215, 53.10123402688783], [-119.9064439295235, 52.9541583067499], [-119.9463361068473, 52.77901207927507], [-119.9231777161745, 52.61773149142874], [-119.9001740483552, 52.45634020733212], [-119.9389949901207, 52.28098745887693], [-119.8537052147895, 52.13362072899448], [-119.8315504721466, 51.97176578366935], [-119.7288904681756, 51.78609002264957], [-119.5855644957325, 51.65160184890359], [-119.3412941134191, 51.58169644133983], [-119.0568766504369, 51.56217092010563], [-118.6119549326687, 51.49428095585289], [-118.4322432964049, 51.40890235031682], [-118.1734780948118, 51.29907727813087], [-117.9958793959415, 51.21281903481492], [-117.7217762518802, 51.06401974929003], [-117.527762815488, 50.93947140405403], [-117.412966681563, 50.83946593077745], [-117.202730543439, 50.67674671798456], [-117.0722715349396, 50.53800524246868], [-116.9429798656386, 50.39863910394601], [-116.8739455256771, 50.24633307061551], [-116.7458529934245, 50.10653748295771], [-116.7117583192611, 50.03019417498709], [-116.6102660724396, 49.80062952578212], [-116.5263042324316, 49.60898834502717], [-116.4595993104498, 49.45538427844513], [-116.344617229842, 49.18503747553698], [-116.2640751075882, 48.99033180718521], [-116.1999895019979, 48.83427349554817], [-116.1781846419803, 48.62637514966898], [-116.1723813081391, 48.45724472643875], [-116.1664372861303, 48.28806920506629], [-116.2753691244819, 48.09340349505361], [-116.3837094335343, 47.89822029397012], [-116.4508237848779, 47.75393316172435], [-116.5028342099334, 47.56834853574994], [-116.6686860267676, 47.35574243264905], [-116.7927238615042, 47.19541332093296], [-116.8437199139073, 47.00808385026435], [-116.9670505265322, 46.84657811663907], [-117.1057614718707, 46.72470927805117], [-117.2282261702769, 46.56224415616117], [-117.3502955355259, 46.39918560698056], [-117.4572027854439, 46.19337648286], [-117.5793503680835, 46.02766332536955], [-117.6448152438136, 45.87599818021559], [-117.9336527569447, 44.42957251968971], [-117.9923362249694, 44.29340929559148], [-117.9774833783754, 44.13044683851306], [-117.9802745601573, 44.00547117236259], [-117.8927734835451, 43.81594408943569], [-117.8785514846726, 43.6532347189417], [-117.9207207632431, 43.47942802085023], [-117.9084645735607, 43.31691972737104], [-117.8248539712849, 43.12795499328725], [-117.8129379612043, 42.96553709296326], [-117.8554944815583, 42.79178950667537], [-117.8435572875205, 42.62940563738451], [-117.8858016035033, 42.45561545386764], [-117.9277014238944, 42.28178575806169], [-117.9167986454071, 42.11940170659575], [-117.9619258604761, 41.94529873361368], [-118.0229258943403, 41.80876171963339], [-118.0140527773816, 41.6460870166319], [-118.0052228153654, 41.48337233132191], [-117.9964346195552, 41.32061448344659], [-117.9341566260109, 41.16964309771105], [-117.8721804652898, 41.01867666995948], [-117.8637702593832, 40.85588661337208], [-117.788562503704, 40.66690263797338], [-117.6616951663737, 40.4895674523278], [-117.4441725108655, 40.37366795996532], [-117.2420906524468, 40.29538056766611], [-117.0022672854722, 40.26631229947014], [-116.7631387626136, 40.23680795616802], [-116.5015994891149, 40.2934732833661], [-116.3724346692279, 40.4027447574141], [-116.2044013613933, 40.56058934771216], [-116.0882895527918, 40.70696658991145], [-115.854207638818, 40.83673078858116], [-115.6731826776668, 40.95490933326867], [-115.4778713511958, 41.03495777380909], [-115.2175352702359, 41.08710027595377], [-115.0109492565007, 41.12806720970379], [-114.7394037712626, 41.14098751070878], [-114.5066310205292, 41.10560491665219], [-114.3259127567276, 41.05993827898189], [-114.1199151525811, 40.93862092423808], [-114.0174247681257, 40.79759130079216], [-113.8658000466827, 40.66592569668866], [-113.766357391328, 40.52431625620327], [-113.6673387151146, 40.3826288954967], [-113.5179534162524, 40.25049227185372], [-113.3692066862891, 40.11821517201292], [-113.2716618160267, 39.97626367883892], [-113.1861535513073, 39.87213728978097], [-113.0274630418414, 39.7016548199114], [-112.9312643000974, 39.5594911065028], [-112.7853392448401, 39.42669711054699], [-112.6406753781704, 39.29347222584147], [-112.4968879597236, 39.15995290036994], [-112.4147033332368, 39.05486437975254], [-112.2120957732828, 38.89182750038054], [-112.1200361584415, 38.74836318051642], [-111.9789018516095, 38.61393076511118], [-111.8385905460818, 38.47913922926256], [-111.6498329195137, 38.35300359807231], [-111.4617690367787, 38.22659175896251], [-111.2354096233214, 38.14706752584083], [-110.9611310444019, 38.07551975451754], [-110.7953364961255, 38.02426949495625], [-110.5716416533667, 37.94263084916813], [-110.3880924739316, 37.81325311915616], [-110.2051265212769, 37.68354325694856], [-110.0804108971217, 37.58397909606307], [-109.8984715282896, 37.45368334161927], [-109.7081188668243, 37.28424468469188], [-109.632998050379, 37.17571244197958], [-109.558090393824, 37.06701105514188], [-109.3607858622738, 36.85719127777173], [-109.2778054389231, 36.70893328850183], [-109.0907685967594, 36.5368824852326], [-109.0004314535338, 36.34773785955767], [-108.9188336764623, 36.19773795173717], [-108.8542669454511, 36.12656725820701], [-108.7085391100005, 35.90530906938768], [-108.6750920074613, 35.74721622790516], [-108.5942407722331, 35.59680041219357], [-108.544486801972, 35.35903029607308], [-108.5031852823811, 35.16057126525235], [-108.4707397085748, 34.99979540729992], [-108.4385050686838, 34.83826325379955], [-108.3592135199596, 34.6842599561653], [-108.2800996505761, 34.52996497761765], [-108.2013253033541, 34.37463877178777], [-108.1537812148083, 34.12996519649943], [-108.0674629759412, 33.93298077137116], [-108.0281747382966, 33.72786233579837], [-107.9503953129748, 33.56913889799562], [-107.9271772841813, 33.44424821176511], [-107.9039879320963, 33.31915253475359], [-107.8110785560378, 33.0758372309872], [-107.733740568884, 32.91566866761959], [-107.6488314545428, 32.71348966642755], [-107.5564754138541, 32.46870010935431], [-107.4871586670947, 32.34977011563605], [-107.2848711871341, 31.97708969883594], [-107.1189422623956, 31.8418857911146], [-107.0512832820267, 31.73297240905622], [-106.8789730999028, 31.55941087358089], [-106.7599822255271, 31.41838027922402], [-106.5967294762804, 31.28325781110517], [-106.4269828314178, 31.10984490160799], [-106.3540827876006, 30.96290343215225], [-106.237297940738, 30.82198066022482], [-106.1653520134891, 30.67527273552196], [-106.0493237933648, 30.53431926509548], [-105.933679394893, 30.39331989664342], [-105.8117401365173, 30.21417812819301], [-105.7476413778256, 30.10555154728484], [-105.6705081802829, 29.9207533009739], [-105.6067980053476, 29.81214308450878], [-105.5302133722001, 29.62740232682279], [-105.4605508427195, 29.48075075967083], [-105.3540536392018, 29.37767374129751], [-105.3224791676729, 29.18726149792499], [-105.2599918950471, 29.07851537929385], [-105.2349211023088, 28.92610582945397], [-105.1602117784521, 28.7410491297077], [-105.1353521853175, 28.58855693749871], [-105.0671944688072, 28.44153067726111], [-104.9991978257343, 28.29448115183225], [-104.9685263088575, 28.10376037170629], [-104.9442112179476, 27.95089174947108], [-104.9199547996365, 27.79795414969119], [-104.9018009202824, 27.68320672416307], [-104.877646476168, 27.53015147097678], [-104.8535488500668, 27.37703295575187], [-104.8664691883037, 27.18001014326106], [-104.8364948166187, 26.98829703164482], [-104.8553887992895, 26.82940894384994], [-104.8315225540837, 26.67574006324837], [-104.8078030532998, 26.52158811357183], [-104.7841303310728, 26.36731599215022], [-104.6752032544099, 26.22381294366273], [-104.6090971311817, 26.07467697684834], [-104.5431232006595, 25.92534389557322], [-104.4772695662424, 25.77587730290786], [-104.3690359395897, 25.63162297616468], [-104.3459240854679, 25.47654425839838], [-104.2322689094072, 25.29306418618906], [-104.1245792194224, 25.14752154179481], [-104.0594090119919, 24.99655415503891], [-103.9096604917229, 24.85530208546422], [-103.7290086199214, 24.7972021332047], [-103.6331022437521, 24.72884504512816], [-103.4470167093366, 24.63109781865086], [-103.303417235105, 24.52829038173058], [-103.1654727522189, 24.46466306161537], [-103.0221391516996, 24.36160685240398], [-102.7998388057245, 24.307353379342], [-102.5721489348056, 24.21293800549001], [-102.3974186808069, 24.19159444137501], [-102.2225351882032, 24.16964381857905], [-101.9998627071843, 24.11217719630055], [-101.7028415558102, 24.14190839640659], [-101.5754556085525, 24.1544775052946], [-101.3153223071319, 24.13971972399231], [-101.1023785266126, 24.15935865882297], [-100.8463864125373, 24.18216298770791], [-100.6755587238534, 24.19713972085171], [-100.4618416496039, 24.21560232066336], [-100.2907257219614, 24.23016583936118], [-99.9474726399432, 24.25783735920029], [-99.77527243493266, 24.27093631281849], [-99.51622065481502, 24.28970006196169], [-99.29950582108354, 24.30440391191071], [-99.12573737929273, 24.31579630847045], [-98.91800522749503, 24.40964723282021], [-98.79216685756113, 24.45786934840011], [-98.62737087314297, 24.54866433152085], [-98.46226232672981, 24.63932195947762], [-98.25783992058265, 24.77241337091793], [-98.14069053289573, 24.90004965810816], [-97.97937590201441, 25.03017009712254], [-97.85653848448581, 25.11735224739641], [-97.74694307791816, 25.32351712846687], [-97.67194222325237, 25.44736586674652], [-97.60099183974113, 25.61065763318472], [-97.61877726032755, 25.76911495954561], [-97.59197647023986, 25.92964320082972], [-97.60963387912638, 26.08761583962675], [-97.63598295936796, 26.32413866339077], [-97.60902720611419, 26.48424045378141], [-97.63027937324131, 26.68059101005875], [-97.63871561872895, 26.75904317619557], [-97.61516138728749, 26.95770410022671], [-97.63206182093516, 27.11439870500083], [-97.60384934078874, 27.27356834860333], [-97.57500024454191, 27.43241731423249], [-97.46437377853356, 27.67475420976182], [-97.3899170298029, 27.83611707193698], [-97.31118537221835, 27.95843657181091], [-97.23976950616213, 28.15862747733179], [-97.16332301195531, 28.3197081631365], [-97.08328635006394, 28.4418628972992], [-96.96453820724028, 28.64460878616853], [-96.79566807437837, 28.81090514237646], [-96.6717686424046, 28.97465703116247], [-96.54662010828115, 29.13815988569175], [-96.46397419377459, 29.26026757038329], [-96.33784504841515, 29.42390603757423], [-96.21078769691496, 29.58755515297233], [-96.07651377529317, 29.67314640735007], [-95.94754077827722, 29.83683566269754], [-95.81520045617009, 29.96149099921986], [-95.68513029856683, 30.12527041486785], [-95.50379033785424, 30.25242222284981], [-95.3689979148489, 30.37714288491999], [-95.18554019726427, 30.50426671214102], [-94.99834853852619, 30.59212932371474], [-94.76457929590532, 30.72145795265973], [-94.52740775838599, 30.81129594122173], [-94.33784978946166, 30.89875328433525], [-94.14462586410517, 30.94673345745923], [-93.94906555067548, 30.9946990131253], [-93.75139684888974, 31.00290030444392], [-93.60284862938654, 31.00886371617555], [-93.35470365606992, 31.01844480456446], [-93.15327551449467, 30.94637704177276], [-92.95100710436735, 30.87391452602828], [-92.79612270025015, 30.75968203956367], [-92.63986949199041, 30.64523187608965], [-92.53261679944076, 30.48908388769066], [-92.42557407380218, 30.33265331878055], [-92.2682817929088, 30.17720635678868], [-92.11369454279871, 30.06118424719718], [-91.9099997539264, 29.98580641736557], [-91.70407015862214, 29.90991703495827], [-91.4472444834158, 29.87437938023237], [-91.24099060670272, 29.83749038967506], [-91.03467475367074, 29.84042197419413], [-90.82784516082873, 29.843035565805], [-90.62351246259377, 29.96597904327433], [-90.416651501193, 30.04869988401542], [-90.31411041327189, 30.17072974145195], [-90.1585945400252, 30.33372161299491], [-90.05425363834996, 30.49643597393761], [-89.89504677657317, 30.61932009132621], [-89.6797401631562, 30.70225944845622], [-89.4597050925994, 30.70393671300844], [-89.23809501191602, 30.74595885969804], [-89.12566030533276, 30.82802005294666], [-89.01102408891448, 30.99176572697069], [-89.00744714690555, 31.15505835313022], [-89.00295712040146, 31.35926945996653], [-88.99934827519266, 31.5227158136102], [-89.05186732286164, 31.68559977908498], [-89.04833911643323, 31.84910200904623], [-89.09883834068764, 32.05289704440533], [-89.0941918817957, 32.21661005149575], [-89.14563123980604, 32.37948014578143], [-89.19612427051025, 32.5832106286619], [-89.19052576618033, 32.78800330026035], [-89.1871566463876, 32.91093106850151], [-89.18151187929038, 33.11589559148762], [-89.11793672363403, 33.36333058031735], [-89.05631455330884, 33.52891986032127], [-88.99314594503885, 33.73578254442644], [-88.85977895588076, 33.98793498141787], [-88.78871895784724, 34.15609760471564], [-88.65922955619956, 34.32613278267233], [-88.466914865155, 34.53996339790414], [-88.2803422723579, 34.67036939365504], [-88.09254050103638, 34.80093529773458], [-87.85241576673587, 34.84877648267971], [-87.55599549062934, 34.85536936522936], [-87.25831569366893, 34.86126456471948], [-87.01779799526273, 34.82449608966726], [-86.78389769511874, 34.7028103138367], [-86.61224462245345, 34.57915528107435], [-86.50304369431998, 34.45398128045202], [-86.33680875128962, 34.2870449728946], [-86.17094597279508, 34.11958723426072], [-86.1300445261182, 33.95049865808805], [-85.9649445984356, 33.78235059217696], [-85.85389546353483, 33.6146495857119], [-85.80381308244634, 33.44663805026372], [-85.75389097745617, 33.27849898305136], [-85.70413502841565, 33.110235348713], [-85.58630792370943, 33.02585045514301], [-85.4212243367108, 32.54825046346541], [-85.28205968120464, 32.5067293801347], [-85.1022633183197, 32.34683628382112], [-84.9667656613805, 32.22703933997229], [-84.83153778114128, 32.10702928517169], [-84.64964898014715, 31.98567435017785], [-84.46598439790401, 31.90296039969287], [-84.32909325102891, 31.82127897825805], [-84.14211664760809, 31.7772909105024], [-83.95975448740394, 31.65486587929729], [-83.77523751973177, 31.5711036577238], [-83.59086488361828, 31.48696879525152], [-83.44878931111651, 31.48227306914217], [-83.21978208866626, 31.35672046093534], [-83.0356778038509, 31.27151140649201], [-82.84779064626126, 31.22520161948838], [-82.65325781540452, 31.25698216734311], [-82.50628002569329, 31.29046602230966], [-82.3464789649047, 31.48081746193929], [-82.18896718848936, 31.63201152781358], [-82.12763074916649, 31.78723831336016], [-82.01746481876947, 31.94058218824603], [-81.95550807096552, 32.09599764002365], [-81.93873246295676, 32.29282750403235], [-81.91608399975743, 32.52967502436855], [-81.9043604004061, 32.64826362857184], [-81.88474004561232, 32.84605111638959], [-81.86501236707512, 33.04400969649561], [-81.84119948310708, 33.28177763961114], [-81.82123960106453, 33.48009453662716], [-81.75141165118463, 33.67684053973313], [-81.6344186361505, 33.83259718536807], [-81.56062245593577, 34.03084676800309], [-81.4858031580868, 34.22958569398735], [-81.41541283474616, 34.38849871776292], [-81.23744545666824, 34.58470544729632], [-81.16593255119525, 34.74409483408954], [-80.9911015480397, 34.90051957771464], [-80.86684619298194, 35.05871301806138], [-80.68926932113793, 35.21576530528392], [-80.50308838404439, 35.41428899786754], [-80.37346395540165, 35.57427920057952], [-80.19009403151858, 35.73292802725932], [-80.06414882301547, 35.85281122132193], [-79.88378189079364, 35.97141325076368], [-79.74911796314072, 36.13286020859335], [-79.55962871755048, 36.29294953885634], [-79.42294632173112, 36.45488981789261], [-79.28442816123948, 36.61751273136529], [-79.14298968570301, 36.781331832146], [-79.05521769391552, 36.94721412584956], [-79.02164481663345, 37.11520231985266], [-78.86876810293224, 37.3223738162423], [-78.72293258215115, 37.48797203746065], [-78.69638513265087, 37.61490025293113], [-78.5862097795705, 37.86800117976487], [-78.4349145825797, 38.0361296342991], [-78.3944173327109, 38.20848634719829], [-78.3535238267191, 38.38127979007666], [-78.36986257149562, 38.5556663179018], [-78.31824382805038, 38.77262131450627], [-78.32419374563472, 38.99126104633915], [-78.3033417709073, 39.07842372038682], [-78.30937303095911, 39.29767969506605], [-78.29586203477619, 39.56677063860565], [-78.24751868312026, 39.74613014428434], [-78.18653058915115, 39.97105024402076], [-78.14963792715926, 40.10638567602981], [-78.08763919594116, 40.33257891551338], [-78.02499237545071, 40.55956475695914], [-77.97440314388128, 40.74172047212901], [-77.9233918388843, 40.92437887091126], [-77.93324469789971, 41.10790904430407], [-78.00466363558392, 41.29210345823071], [-78.076588234262, 41.47651539230608], [-78.14905523840625, 41.66111608628998], [-79.61595563098096, 42.35269085911496], [-78.65663403097702, 42.1830998201092], [-79.0854284099307, 42.37049875699907], [-79.31769800453038, 42.38116732358679], [-79.5496346307838, 42.39139804174199], [-79.7893056695948, 42.36016723272704], [-79.98687601492978, 42.24426129543273], [-80.13293559812779, 42.08571195341012], [-80.2129608900883, 41.96586147302348], [-80.36481018893971, 41.7669238131873], [-80.49986471832932, 41.64981318637761], [-80.69656900992207, 41.49492355179568], [-80.8780519052435, 41.4209611780209], [-81.1211025590545, 41.30864059252733], [-81.35643970660881, 41.23634231437079], [-81.59010732954444, 41.16401266876726], [-81.82722878276208, 41.05183867905151], [-82.05101132170837, 41.01990785400696], [-82.22550475278018, 40.94556887860394], [-82.44797511452887, 40.91302637854218], [-82.729114388496, 40.84180815402954], [-82.95496681286987, 40.7685427485544], [-83.17329983487643, 40.73578105618879], [-83.39098144875842, 40.70271179932289], [-83.60812520701243, 40.66928458043822], [-83.82472788917497, 40.63550233095396], [-84.04078561706575, 40.60136640975853], [-84.19966373776089, 40.6052619350205], [-84.46363861126275, 40.6115699542977], [-84.72964274520373, 40.57828325496023], [-85.04422932172777, 40.58506880192112], [-85.30899735598251, 40.55052604510632], [-85.51808970306394, 40.55410866335387], [-85.72696697075345, 40.55731973405655], [-86.0387322995194, 40.56233643551872], [-86.29809221317217, 40.56602672284108], [-86.5054164179912, 40.56856121356834], [-86.71064407129083, 40.61016228634972], [-86.91600002992496, 40.65137429262596], [-87.12147912788721, 40.69219592688493], [-87.32661046442222, 40.73314205689814], [-87.53169497011913, 40.77395451839076], [-87.73542452168614, 40.85419955379209], [-87.88787298777913, 40.93401491524114], [-88.14429522065265, 41.01370850235826], [-88.34836264321598, 41.13285424007311], [-88.5531963058953, 41.25175734664053], [-88.65393036252762, 41.4107827309801], [-88.75654894361837, 41.49032528856684], [-88.90990109180865, 41.68929074948231], [-89.01243964616968, 41.84857126748809], [-89.11600093748928, 41.96794504761944], [-89.1134608701269, 42.20808115935167], [-89.16421682948784, 42.36940453628323], [-89.1622034000407, 42.53125991458765], [-89.16017665343212, 42.6933582107655], [-89.2115967202818, 42.85536638122359], [-89.20972221387512, 43.01794437515291], [-89.26165552932555, 43.18039010976133], [-89.25993899700966, 43.34343620862239], [-89.31200570120815, 43.54716222696816], [-89.36545346844393, 43.62883521133207], [-89.47188553427202, 43.87625915061118], [-89.52522037101942, 44.04169933189569], [-89.68864657000479, 44.28928531787511], [-89.74329070790601, 44.45524845554331], [-89.85385099656718, 44.5789630584131], [-89.96519926032225, 44.78634845733373], [-90.021458906541, 44.95315682170099], [-90.13395286166639, 45.1215331697655], [-90.24727406201404, 45.29077604689392], [-90.41803698277798, 45.45961796849264], [-90.70133953566287, 45.49865993340899], [-90.8719464301785, 45.53886157663635], [-91.15617630448502, 45.57681309349844], [-91.38272957295293, 45.57245276566297], [-91.61099988210592, 45.61168463830661], [-91.84170744029777, 45.69347068474288], [-92.01643732885516, 45.77601216404243], [-92.25374983781367, 45.94321021543481], [-92.43303194057027, 46.06854127430184], [-92.6106385361846, 46.15068471124086], [-92.79496424959785, 46.31898521012231], [-92.97798597627718, 46.44579416247182], [-93.22072698184675, 46.57270669159343], [-93.40678858293825, 46.70081233824437], [-93.53958750043446, 46.87457893480889], [-93.73254106082156, 47.04711765261552], [-93.92729086334475, 47.21980656481114], [-94.05969372190387, 47.34985191286224], [-94.25273319181882, 47.47848729036633], [-94.38760048318234, 47.60981755960603], [-94.58367967067323, 47.73981425723149], [-94.7875346389247, 47.91654856431657], [-94.9314700802457, 48.03890921834304], [-95.23893764975796, 48.22092403171026], [-95.55994705045515, 48.51748914689374], [-95.69233501284084, 48.66652219271959], [-95.82939715145174, 48.85377934245432], [-95.90450416500349, 49.00499592259305], [-96.03467978328119, 49.11498535987455], [-96.1147466857155, 49.30438528642377], [-96.12731265309799, 49.41965154731238], [-96.20782694595715, 49.60898720411119], [-96.34422155055984, 49.75697897621821], [-96.41720049991548, 49.86932807539768], [-96.61951487042735, 50.05244246509365], [-96.76320221180895, 50.23831409687635], [-96.96338255093507, 50.38236709865884], [-97.15947157371254, 50.48774005633214], [-97.36165058430583, 50.63120275485433], [-97.49872710920411, 50.73963646312162], [-97.70838666982486, 50.92126798153779], [-97.847215933976, 51.02936471081939], [-97.93136421175696, 51.17953593994879], [-98.14492625079488, 51.36055697937696], [-98.2985656984043, 51.54520067753898], [-98.44084355734077, 51.6527213420819], [-98.59027697397907, 51.79872648839823], [-98.80293821014563, 51.94056684070598], [-99.01014123340481, 52.04361881516405], [-99.15592585427719, 52.15101770611252], [-99.36513516861322, 52.25386993468543], [-99.57542798235683, 52.35640149180304], [-99.92048964394283, 52.48798597510623], [-100.1967316166946, 52.58522004123215], [-100.482866654615, 52.72058807624308], [-100.7710292221228, 52.8553699445388], [-100.861163269583, 52.96643859908741], [-101.088636837209, 53.10578227367176], [-101.3273040536362, 53.28371492414857], [-101.5040760135896, 53.46727697967416], [-101.5984137367365, 53.57901069918759], [-101.7786349944382, 53.76345721429603], [-101.9398450268179, 53.86965352419897], [-102.1126702307428, 54.01488188212534], [-102.3416979032893, 54.1150540710284], [-102.5832873791233, 54.25407010228276], [-102.8817849483169, 54.34797973377684], [-103.1821791161986, 54.44143284946961], [-103.4178195011304, 54.54053550943028], [-103.6548772937137, 54.63929074859656], [-103.9602132216639, 54.73115045054569], [-104.2679147569398, 54.82288512130727], [-104.5110748530949, 54.92153212059633], [-104.7273424111379, 54.94075509523157], [-105.1083211645556, 55.02478930240283], [-105.3935150847429, 55.03579224075998], [-105.7110599626576, 55.12598419570284], [-105.9989142559223, 55.13639593208394], [-106.3035904584277, 55.18577980630083], [-106.6094816113976, 55.23447352732801], [-106.916775919323, 55.28259674242118], [-107.2266021504334, 55.33079637336091], [-107.5376663482668, 55.37825770585028], [-107.7993896647805, 55.47292174300036], [-108.081716276945, 55.60693938689252], [-108.2272714328321, 55.75758474318967], [-108.3746751505763, 55.90858270133116], [-108.5040178221151, 56.01991216041138], [-108.6234517542308, 56.25969114243485], [-108.7065944741737, 56.42123926712369], [-108.7906162750744, 56.58305713851392], [-108.8542162357124, 56.70459181201588], [-108.9613458038874, 56.90747879672485], [-109.0699393964052, 57.11078090097993], [-109.1578725839562, 57.27371461216864], [-109.2915657880357, 57.51858884736419], [-109.38242646937, 57.68246281889581], [-109.4297093478999, 57.7653977748936], [-109.5973820395582, 58.05631800138046], [-109.6947962921252, 58.22303940445862], [-109.8189858503644, 58.43238363264742], [-110.0221873822352, 58.63333141873833], [-110.2020926511906, 58.792316805271], [-110.3322480510148, 59.00264273331575], [-110.4401192121624, 59.17269344382787], [-110.5507105017919, 59.34395098294949], [-110.6627355199021, 59.51559105077246], [-110.7762224329641, 59.68761054213243], [-110.7305347493974, 59.8790361452727], [-110.7651228182171, 60.06142125230932], [-110.6371213734823, 60.26300970636459], [-110.5893675133467, 60.45554752600935], [-110.5371245002537, 60.5090105342531], [-110.6893584670139, 61.08763010777461], [-110.7834346630099, 61.23689580157258], [-110.9023598158958, 61.42349325485571], [-110.9985802061201, 61.57277443357493], [-111.1449543052605, 61.79673038650314], [-111.2451156331992, 61.94626031361364], [-111.2663701799449, 62.10707013655734], [-111.313715785777, 62.305472556538], [-111.3356334294126, 62.46650821578523], [-111.4404621849507, 62.61660687021756], [-111.5731248226156, 62.80430028217916], [-111.7344814169196, 63.0295532842845], [-111.8985276000639, 63.25488540148325], [-112.0963823343474, 63.39433082707322], [-112.3262049655777, 63.57158747114876], [-112.5595840865505, 63.7488435110343], [-112.8834214508111, 63.86386898961188], [-114.2423832150251, 63.97004979713049], [-114.9818262954264, 63.95149906481364]]]}}, {"type": "Feature", "properties": {"name": "Range in 1870", "part": 1, "total_parts": 2}, "geometry": {"type": "Polygon", "coordinates": [[[-117.3243443817605, 59.80042566603166], [-117.7781089434654, 59.4551883867798], [-117.9710956015625, 59.15585284025849], [-118.2941882939829, 58.84305702535379], [-118.4914110643253, 58.55630981115515], [-118.5617499293806, 58.29187770371976], [-118.7530416831386, 58.00600384891072], [-118.8237396818558, 57.57501396579986], [-118.8890799771111, 57.31286049075607], [-118.8969151154934, 56.98002771989271], [-118.9067528737495, 56.65001937163139], [-119.0254584299851, 56.29411467867719], [-119.04099311515, 55.97166846826698], [-119.1108959766331, 55.7203893468536], [-119.1270372009315, 55.40060020570616], [-119.1425949592274, 55.08145718646025], [-119.0463995036474, 54.78491098031223], [-118.9519006227474, 54.48922129088389], [-118.9684904610111, 54.17273789281932], [-118.8763386845489, 53.87887688838348], [-118.7365286512055, 53.518202750859], [-118.5486186007618, 53.25216578411148], [-118.5794876883798, 52.94654899292509], [-118.3534073873802, 52.61752293254951], [-118.1754894006891, 52.35475967873037], [-117.8992137457789, 52.11490185432496], [-117.6273227137851, 51.87546557525476], [-117.4606039223529, 51.61510505671226], [-117.1943997530691, 51.37542562197403], [-117.0313581541558, 51.1148409588064], [-116.8705844622355, 50.85474234407305], [-116.513232192197, 50.63528114442309], [-116.2661901423633, 50.39985184946411], [-115.9231140533396, 50.18360306168785], [-115.6824587787548, 49.94793675871981], [-115.4446368663931, 49.71226427617519], [-115.1773654510314, 49.414087387179], [-115.0109871098483, 49.09774795826537], [-114.8796264325656, 48.84493237708797], [-114.7497809362058, 48.59235192121667], [-114.653153021807, 48.402960249019], [-114.4933084765303, 48.08731996217174], [-114.3366609886576, 47.77263062430814], [-114.187099524178, 47.46074232825962], [-114.0688404570951, 47.21134339546161], [-114.0143761389083, 46.88154041509046], [-113.9895531972531, 46.61426195730193], [-113.8742935590489, 46.36541642592319], [-113.8504151987396, 46.09854938762404], [-113.7370286991549, 45.85009006851291], [-113.53541009936, 45.61984277022565], [-113.3357346971089, 45.38957940119827], [-113.1379690719652, 45.1593120029865], [-113.0318007160297, 44.91181306562456], [-112.7527374002062, 44.69989618537457], [-112.5636651455701, 44.4702404900402], [-112.3770615478202, 44.24059527125079], [-112.2545966680503, 43.93187329515301], [-111.9852727328518, 43.71904693246732], [-111.8897550379128, 43.47192246362028], [-111.6240031772692, 43.2584952287207], [-111.3602965724969, 43.04460854065132], [-111.0986220161933, 42.83027985885441], [-110.8389663590556, 42.61553774157112], [-110.4968851328575, 42.41642439960877], [-110.2415186482563, 42.20073248994093], [-109.9898415968158, 41.98425577489031], [-109.6561598701142, 41.78275098583534], [-109.3657916125664, 41.7042230847154], [-109.0368918570136, 41.50049226538523], [-108.7292506566334, 41.35811248809507], [-108.4418958030961, 41.27726425606502], [-108.0723217871374, 41.20998232085676], [-107.7402231208092, 41.26646458264599], [-107.3896890285827, 41.25947013598118], [-107.0393900161472, 41.25141926865527], [-106.7068745519714, 41.30455466961034], [-106.3739655099196, 41.35642005074085], [-106.0404878836537, 41.40732913951983], [-105.7064643906091, 41.45727648530104], [-105.3719116611349, 41.50625208196401], [-105.0368498203962, 41.55425788248934], [-104.7852356433027, 41.58962354193452], [-104.3652948936159, 41.64734165687238], [-104.0287674010975, 41.69236654158419], [-103.6909829474269, 41.73597309223829], [-103.3525850474206, 41.7786378067884], [-103.0135732137179, 41.82033165887248], [-102.6460894096429, 41.73459784998701], [-102.3064847684625, 41.774228545427], [-101.9530170065826, 41.749530153732], [-101.5274471676275, 41.79638521784526], [-101.1733924287754, 41.76916583062057], [-100.9160086184484, 41.79538241611727], [-100.4861257364095, 41.83784407150949], [-100.227666675614, 41.86257774161501], [-99.79605085424669, 41.90254362509917], [-99.363410043091, 41.94093778683119], [-99.03825139470172, 42.09823299930997], [-99.00205069207333, 42.42429937618309], [-99.05206520552956, 42.74297204457395], [-99.09246827928841, 42.99794227789436], [-99.31047607810152, 43.23780813279651], [-99.44122794297941, 43.4849421644661], [-99.48377382582628, 43.7397220512789], [-99.15735629225502, 43.96170334961044], [-99.00848157832279, 44.16808438679166], [-98.67748271818769, 44.38902436303766], [-98.34296357839575, 44.60930866485151], [-98.00355097502951, 44.82921502843462], [-97.76128366020556, 45.10601423327726], [-97.70023781075551, 45.36989452625602], [-97.63855184996052, 45.63403279094643], [-97.57621827818859, 45.89841779631773], [-97.60819962724712, 46.15615668611391], [-97.6323928595157, 46.34955418218401], [-97.7773023008052, 46.72943419928897], [-97.7940158886802, 46.85845932613119], [-98.0295761460858, 47.1663567812011], [-98.35570185035975, 47.40143258927309], [-98.59556950761632, 47.70856881008247], [-98.82561709775482, 47.95240532809479], [-99.03805217866261, 48.06662330053911], [-99.36811550488245, 48.30243129844084], [-99.70140752554627, 48.53740653319444], [-100.0272974040065, 48.70627956036152], [-100.3442615579687, 48.80902303480334], [-100.78447960865, 49.03152539159291], [-101.2036434811857, 49.12200471271896], [-101.635375049781, 49.27822882389541], [-101.8723769311189, 49.45369688151775], [-102.210260720066, 49.61832912431131], [-102.6351381642322, 49.7059202240542], [-103.0922623291268, 49.92220152117586], [-103.437911302443, 50.083271667161], [-103.9686050075144, 50.15427986992876], [-104.4180530621418, 50.30255428293614], [-104.8704116335662, 50.44977050653676], [-105.1258019490791, 50.62039650128653], [-105.5837816144091, 50.76723584199414], [-105.9647051144702, 50.9923039795689], [-106.3290593284344, 51.15023649565293], [-106.7396943751796, 51.43975084595203], [-107.0095191065551, 51.61112867241689], [-107.2022303789929, 51.86359307665083], [-107.6040412478119, 52.08794583413351], [-107.8827099533814, 52.25923646235108], [-108.318163383696, 52.54878787035558], [-108.6036369864553, 52.71904648298975], [-108.9182876864957, 52.95568619028285], [-109.2643632298212, 53.2588256047825], [-109.5597920349259, 53.42771810762994], [-109.9968869946491, 53.65381496479847], [-110.3329669535086, 53.89660890924083], [-110.7823746955061, 54.12250886055977], [-111.1291716692191, 54.36452955842389], [-111.3714530394877, 54.62363536746], [-111.5070354290021, 54.90052566091487], [-111.6797150410175, 55.24753004360538], [-111.8917687624361, 55.66520135334144], [-112.0361611752966, 55.94438525328781], [-112.1061243688267, 56.31405174860149], [-112.1446113749182, 56.62186521048423], [-112.3009737826056, 56.91201055586286], [-112.3823108847108, 57.29501484528515], [-112.5447956333493, 57.58768343269133], [-112.7111112830239, 57.88213895090739], [-112.9237759832181, 58.25144718589762], [-113.097847342841, 58.54785764891096], [-113.1950922594904, 58.93862114440658], [-113.2538537929687, 59.26300264783657], [-113.4450354496457, 59.57353628617639], [-113.6407120003125, 59.88525856093341], [-114.1019676779934, 60.15683803349497], [-114.7286128191942, 60.22957601047033], [-115.3042133310336, 60.22160952149949], [-115.8281436737385, 60.13879524993157], [-116.3497690651423, 60.05396725619507], [-116.8689547770811, 59.96705042975781], [-117.1668086149463, 59.88408967598794], [-117.3243443817605, 59.80042566603166]]]}}, {"type": "Feature", "properties": {"name": "Range in 1870", "part": 2, "total_parts": 2}, "geometry": {"type": "Polygon", "coordinates": [[[-102.9281833325829, 40.66129365176], [-103.2192614295136, 40.43026999068847], [-103.5226356610756, 40.26184845199593], [-103.8243810080696, 40.09270767596906], [-104.1243569199011, 39.92263406477623], [-104.3704190035674, 39.88861239729004], [-104.7493476874222, 39.70460414112021], [-105.060393112804, 39.59431117139405], [-105.2733990379527, 39.43227870288452], [-105.4535385874051, 39.14199952387098], [-105.6483160390455, 38.91428159544045], [-105.5846508489854, 38.65986351292536], [-105.5213633705128, 38.40511651281214], [-105.4584490751027, 38.15004978374886], [-105.395914279442, 37.89467334491757], [-105.3337358797741, 37.63896340564732], [-105.1772168755012, 37.33113542345389], [-104.9578364809035, 37.09896394844196], [-104.7396143150885, 36.86619623509257], [-104.6013172469984, 36.62103300005123], [-104.3846448187638, 36.3846846104318], [-104.2471737554836, 36.13500238861322], [-104.1885592215516, 35.87293971129482], [-104.1156853099373, 35.54464343481875], [-104.0576865248361, 35.28137054689174], [-103.9998148590221, 35.01698494105161], [-103.9278505997948, 34.68577173914057], [-103.9480370375122, 34.40947107312567], [-103.8766024902147, 34.07689017364851], [-103.8968191440344, 33.7997297755133], [-103.8392796382673, 33.52881162215585], [-103.8584653854653, 33.24529572831164], [-103.8010187903038, 32.97201657718601], [-103.743779941544, 32.69800896127401], [-103.6104251593055, 32.43413210759027], [-103.4775107635212, 32.16944313896553], [-103.192737467307, 31.92520883921511], [-102.9225017107484, 31.74875688843095], [-102.7151116225403, 31.49152807225495], [-102.4459496715484, 31.31317072307627], [-102.114724072265, 31.21368223599405], [-101.7837588199443, 31.11321379352218], [-101.3901072762121, 31.09130215678085], [-101.0844795988498, 31.12603557902721], [-100.6878113970461, 31.09502515825412], [-100.3803933049927, 31.12566164283144], [-100.0725184210499, 31.15559188712887], [-99.76420459766383, 31.18481329704623], [-99.46786510178089, 31.28387378128285], [-99.18315688436407, 31.45277488203062], [-98.97514195487004, 31.61416502367101], [-98.68877578570012, 31.78162682890743], [-98.33460108709134, 32.02340509738842], [-98.055292831481, 32.25501299186794], [-97.8658343634128, 32.55130207682812], [-97.83426276161728, 32.83702207672307], [-97.79062454710419, 33.05209672485235], [-97.75878979331769, 33.33659572022466], [-97.73878419144896, 33.6899605793584], [-97.63409655448716, 34.04167352905462], [-97.66680797778638, 34.24569950613333], [-97.65192390935019, 34.65792561968865], [-97.60402881797457, 34.8661718094275], [-97.6479224285901, 35.13670186692353], [-97.62182480675274, 35.47924247813307], [-97.58452892946224, 35.7537640689873], [-97.53599143014486, 35.9605984783564], [-97.49827350295786, 36.23423636064106], [-97.55353734409984, 36.5690612773998], [-97.52132226585381, 36.90384285284639], [-97.49890520423159, 37.3040313934443], [-97.44606182892257, 37.50654093554028], [-97.49649524119468, 37.83488965410699], [-97.52692299070652, 38.03163749782222], [-97.49403224102049, 38.36456130802294], [-97.45069836489033, 38.63165697662749], [-97.4813100751198, 38.82767006424827], [-97.5326290493926, 39.15386389024028], [-97.48838525009931, 39.419706937683], [-97.53469192660927, 39.7425360240682], [-97.73383206101187, 39.92459185881724], [-98.11485874012425, 40.15832347745665], [-98.47698351757121, 40.26168121328384], [-98.93241587413105, 40.4198408230376], [-99.29347596219708, 40.51928195512702], [-99.72884508514065, 40.54589262879191], [-100.0908128990809, 40.64264498641689], [-100.4533325029689, 40.73814489784314], [-100.9133946769588, 40.88758548438175], [-101.2771265799058, 40.98013521500643], [-101.6396780077016, 41.0706320922303], [-101.9897744361559, 41.09649689545724], [-102.3264486311799, 41.05789876797537], [-102.6625785971794, 41.01834224538352], [-102.9701017486063, 40.85125428987941], [-103.095067530864, 40.64083944766974], [-102.9281833325829, 40.66129365176]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 1, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-113.5129009532159, 57.71187286429856], [-113.5062066528725, 57.77836416873268], [-113.4931166917675, 57.86286135592557], [-113.5212984729676, 57.98153980015831], [-113.5496855758132, 58.10028461334732], [-113.7340059721603, 58.17823186394369], [-113.9117889070388, 58.22629219593675], [-114.144789770795, 58.27078480162959], [-114.3625557858726, 58.25543607271295], [-114.5802290924561, 58.23988520588554], [-114.7894528769225, 58.19450782688512], [-114.926866526753, 58.0936159117246], [-115.0009026042644, 57.96717294376813], [-115.0828969449648, 57.87036564830925], [-115.1557580487215, 57.74410100383546], [-115.3434570446469, 57.63920951132722], [-115.4154863561352, 57.5141067829154], [-115.5487087994815, 57.4141001866887], [-115.6722903984837, 57.28484806315788], [-115.8038405031739, 57.18469090425737], [-115.8821202955743, 57.088775186475], [-116.0032194555349, 56.9594474700591], [-116.0803871011186, 56.86352898386778], [-116.1571151726045, 56.76762671688254], [-116.2242241009055, 56.64276403774119], [-116.2392555374586, 56.52247240751762], [-116.3055617907922, 56.39779750246636], [-116.2689889193653, 56.28224150487062], [-116.2245036367607, 56.13865752492109], [-116.0876473964939, 56.03287879064774], [-115.9601988862167, 55.95568602694422], [-115.7487517082563, 55.94427436700469], [-115.5457430462628, 55.96116437741788], [-115.3587301556917, 56.03506042196762], [-115.2301240583299, 56.13353089792376], [-115.1087768202469, 56.2607118592913], [-114.9279523271356, 56.36371619441609], [-114.7974647047516, 56.46254507054806], [-114.6662129971284, 56.56130122317177], [-114.5341881803968, 56.65998060715402], [-114.4013887637206, 56.75858199533105], [-114.2752323213765, 56.88617045898485], [-114.1407638528899, 56.98463603429251], [-114.0055007689137, 57.08301631809604], [-113.8766007565628, 57.21053430893761], [-113.7996139992135, 57.33459731929228], [-113.6689845731865, 57.46236296821522], [-113.601124858526, 57.54972245504393], [-113.5392032317103, 57.64710083642256], [-113.5129009532159, 57.71187286429856]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 2, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-106.7705004201619, 47.10506091393707], [-106.8331517833625, 47.08932610516474], [-106.9562926605721, 47.000281360914], [-106.99302246444, 46.88486919174068], [-107.0295813770667, 46.7694857623893], [-107.0659727424942, 46.65413507488859], [-107.0603348458597, 46.53993409422727], [-106.9711023318229, 46.42791702643498], [-106.7992228250811, 46.3464264291933], [-106.6314546853016, 46.35032218814077], [-106.4241021907253, 46.41200288251495], [-106.3018556631534, 46.52896089536252], [-106.1780463164163, 46.61726850711558], [-106.0546009407273, 46.7341434014199], [-105.9730422696781, 46.8502329513828], [-105.9763157096935, 46.96483638427087], [-105.9795725590542, 47.07946792848293], [-106.1103863210069, 47.16300951374998], [-106.2813620937729, 47.15952908842409], [-106.4521336139271, 47.15580603457788], [-106.6227413886911, 47.15183322976475], [-106.7067468529469, 47.12114749442091], [-106.7705004201619, 47.10506091393707]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 3, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-110.3594928726434, 45.08023266735655], [-110.4712732180558, 45.07201155583964], [-110.6310781074562, 45.05055944711643], [-110.7914172384953, 45.04115335943149], [-110.9516753164281, 45.0315234448987], [-111.1082798356342, 44.99336435655914], [-111.1738347349544, 44.87482649872518], [-111.1594471023529, 44.76132810195721], [-111.145108862798, 44.64777919121859], [-111.0946545874284, 44.56512777134105], [-111.0010877438284, 44.45639866981566], [-110.9043627529682, 44.31909358284825], [-110.771879024897, 44.21246179670925], [-110.6759638140159, 44.07481149462409], [-110.5476012721802, 43.99629704688264], [-110.3406958180594, 43.92208543183747], [-110.1829876164892, 43.93086701163875], [-110.0252206483172, 43.93943196221429], [-109.873394498609, 44.00482031945812], [-109.721255358601, 44.06999830702491], [-109.608175543025, 44.13277960920104], [-109.5800292930527, 44.24871401040812], [-109.5517824072849, 44.36460310512744], [-109.5633538055848, 44.47858619159158], [-109.5749633581786, 44.59251243129406], [-109.6666999976904, 44.70257777416744], [-109.7985247379606, 44.81034065346883], [-109.884587349634, 44.86307992953678], [-110.017033077852, 44.97046511616497], [-110.1866783595796, 45.04696082266642], [-110.229903736688, 45.07310140364698], [-110.3594928726434, 45.08023266735655]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 4, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-107.0908859254585, 42.42902792540976], [-107.2518110229423, 42.48369572582341], [-107.4499980355772, 42.50812414677499], [-107.6068000216725, 42.50420191765553], [-107.7590501115182, 42.442071819387], [-107.8696258475202, 42.35184581900405], [-107.8996194103737, 42.23469060918868], [-107.9680746695286, 42.11594141085656], [-107.9972209943782, 41.99792039451508], [-107.948658887154, 41.88198433474163], [-107.7862259197658, 41.79832318071234], [-107.6627949819, 41.71335225475178], [-107.5418252733618, 41.65751287580098], [-107.3411652975349, 41.57385092084625], [-107.1859806681401, 41.57717744247149], [-106.9939480460602, 41.61045918118987], [-106.8814735557741, 41.67145873219605], [-106.7332173092649, 41.79116751881794], [-106.7413220809019, 41.90871786330261], [-106.7887129054555, 42.0256200383761], [-106.8362192503032, 42.14235972027571], [-106.922498675938, 42.25774160040524], [-107.0085415575631, 42.37252251352307], [-107.0536012300657, 42.45890410747603], [-107.0908859254585, 42.42902792540976]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 5, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-104.1335681206337, 38.6876506555019], [-104.3248477462371, 38.76290761299577], [-104.5166363493483, 38.80041386773863], [-104.7085965860505, 38.80019633277553], [-104.9003432631455, 38.72486742707152], [-104.9956881357724, 38.5748987057352], [-105.0905868307331, 38.42492925273856], [-105.0899207082251, 38.27544527231871], [-105.0892394826381, 38.12602542544217], [-104.9938292295145, 37.97703911488336], [-104.8514553622619, 37.86552536497967], [-104.6622163076138, 37.75385633321134], [-104.4732575407447, 37.71649561822084], [-104.2842131760489, 37.71615215169638], [-104.0941793540902, 37.82751921455728], [-103.9512212067618, 37.90158456759644], [-103.8067975348761, 38.05028542612202], [-103.7575112412734, 38.16218652429466], [-103.7552341683188, 38.31182021578702], [-103.8008214362175, 38.46176769365242], [-103.8945787050859, 38.61194765667925], [-104.037627899758, 38.68734771935884], [-104.1335681206337, 38.6876506555019], [-104.1335681206337, 38.6876506555019]]]}}, {"type": "Feature", "properties": {"name": "Range in 1889", "part": 6, "total_parts": 6}, "geometry": {"type": "Polygon", "coordinates": [[[-101.2631576693384, 37.1833872912712], [-101.5007065843366, 37.18989808713014], [-101.7380916576063, 37.19593096750694], [-101.8386983955434, 37.04843663020646], [-101.9848042347227, 36.93944799634113], [-102.0832250376635, 36.82930449730903], [-102.0884080444812, 36.67961961695887], [-102.0463745151083, 36.52882533331761], [-101.955744876954, 36.41418220743322], [-101.7714862457853, 36.29698023497631], [-101.5380866426581, 36.25308991145602], [-101.3033442702184, 36.246250091645], [-101.1560448146027, 36.39196552716214], [-101.011039441098, 36.46245654282151], [-100.8620955174022, 36.60784401277947], [-100.7137537916796, 36.71553571822054], [-100.7058080299631, 36.86559389978993], [-100.6978319354288, 37.01566381781389], [-100.7874406979434, 37.13136814777737], [-100.9729707377007, 37.24991043688693], [-101.1624509017386, 37.29308394139174], [-101.2580219151653, 37.29581302315686], [-101.2631576693384, 37.1833872912712]]]}}]}
 };
