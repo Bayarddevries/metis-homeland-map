@@ -2,9 +2,9 @@
 project: "Métis Homeland Map V8"
 repo: "https://github.com/Bayarddevries/metis-homeland-map"
 deployed_url: "https://bayarddevries.github.io/metis-homeland-map/"
-last_updated: "2026-05-20"
-deployed_commit: "latest"
-completion_percent: 87
+last_updated: "2026-05-25"
+deployed_commit: "58c6ed0"
+completion_percent: 93
 pages_source: "master"
 main_js: "js/main.js"
 ---
@@ -28,6 +28,7 @@ main_js: "js/main.js"
 - **Duplicate cleanup** — 30 duplicate location entries merged (229 → 199 unique), 27 clusters reviewed and resolved
 - **Community type normalization** — mapped 64 values to 8 filter categories; added `category` field; cleaned `community_type` values
 - **Popup improvements (#15)** — color-coded header bar, category label tag, source citation for descriptions
+- **Source citations complete** — all 198 locations have proper source attribution (124 Barkwell Manitoba Settlements, 32 individual Barkwell monographs, 44 Virtual Museum)
 
 ## What's Next 📋
 1. **Cart trails** — re-trace with route names (on hold)
@@ -43,6 +44,9 @@ None currently.
 
 ## Recent Commits
 ```
+58c6ed0 - feat: add source citations for all 198 locations (2026-05-25)
+bcab11e - feat: merged St. Pierre + Rivière St. Pierre duplicates; update source CSV (2026-05-21)
+8ab69ff - feat: sourced Rat Portage from Barkwell PDF #14601 (2026-05-21)
 7b41c22 - docs: add ATTRIBUTION.md and cultural disclaimer (2026-05-08)
 ec5f9f8 - Vertical info button layout + stats/theme grouped (2026-05-07)
 ab5a0c6 - Center bottom bar items, fix layer-toggles flex

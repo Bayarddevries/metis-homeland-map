@@ -5,6 +5,22 @@ All notable changes to the Métis Homeland Map project are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project uses dates rather than versions (unversioned site).
 
+## [2026-05-25]
+
+### Added
+- Source citations for all 198 locations on the map
+  - 124 locations cited to Barkwell, *Historic Métis Settlements in Manitoba* (Louis Riel Institute, July 2018)
+  - 32 locations cited to individual Barkwell monographs (per-location PDFs from Virtual Museum)
+  - 44 locations cited to Virtual Museum of Métis History and Culture (Gabriel Dumont Institute)
+  - 0 locations remaining with blank source field
+- Source column in popup now displays for every marker, not just the 32 originally sourced ones
+- `homeland_locations_v4.csv` exported with full source column (uploaded to Google Drive)
+
+### Changed
+- All 166 previously unsourced locations now have proper source attribution
+- St. Pierre + Rivière St. Pierre duplicate entries merged
+- Rat Portage sourced with full Barkwell citation
+
 ## [2026-05-21]
 
 ### Added
