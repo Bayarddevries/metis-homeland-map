@@ -29,6 +29,7 @@ main_js: "js/main.js"
 - **Community type normalization** — mapped 64 values to 8 filter categories; added `category` field; cleaned `community_type` values
 - **Popup improvements (#15)** — color-coded header bar, category label tag, source citation for descriptions
 - **Source citations complete** — all 198 locations have proper source attribution (124 Barkwell Manitoba Settlements, 32 individual Barkwell monographs, 44 Virtual Museum)
+- **Story hooks archived** — all 198 AI-generated narrative hooks (Métis Trail RPG creative prompts) archived and cleared from production data
 
 ## What's Next 📋
 1. **Cart trails** — re-trace with route names (on hold)

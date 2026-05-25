@@ -20,6 +20,7 @@ and this project uses dates rather than versions (unversioned site).
 - All 166 previously unsourced locations now have proper source attribution
 - St. Pierre + Rivière St. Pierre duplicate entries merged
 - Rat Portage sourced with full Barkwell citation
+- **Archived all 198 AI-generated narrative story hooks** (creative writing prompts from Métis Trail RPG project) to `data/story-hooks-archive.{json,md}`; cleared from production `js/data.js`
 
 ## [2026-05-21]
 
