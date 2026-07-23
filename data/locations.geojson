@@ -732,7 +732,9 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -1264,7 +1266,9 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)"
+        "source": "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -1302,7 +1306,9 @@
         "community_type": "Transportation Site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -1435,7 +1441,9 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)"
+        "source": "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -1663,7 +1671,9 @@
         "community_type": "Trading Post, Farm Depot",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -2803,7 +2813,9 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -3392,7 +3404,9 @@
         "community_type": "Hub",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -3544,7 +3558,9 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",
@@ -3563,7 +3579,9 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "needs_review": true,
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
       },
       "geometry": {
         "type": "Point",

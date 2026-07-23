@@ -30,6 +30,7 @@ main_js: "js/main.js"
 - **Popup improvements (#15)** — color-coded header bar, category label tag, source citation for descriptions
 - **Source citations complete** — 191 locations have proper source attribution (122 Barkwell Manitoba Settlements, 25 individual Barkwell monographs, 44 Virtual Museum)
 - **Out-of-scope locations removed** — 7 Barkwell monograph locations deleted (Kansas Half Breed Tracts, Lake Pepin, Michipicoten Post, Milk River, Whiskey Flats, Williams County, Heart Butte) — fell outside Manitoba core Homeland or had coordinate errors
+- **9 Virtual Museum locations flagged for review** — Cypress Hills, Four Persons, Gabriel's Crossing, Havre, Lane's Post, Spring Creek (MT), Upper Athabasca, Willow Bunch, Willow Flats — no non-Barkwell source found in local archive to corroborate
 - **Story hooks archived** — all 198 AI-generated narrative hooks (Métis Trail RPG creative prompts) archived and cleared from production data
 - **Battles layer sourced** — 6 battles with full source citations (4 Barkwell monographs, 1 HSMBC); descriptions rewritten to factual tone
 - **Hover fix** — location markers no longer stay enlarged after hover; `resetStyle` replaced with explicit defaults
