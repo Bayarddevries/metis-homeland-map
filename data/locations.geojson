@@ -10,7 +10,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -29,7 +33,11 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -48,7 +56,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -67,7 +79,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -86,7 +102,11 @@
         "community_type": "Lumber Towns",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -105,7 +125,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -124,7 +148,11 @@
         "community_type": "Fort, Settlement",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -143,7 +171,11 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -162,7 +194,10 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Saskatchewan M\u00e9tis Communities: Historical Overview. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Saskatchewan M\u00e9tis Communities: Historical Overview. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Saskatchewan M\u00e9tis Communities: Historical Overview. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -181,7 +216,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -200,7 +239,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +263,11 @@
         "community_type": "Sanctuary",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -238,7 +286,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -257,7 +309,10 @@
         "community_type": "Settlement, Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Black Butte (Butte Noir). Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Black Butte (Butte Noir). Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Black Butte (Butte Noir). Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -276,7 +331,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -295,7 +354,11 @@
         "community_type": "Harvesting Site",
         "type": "location",
         "category": "traditional",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -314,7 +377,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -333,7 +401,10 @@
         "community_type": "Fort, Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -352,7 +423,10 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Buffalo Lake and the Battle River Valley. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Buffalo Lake and the Battle River Valley. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Buffalo Lake and the Battle River Valley. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -371,7 +445,10 @@
         "community_type": "Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Butte St. Paul. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Butte St. Paul. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Butte St. Paul. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -390,7 +467,11 @@
         "community_type": "Ceremonial Site",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -409,7 +490,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -428,7 +513,11 @@
         "community_type": "Transportation Route",
         "type": "location",
         "category": "transport",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +536,12 @@
         "community_type": "Hub",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -466,7 +560,11 @@
         "community_type": "Geographic Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -485,7 +583,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -504,7 +606,12 @@
         "community_type": "Flooded",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +630,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -542,7 +653,10 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Front Range M\u00e9tis (Choteau). Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Front Range M\u00e9tis (Choteau). Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Front Range M\u00e9tis (Choteau). Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -561,7 +675,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -580,7 +699,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -599,7 +723,11 @@
         "community_type": "Mission, Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -618,7 +746,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -637,7 +770,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -656,7 +793,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -675,7 +816,12 @@
         "community_type": "Displaced",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -694,7 +840,12 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -713,7 +864,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -734,7 +889,10 @@
         "category": "settlement",
         "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -753,7 +911,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -772,7 +934,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -791,7 +957,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -810,7 +981,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -829,7 +1005,12 @@
         "community_type": "Geographic Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba and Geographical Place Names. Louis Riel Institute, 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba and Geographical Place Names. Louis Riel Institute, 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba and Geographical Place Names. Louis Riel Institute, 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -848,7 +1029,12 @@
         "community_type": "Relocated",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -867,7 +1053,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -886,7 +1076,10 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Edmonton House. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Edmonton House. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Edmonton House. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -905,7 +1098,11 @@
         "community_type": "Mission, Trading Post",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -924,7 +1121,11 @@
         "community_type": "Historic Site",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -943,7 +1144,11 @@
         "community_type": "Defensive Site",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -962,7 +1167,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -981,7 +1190,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1000,7 +1213,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1019,7 +1236,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1038,7 +1259,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1057,7 +1282,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1076,7 +1305,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1095,7 +1328,10 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Fort Langley. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Fort Langley. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Fort Langley. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1114,7 +1350,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1133,7 +1373,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1152,7 +1396,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1171,7 +1419,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1190,7 +1442,12 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1209,7 +1466,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1228,7 +1489,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1247,7 +1512,11 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1268,7 +1537,10 @@
         "category": "settlement",
         "source": "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1287,7 +1559,11 @@
         "community_type": "Meeting Site, Rendezvous",
         "type": "location",
         "category": "traditional",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1308,7 +1584,10 @@
         "category": "settlement",
         "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1327,7 +1606,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1346,7 +1629,12 @@
         "community_type": "Settlement, Fort",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1365,7 +1653,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1384,7 +1677,11 @@
         "community_type": "Trading Post (Outpost)",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1403,7 +1700,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Green Lake, Saskatchewan. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Green Lake, Saskatchewan. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Green Lake, Saskatchewan. Louis Riel Institute.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1422,7 +1723,11 @@
         "community_type": "Geographic Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1443,7 +1748,10 @@
         "category": "settlement",
         "source": "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture (Gabriel Dumont Institute)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1462,7 +1770,11 @@
         "community_type": "Sugar Bush Site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1481,7 +1793,10 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Island Cache, British Columbia. Louis Riel Institute. References: Evans, Krebs et al. A Brief History of the Short Life of the Island Cache (2004); Evans and Foster. 'A Case of Genocide.' Shima, Vol. 4, No. 2, 2010."
+        "source": "Barkwell, Lawrence J. Island Cache, British Columbia. Louis Riel Institute. References: Evans, Krebs et al. A Brief History of the Short Life of the Island Cache (2004); Evans and Foster. 'A Case of Genocide.' Shima, Vol. 4, No. 2, 2010.",
+        "sources": [
+          "Barkwell, Lawrence J. Island Cache, British Columbia. Louis Riel Institute. References: Evans, Krebs et al. A Brief History of the Short Life of the Island Cache (2004); Evans and Foster. 'A Case of Genocide.' Shima, Vol. 4, No. 2, 2010."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1500,7 +1815,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1519,7 +1838,10 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Dorion-Paquin, Paquin, and Young. The Kelly Lake, British Columbia M\u00e9tis. Louis Riel Institute / Gabriel Dumont Institute."
+        "source": "Dorion-Paquin, Paquin, and Young. The Kelly Lake, British Columbia M\u00e9tis. Louis Riel Institute / Gabriel Dumont Institute.",
+        "sources": [
+          "Dorion-Paquin, Paquin, and Young. The Kelly Lake, British Columbia M\u00e9tis. Louis Riel Institute / Gabriel Dumont Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1538,7 +1860,11 @@
         "community_type": "Geographic Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1557,7 +1883,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1576,7 +1906,11 @@
         "community_type": "Trading Outpost",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1595,7 +1929,10 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Laboucane Settlement. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Laboucane Settlement. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Laboucane Settlement. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1614,7 +1951,11 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1633,7 +1974,10 @@
         "community_type": "Mission, Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Lac St. Anne, Alberta. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Lac St. Anne, Alberta. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Lac St. Anne, Alberta. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1652,7 +1996,11 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1673,7 +2021,11 @@
         "category": "fort",
         "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1692,7 +2044,10 @@
         "community_type": "Seasonal Camp, Hunt Site",
         "type": "location",
         "category": "traditional",
-        "source": "Barkwell, Lawrence J. Last Mountain Lake. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Last Mountain Lake. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Last Mountain Lake. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1711,7 +2066,11 @@
         "community_type": "Gathering, Recreation Site",
         "type": "location",
         "category": "traditional",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1730,7 +2089,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1749,7 +2112,11 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. M\u00e9tis Road Allowance Communities: Little Chicago or Chicago Line, Saskatchewan. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. M\u00e9tis Road Allowance Communities: Little Chicago or Chicago Line, Saskatchewan. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. M\u00e9tis Road Allowance Communities: Little Chicago or Chicago Line, Saskatchewan. Louis Riel Institute.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1768,7 +2135,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1787,7 +2158,11 @@
         "community_type": "Geographic Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1806,7 +2181,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1825,7 +2205,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1844,7 +2228,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1863,7 +2251,11 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1882,7 +2274,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1901,7 +2297,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1920,7 +2320,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1939,7 +2343,11 @@
         "community_type": "Stopping Point",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1958,7 +2366,11 @@
         "community_type": "Stopping Point",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1977,7 +2389,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -1996,7 +2413,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2015,7 +2436,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2034,7 +2460,11 @@
         "community_type": "Trading Post, Agricultural Site",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2053,7 +2483,11 @@
         "community_type": "Fort, Settlement, Depot",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2072,7 +2506,11 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2091,7 +2529,11 @@
         "community_type": "Trading Post, Wintering Site",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2110,7 +2552,11 @@
         "community_type": "Rendezvous Site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2129,7 +2575,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2148,7 +2598,10 @@
         "community_type": "Hub",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Park Valley, Saskatchewan. Louis Riel Institute. Citing Campbell, Maria. 'Kookoom Mariah and the Mennonite Mrs.' Journal of Mennonite Studies, Vol. 19, 2001."
+        "source": "Barkwell, Lawrence J. Park Valley, Saskatchewan. Louis Riel Institute. Citing Campbell, Maria. 'Kookoom Mariah and the Mennonite Mrs.' Journal of Mennonite Studies, Vol. 19, 2001.",
+        "sources": [
+          "Barkwell, Lawrence J. Park Valley, Saskatchewan. Louis Riel Institute. Citing Campbell, Maria. 'Kookoom Mariah and the Mennonite Mrs.' Journal of Mennonite Studies, Vol. 19, 2001."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2167,7 +2620,12 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2186,7 +2644,11 @@
         "community_type": "River Lot",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2205,7 +2667,11 @@
         "community_type": "Railway",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2224,7 +2690,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2243,7 +2714,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2262,7 +2737,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2281,7 +2760,11 @@
         "community_type": "Settlement, Parish",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2300,7 +2783,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2319,7 +2806,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2338,7 +2830,10 @@
         "community_type": "Historic Fort",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba and Geographical Place Names. Louis Riel Institute, 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba and Geographical Place Names. Louis Riel Institute, 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba and Geographical Place Names. Louis Riel Institute, 2018."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2357,7 +2852,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2376,7 +2875,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "MMF 2022 Land Use and Occupancy Study, Portage Area Projects (Shared Value Solutions)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2395,7 +2899,10 @@
         "community_type": "Transportation Hub",
         "type": "location",
         "category": "transport",
-        "source": "Barkwell, Lawrence J. The Portage La Loche Brigade. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. The Portage La Loche Brigade. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. The Portage La Loche Brigade. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2414,7 +2921,11 @@
         "community_type": "Mission, Settlement Site",
         "type": "location",
         "category": "parish",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2433,7 +2944,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2452,7 +2967,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2471,7 +2991,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Rat Portage \u2013 Name changed to Kenora in 1905. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Rat Portage \u2013 Name changed to Kenora in 1905. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Rat Portage \u2013 Name changed to Kenora in 1905. Louis Riel Institute.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2490,7 +3014,11 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Rivi\u00e8re aux Rats, St. Pierre Jolys, Manitoba. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Rivi\u00e8re aux Rats, St. Pierre Jolys, Manitoba. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Rivi\u00e8re aux Rats, St. Pierre Jolys, Manitoba. Louis Riel Institute.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2509,7 +3037,11 @@
         "community_type": "Trading Post site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2528,7 +3060,11 @@
         "community_type": "Settlement, Parish",
         "type": "location",
         "category": "parish",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2547,7 +3083,11 @@
         "community_type": "Historic Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2566,7 +3106,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2585,7 +3129,11 @@
         "community_type": "Transportation Site",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2604,7 +3152,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2623,7 +3175,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2642,7 +3198,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2661,7 +3222,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2680,7 +3245,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2699,7 +3268,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2718,7 +3291,11 @@
         "community_type": "Battlefield",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2737,7 +3314,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2756,7 +3337,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2775,7 +3360,10 @@
         "community_type": "Hub",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Smokey River, Alberta Scrip Applications. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Smokey River, Alberta Scrip Applications. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Smokey River, Alberta Scrip Applications. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2794,7 +3382,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2815,7 +3407,10 @@
         "category": "settlement",
         "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2834,7 +3429,12 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "MMF 2022 Land Use and Occupancy Study, Portage Area Projects (Shared Value Solutions)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2853,7 +3453,11 @@
         "community_type": "Defensive Site",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2872,7 +3476,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2891,7 +3499,13 @@
         "community_type": "Settlement Hub",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)",
+          "80 Years on the Plains (primary source memoir)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2910,7 +3524,11 @@
         "community_type": "Settlement, Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2929,7 +3547,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2948,7 +3570,11 @@
         "community_type": "Mission, Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2967,7 +3593,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -2986,7 +3616,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "parish",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3005,7 +3639,10 @@
         "community_type": "Mission",
         "type": "location",
         "category": "parish",
-        "source": "Barkwell, Lawrence J. St. Peter's Mission. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. St. Peter's Mission. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. St. Peter's Mission. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3024,7 +3661,11 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3043,7 +3684,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3062,7 +3707,12 @@
         "community_type": "Destroyed",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3081,7 +3731,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3100,7 +3754,11 @@
         "community_type": "Sanctuary",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3119,7 +3777,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3138,7 +3801,11 @@
         "community_type": "Harvesting Site",
         "type": "location",
         "category": "traditional",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3157,7 +3824,12 @@
         "community_type": "Harvesting Area",
         "type": "location",
         "category": "traditional",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3176,7 +3848,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3195,7 +3871,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3214,7 +3894,11 @@
         "community_type": "Transportation Hub",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3233,7 +3917,10 @@
         "community_type": "Wintering site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Teton River, South Fork. Louis Riel Institute."
+        "source": "Barkwell, Lawrence J. Teton River, South Fork. Louis Riel Institute.",
+        "sources": [
+          "Barkwell, Lawrence J. Teton River, South Fork. Louis Riel Institute."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3252,7 +3939,13 @@
         "community_type": "Rendezvous Site",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)",
+          "MMF 2022 Land Use and Occupancy Study, Portage Area Projects (Shared Value Solutions)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3271,7 +3964,11 @@
         "community_type": "Transportation Landmark",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3290,7 +3987,11 @@
         "community_type": "Railway",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3309,7 +4010,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3328,7 +4034,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3347,7 +4058,10 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3366,7 +4080,11 @@
         "community_type": "Landmark, Settlement",
         "type": "location",
         "category": "landmark",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3385,7 +4103,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3406,7 +4129,10 @@
         "category": "settlement",
         "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3425,7 +4151,11 @@
         "community_type": "Administrative Center",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3444,7 +4174,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3463,7 +4197,11 @@
         "community_type": "Transportation Route",
         "type": "location",
         "category": "transport",
-        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3482,7 +4220,11 @@
         "community_type": "Mining Town",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3501,7 +4243,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3520,7 +4266,11 @@
         "community_type": "Abandoned",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3539,7 +4289,11 @@
         "community_type": "Trading Post (Outpost)",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3560,7 +4314,10 @@
         "category": "settlement",
         "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3581,7 +4338,10 @@
         "category": "road-allowance",
         "source": "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research.",
         "needs_review": true,
-        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only"
+        "review_note": "No supporting source found in local archive \u2014 Virtual Museum only",
+        "sources": [
+          "Virtual Museum of M\u00e9tis History and Culture, Gabriel Dumont Institute of Native Studies and Applied Research."
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3600,7 +4360,11 @@
         "community_type": "Settlement",
         "type": "location",
         "category": "settlement",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3619,7 +4383,11 @@
         "community_type": "Trading Post",
         "type": "location",
         "category": "fort",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)"
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -3638,7 +4406,12 @@
         "community_type": "Road Allowance",
         "type": "location",
         "category": "road-allowance",
-        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018."
+        "source": "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+        "sources": [
+          "Barkwell, Lawrence J. Historic M\u00e9tis Settlements in Manitoba. Louis Riel Institute, July 2018.",
+          "Barkwell, Lawrence J. Historic Metis Settlements in Manitoba and Geographical Place Names (Louis Riel Institute, 2018)",
+          "Barkwell, Lawrence J. 20th Century Metis Displacement and Road Allowance Communities in Manitoba (Louis Riel Institute, 2016)"
+        ]
       },
       "geometry": {
         "type": "Point",
